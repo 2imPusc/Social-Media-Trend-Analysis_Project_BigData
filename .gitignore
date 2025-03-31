@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+*/venv/
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Secrets and Credentials
+.env
+*.env
+secrets/
+*keys*.txt
+credentials.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
