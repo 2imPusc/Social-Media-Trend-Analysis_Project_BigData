@@ -1,0 +1,541 @@
+﻿subreddit,post_id,comment_id,comment_content,comment_score,comment_created_at,comment_author
+programming,1jvt1rk,mmp523f,You touch very good point that most companies forget or don't know (because they fully rely on compliance software to tell them what to do): YOU CAN define and change the controls in SOC 2.,3,2025-04-12 07:22:10,chrans
+programming,1julftt,mm4kmi6,"I usually call code like this ""honest,"" because it doesn't try to hide its ugliness.",4,2025-04-08 23:56:36,Snarwin
+programming,1julftt,mm3w0z7,Seems like Common Lisp's would be a better lisp for this use case.,2,2025-04-08 21:39:16,church-rosser
+programming,1julftt,mm5qh0c,Yeah that's what my mom always told me in high school,2,2025-04-09 04:17:20,geckothegeek42
+programming,1julftt,mm6o9gw,"Personally, I would go with `defmethod`s; that's simply more maintainable in the long run for extremely complicated conditions.
+
+Using a ""dispatch function on match"" pattern is almost always going to be more maintainable than ""execute inline code block on match"", and the `match` part really should be a function on it's own.",1,2025-04-09 09:48:46,lelanthran
+programming,1jrdb9n,mlds9oh,Why the heck is Bazel creating 26Gb of output when most everything else (except Scons) is only creating 3Mb?,10,2025-04-04 14:48:25,NeitherPin9613
+programming,1jrdb9n,mlekt1i,"How were these particular build tools chosen? E.g., why are Pants and Buck omitted from the list?
+
+It would also be interesting to do a feature-by-feature comparison to accompany the benchmarks. It'd be understandable if one tool uses more resources but is also capable of executing more complex build processes, e.g. Some existing work on the subject: https://simon.peytonjones.org/build-systems-a-la-carte-theory-and-practice/",3,2025-04-04 17:11:02,link23
+programming,1jrdb9n,mlfx0dp,"My own such project about Java (no recent updates): https://tkruse.github.io/build-bench/README.html
+
+
+Generally, low overhead is not the only thing to look for. Incrementality and parallelism are much more impactful for large projects.",2,2025-04-04 21:17:33,tkruse
+programming,1jrdb9n,mlgj987,"I'm surprised that he's got ninja down as ""insignificantly faster than make""",1,2025-04-04 23:27:41,wonkynonce
+programming,1jrdb9n,mlxgpgu,"No plots, no any description of results, no any description how rules looks like. This report should be much more attracting
+
+Also it does not make sense to use \`touch\` under a hood. Tools like Bazel uses caching. Caching works best, if compilation is heavy. \`touch\` is not heavy at all",1,2025-04-07 21:13:43,Slsyyy
+programming,1jrdb9n,mljn2ix,Lowest mental overhead? Cargo,-2,2025-04-05 14:32:48,brigadierfrog
+programming,1jqwy2e,mlal6u0,I think the result is counter intuitive here... wouldnt increasingly large input favor vector methods? The slotlin charts seem to agree with this,1,2025-04-04 00:17:08,pkx3
+programming,1joptu7,mkyhnbb,CREATE EXTENSION vector;,1,2025-04-02 01:51:27,d4v3y0rk
+programming,1jo1rvd,mkt4qkx,"And yet, somehow still alive and lucid enough to tell his story. Humans can be remarkably resilient.",2,2025-04-01 04:45:55,TestFlyJets
+programming,1jo1rvd,mkt5v5g,"I love dBASE/xBASE for ad-hoc and hobby data projects! Very few keystrokes do so much, it's almost like APL meets Visual Basic. The authors clearly hated verbosity.
+
+I wish an open-source version were around. (The ""Clipper"" variants are compiled, kind of ruins the concept. Dynamism is its soul.) ☮️
+
+dBASE was actually ""stolen"" from multiple other languages. In the early 1970's a bunch of mini-computer semi-relational database systems popped up with fairly similar concepts. dBASE borrowed bits and pieces from these when they made a PC version roughly around 1980.
+
+It's cursor-centric nature makes many things easier to debug than SQL's functional-esque nature. **Imperative keeps proving easiest to debug** because of its fractal stepwise-refinement pattern, something functional can't do as well, at least not in an easily x-ray-able way. I stand by this.",2,2025-04-01 04:55:37,Zardotab
+programming,1jo0q0r,mko1dco,I'm using a ALB to redirect customers to their own EC2 instance witjout exposing the EC2 ip address to the internet,3,2025-03-31 11:18:24,Positive_Method3022
+programming,1jn261q,mkjsi9d,"""onsmalltalk.com doesn’t support a secure connection
+
+You are seeing this warning because this site does not support HTTPS and you are in InPrivate mode.""",1,2025-03-30 17:32:12,igouy
+programming,1jn261q,mknizsf,"Seems like it doesn't work. It renames the file atomically from file.jobeExtension to file.workingExtension to deque the item. This is great, but if the job processor dies immediately afterwards, then the file becomes orphaned.",1,2025-03-31 08:12:50,buozw
+programming,1jkm6ew,mjwef4d,"If anything constraining onself forces you to write better code as it reduces the complexity and flexability. 
+
+
+Its honestly the same argument as people had about goto and assembly language. Introduction of higher order concepts allowed for easier semantic telegraphing and made it easier to compehend code as patterns emerged.
+
+
+Same goes for types. It was never about the speed of development or correctness of code. It was always about making it easier to comprehend code. Type by itself carries some data to the developer and allows for easier compartmentisation of ideas.",59,2025-03-26 20:52:04,Miserable_Ad7246
+programming,1jkm6ew,mjwp8oy,"Tests don't replace types. Yeah, a certain part of the ecosystem that used unsafe languages, including languages that did not offer any static safety guarantees, ended up having to pay a huge cost: now they had to write an extensive test suite and aim for near-full coverage. Because anything can blow up anywhere (and the more corners you cut, the more unpredictable it is). In fact, if you look closely, in those cases the quality of the tests and assertions matters less than coverage.
+
+The cost really is high. For one thing, you have to write the tests. Then you have to mock everything and add layers of indirection, unless there's some magic that allows you to skip part of that. Then those tests tend to be highly-coupled to the code, especially when you have to insist on triggering each and every branch, and they take a long time to run. They also do not yield much insight on the code.
+
+Static type systems are much more structured and well-behaved by comparison. Sure, there's some overhead in declaring stuff or doing explicit coercions. But typing is overall much more concise and catches a lot of potential breakage even if it's not a substitute for testing either. It also lets you reason about code more deeply, impose structure and avoid surprises. Type-checking is usually much faster and in richer type systems even documents, at least partially, the code (it's always a pain trying to figure out what a function can ingest or spit out without types and without thorough documentation). Modern type systems provide at least some type inference and you don't have to spell everything out unnecessarily.
+
+Yeah, ok, types normally don't replace all tests, but they sure prevent a lot of stupid mistakes rather effortlessly.",12,2025-03-26 21:42:49,edgmnt_net
+programming,1jkm6ew,mjwvmtq,"This screams ""I just started programming and I don't see the value in this."" I think we've all been there, but it's definitely does not reflect the point of view of a seasoned programmer.
+
+Also, the preference for test failures over compile time errors is wild. I know dealing with the compiler can be the bane of your existence early on in your career, but fwiw the further into my career I progress the more I appreciate it. Your tests may be wrong, and regardless you _will_ forget to run tests at some point. You won't ever forget to compile your code and you'll be thankful when it tells you what's wrong before it's done.",20,2025-03-26 22:15:57,Repulsive_Role_7446
+programming,1jkm6ew,mkhif55,"With rage bait title like this, if you get downvoted to oblivion, I have 0 sympathy for you. Do better.. shrugs /leaves.",7,2025-03-30 07:40:37,wdsoul96
+programming,1jkm6ew,mkgg9nh,"A sufficiently expressive static type system can embed a dynamic type system, and even better, it can do so with guard rails to ensure dynamic code is safely integrated back into the realm of statically typed code.
+
+On the other hand, dynamic typing can't easily represent statically typed portions of the code without essentially building an ad-hoc type system. In theory I think you could build a gradually typed language that enforced safer boundaries, but in practice the ones I've used tend to allow untyped code to proliferate and infect the rest of the code.",4,2025-03-30 02:14:46,miyakohouou
+programming,1jkm6ew,mkkzfbi,"Is this just some bullshit reverse psychology?
+
+They are arguing for types, not against.",1,2025-03-30 21:11:49,menge101
+programming,1jkm6ew,mjwmw0x,"I sure wish a nice **compromise language** could found. I've used both dynamic and static extensively over the decades and just like different aspects about each kind. Typescript is one attempt at merging them, but many say it still misses the mark, perhaps because it's *stuck* being tied to JavaScript.
+
+I'd like to be able *selectively* mark code units as requiring type designations, for example. And designate some structures/modules that have at least a given subset of elements, but still be able to add elements. For example, saying a class of type Foo must have at least methods A, C, and X.  But you can add more methods to these minimum-subset-designated classes. (MSD class?)
+
+Such would allow ""lint"" like utilities to warn about the most common type-mismatching sins. There would be a learning curve to knowing where and how to mark, I will agree. It won't be smooth out of the box, but if such a language is perfected, we could finally get the best of both, or something very close to it.
+
+I'd like to see more *practical* research on such. Name this new language *Zardotab++* please 🤩
+
+P.S. Whoever came up with the idea of overloading ""+"" to be both string concatenation and math addition in JavaScript deserve to be blindfolded and polymorphed.",0,2025-03-26 21:30:41,Zardotab
+programming,1jkm6ew,mklgnyu,"All true except for my statically typed code will always be faster since the compiler can optimize for specific data types.
+
+You will end up porting your perfectly good untyped code to a static language. It is inevitable.",0,2025-03-30 22:50:10,R-O-B-I-N
+programming,1jiyzt5,mjk0e2c,"Speed is good, does it have similar output size?",2,2025-03-24 22:08:40,kantenpatti
+programming,1k5nrj1,mojeruu,Very important for programmers.,2,2025-04-23 01:56:18,BlueGoliath
+programming,1k3o0d2,mo43ngy,Is there a whitepaper?,3,2025-04-20 16:36:44,imbev
+programming,1k3hwiu,mo33pgd,"Hi! Please proof read the article, especially in terms of code blocks — there are unnecessary escaping chars. Inline blocks are weird too",2,2025-04-20 13:14:48,HornedKavu
+programming,1k3hwiu,moe4tqa,"Some time ago I faced the same problem when Python application was running as pid 1. Now I know about SIGCHLD, thanks!",2,2025-04-22 06:55:26,begemoto
+programming,1k35hii,mnzgefq,This is starting to look like `useState` 😅,1,2025-04-19 20:36:50,SkooDaQueen
+programming,1k1p007,mnoeti6,"This was written by the person in the comp sci group project who didn't actually do any of the work but was at every meeting and ""helped"" everyone else write code.
+
+  
+On a more serious note. I'm an engineering leader. I hate metrics and I hate micro management. However, I LOVE impact. So I don't give a shit how you get your job done as long as the impact is felt and delivered on time at the correct quality level.",102,2025-04-18 00:02:02,binarypie
+programming,1k1p007,mnoa86u,"This article is nonsense. Mandatory pair programming IS a form of micromanagement. The problem is managers hate that they don't have full control over the knowledge workers' day, so they push movements like this as a way to exert more control to make sure every worker is obedient and compliant at all times. Like every other ""best practice"" it should be left to the individual developer whether they use it or not. There's certainly no grass roots movement, give me a break!",145,2025-04-17 23:35:17,theSantiagoDog
+programming,1k1p007,mnnyxpj,"Introverts unite and opt out of pair programming. An even quieter rebellion.
+
+
+More seriously, pairing can be nice in short bursts but any more than that is exhausting.",85,2025-04-17 22:30:10,eikenberry
+programming,1k1p007,mnnx8yv,"I hate to be that guy, but I'll tell you exactly why this won't work.  
+  
+I'm an SE manager. I hate metrics, love development and good engineering, and love pair programming. I'm a huge advocate for XP.  
+  
+BUT. I also run projects, and I'm accountable to the people who pay our salaries. And I have seen more than once developers who genuinely don't have the skills necessary to do the job hide behind pair programming. I've also seen developers abuse pairing, either disappearing for hours at a time and not communicating with their partner or clearly not paying attention and doing something else (this is especially a huge problem in remote). So unfortunately there has to be some mechanism of accountability.  
+  
+Now that doesn't mean metrics or micromanaging are good. I'm all for finding ways to decrease those. But using pairing as a mechanism to avoid accountability is never going to fly, and actively proposing it looks really bad and just gives pairing a bad name.",62,2025-04-17 22:20:37,Altruistic-Gate27
+programming,1k1p007,mnnzvk1,I'd rather chew on rocks than be subjected to this nonsense,35,2025-04-17 22:35:37,Zanion
+programming,1k1p007,mnop0g0,"Pair programming is great when starting up a new feature or project, but mobbing also works.
+
+It’s also great when onboarding someone.
+
+Constantly doing it, however, makes little sense. Maybe in the context of very sensitive software which needs 20 eyes on it before it even becomes a PR.",5,2025-04-18 01:04:32,bureX
+programming,1k1p007,mnouf0q,"I love to pair program. It can have major benefits that code review tools can’t replicate. 
+
+But I would quit a job if it was 100% mandatory. Maybe I could see a policy about pairing on some business critical component. But that tends to happen organically.
+
+Anything else is toxic.",8,2025-04-18 01:38:18,-think
+programming,1k1p007,mnpbga4,"My current gig did pair programming for the first couple years i was here. And it was awful for a variety of reasons:
+
+1. Throwing two devs on a story does not make the work go any faster, if anything it slows things down as you need to coordinate on every small decision.
+2. Low performers on the team can skate by unnoticed. Instead of struggling and building their knowledge of the product they lean on their more senior teammates as a crutch.
+3. Working collaboratively with another person your entire work day is exhausting, no matter how extroverted you are.
+
+Pair programming is awesome for onboarding new people or working on a particularly challenging problem. It is a scalpel not a hammer",8,2025-04-18 03:32:23,HedgehogMode
+programming,1k1p007,mno7w19,"Interesting thought in principle, but lots of whimsical thinking in the article. No company is going to commit to unconditional pair programming - and for good reason. Yes, two programmers may be likely to accomplish the same task, plus review, in a shorter time, but probably not half the time. And stalled commits waiting for review for days may be a thing in some places, but far from all. And, ultimately, I don't even think it would work. If you pair always the same people, then metrics can be applied to them jointly. If you mix up pairings, then you just need to tweak your metric accounting to attribute half of each metric to each peer in a pair. In the worst case, you can be unlucky and get paired with less competent peers that bring your metrics down (in the best case, you can coast on your peers' skill). I understand the misgivings about ""scientific management"", but proposing a happy thought on the basis of a bunch of assumptions (perhaps based on personal experience, but still) is not a great alternative either.",5,2025-04-17 23:21:45,jdehesa
+programming,1k1p007,mno3lpf,over my dead body lol.,9,2025-04-17 22:57:02,moreVCAs
+programming,1jzt66y,mn8umzl,Excuse me...what?,4,2025-04-15 15:12:34,Terribleturtleharm
+programming,1jzt66y,mnavin1,I somehow assumed this was going to be about image compression.,2,2025-04-15 21:14:08,jdehesa
+programming,1jzt66y,mn8vb0g,Ban this bot,-2,2025-04-15 15:15:55,masterchief0587
+programming,1juv53z,mm5nmzq,"I just don't get why anyone would want to over burden the mcp server with the role of an authorization server. Just use OAUTH as it was originally designed: On failed authentication redirect to the real authorization server, to do the auth. No need to add token creation and handling to the mcp server,  adding unnecessary state where stateless design would be more easily,  more scalable and more secure. ",1,2025-04-09 03:56:05,BlackSuitHardHand
+programming,1ju8hve,mmwf529,It is much better to use ClickHouse instead of TimescaleDB for analytics over big volumes of data. ClickHouse performs analytical queries over enormous amounts of data at very fast speed (literally it can scan billions of rows per second per CPU core). See https://benchmark.clickhouse.com/,1,2025-04-13 14:28:12,valyala
+programming,1ju8hve,mm07x5p,"Why anyone would try to use an RDMS for time series data is a mystery.  
+
+What’s time series data? Think data points indexed by time. Things like how many requests per second does my server handle or how many errors has my service generated in the last 24 hours. 
+
+Time series databases are optimized to store this type of data. 
+
+The author writes about TimescaleDB, a PostgreSQL extension that adds time series functionality to PostgreSQL. There are several other options, some of which are listed at the end of the Wikipedia page on the topic: https://en.wikipedia.org/wiki/Time_series_database. 
+
+Two databases in that list are especially interesting:
+
+* Prometheus - a popular event monitoring and alerting application. This is used by a lot of back end services to alert ops teams when services are experiencing issues. 
+
+* RRDTool - this is used by a lot of monitoring systems that provide similar functionality to Prometheus. The reason I call it out though is because the Wikipedia has details on how it stores and queries data that many of the other databases don’t describe and its methodology is interesting.",2,2025-04-08 09:11:29,mofreek
+programming,1jtttxw,mlwz23v,"This whole post could be summarized as ""Don't access value once they are moved"". It's such a basic principle, I'm not sure what's so special about `std::optional` that necessitate a blog article about it specifically?",44,2025-04-07 19:42:06,jonatansan
+programming,1jtttxw,mlwznbh,"Three parts of the blog that are incorrect:
+
+""// from here onwards opt doesn't have a value"".  Not true.  opt still has a value, just that it has a value in a valid but unspecified state (for arbitrary Ts.  Some types do define their moved-from value).
+
+""if (opt.has\_value())  // true, unexpected!"".  Not true: completely expected.  The previous code did not move the optional, it moved the value inside the optional.  Which means that the optional still contains a value in a valid, but unspecified state (for arbitrary Ts.  Some types do define their moved-from value).
+
+""leftover variable, `opt`, will *not* have a value"".  Not true: opt still has a value, a moved-from T.  std::move is ""only"" a cast.  Just means that when you call .value(), you're getting an rvalue-reference to the internal value. And that move-constructs x from the contained value.
+
+    #include <iostream>
+    #include <optional>
+    #include <string>
+    
+    int main() {
+            std::optional<std::string> opt = std::string(""ThisIsAReallyLongString"");
+    
+            auto x = std::move(opt).value();
+    
+            std::cout << x << '\n';
+    
+            if (opt.has_value()) {
+                    std::cout << ""Has Value\n"";
+            }
+    
+            std::cout << *opt << '\n';
+    }
+
+Gets the output of ""ThisIsAReallyLongString"", ""Has Value"", and a blank line.",54,2025-04-07 19:45:08,AKostur
+programming,1jtttxw,mlx3ukw,seems like a problem that only happens if you choose an outdated programming language?,-28,2025-04-07 20:06:56,SadPie9474
+programming,1jjdyk2,mjmb741,"**DESCRIPTION**  
+The authors of Effective Platform Engineering—Ajay Chankramath, Sean Alvarez, Nic Cheneweth & Bryan Oliver—discuss the transformative role of platform engineering in software delivery. They highlight how platform engineering streamlines operations, enhances developer experience, and drives innovation through self-service tools
+
+Key topics include evolutionary architecture, treating platforms as lifecycle-managed products, and using generative AI to optimize infrastructure. They also cover practical strategies for launching platform initiatives, focusing on organizational self-awareness, API boundaries, and balancing compliance with productivity. The authors aim to provide actionable insights for building adaptable platforms that drive business agility and long-term value.",0,2025-03-25 07:36:20,goto-con
+programming,1jzuqi0,mnddsxv,"What is shotgun surgery? Thanks for asking. Here’s [what it is](https://youtu.be/7T3q3g4kYk0?si=uK7ymljhTxyxTCdy&t=45s)
+
+Using a massively disproportionate tool for solving a problem of a size that is disproportionate to the type of tool used.",2,2025-04-16 07:15:26,this_knee
+programming,1jzuqi0,mo0r6c5,"For this code example the more appropiate thing is to have data as code for these rules. A map/dictionary would hold all these rules, and for maintenance it is easier to add more conditions to the rules. 
+
+These maps could even be in a external file, so code changes are not even necessary anymore.",1,2025-04-20 01:12:09,faustoc5
+programming,1jza9y9,mn4oew3,I wish I could program asynchronously.,5,2025-04-14 21:19:07,FF3
+programming,1jvg12l,mma5r1y,Level 0: use pytest instead,6,2025-04-09 21:16:19,teerre
+programming,1jv4fnh,mmqyq70,"The theory crafting involved in that by marketeers is very mentally masturbatory.  In reality: the results, as applied, are terribly _dumber_ than by other methods.  The idea that results are ""smarter"" is gaslighting: people are actually able to SEE for themselves with their own two eyes how pathetically marketing targeted marketing works.  For an example: Amazon often tries to show me more of things that I made one single purchase of, of items that I will only purchase one of, perhaps ever, or at best perhaps every few years.
+
+
+A person would have to be in some sort of dissociative fugue to perceive that as ""smarter"".
+
+
+>The Party told you to reject the evidence of your eyes and ears. It was their final, most essential command.
+
+George Orwell, 1984 ",1,2025-04-12 15:44:44,Traveler3141
+programming,1jrszm2,mlhjf53,"Here I thought you meant the browser will do it for you.
+
+Still have to design a dark mode theme, you're just letting the browser pick it automatically if the user wants it",6,2025-04-05 03:28:14,Lachee
+programming,1jrszm2,mlkipj2,"    * {
+        background: #333;
+        color: #fff;
+    }",2,2025-04-05 17:29:25,Blue_Moon_Lake
+programming,1jowy1p,ml5eavg,"Why would it not be mentioned? There are lots of systems that still use soap. Granted, they are either very old or they rely on very old frameworks that produce soap out of the box. But they exist and having a wild encounter with the is not rare. So it makes more sense to know than not to know",2,2025-04-03 04:32:52,coyoteazul2
+programming,1jowy1p,mkyps5n,There used to be a gag site like stopthesoap.com or something that was and infinite scrolling page of SOAP xml.  It was spot on.,1,2025-04-02 02:43:09,Admqui
+programming,1jkma7t,mjyxnq4,"You don't after you burned through the money and fail to create a shippable product.
+
+Fun fact: most start-ups fail.",2,2025-03-27 06:16:43,elmuerte
+programming,1jjevjj,mjo63el,"[No endian correction, so the algorithm is non-portable, neat](https://github.com/avaneev/a5hash/blob/main/a5hash.h#L165).
+
+--
+
+At least run it through https://github.com/rurban/smhasher to verify it holds up",16,2025-03-25 15:44:51,valarauca14
+programming,1jjevjj,mjmxnj5,"> use of a novel mathematical construct
+
+Where? All I can see is basically chunking input into 8-byte blocks, multiplying them and xoring with some deterministic values. And I somehow strongly doubt it has avalanche effects.",13,2025-03-25 11:26:16,Pharisaeus
+programming,1jjevjj,mjz940w,"> Also, compared to fast ""unprotected"" variants of wyhash and rapidhash, a5hash has no issue if ""blinding multiplication"" happens.
+
+Sure, whatever you say. A totally unrelated interesting fact! If you hash a sufficiently long string (about 2 KiB) of kind ""eight random bytes, eight `0xaa`, eight random bytes, eight `0xaa`, etc."", you're almost guaranteed to get hash `0x2492492492492491` regardless of which random bytes you choose and regardless of the seed. Demonstration:
+
+```c
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include ""a5hash.h""
+
+int main() {
+    char buf[2048];
+    for (int j = 0; j < 1000; j++) {
+        for (int i = 0; i < 2048; i++) {
+            buf[i] = i & 0x8 ? 0xaa : rand();
+        }
+        long hash = a5hash(buf, sizeof(buf), rand() ^ ((unsigned long)rand() << 32));
+        assert(hash == 0x2492492492492491);
+    }
+}
+```
+
+And this, folks, is why you don't trust random hashes without doing a bit of cryptanalysis.",3,2025-03-27 08:20:26,imachug
+programming,1jjevjj,mjtoxd5,"Using only 11 cycles per hash for 64-byte strings is pretty insane.
+
+I do not see any speed metrics for hash maps, though.
+
+Is this faster or slower than kamihash for 128-bit strings (UUIDs)?",2,2025-03-26 12:47:02,Mallissin
+programming,1k26p9w,mnvi0d2,"All the architects I have met are some old guy promoted to a figurehead position because people with similar experience are directors now. Nowadays, the architect role is almost obsolete; the new role that replaces that is Staff+ engineer.",0,2025-04-19 03:53:01,Southern-Reveal5111
+programming,1jzk79x,mn77m3v,That was 5 minutes of my life I'll never get back!,5,2025-04-15 08:01:30,fpcoder
+programming,1jywcbw,mn1mmos,"The two most difficult things to get right in programming:
+
+* Naming things       
+* Cache invalidation       
+* Off-by-one errors",9,2025-04-14 11:32:35,diMario
+programming,1jywcbw,mn1r4ht,"""Cache"" is an extremely abstract concept in computer science, but you're referring to just one type of cache (distrubed cache for distributed services). It makes no mention of the many many other layers of cache we all interact with every time we use a computer (L1, L2, L3, disk cache, TLB in the MMU, DNS, etc etc etc).
+
+Also ""TTL"" is just one possible evicition strategy metric. I'd say it's not even the most important one if you're trying to introduce the concept for the first time. Relative recency (LRU) or frequency (LFU) would probably be better. At the very least, mention the existence of other metrics.
+
+But really, this article isn't necessary at all, because someone asking ChatGPT ""what is cache"" would produce an answer at least this useful.",4,2025-04-14 12:06:15,zjm555
+programming,1jywcbw,mn1q5fe,I usually cache in memory but you do you,1,2025-04-14 11:59:10,ThatHappenedOneTime
+programming,1jywcbw,mn4qso4,What about flushing (part) of the cache when a resource changes/deleted?,1,2025-04-14 21:31:59,DavidM01
+programming,1jtu74t,mly6yyv,RemindMe! 3 days,2,2025-04-07 23:42:27,Soggy_Resource736
+programming,1jpggrj,ml7d61y,no,2,2025-04-03 14:19:39,Goldman1990
+programming,1jpggrj,ml1ixt4,Micro and Angular don't really go together do they?,3,2025-04-02 15:57:44,cheezballs
+programming,1jpggrj,mkzcsd0,Pathetic 🤢,3,2025-04-02 05:46:44,boomer4115
+programming,1jpggrj,mkzoupf,Just use React,-5,2025-04-02 07:55:59,AshKetchupppp
+programming,1k3s77g,mo7k9p8,Jfc how many subreddits did you post this on?,2,2025-04-21 04:59:09,TrenchSquire
+programming,1k2g361,mntzimn,Very good programming content.,0,2025-04-18 22:04:49,BlueGoliath
+programming,1jrwdeu,mlilwrr,I personally don't see a problem with it if it's content trying to teach. Unless you're repeatedly posting it into the same community.,2,2025-04-05 09:35:28,ImChronoKross
+programming,1jrwdeu,mlibmtc,"Stop spamming your own shit. It's against the rules of reddit and it's really obnoxious.
+
+https://media.giphy.com/media/KBaxHrT7rkeW5ma77z/giphy.gif",-1,2025-04-05 07:40:41,AnomalousBean
+programming,1joswmv,mkufe47,April Fools Day is the worst. I can't tell if this is a shit post or genuine.,37,2025-04-01 12:24:36,ConstructionOk2605
+programming,1joswmv,mkv7fxe,If they cut scope and then still delivered something unstable then it sounds like the error was made much earlier than that decision to cut scope.,4,2025-04-01 15:08:14,prescod
+programming,1joswmv,mky35ht,"Sounds like an overly complex version of Daniel Kahneman's [premortem](https://fs.blog/kahneman-better-decisions/) approach for critically analysing plans.
+
+He describes it, among some other nice ideas, in his book: Thinking, Fast and Slow.",2,2025-04-02 00:20:35,HexDumped
+programming,1joepbx,mkroheq,"It's like a kaleidoscope of beautiful, unique snowflakes.",3,2025-03-31 23:05:06,awfulentrepreneur
+programming,1jo3dvv,mkq61ne,Those are screenshots?,2,2025-03-31 18:22:26,daH00L
+programming,1jngcl2,mkjjhyk,"Eww AI ""art"".
+
+But TIL about `cargo-mutants`, gotta play around with that a bit. There's this class of ""the future is now"" testing techniques like Property Based Testing and Mutation Testing that are terribly underused in mainstream development.",8,2025-03-30 16:46:32,latkde
+programming,1jngcl2,mkjndpj,"PIT, cargo-mutants, and mutation testing tools are an absolute must for production code for me. Love tools like them so much",1,2025-03-30 17:06:21,zmose
+programming,1k59yvk,mogdv9t,Product advertisement for yet another js Framework that adds insult to injury by being paywalled.  Thanks OP.,1,2025-04-22 16:27:12,church-rosser
+programming,1k1ku3n,mnndhls,"> At a glance, can you tell what each value means?
+
+Yes, I use vscode and it shows what the param is called",7,2025-04-17 20:38:37,coyoteazul2
+programming,1k1ku3n,mnoc563,Get yourself some inline hints. Even vim can do it these days,3,2025-04-17 23:46:20,Booty_Bumping
+programming,1k1ku3n,mnpi1wl,"Sometimes n-params, for 2~3 params with max 1 optional param, or rest param.  
+Single param otherwise.",1,2025-04-18 04:23:20,Blue_Moon_Lake
+programming,1k1ku3n,mnpxx4s,This is really a criticism of tuples.,1,2025-04-18 06:51:07,zhivago
+programming,1k1ku3n,mnnkonx,"Webdev discovers struts, 2025 AD.",-1,2025-04-17 21:14:18,BlueGoliath
+programming,1jyyx64,mo7c0hc,"It's here to stay, but will take a while to figure when, where, and how to use it properly, and newbies and zealots will make a lot of messes like they always do with new ideas and/or fads.  It's another tool in the toolkit, but up to the ""carpenter"" to select the right tool for the job.",0,2025-04-21 03:51:35,Zardotab
+programming,1jyxs22,mn1zxyj,"Making nice and neat diagrams that don't feature the new actors involved in a now more complex process sure helps selling yourself into a rent, but I don't think it makes for a good argument about either scaling or security.",10,2025-04-14 13:04:56,IGI111
+programming,1jyxs22,mn22zh1,"I LOL'd at the ""SSH Key Sprawl"" illustration.
+
+""What if I tried to convince the reader that this was a real problem by just conjuring up a messy diagram of nonexistent relationships between a few things?""",8,2025-04-14 13:23:31,gottago_gottago
+programming,1jyxs22,mn24vmy,"Ignoring the fact that this is a promotional piece, the fact that SSH certificates are desirable in large systems is correct and well established: https://engineering.fb.com/2016/09/12/security/scalable-and-secure-access-with-ssh/",3,2025-04-14 13:34:50,nicholashairs
+programming,1jyxs22,mn27s4k,"Correct me if I am wrong, but while certificates do sound nice in theory, I don't think there is much practical difference. The reason being - revocation. As much as it sounds nice, you can't just have logic ""this certificate is signed by a valid authority, so it is ok"" - you basically need to check each and every single certificate with a separate query ""hey, was this certificate revoked?"".
+
+You still get some nice organization of responsibilities, and with certificates you probably end up with a better self-documentation and maybe distributed authorities (i.e. each certificate says what it is valid for, and where to check if it was revoked). Probably stuff like some caching and handling downtimes might work better. Maybe also less storage to keep revoked certs than those active.
+
+But I feel a well written CRUD for managing ssh keys is not that different, and would fulfil all needs of even largest companies.",2,2025-04-14 13:51:28,Noxitu
+programming,1jyc4ic,mmy0gz2,"This is an ad.
+
+And beyond that, althought i like the idea of typed configurations, this problem could have been avoided with good old json. If a configuration file contains extra stuff that the application is not expecting that should be an error. That immediately fixes your retry delay issue. Moving the value into the object will now give an error while reading the configuration.  
+The problem with the range can be fixed in so many ways. If you can replace your json configuration with some other format like typeconf then you can also just change the field name to be \`radiusInKm\` or \`radiusInMeter\` or whatever you need. No need for some fancy (although probably cool) typed configuration format. Just be smarter when reading your configuration and dont accept any mash of bytes as valid config.
+
+PS: And even with typeconf your documentation is still out of date.",1,2025-04-13 19:27:43,Psychoscattman
+programming,1jy6fg3,mmy4ze8,"DDB's read/write capacities scale independently. What you've done is double your write costs for, as far as I can tell, no benefit. Not to mention the complexity and consistency issues. Someone please tell me what I'm missing here, this makes no sense to me.",4,2025-04-13 19:51:58,wouldyastop
+programming,1jv9si6,mma8iti,"One thing blogs and self promotional material always assume is that people know what they're talking about.
+
+Honestly, some screenshots would make a world of difference.",3,2025-04-09 21:30:53,twigboy
+programming,1jv9si6,mm8g7vw,"Code reviews today are line-by-line diffs. This format makes reviewers focus on individual changes to catch bugs, style issues, and bad variable names, rather than the bigger picture of what the code is doing and why.
+
+However, I don’t think that’s what code reviews are for. Tests (and angry users) catch bugs. Linters catch style issues. And nitpicks almost always bog down the review and make it take longer for the code to merge.
+
+I believe that the point of a code review is to help teammates understand *how* the author is trying to achieve their goal, whether that’s a bug fix, a new feature, or a refactor. A good review requires understanding the narrative behind a change, determining whether the structure of a pull request reasonably fulfills that narrative (interface changes, new data structures, etc.), and deciding whether the team is OK with maintaining this new shape of the codebase.
+
+The current pull request interface makes this hard. It's just a wall of unordered diffs that you're left to piece together by jumping between files. When reviewing a pull request from a teammate, I found myself spending more time reconstructing the big picture of the changes than reviewing the code itself.
+
+So I built Haystack to help with that. It breaks down a pull request into logical chunks and lays them out on an infinite canvas. It guides you through the changes as a structured visual story, helping you focus on architecture, intent, and maintainability instead of chasing nits. I hope that Haystack makes code reviews less of a last-minute, unwanted chore. And if it doesn’t, I want to hear about it!
+
+If you’re interested:
+
+1. Take a look at the demo playground[ ](https://haystackeditor.com/playground)[haystackeditor.com/playground](http://haystackeditor.com/playground)
+2. Watch a walkthrough[ ](https://youtu.be/K_qLwXFwr8I)[youtu.be/K\_qLwXFwr8I](http://youtu.be/K_qLwXFwr8I)
+3. Try it at[ haystackeditor.dev](https://haystackeditor.dev)",1,2025-04-09 16:19:01,DummyThiccSundae
+programming,1jtvj1w,mlyfs0x,There is no “reference data type “ in C++,0,2025-04-08 00:35:37,Special_Lettuce_4412
+programming,1jton6f,mlvrlem,Not using shopify is the baseline expectation.,94,2025-04-07 16:00:38,powerhcm8
+programming,1jton6f,mlvst0q,Do any of you actually enjoy the hell this profession has become?,47,2025-04-07 16:06:59,TyrusX
+programming,1jton6f,mlvs2ay,TLDR: they will not approve new positions unless you can prove AI can’t do the job.,20,2025-04-07 16:03:05,Calm-Success-5942
+programming,1jton6f,mlvrwqy,Gross,47,2025-04-07 16:02:16,Charming-Breakfast48
+programming,1jton6f,mlvtaj1,Felt sadness after reading it. What if your boss expects you of using coding agents? You effectively get disconnected from your codebase and after half a year you can't think constructively anymore. You resort to asking questions over and over like a child.,15,2025-04-07 16:09:33,robertpiosik
+programming,1jton6f,mlvsij7,coincidental that there is a freeze on hiring in lieu of AI while  tariffs are tanking his company?,13,2025-04-07 16:05:27,headykruger
+programming,1jton6f,mlvuypx,"Imagine a CEO issuing a memo to that says “using an ORM to generate data storage classes is now a baseline expectation.”
+
+Let engineers do their jobs.",17,2025-04-07 16:18:05,CanvasFanatic
+programming,1jton6f,mlvqiwd,"for those that don't want to go to X (I don't blame you)
+
+---
+
+Context: This is a Shopify internal memo that I shared here because it was in the process of being leaked and (presumably) shown in bad faith
+
+Team,
+
+We are entering a time where more merchants and entrepreneurs could be created than any other in history. We often talk about bringing down the complexity curve to allow more people to choose this as a career. Each step along the entrepreneurial path is rife with decisions requiring skill, judgement and knowledge. Having AI alongside the journey and increasingly doing not just the consultation, but also doing the work for our merchants is a mindblowing step function change here.
+
+Our task here at Shopify is to make our software unquestionably the best canvas on which to develop the best businesses of the future. We do this by keeping everyone cutting edge and bringing all the best tools to bear so our merchants can be more successful than they themselves used to imagine. For that we need to be absolutely ahead.
+
+**Reflexive AI usage is now a baseline expectation at Shopify**
+
+Maybe you are already there and find this memo puzzling. In that case you already use AI as a thought partner, deep researcher, critic, tutor, or pair programmer. I use it all the time, but even I feel I'm only scratching the surface. It’s the most rapid shift to how work is done that I’ve seen in my career and I’ve been pretty clear about my enthusiasm for it: you've heard me talk about AI in weekly videos, podcasts, town halls, and… Summit! Last summer I used agents to create my talk, and presented about that. I did this as a call to action and invitation for everyone to tinker with AI, to dispel any scepticism or confusion that this matters at all levels. Many of you took up the call, and all of us who did have been in absolute awe of the new capabilities and tools that AI can deliver to augment our skills, crafts, and fill in our gaps.
+
+What we have learned so far is that using AI well is a skill that needs to be carefully learned by… using it a lot. It’s just too unlike everything else. The call to tinker with it was the right one, but it was too much of a suggestion. This is what I want to change here today. We also learned that, as opposed to most tools, AI acts as a multiplier.  We are all lucky to work with some amazing colleagues, the kind who contribute 10X of what was previously thought possible. It’s my favorite thing about this company. And what’s even more amazing is that, for the first time, we see the tools become 10X themselves. I’ve seen many of these people approach implausible tasks, ones we wouldn’t even have chosen to tackle before, with reflexive and brilliant usage of AI to get 100X the work done.
+
+In my On Leadership memo years ago, I described Shopify as a red queen race based on the Alice in Wonderland story—you have to keep running just to stay still. In a company growing 20-40% year over year, you must improve by at least that every year just to re-qualify. This goes for me as well as everyone else.
+
+This sounds daunting, but given the nature of the tools, this doesn’t even sound terribly ambitious to me anymore. It’s also exactly the kind of environment that our top performers tell us they want. Learning together, surrounded by people who also are on their own journey of personal growth and working on worthwhile, meaningful, and hard problems is precisely the environment Shopify was created to provide. This represents both an opportunity and a requirement, deeply connected to our core values of Be a Constant Learner and Thrive on Change. These aren't just aspirational phrases—they're fundamental expectations that come with being a part of this world-class team. This is what we founders wanted, and this is what we built.
+
+### What This Means
+
+1. Using AI effectively is now a fundamental expectation of everyone at Shopify. It's a tool of all trades today, and will only grow in importance. Frankly, I don't think it's feasible to opt out of learning the skill of applying AI in your craft; you are welcome to try, but I want to be honest I cannot see this working out today, and definitely not tomorrow. Stagnation is almost certain, and stagnation is slow-motion failure. If you're not climbing, you're sliding.
+
+2. AI must be part of your GSD Prototype phase. The prototype phase of any GSD project should be dominated by AI exploration. Prototypes are meant for learning and creating information. AI dramatically accelerates this process. You can learn to produce something that other team mates can look at, use, and reason about in a fraction of the time it used to take.
+
+3. We will add AI usage questions to our performance and peer review questionnaire. Learning to use AI well is an unobvious skill. My sense is that a lot of people give up after writing a prompt and not getting the ideal thing back immediately. Learning to prompt and load context is important, and getting peers to provide feedback on how this is going will be valuable.
+
+4. Learning is self directed, but share what you learned. You have access to as much of the cutting edge AI tools as possible.There is chat.shopify.io, which we had for years now. Developers have proxy, Copilot, Cursor, Claude code, all pre-tooled and ready to go. We’ll learn and adapt together as a team. We’ll be sharing Ws (and Ls!) with each other as we experiment with new AI capabilities, and we’ll dedicate time to AI integration in our monthly business reviews and product development cycles. Slack and Vault have lots of places where people share prompts that they developed, like #revenue-ai-use-cases and #ai-centaurs.
+
+5. Before asking for more Headcount and resources, teams must demonstrate why they cannot get what they want done using AI. What would this area look like if autonomous AI agents were already part of the team? This question can lead to really fun discussions and projects.
+
+Everyone means everyone. This applies to all of us—including me and the executive team.
+
+### The Path Forward
+
+AI will totally change Shopify, our work, and the rest of our lives. We're all in on this! I couldn't think of a better place to be part of this truly unprecedented change than being here. You don't just get a front-row seat, but are surrounded by a whole company learning and pushing things forward together.
+
+Our job is to figure out what entrepreneurship looks like in a world where AI is universally available. And I intend for us to do the best possible job of that, and to do that I need everyone’s help. I already laid out a lot of the AI projects in the themes this year- our roadmap is clear, and our product will better match our mission. What we need to succeed is our collective sum total skill and ambition at applying our craft, multiplied by AI, for the benefit of our merchants.",20,2025-04-07 15:55:11,dakkersmusic
+programming,1jton6f,mlvxrv0,"Thank God I deleted Twitter a couple months ago, being a programmer is much better without reading this crap everyday.",5,2025-04-07 16:32:28,iLoveThaiGirls_
+programming,1jton6f,mlw9fhz,When do we replace CEO's with AI?,6,2025-04-07 17:31:39,rocketonmybarge
+programming,1jsxetj,mlpuct3,"Ok, but we already have a term for data corruption, so I might have distinguished this as, say ""code corruption"" or something.",5,2025-04-06 16:05:48,Piisthree
+programming,1jsxetj,mlsiie0,Why does every post about Go seem insane? Programming in Go makes you insane.,1,2025-04-07 01:06:23,dhlowrents
+programming,1jso52d,mlrtdqo,This clearly was not written by someone with actual law experience.,2,2025-04-06 22:30:56,gboncoffee
+programming,1jr8q3t,mlcrppl,"Interestingly, 248 is roughly the number of keywords in Swift.",1,2025-04-04 11:01:18,simon_o
+programming,1jqcag2,ml7tz7l,"It's an interesting take, but to me it sounds like the author enjoys typing. And there is nothing wrong with that, I enjoy it too. However, It's designing software and seeing it come to life is what I enjoy and it's possible to speed that up with AI coding. Being able to write more unit tests so I don't have to interact with the testing team is a quality of life improvement alone LOL. 
+
+That being said, the author is making somewhat of an assumption about what we enjoy about our jobs. I will concede that if the AI coding gets so good that it' gets the design right, and it's cheap, and the only human intervention that's needed is auditing the code, I'm out. Once the design, and ""building/design"" aspect is gone, I will have to find some other job to do. I do agree that requirements gathering, meetings, etc is just torture that I HAVE to do just so I can get to the building software part. 
+
+However, I'm not seeing AI getting to that point until AGI comes along (which has been confirmed by some researchers). In which case, it won't matter because every job on the planet will change.",0,2025-04-03 15:42:35,Sufficient_Wheel9321
+programming,1jq8ty7,ml5jq0n,Dumbest Java feature ever added.,-1,2025-04-03 05:18:36,BlueGoliath
+programming,1jpr7gf,ml2cvyc,"Ruby needs a new strategic goal. It's struggling right now. TIOBE has tons of issues, but the long-term trend warrants some serious changes, including the new users problem (just look at ruby on TIOBE and you'll understand the problem; and again, I am aware that TIOBE has tons of issues and measures only a very few things).
+
+I chose Ruby a long time ago over Python after having read https://www.artima.com/articles/the-philosophy-of-ruby (I still think it was the right choice) and I have been using Ruby ever since (also perfectly fine, matz is great) - but ruby really needs a complete new alignment and strategic goal, from A to Z, from bottom to top. There are also some changes in the ecosystem that moved in the opposite way: now you need 2FA for reporting issues on the bug tracker (yikes), after 100.000 downloads you can no longer remove your own gem, along with boring legalese https://blog.rubygems.org/2025/03/20/introducing-new-policies.html, the documentation is amazingly getting even worse and worse rather than better (not all projects, mind you; those who write great documentation are epic, but many hate writing documentation and then drop off, to never again use ruby). Sorry but there needs to be a systematic approach here. Each small problem needs realistic ideas and then execution of those ideas via actionable things that can be done. If I am a young 20 years old person today, would I be more likely to pick python or pick ruby? We all know the answer, so now ruby really needs to dig deep to **change** that answer. Idling away doing nothing isn't going to solve that problem, it'll only get worse - you only have to sniff at the dust of grandpa perl here.
+
+I have tons of suggestions to make - optional authorship of modules/classes (finally having the same namespace but able to reside on rubygems.org too) and many more things, but I stopped caring about all those 2FA promoters (and rubygems.org ""We control your gem now muahaha""). There is something really fundamentally going wrong and those issues are mostly new really. Stop killing the hobbyists.",2,2025-04-02 18:21:47,shevy-java
+programming,1jpr7gf,ml1dtq2,How is this different than any other language with lexical scoping?,1,2025-04-02 15:32:24,rooktakesqueen
+programming,1jpr7gf,ml1poh5,What percentage of developers are even using Ruby? Or even Ruby on Rails? And why?,0,2025-04-02 16:31:37,this_knee
+programming,1jpr7gf,ml21lyx,"I absolutely hate in how many different ways you can write stuff in Ruby. It makes it super hard to switch between libraries. 
+
+Also, Ruby has this thing where you can have a function that refers to a variable outside of the function. 
+
+Then when you invoke the function it'll magically pick up that variable. So the function is like pasted in the new location. This makes it absolutely horrible to test, as behavior can be influenced in way too many ways.",0,2025-04-02 17:28:28,AnnoyedVelociraptor
+programming,1jpr7gf,ml2hejj,Ruby needs static typing and it needs it like yesterday.,0,2025-04-02 18:43:58,DonaldStuck
+programming,1jou5al,mkuelqe,[https://www.linkedin.com/company/wrenai/](https://www.linkedin.com/company/wrenai/) keep up with what's trending now..not sure why i cannot put links in the original post :|,-2,2025-04-01 12:19:03,expatinporto
+programming,1jo4eih,mkpfwse,">In the current LLM landscape, money simply can't buy you speed
+
+It's called RTX5090. WAY faster than the Tesla T4's you get on AWS.
+
+Hell, even RTX3090 is faster than T4. That was 2 generations ago.
+
+I know because I run models both on 3090's locally, and on Telsa T4's on AWS. They run much faster on my 3090s locally, than on Tesla T4's on AWS. (DeepSeek, Gemma, llava~)",4,2025-03-31 16:13:01,Takeoded
+programming,1jo4eih,mkth8t6,"As a general idea, it makes sense.
+
+But this is A LOT of costly compute and engineering just so the end user can type a command instead of clicking a button.
+
+Maybe the example is just very simple and there are more complex operations that deliver better value.
+
+Hard to see there being significant uptake, has there been?
+If there are things that it’s commonly used for, might that not be a strong signal that the UX around those operations is not very good?",1,2025-04-01 06:47:32,seanamos-1
+programming,1jo4eih,mkougbz,Author of the post here - this is one of the best things we did to make our chat bot nice and snappy - keen to hear everyone else's hacks to get these products to feel more conversational!,1,2025-03-31 14:24:50,Mysterious-Aspect574
+programming,1jo16p3,mkpjmyr,"Neither the name, the banner, nor the title of this post tell us what it is. After opening the link I understand that ""shs"" stands for ""Simple HTTP Server"" - but this is not an obvious standard acronym and I initially thought it was a shell or something like that.",5,2025-03-31 16:31:42,somebodddy
+programming,1jo16p3,mkuanbr,"OG Creator here. The user did not do a good job when promoting my app. Even though I highly appreciate it you can find a quick summary in this comment:
+
+What is goshs?
+
+​Goshs is a Go-based alternative to Python's `SimpleHTTPServer`, offering enhanced functionality and a user-friendly design. It supports file downloading and viewing, bulk downloads as .zip files, file uploads via POST and PUT requests with drag-and-drop in the web interface, and individual or bulk file deletion.​
+
+Why is goshs unique?
+
+In terms of security, Goshs provides several features that address limitations found in Python's `SimpleHTTPServer`. It offers Basic Authentication and Certificate-Based Authentication via Client Certificates, ensuring that only authorized users can access the server. For transport layer security, Goshs supports HTTPS with options for self-signed certificates, Let's Encrypt integration, or user-provided certificates. Additionally, it includes file-based Access Control Lists (ACLs), allowing for custom authentication per folder and the ability to restrict access to specific files.
+
+How does it compare to others?
+
+In contrast, Python's `SimpleHTTPServer` is intended for simple use cases and lacks robust security features. Discussions in the Python community have highlighted its vulnerabilities, such as following symbolic links that could lead to unauthorized data exposure. Furthermore, similar lightweight servers have been found to have directory traversal vulnerabilities, underscoring the importance of enhanced security measures in web servers. 
+
+By incorporating these advanced security features, Goshs provides a more secure and versatile solution for serving files over HTTP/S compared to Python's `SimpleHTTPServer`.
+
+Where can I find it?
+
+Check out [https://github.com/patrickhener/goshs](https://github.com/patrickhener/goshs) and https://goshs.de. Be sure to leave a star if you like what you see.",1,2025-04-01 11:50:43,JohnnyTheSmith
+programming,1jo16p3,mkpxatu,Nice work! There are loads of applications for something simple like this.,0,2025-03-31 17:39:26,kitd
+programming,1jnop9o,mklx27u,Tiny typo clobber to cobbler,1,2025-03-31 00:27:31,timmyotc
+programming,1jn4o54,mki8r2v,"Terrible examples. Just the usual medium slop articles.
+
+That being said, concurrency in java is moving forward. I think after the structured concurrency moves out of incubation with java 25 we will see almost no need to rely on reactive programming patterns.",7,2025-03-30 12:09:52,kennyshor
+programming,1jn4o54,mkhjrxh,Just awful examples of code. Who programs like that? This is probably entirely AI slop.,2,2025-03-30 07:55:23,audioen
+programming,1jm6vgt,mka3th9,"> The key problem is that synchronous code can’t call asynchronous code.
+
+Sure it can, it just gets a promise back.
+
+The async stuff just breaks functions up into chained promise producers in order to avoid coroutines.
+
+If you want to avoid that break up then the answer is to introduce coroutines.
+
+But coroutines have their own issues.
+
+Honestly, having been using asyncio in python lately I'm a lot happier with JS's existing approach.
+
+Promises give a simple and powerful model and allow for things like marshalling across multiple calls.
+
+I would like to see is better cancellation support however.",5,2025-03-29 00:28:46,zhivago
+programming,1jm6vgt,mkda4i4,So... stackful coroutines?,1,2025-03-29 15:30:36,somebodddy
+programming,1jm4xe1,mk9itw0,Neat. A website that charges 19€ a month for a timer that is over 100 MB in size and not even digitally signed,8,2025-03-28 22:30:37,AyrA_ch
+programming,1jlxp2a,mk808pt,"My answer the question:  Nothing.
+
+25 years of experience in a wide variety of products and industries and I've never heard of these.",19,2025-03-28 17:52:52,AmalgamDragon
+programming,1jlxp2a,mk7w8ki,probably enough to memorize that's probably the only use case for the mediant (ctd fractions),3,2025-03-28 17:33:57,Embarrassed_Army8026
+programming,1jllzqh,mk6mgy8,Just curious: Did you address any of the feedback you got on https://old.reddit.com/r/programming/comments/1j5jegi/i_have_created_a_local_web_server_and_environment/ ?,2,2025-03-28 13:48:22,jorygeerts
+programming,1jl3wgw,mk0elxt,"I refuse to click this link. /r/programming has become
+a cesspool of self promotion blog spam. It used to be informative.",56,2025-03-27 13:49:30,dex206
+programming,1jl3wgw,mk0l5sd,"This article nails it. As devs, we’re not looking for fluff — we want clarity, examples, and answers to real problems. I like how it emphasizes writing with empathy: understanding what devs are struggling with and meeting them where they are.
+
+One thing that stood out is the idea of *teaching through experience*, not theory. Curious—what blog post taught you the most as a developer?",9,2025-03-27 14:23:55,tomasartuso
+programming,1jl3wgw,mk2b1p4,Step 1: Don’t choose a title that people are going to mock,9,2025-03-27 19:59:16,ScottContini
+programming,1jl3wgw,mk0husm,"Great read, thanks for posting! Very useful for me especially, since I’m occasionally in need of reaching audience for my projects.",6,2025-03-27 14:06:51,faiface
+programming,1jl3wgw,mk3q6gb,"I found this really helpful. Lately I've been feeling an itch to start publishing and putting my thoughts out there in some form. I've been thinking a lot about how to make something useful instead of just adding to the noise. The points about making your work Google-able and expanding your audience resonated with what I've been contemplating.
+
+
+What tool/platform do you use that gives you those viewer insights shown in the article? That chart gave me second thoughts about pretending not to care if anyone reads what I write. I don't think I'll be selling any books, but it would be nice to know what does or doesn't find an audience. ",2,2025-03-28 00:24:33,MissEeveeous
+programming,1jl3wgw,mk0as8s,"Author here.
+
+I'm happy to take any feedback or answer any questions about this post.",4,2025-03-27 13:28:07,mtlynch
+programming,1jl3wgw,mk1gc1f,Tl;dr?,2,2025-03-27 16:55:01,doesnt_use_reddit
+programming,1jl3wgw,mk21c25,"I admit it - I did not read the blog post!
+
+(Ok ok ... I actually did have a look after writing the above ...)
+
+> The biggest bang-for-your-buck change you can make to a blog post is adding pictures.
+
+So, pictures can be super useful. I have to say, though, on the blog post I found many images ... distracting. Using humour may be useful, but to me the same applies - images can be super-distracting.
+
+> Even a terrible MS Paint drawing is more interesting than an AI-generated image.
+
+Well, there are great AI generated images too. I think for any technical blog, it is best to focus on the core messages. For instance, take fefe at https://blog.fefe.de/ (it's in german only sorry). His blog is not primarily a technical blog, mind you; it is more a ""what is new in the world and what may be fun"", so it is more entertainment or infotainment. But sometimes he also blogs about technical aspects about Linux, glibc etc.. and these entries, even if many are a rant, are usually very informative and interesting to read. He gets away with zero images. And zero distractions really. So you don't need to use tons of images or mega-fancy styling. The **content** is by far the most important aspect really.",0,2025-03-27 18:33:53,shevy-java
+programming,1jl3wgw,mk2p3hq,"I read it, so it checks out",0,2025-03-27 21:16:49,katafrakt
+programming,1jl3wgw,mk6f57b,tldr,0,2025-03-28 13:06:12,mattkenefick
+programming,1jkeyek,mjw1zmi,">Once we get to the point where fluffy text is unnecessary, once we're all speaking business speak 2.0 and using the next terse generation of programming language with all the necessary patterns built in, we'll all be typing simple bullet points for everything, the world will be changed, and at that point LLMs may be entirely obsolete.
+
+That's a bizarre take because it implies that there are only three uses for LLM's: generating text, summarizing text and coding. It's also completely unclear why the author thinks that programming languages will get dramatically higher level. The progress from low-level to high level has been excruciatingly slow and slowing down. What is going to change this?
+
+There is no modern programming language that is dramatically more terse (in a useful way) than languages from 20 years ago.",8,2025-03-26 19:54:29,Mysterious-Rent7233
+programming,1jjbtzk,mjly74p,"I’m a SWE at a large Bay Area tech company, and have been working on building/extending/maintaining our GraphQL API for the last 5 years. Mainly built in Node, but we have some legacy PHP systems that we’ve added GraphQL servers to. We even have a Node graphql server that _calls some of our legacy REST endpoints_ to resolve certain fields.
+
+Let me tell you, it’s not simple anymore. Being able to “request all of/only the data you need in one call” can just as easily bite you in the ass, and opens you up to a new world of problems you didn’t encounter with REST.
+
+For example, I’ve been working on shipping a new product (it’s shipped now, thank fuck) for the last year. This product is search related, and a key feature was that user’s search sessions are persisted and stateful, meaning that they could grow to enormous size. Well guess what happens when a user tries to re-load one of their previous search sessions? We were hitting our graphql API with one call to load the known universe. Due to legacy constraints, this breaks parts of our system (15 year old PHP service with graphql bolted on).
+
+So now I’ve been working at splitting out critical rendering path data, from data that can be deferred and fetched later. I’m re-implementing REST behaviour on top of a single graphql endpoint. It’s fucking dumb.
+
+GraphQL will not be your saviour. It’s great for some things, yes. It’s very cool when it works. But when it doesn’t work, or you run into these new kinds of problems, it’s just as shitty and annoying to maintain as an old REST api.",11,2025-03-25 05:20:39,mr_nefario
+programming,1jjbtzk,mjnnq3n,"GraphQL adds flexibility by making it easier to separate backend and front-end, and even more so when there are many front-end teams.
+
+But it does so at the cost of significantly higher complexity.
+
+It is absolutely worth it at the right scale. In my opinion, GraphQL is more about the developer experience than the end user experience.",1,2025-03-25 14:11:54,NiteShdw
+programming,1k4ypcf,moe8q8a,"I see AI slop, I downvote",2,2025-04-22 07:36:37,clutchest_nugget
+programming,1k43jpg,mo8f2d1,why not host this on [github.io](http://github.io) ? then you dont need to download the repo to be able to use it.,2,2025-04-21 10:15:54,padraig_oh
+programming,1k3rygg,mo4w2et,"Wait, isn't Ctrl+P already a fuzzy finder",6,2025-04-20 19:06:25,AnonymousInternet82
+programming,1k291lu,mnse8uq,MongoDB still exists?,2,2025-04-18 17:05:36,flying-sheep
+programming,1k1bnye,mnkss9b,This appears to be a completely AI generated article.,4,2025-04-17 12:57:16,narmak
+programming,1k0abmy,mncj6l9,"The name is too generic, you need to rename this",6,2025-04-16 02:59:47,KrazyKirby99999
+programming,1k0abmy,mndbed1,Author clearly doesn’t know what react is or does,2,2025-04-16 06:50:45,therealdivs1210
+programming,1k0abmy,mncv9di,"React alternative
+
+Looks inside
+
+Imperative DOM node builder
+
+Might as well just use plain jquery and get some extra functionality too.",12,2025-04-16 04:26:20,Cold_Meson_06
+programming,1k0abmy,mnd13te,"It’s more like an alternative to JSX or any templating language and not to React. 
+Could be useful for people dynamically building DOMs from JS. It’s not for me though. I always preferred writing HTML templates in actual HTML.",1,2025-04-16 05:12:55,boblibam
+programming,1jz35xi,mn3ecnx,"I work in a highly regulated industry. Our build pipeline is complex. We go through a lot of checks and they are constantly being updated. Our Jenkins server makes probably somewhere around 20-30 service calls per build. The chances of our devops team finding a way to bundle all of this up for local testing are slim to none.
+
+Basically what I try to do for any new project is control what we can control as devs. Write a solid first set of unit and functional tests, create a blueprint for running those using our in house testing platform locally, and make sure to document the process for contributing. Document any other steps like linting they may need to do (do them automatically as a pre-push hook ideally as well).
+
+If all of that checks out, we push up our code and pray. Hell, half the time, failures are due to one of the aforementioned service calls borking. And devs on our teams have to “wait” 10 minutes for a build, during which they will realistically likely often do other work, so be it. I’m personally not going to become the software engineer, devops super genius who eyes the pipelines for changes and tries to figure out how to test some new pipeline feature locally to save my company a few dollars.",6,2025-04-14 17:27:59,WriteCodeBroh
+programming,1jz35xi,mn34oef,Never,4,2025-04-14 16:40:38,BloodySrax
+programming,1jz35xi,mn7h47y,Can anyone remind me why we need a blog post to tell us that our code should be buildable locally?,2,2025-04-15 09:46:03,IanAKemp
+programming,1jz1id7,mn2u0fp,"I'd argue that the main use case for virtualization is not isolation, but rather environment agnosticism.",17,2025-04-14 15:47:00,numsu
+programming,1jz1id7,mn2q8p6,"Isn’t it already solved with containerization, with the added bonus that you can pick whatever language you want?",12,2025-04-14 15:28:08,RobespierreLaTerreur
+programming,1jz1id7,mn2xew1,"The fundamental issue of trying to do isolation at the process level instead of the OS/VM level is that the OS hasn't been designed to keep *evil* processes completely separate from each other. For example, my process could listen to every port available on your computer.  Then when your process starts up, it dies because there's no port available. 
+
+
+You can't put a check for this at the language level, because there's no guarantee that the binary I provide you with is ""honestly"" compiled.",6,2025-04-14 16:03:46,apnorton
+programming,1jz1id7,mn3ai23,Modern cloud is built on top of the virtualization. That's how AWS or Azure or Google cloud works.,2,2025-04-14 17:09:22,Significant-Park-345
+programming,1jy4ohx,mmw0eai,Isn't it just LSPs but with a reverse shell baked in.,2,2025-04-13 12:59:42,No_Nobody4036
+programming,1jy4ohx,mmx43bx,"It's a buzzword, simple as that.
+
+*""standardized way of working with data sources""* ... what standard? We're talking about text for crying out loud.
+
+We know how to work with text. We know how to query text from a database, an API, or a filesystem. We know how TF:IDF works. We know how to do trigram similarity. We know how to search semantic embeddings.
+
+None of that is new. None of that needs some breakthrough, new standard, that would just be a wrapper over existing, more battle tested standards. It's a layer of abstraction that exists because...yeah, why? Because we need to abstract already well established abstractions, because it's for AI now?
+
+Does this make anything faster? Does it make things more secure? Does it make things easier to grok and maintain?",2,2025-04-13 16:39:29,usrlibshare
+programming,1jxz46h,mmurebd,"No, I won't subscribe to your shitty newsletter.",8,2025-04-13 05:48:27,atika

@@ -1,0 +1,346 @@
+﻿subreddit,post_id,title,content,score,upvote_ratio,num_comments,created_at,url,author
+programming,1jw88mw,Big Book of R,,0,0.5,0,2025-04-10 20:41:47,https://www.bigbookofr.com/,ketralnis
+programming,1jw1mvj,Rust RFC 3446 - Introduce the Store API for great good,,0,0.5,0,2025-04-10 16:08:30,https://github.com/matthieu-m/rfcs/blob/store/text/3446-store.md,ketralnis
+programming,1jvt1rk,SOC 2 — We Do It to Ourselves,,0,0.5,1,2025-04-10 08:36:17,https://rethinkingsoftware.substack.com/p/soc-2-we-do-it-to-ourselves,adamard
+programming,1jvi5xg,Baking the Y Combinator from Scratch,,0,0.5,0,2025-04-09 22:05:14,https://the-nerve-blog.ghost.io/baking-the-y-combinator-from-scratch-part-1/,ketralnis
+programming,1jv9z3d,React for Two Computers,,0,0.5,0,2025-04-09 16:26:16,https://www.youtube.com/watch?v=ozI4V_29fj4,ketralnis
+programming,1jv9xa4,Analytic Combinatorics – A Worked Example,,0,0.5,0,2025-04-09 16:24:11,https://grossack.site/2025/04/08/analytic-combinatorics-example.html,ketralnis
+programming,1jv9uy3,How to Sync Anything,,0,0.5,0,2025-04-09 16:21:34,https://neighbourhood.ie/blog/2025/04/06/how-to-sync-anything,ketralnis
+programming,1jv9uri,Doing the Prospero-Challenge in RPython,,0,0.5,0,2025-04-09 16:21:20,https://www.pypy.org/posts/2025/04/prospero-in-rpython.html,ketralnis
+programming,1jv83ik,Baby Steps into Genetic Programming,,0,0.5,0,2025-04-09 15:09:07,https://aerique.blogspot.com/2011/01/baby-steps-into-genetic-programming.html,namanyayg
+programming,1jv1x1c,Get Ready to Rock with Sonic Pi - The Live Coding Music Synth for Everyone • Sam Aaron,,0,0.5,0,2025-04-09 09:49:05,https://youtu.be/TXvaa26UUZU,goto-con
+programming,1julftt,Some Things Have To Be Ugly,,0,0.5,10,2025-04-08 18:54:58,https://aartaka.me/ugly-things.html,aartaka
+programming,1juikd9,More devops than I bargained for,,1,0.55,0,2025-04-08 17:00:07,https://fasterthanli.me/articles/more-devops-than-i-bargained-for,ketralnis
+programming,1juct1q,Building Bridges: From Developer to Developer Advocate • David Edoh-Bedi & James Beswick,,0,0.5,0,2025-04-08 12:52:14,https://youtu.be/K63qb3L_CZk,goto-con
+programming,1ju83yh,React Reconciliation: The Hidden Engine Behind Your Components,,0,0.5,0,2025-04-08 07:46:24,https://cekrem.github.io/posts/react-reconciliation-deep-dive/,cekrem
+programming,1jtxg3w,Optimal way for attaching partitions in postgres,"Here is my article that some of you may find helpful. In few words I have described a result of my work with postgres partitioning, where I was trying to minimise locking and maximise performance.",0,0.5,0,2025-04-07 21:54:01,https://piotrd.hashnode.dev/postgres-attach-partition-deadlocks,PiotrDz
+programming,1jtttjd,Vector Sets are part of Redis,,0,0.5,0,2025-04-07 19:23:41,https://antirez.com/news/149,ketralnis
+programming,1jtp91b,API Workflows and How to Define Them,,0,0.5,0,2025-04-07 16:18:54,https://zuplo.com/blog/2025/03/31/api-workflows-and-arazzo,ZuploAdrian
+programming,1jtp2av,My Weird Journey Coding a Community Centered Around Curating News Sources,,0,0.5,0,2025-04-07 16:11:19,https://medium.com/@lorenzobloedow/my-weird-journey-creating-a-community-centered-around-curating-news-sources-ed2a8f33d200,LorenzoBloedow
+programming,1jrdb9n,"Does Bazel, Scons, Ninja or Make have the lowest overheads and fastest speed?","Note  I just post this \*on behalf of\* my friend, who hasn't been able to create a Reddit account yet. I would suggest: if you have any thoughts to share, communicate with my friend via GitHub (see the link URL). ",1,0.53,7,2025-04-04 14:31:35,https://github.com/thutt/build-tool-comparator,Significant-Monk-177
+programming,1jrbx23,What’s Next for Rerun,"Rerun seems to be promising for robotics tools and modern machine learning pipelines.
+
+I personally wish them luck since some startups have been winding on this niche!",0,0.5,0,2025-04-04 13:29:59,https://open.substack.com/pub/weeklyrust/p/whats-next-for-rerun?r=327yzu&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false,web3writer
+programming,1jqx0on,C++26: variadic friends,,0,0.5,0,2025-04-03 23:02:10,https://www.sandordargo.com/blog/2025/04/02/cpp26-variadic-friends,ketralnis
+programming,1jqwy2e,Fast(er) binary search in Rust,,0,0.43,1,2025-04-03 22:59:10,https://www.bazhenov.me/posts/faster-binary-search-in-rust/,ketralnis
+programming,1jpnl76,Organisational Sustainability with Platform Engineering • Lesley Cordero,,0,0.5,0,2025-04-02 12:41:03,https://youtu.be/MlUSMibsB18,goto-con
+programming,1joptu7,How to Install and Configure PGVector - A Detailed Guide,,0,0.5,1,2025-04-01 07:26:08,https://www.blackslate.io/articles/how-to-install-and-configure-pgvector-a-detailed-guide,ram-foss
+programming,1joni8n,"Rate Limiting : Concepts, Algorithms, and Real-World Use Cases",,0,0.5,0,2025-04-01 04:45:32,https://javarevisited.substack.com/p/rate-limiting-concepts-algorithms,javinpaul
+programming,1jo5iz7,How to Release Without Fear,,1,0.56,0,2025-03-31 15:12:31,https://blog.jacobstechtavern.com/p/release-without-fear,jacobs-tech-tavern
+programming,1jo1rvd,From dBase III to Skid Row,,0,0.5,2,2025-03-31 12:16:39,https://youtube.com/watch?v=LQt1maGR3j0,N/A
+programming,1jo0q0r,Load Balancers in 1 diagram and 91 words,,1,0.56,1,2025-03-31 11:14:15,https://www.systemdesignbutsimple.com/p/load-balancer-in-1-diagram-and-91-words,stmoreau
+programming,1jneijx,Understanding Distributed Architectures - The Patterns Approach • Unmesh Joshi,,0,0.5,0,2025-03-30 15:11:05,https://youtu.be/z7hJ1BHa5Oo,goto-con
+programming,1jn261q,Simple File-Based Distributed Job Queue in Smalltalk,,0,0.5,2,2025-03-30 01:58:00,https://news.squeak.org/2025/03/30/simple-file-based-distributed-job-queue-in-smalltalk/,itsmeront
+programming,1jlxkbp,HTTP/3 and the QUIC Internet Protocol,,0,0.5,0,2025-03-28 15:21:36,https://themsaid.com/http3-and-the-quic-internet-protocol,themsaid
+programming,1jl93ji,Lurking Variables: How Hidden Factors Can Mislead Your Analysis,,0,0.5,0,2025-03-27 17:13:06,https://www.thecoder.cafe/p/lurking-variables,teivah
+programming,1jkm6ew,Arguments against static typing,,2,0.53,25,2025-03-26 20:43:40,https://developer.porn/posts/arguments-against-static-typing/,shadow5827193
+programming,1jkdp9p,How link_to + Turbo Prefetching Speeds Up Navigation,,0,0.5,0,2025-03-26 14:55:26,https://medium.com/rubycademy/how-link-to-turbo-prefetching-speeds-up-navigation-471bf1c7eb4c,mehdifarsi
+programming,1jjnup8,Reading Code Effectively: An Overlooked Developer Skill • Marit van Dijk & Hannes Lowette,,0,0.5,0,2025-03-25 16:43:30,https://youtu.be/_R_Vc17mxNE,goto-con
+programming,1jj5n5e,Noémi Ványi: Only Fix Problems That Are Actually Problems,,0,0.5,0,2025-03-24 23:39:58,https://maintainable.fm/episodes/noemi-vanyi-only-fix-problems-that-are-actually-problems,robbyrussell
+programming,1jiyzt5,"LZAV 4.10: Increased decompression speed, strict C++ compliance and portability (not meaning adherence to specific language guidelines). Fast In-Memory Data Compression Algorithm (inline C/C++) 460+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1",,0,0.5,3,2025-03-24 19:09:51,https://github.com/avaneev/lzav,avaneev
+programming,1jirnej,What I Wish I Knew Before System Design Interviews,,2,0.58,0,2025-03-24 14:14:55,https://animeshgaitonde.medium.com/what-i-wish-i-knew-before-system-design-interviews-20376f8deafa?sk=63081658fc1598f629d34bdcdf04e1ec,Local_Ad_6109
+programming,1jiqqlt,Isobiscuit - a VM tool,,0,0.5,0,2025-03-24 13:32:01,https://github.com/isobiscuit/isobiscuit,Dream_Byte_Studios
+programming,1jipuni,The (Programming) Legend of John Henry,,0,0.5,0,2025-03-24 12:48:38,https://slamdunksoftware.substack.com/p/the-programming-legend-of-john-henry,whiirl
+programming,1k5nrj1,"Day 36: Can You Format Dates, Numbers, and Currencies with JavaScript’s Intl API?",,0,0.33,1,2025-04-23 01:55:38,https://javascript.plainenglish.io/day-36-can-you-format-dates-numbers-and-currencies-with-javascripts-intl-api-25643419a306,MysteriousEye8494
+programming,1k3o0d2,A5HASH 5.12: 128-bit and native 32-bit hash functions available,,0,0.5,1,2025-04-20 14:40:17,https://github.com/avaneev/a5hash,avaneev
+programming,1k3hwiu,Hunting Zombie Processes in Go and Docker,"Hey everyone, this is the story of how I debugged a random error and found out a completely different underlying reason. I thought sharing the learnings. ",0,0.5,6,2025-04-20 08:18:51,https://www.stormkit.io/blog/hunting-zombie-processes-in-go-and-docker,svedova
+programming,1k35hii,Refs Guide,Hi everyone. Here's a little guide I wrote on a Ref class I wrote to make GUI programming easier.,0,0.5,3,2025-04-19 20:25:57,https://90s.dev/guides/refs.html,90s_dev
+programming,1k23nh5,Architecture & Responsible Technology • Rebecca Parsons,,0,0.4,0,2025-04-18 12:24:15,https://youtu.be/40gVnQTx7P8,goto-con
+programming,1k1p007,Pair Programmers Unite: A Quiet Rebellion,,1,0.5,51,2025-04-17 22:01:57,https://rethinkingsoftware.substack.com/p/pair-programmers-unite,adamard
+programming,1k1fc58,TypeScript Cookbook • Stefan Baumgartner & Peter Kröner,,0,0.33,0,2025-04-17 15:17:24,https://youtu.be/DDQhxxzGkIU,goto-con
+programming,1k0pohc,A Look at Range-v3 Code Generation (2017),,0,0.33,0,2025-04-16 17:09:32,https://kristerw.blogspot.com/2017/06/a-look-at-range-v3-code-generation.html?m=1,ketralnis
+programming,1k0k8gv,"GitHub - iondodon/httpok: httpok is a fast, minimalistic desktop HTTP client",,0,0.33,0,2025-04-16 13:19:17,https://github.com/iondodon/httpok,AggressiveBee4152
+programming,1jzt8vh,Pretty State Machine Patterns in Rust,,0,0.43,0,2025-04-15 14:27:15,https://hoverbear.org/blog/rust-state-machine-pattern/,ketralnis
+programming,1jzt83z,What Makes a Great Developer Experience?,,0,0.38,0,2025-04-15 14:26:25,https://www.codesimplicity.com/post/what-makes-a-great-developer-experience/,ketralnis
+programming,1jzt66y,How Janet's PEG module works,,0,0.47,4,2025-04-15 14:24:13,https://bakpakin.com/writing/how-janets-peg-works.html,ketralnis
+programming,1jzkzh0,Get Started with OBJECT DETECTION using ESP32 CAM and EDGE IMPULSE,,0,0.5,0,2025-04-15 06:26:53,https://youtu.be/L2w160DwM2k?si=UtRKPwo20JL5Znvv,Programmer-Bose
+programming,1jyuyw8,Writing Cursor Rules with a Cursor Rule,,0,0.46,0,2025-04-14 09:47:00,https://www.adithyan.io/blog/writing-cursor-rules-with-a-cursor-rule,FoxInTheRedBox
+programming,1jydjkd,High-cardinality values for build flags in Rust,,0,0.44,0,2025-04-13 17:51:47,https://blog.frankel.ch/high-cardinality-values-build-flags-rust/,nfrankel
+programming,1jx3ugn,Gen-Express-Cli : Generate Express Projects in Seconds!,"Hey everyone,
+
+I’m excited to share `gen-express-cli` – a CLI tool that now supports Express 5! Quickly scaffold an Express 5 project, so you can jump straight into coding without the boilerplate hassle.
+
+Why you’ll love it:
+
+Instant Setup: Generate a ready-to-go Express project with a single command.
+
+Customizable: Easily tailor the scaffolded code to fit your project needs (ESM, typescript, jest ...)
+
+Fast & Lightweight: Focus on building your app instead of dealing with setup.
+
+Grab it on npm with:
+
+```
+npx gen-express-cli@latest
+```
+
+For more details, check out the GitHub repo: [gen-express-cli](https://github.com/RulerChen/gen-express-cli). If you like it, please give it a star!",0,0.33,0,2025-04-11 23:34:55,https://github.com/RulerChen/gen-express-cli,Rulerchen
+programming,1jwy22v,With Carrots & Sticks - Can the browser handle web security?,,0,0.43,0,2025-04-11 19:15:48,https://frederikbraun.de/madweb-keynote-2025.html,ketralnis
+programming,1jw3pvy,Taking out the Trash: Garbage Collection of Object Storage at Massive Scale,,0,0.33,0,2025-04-10 17:34:56,https://www.warpstream.com/blog/taking-out-the-trash-garbage-collection-of-object-storage-at-massive-scale,warpstream_official
+programming,1jw1n79,Insertion Sort visualization,,0,0.4,0,2025-04-10 16:08:52,https://www.youtube.com/watch?v=Wi3Dln_eDLU,malejpavouk
+programming,1jv9xu1,Linux Kernel Defence Map - Security Hardening Concepts,,0,0.4,0,2025-04-09 16:24:52,https://github.com/a13xp0p0v/linux-kernel-defence-map,ketralnis
+programming,1juv53z,In-Depth review of the MCP authorization spec (2025-03-26 edition),,0,0.33,2,2025-04-09 02:19:56,https://blog.logto.io/mcp-auth-spec-review-2025-03-26,Most_Relationship_93
+programming,1ju8hve,TimescaleDB to the Rescue - Speeding Up Statistics,Just shared my journey migrating from vanilla MySQL to TimescaleDB to handle billions of rows of statistics data. Real-time queries that once took tens of seconds now complete in milliseconds.,0,0.33,5,2025-04-08 08:16:21,https://sarvendev.com/posts/timescale-db-to-the-rescue/,sarvendev
+programming,1jttvbl,JIT calculators finale,,0,0.5,0,2025-04-07 19:25:41,https://ochagavia.nl/blog/jit-calculators-finale/,ketralnis
+programming,1jtttxw,Beware when moving a std::optional,,0,0.49,25,2025-04-07 19:24:08,https://blog.tal.bi/posts/std-optional-move-pitfall/,ketralnis
+programming,1jtttp2,A small Haskell task,,0,0.44,0,2025-04-07 19:23:52,https://abuseofnotation.github.io/haskell-task/,ketralnis
+programming,1jtl8sb,The Beauty of Simplicity - Making Your Own Technology • Yan Chernikov,,0,0.45,0,2025-04-07 13:28:39,https://youtu.be/30AOTkAgc_4,goto-con
+programming,1jteqzx,Help Improving Money Formatting on the Internet,"Money formatting depends on locale, not on the currency.  
+  
+There is a Unicode dataset called Common Language Data Repository, it's good but maybe not perfect. Let's use it more, and let's make it even better.",0,0.44,0,2025-04-07 06:27:13,https://smagin.fyi/posts/money-formatting/,Odd-Tell9763
+programming,1jsk8oh,Programming Language Security Vulnerabilities: An Overview,,0,0.33,0,2025-04-06 02:42:49,https://youtu.be/0eazUsvqMvw?si=i3dbbb5MN9Zb2r_t,SnooMachines8167
+programming,1jorxlx,Python Dictionary Methods - From Python 2.7 till Python 3.11,,0,0.5,0,2025-04-01 10:02:34,https://pythonhelper.com/python/python-dictionary-methods/,Analyst-rehmat
+programming,1jo3lnz,Lessons from Rollbar on how to improve (10x to 20x faster) large dataset query speeds with Clickhouse and mySQL,"At Rollbar, we recently completed a significant overhaul of our Item Search backend. The previous system faced performance limitations and constraints on search capabilities. This post details the technical challenges, the architectural changes we implemented, and the resulting performance gains.
+
+Overhauling a core feature like search is a significant undertaking. By analyzing bottlenecks and applying specialized data stores (optimized MySQL for item data state, Clickhouse for occurrence data with real-time merge mappings), we dramatically improved search speed, capability, accuracy, and responsiveness for core workflows. These updates not only provide a much better user experience but also establish a more robust and scalable foundation for future enhancements to Rollbar's capabilities.
+
+This initiative delivered substantial improvements:
+
+* **Speed:** Overall search performance is typically 10x to 20x faster. Queries that previously timed out (>60s) now consistently return in roughly 1-2 seconds. Merging items now reflects in search results within seconds, not 20 minutes.
+* **Capability:** Dozens of new occurrence fields are available for filtering and text matching. Custom key/value data is searchable.
+* **Accuracy:** Time range filtering and sorting are now accurate, reflecting actual occurrences. Total occurrence counts and unique IP counts are accurate.
+* **Reliability:** Query timeouts are drastically reduced.
+
+Here is the link to the full blog: [https://rollbar.com/blog/how-rollbar-engineered-faster-search/](https://rollbar.com/blog/how-rollbar-engineered-faster-search/)",0,0.4,0,2025-03-31 13:48:03,https://rollbar.com/blog/how-rollbar-engineered-faster-search/,rollbarinc
+programming,1jnjs0c,The Art of Ruby Scripting,,0,0.47,0,2025-03-30 19:02:12,https://medium.com/rubycademy/the-art-of-ruby-scripting-d7f5a64cff9e,mehdifarsi
+programming,1jn74tg,Building a Firecracker-Powered Course Platform to Learn Docker and Kubernetes,,0,0.4,0,2025-03-30 07:18:04,https://iximiuz.com/en/posts/iximiuz-labs-story/,namanyayg
+programming,1jlxah0,Introducing RTABench: an open-source benchmark for real-time analytics workloads,,0,0.33,0,2025-03-28 15:09:34,https://rtabench.com,thenoahhein
+programming,1jlduch,RTABench — a Benchmark For Real Time Analytics,,0,0.4,0,2025-03-27 21:11:21,https://rtabench.com/,jascha_eng
+programming,1jlc63c,Open Source: AWS Lambda + Puppeteer Starter Repo,"Hey everyone,  
+I recently open-sourced a little repo I’ve been using that makes it easier to run **Puppeteer on AWS Lambda**. Thought it might help others building serverless scrapers or screenshot tools.
+
+📦 GitHub: [https://github.com/geiger01/puppeteer-lambda](https://github.com/geiger01/puppeteer-lambda)
+
+It’s a minimal setup with:
+
+* Puppeteer bundled and ready to run inside Lambda
+* `chrome-aws-lambda` support
+* Simple example handler for extracting HTML
+
+I use this setup in **my side projects**, and it’s worked well so far for handling headless Chromium tasks without managing servers.
+
+Let me know if you find it useful, or if you spot anything that could be improved. PRs welcome too :)",0,0.4,0,2025-03-27 20:01:04,https://github.com/geiger01/puppeteer-lambda,Jonathan_Geiger
+programming,1jl5lxa,Balancing Coupling in Software Design • Vlad Khononov & Sheen Brisals,,0,0.4,0,2025-03-27 14:46:34,https://youtu.be/_9vi70yFBDg,goto-con
+programming,1jjdyk2,"Effective Platform Engineering • Ajay Chankramath, Nic Cheneweth, Bryan Oliver, Sean Alvarez & Wesley Reisz",,0,0.43,1,2025-03-25 07:35:58,https://www.buzzsprout.com/1714721/16771844,goto-con
+programming,1k5islk,Top Python Libraries by Use Case: Your Ultimate Guide to Python’s Power Tools,"Hey all,
+
+I’ve been working on organizing Python libraries by what people *actually* want to build — stuff like web apps, data science, automation, AI, etc.
+
+Hope it help y'all",0,0.42,0,2025-04-22 21:57:29,https://medium.com/@samsinghca064/top-python-libraries-by-use-case-your-ultimate-guide-to-pythons-power-tools-83b092069f24,Ok_Pressure9758
+programming,1k5b5qf,Here are 5 things I wish I knew before my AWS Solutions Architect Associate exam,Share it with someone who may need it! :),0,0.4,0,2025-04-22 16:49:16,https://medium.com/@nageshrajcodes/aws-saa-cheat-sheet-5-things-i-wish-i-knew-before-the-exam-546f62222683,pseudonym24
+programming,1k4pbu7,Thoughts on Bluesky Verification,,0,0.42,0,2025-04-21 21:33:41,https://steveklabnik.com/writing/thoughts-on-bluesky-verification/,steveklabnik1
+programming,1k4j8p5,Notes on B (K) Implementation,,0,0.42,0,2025-04-21 17:29:54,https://docs.google.com/document/d/1W83ME5JecI2hd5hAUqQ1BVF32wtCel8zxb7WPq-D4f8/edit?tab=t.0#heading=h.moseg6gryxz1,ketralnis
+programming,1k39f3m,"Global Coding Dojo - May 14, 2025: Join developers worldwide for collaborative coding and learning",,0,0.3,0,2025-04-19 23:36:44,https://www.eventbrite.com/e/global-coding-dojo-tickets-1114576240539,rkasper
+programming,1k0ghfu,Build LMS platform from scratch. How I Structure API Development in Elixir + Phoenix?,,0,0.25,0,2025-04-16 09:46:13,https://medium.com/@volodymyrpotiichuk/build-lms-platform-from-scratch-part-6-how-i-structure-api-development-c0275809a397,NoBarber9673
+programming,1jzyuwx,Visualize a Neural Network in Python Using Tkinter Animated AI Layers!,,0,0.33,0,2025-04-15 18:12:27,https://youtube.com/watch?v=ZfpqMDB2-y8&feature=shared,Organic_Drawing_3339
+programming,1jzyfo3,Hacking the Postgres Wire Protocol,,0,0.25,0,2025-04-15 17:55:48,https://pgdog.dev/blog/hacking-postgres-wire-protocol,ketralnis
+programming,1jzuqi0,Fixing Shotgun Surgery in Ruby,I mentioned to someone recently that a feature at work suffered from shotgun surgery and was trying to figure out the right way to address it. Ended up writing a thing to explain my point using a non-controversial domain and context.,0,0.25,2,2025-04-15 15:27:13,https://thedailydeveloper.substack.com/p/fixing-shotgun-surgery-in-ruby,endlessvoid94
+programming,1jzst6p,"URL-Smart Search With Next.js & MongoDB (+ Autocomplete, RAG, Vectors, Fuzzy Search)",,0,0.33,0,2025-04-15 14:09:05,https://www.youtube.com/watch?v=_n0McTcterM&t=327s,Majestic_Wallaby7374
+programming,1jza9y9,9 Levels of Asynchronous Programming in Python,,0,0.38,5,2025-04-14 21:15:59,https://medium.com/techtofreedom/9-levels-of-asynchronous-programming-in-python-3755f80403c9?sk=b25b59f33eec6f46caee05b4a3808b47,wyhjsbyb
+programming,1jz3cqo,How to handle JWT in Python,"Everything you need to know to implement and validate JWTs securely in Python — from signing to verifying with JWKS, with code examples and best practices throughout.",0,0.29,0,2025-04-14 16:37:02,https://workos.com/blog/how-to-handle-jwt-in-python,Critical-Goose-7331
+programming,1jwyta4,Transform Static Images into Lifelike Animations🌟,"Welcome to our tutorial : Image animation brings life to the static face in the source image according to the driving video, using the Thin-Plate Spline Motion Model!
+
+In this tutorial, we'll take you through the entire process, from setting up the required environment to running your very own animations.
+
+ 
+
+**What You’ll Learn :**
+
+ 
+
+**Part 1**: Setting up the Environment: We'll walk you through creating a Conda environment with the right Python libraries to ensure a smooth animation process
+
+**Part 2**: Clone the GitHub Repository
+
+**Part 3**: Download the Model Weights
+
+**Part 4**: Demo 1: Run a Demo
+
+**Part 5:** Demo 2: Use Your Own Images and Video
+
+ 
+
+You can find more tutorials, and join my newsletter here : [https://eranfeit.net/](https://eranfeit.net/)
+
+ 
+
+**Check out our tutorial here :** [https://youtu.be/oXDm6JB9xak&list=UULFTiWJJhaH6BviSWKLJUM9sg](https://youtu.be/WlPuW3GGpQo&list=UULFTiWJJhaH6BviSWKLJUM9sg)
+
+ 
+
+ 
+
+Enjoy
+
+Eran",0,0.33,0,2025-04-11 19:48:32,https://youtu.be/oXDm6JB9xak&list=UULFTiWJJhaH6BviSWKLJUM9sg,Feitgemel
+programming,1jvr6f1,System Design Basics - SQL Transactions and ACID Properties,,0,0.25,0,2025-04-10 06:17:33,https://javarevisited.substack.com/p/system-design-basics-sql-transactions,javinpaul
+programming,1jvg12l,8 Levels of Using unittest in Python,,0,0.43,5,2025-04-09 20:33:20,https://medium.com/techtofreedom/8-levels-of-using-unittest-in-python-d4538b5bde0b?sk=4c957508d4a45c6d0b63256561532f7e,yangzhou1993
+programming,1jv4fnh,🚨 K-Means Clustering Part 2 | 🤖 Unsupervised ML Concepts Explained for Beginners 💡,"#DataScience, #MachineLearning, #AI, #Python, #100DaysOfCode, #DataAnalytics, #TechTok, #MenInTech, #LearningNeverStops, #BuildInPublic",0,0.3,1,2025-04-09 12:21:58,https://youtu.be/wpm3bxZ5X5M,h_y_s_s
+programming,1juyz20,Introducing WebAssembly Plugin,,0,0.33,0,2025-04-09 06:08:51,https://webhookx.io/blog/engineering/introducing-webassembly-plugin,vm-001
+programming,1jtnvkw,Build LMS platform from scratch. First coding after detailed planning. Implementing user functionality.,,0,0.33,0,2025-04-07 15:22:17,https://medium.com/@volodymyrpotiichuk/build-lms-platform-from-scratch-part-5-users-9586eabab513,NoBarber9673
+programming,1jrszm2,Dark mode with almost no CSS,,0,0.43,2,2025-04-05 02:12:15,https://search.feep.dev/blog/post/2025-04-04-dark-mode,stackoverflooooooow
+programming,1jrr1qy,Data Race Freedom à la Mode,,0,0.25,0,2025-04-05 00:29:00,https://dl.acm.org/doi/10.1145/3704859,SeanTAllen
+programming,1jqyz8r,Type-Safe Trees In Typescript,A neat trick for enforcing parent children relationships in tree data structures using the typescript compiler,0,0.25,0,2025-04-04 00:33:16,https://yeet.cx/blog/typescript-trees/,R_E_T_R_O
+programming,1jowy1p,"After seeing SOAP mentioned in a 2024 API textbook, I decided to create GitHub Trend Analyzer - a tool to measure technology popularity and adoption trends on GitHub.",,0,0.41,2,2025-04-01 14:28:14,https://medium.com/@glebradchenko/how-i-decided-to-figure-out-which-technologies-are-popular-today-and-ended-up-creating-github-4135ed4b9ee4,domagesky
+programming,1jl2zps,Neutralinojs v6 released,,0,0.33,0,2025-03-27 12:41:56,https://neutralino.js.org/docs/release-notes/framework/#v600,delvin0
+programming,1jkx09h,Write Files in Python - Binary | CSV | JSON,,0,0.33,0,2025-03-27 05:42:23,https://pythonhelper.com/python/write-files-in-python/,Analyst-rehmat
+programming,1jkma7t,How to ship like a start-up,,0,0.36,1,2025-03-26 20:48:11,https://www.lennysnewsletter.com/p/how-to-ship-like-a-startup,gamedev-exe
+programming,1jjevjj,New A5HASH 64-bit hash function: ultimate throughput for small key data hash-maps and hash-tables (inline C/C++).,,0,0.46,57,2025-03-25 08:48:01,https://github.com/avaneev/a5hash,avaneev
+programming,1jinn2k,Apidog MCP Server,,0,0.33,0,2025-03-24 10:38:48,https://www.npmjs.com/package/apidog-mcp-server,Mean_Preparation_364
+programming,1k5c83f,Confusing Python Code Snippets,,0,0.2,0,2025-04-22 17:31:51,https://medium.com/techtofreedom/7-confusing-python-code-snippets-and-their-explanation-b58498fb216e?sk=16d7b406428770f5de3671fb659cbfc2,yangzhou1993
+programming,1k4j335,Pushing the Limits of LLM Quantization via the Linearity Theorem,,0,0.11,0,2025-04-21 17:23:43,https://arxiv.org/abs/2411.17525,ketralnis
+programming,1k4fhmu,An under the hood look at how we built an MCP server for our tool - all technicals,,0,0.33,0,2025-04-21 14:53:32,https://pieces.app/blog/inside-mcp-server-implementation?utm_source=reddit&utm_medium=referral&utm_campaign=r43,Only_Piccolo5736
+programming,1k4f723,Classifying Chat Groups With CoreML And Gemini To Match Interest Groups,Unpaywalled: [https://programmers.fyi/classifying-chat-groups-with-coreml-and-gemini-to-match-interest-groups](https://programmers.fyi/classifying-chat-groups-with-coreml-and-gemini-to-match-interest-groups),0,0.29,0,2025-04-21 14:41:12,https://programmers.fyi/classifying-chat-groups-with-coreml-and-gemini-to-match-interest-groups,derjanni
+programming,1k2ev0o,Meta MCP: Chaining Tools via Prompt-Driven Arguments,"This post explores the concept of an MCP tool that can chain multiple tools within a single request, where the arguments for each tool can be dynamically generated using prompts based on the outputs of previous tools.",0,0.29,0,2025-04-18 20:31:33,https://cefboud.com/posts/XMCP-multiplexing-mcp/,Cefor111
+programming,1k26p9w,5 Behaviors of Top Architects,"Being an Architect is less about control and more about orchestration. From active listening to system thinking and leading change, this post dives into five key behaviours that help Architects thrive in chaotic environments. With anecdotes, lessons, and practical tips, it's a guide for those shaping the bigger picture.",0,0.41,1,2025-04-18 14:47:01,https://blog.hatemzidi.com/2024/10/28/5-behaviors-of-top-architects/,FuzzyAd9554
+programming,1jzk79x,The humanity in each line of code,,0,0.38,1,2025-04-15 05:34:21,https://bhupesh.me/humanity-line-of-code/,BhupeshV
+programming,1jywcbw,Cache in 2 diagrams and 173 words,,0,0.4,5,2025-04-14 11:16:35,https://www.systemdesignbutsimple.com/p/cache-in-2-diagrams-and-173-words,stmoreau
+programming,1jybljz,"Coding in MiniScript Feels Like Python or Lua – Simple, Clean, and Fun","I've been experimenting with [MiniScript](https://miniscript.org/) recently, and I have to say—it's surprisingly enjoyable. If you're into lightweight, clean scripting languages like Python or Lua, you'll probably feel right at home. The syntax is super minimal, and yet it’s powerful enough to build full games.
+
+What really makes it shine is using it with [Mini Micro](https://miniscript.org/MiniMicro/) — a tiny virtual machine for making retro-style games. It genuinely feels like coding on an old-school computer from the 80s or 90s, but with modern comforts (like instant code reloads and visual feedback). Perfect for prototyping ideas or just having fun with game dev in a nostalgic way.
+
+It’s honestly refreshing to work in such a small, focused environment. If you're tired of bloated engines or just want to mess around with a simpler toolset, I highly recommend checking it out. Also, you can use it for game jams!
+
+Disclaimer: It's not self-promotion, [Miniscript](https://miniscript.org/) is made by Joe Strout, and I am just sharing my experience, its really fun :)
+
+Anyone else tried it? Or have you used similar minimalist tools for game dev?
+
+Some more game examples:  
+[Skyguard](https://joestrout.itch.io/skyguard)
+
+[AstroType](https://neonfire-studio.itch.io/astrotype)
+
+[Mini Macro](https://smc24dev.itch.io/mini-macro)  
+",0,0.36,0,2025-04-13 16:28:17,https://drive.google.com/file/d/1kuqyalPcLokAs7aQUuZGyFBXWnti_lTu/view?usp=sharing,Financial-Junket9978
+programming,1jw8iis,"💥 Tech Talks Weekly #54: 🆕 Voxxed Days Amsterdam 2025, 🆕 dotJS 2025, 🆕 Devnexus 2025, PyData Global and many more!",,0,0.29,0,2025-04-10 20:53:47,https://www.techtalksweekly.io/p/tech-talks-weekly-54,TechTalksWeekly
+programming,1jvtahu,"Software Architecture, Design Thinking & Knowledge Flow • Diana Montalion & Kris Jenkins",,0,0.2,0,2025-04-10 08:54:46,https://www.buzzsprout.com/1714721/16857526,goto-con
+programming,1jvan44,LLMs and typed configuration,,0,0.36,0,2025-04-09 16:53:32,https://typeconf.dev/blog/llms-typed-configuration,heraldev
+programming,1jtu74t,"Fast Code, Slow Fixes: Why Skipping Design Costs You More",,0,0.4,2,2025-04-07 19:38:21,https://stackstudio.io/blog/fast-code-slow-fixes-why-skipping-design-costs-you-more,LeadingFarmer3923
+programming,1jsuvpw,1723 LOC of Flutter & RxDart Nightmares,,0,0.2,0,2025-04-06 14:05:51,https://github.com/poxate/1500-lines-flutter-showcase,BookOfCooks
+programming,1jrf1p7,Building Resilient Systems: The Role of Data Centers in System Design,,0,0.17,0,2025-04-04 15:44:02,https://javarevisited.substack.com/p/building-resilient-systems-the-role,javinpaul
+programming,1jr4uvz,APIs for File Conversion: Examples in Golang,,0,0.29,0,2025-04-04 05:56:10,https://ahmedrazadev.hashnode.dev/apis-for-file-conversion-examples-in-golang,bossar2000
+programming,1jqwz3h,Part I - How tightly coupled software might start to crack 🚧,,0,0.29,0,2025-04-03 23:00:24,https://medium.com/@anouar.bellakha/controlling-software-a-tale-of-an-unhealthy-architected-system-bb89f9bc475d,anouarJK5
+programming,1jpggrj,Creating Micro Front-End Applications with Angular,,0,0.47,4,2025-04-02 04:38:15,https://javascript.plainenglish.io/creating-micro-front-end-applications-with-angular-98700ed72cf3,9millionrainydays_91
+programming,1jopv9o,[ Visual Basic 6 ] RGB scale and RGB fractal (2011),,0,0.42,0,2025-04-01 07:29:01,https://youtu.be/hyHw9_sHwl0,Sakhalia_Net_Project
+programming,1jopbgu,"Balancing Tech & Human Creativity • Susanne Kaiser, Michaela Greiler, Adele Carpenter, Daniel Terhorst-North & Simon Wardley",,0,0.2,0,2025-04-01 06:48:33,https://www.buzzsprout.com/1714721/16857073,goto-con
+programming,1jm79zf,Architecture Patterns with Python,,0,0.4,0,2025-03-28 22:17:44,https://www.cosmicpython.com/book/preface.html,namanyayg
+programming,1jlvab4,"💥 Tech Talks Weekly #52: 🆕 NDC Security 2025, 🆕 AI Engineer 2025, 🆕 PyData 2025, CppCon, GopherCon, Build Stuff and many more!",,0,0.36,0,2025-03-28 13:38:46,https://www.techtalksweekly.io/p/tech-talks-weekly-52,TechTalksWeekly
+programming,1jkvmp2,The Science behind image noise and the math behind noise-reduction,,0,0.3,0,2025-03-27 04:13:39,https://medium.com/@anshulsanghi/the-science-behind-image-noise-and-noise-reduction-708dd9529bed,hsjajaiakwbeheysghaa
+programming,1jjtv4s,Open WebUI tutorial — Supercharging Your Local AI with RAG and Custom Knowledge Bases,,0,0.47,0,2025-03-25 20:45:59,https://medium.com/@hautel.alex2000/open-webui-tutorial-supercharging-your-local-ai-with-rag-and-custom-knowledge-bases-334d272c8c40,PeterHash
+programming,1k4u098,Python newbie? Check out my beginner-friendly Python tutorials!,"Hey fellow Redditors, I've been sharing bite-sized Python tutorials on my blog and I'd love for you to check them out! My goal is to make learning Python easy and accessible. Let me know what you think!
+
+
+
+[https://www.bitsbyv.com/p/python-tutorial.html](https://www.bitsbyv.com/p/python-tutorial.html)",0,0.29,0,2025-04-22 01:09:04,https://www.bitsbyv.com/p/python-tutorial.html,jveeru
+programming,1k4b3i2,API Gateway in 1 diagram and 147 words,,0,0.33,0,2025-04-21 11:22:20,https://www.systemdesignbutsimple.com/p/api-gateway-in-1-diagram-and-147-words,stmoreau
+programming,1k3s77g,Let's make a game! 252: Testing combat,,0,0.33,1,2025-04-20 17:47:50,https://www.youtube.com/watch?v=yO2qVRJMyP8,apeloverage
+programming,1k2g361,Responsive Card HTML CSS with Hover Effects,"In this project, we focused on creating a responsive clip path card layout using HTML and CSS, designed to showcase various cities with engaging visuals and informative content. The goal was to develop a modern, interactive card component that not only looks appealing but also functions well across different devices and screen sizes.",0,0.33,1,2025-04-18 21:25:16,https://www.youtube.com/watch?v=9Z6LLqAiv8Y,anderzabalza
+programming,1k0es5e,"Say hello to our new Sorting Algorithm, Phoenix Sort!","Hello guys! I'm Yasir and i created my own Sorting algorithm that is inspired by Stalin Sort. But instead of deleting unsorted elements, it lets them **rise from the ashes** and reintegrate until the whole list is sorted.",0,0.33,0,2025-04-16 07:39:59,https://github.com/yasirpeker1212/Phoenix-Sort,Minsir
+programming,1k0dhvc,NativeAOT en .NET,,0,0.25,0,2025-04-16 06:08:01,https://emanuelpeg.blogspot.com/2025/04/nativeaot-en-net.html,emanuelpeg
+programming,1jwoso2,"Summarize Videos Using AI with Gemma 3, LangChain and Streamlit",,0,0.25,0,2025-04-11 12:36:24,https://www.youtube.com/watch?v=gDATAZEi5SE&list=PLp01ObP3udmq2quR-RfrX4zNut_t_kNot&index=16,Flashy-Thought-5472
+programming,1julvsr,"React Lazy Loading Explained 🚀 (Lazy, Suspense and Code Splitting)",,0,0.17,0,2025-04-08 19:13:16,https://youtu.be/wtW06D5MYbg,caffeinated_coder_
+programming,1jrwdeu,Creating an MCP Agent with Local/LAN DeepSeek Service for Browser Control,,0,0.17,3,2025-04-05 05:33:09,https://www.pixelstech.net/article/1742863741-creating-an-mcp-agent-with-local-lan-deepseek-service-for-browser-control,stackoverflooooooow
+programming,1jr60c8,Hacking Cpython to win a Code Golf Challenge | Persian,,0,0.25,0,2025-04-04 07:14:52,https://www.youtube.com/watch?v=_EiGBu3SfTk,amiremohamadi
+programming,1jr4afs,SSH is exciting,,0,0.44,0,2025-04-04 05:19:30,https://yoyo-code.com/ssh-is-exciting/,panstromek
+programming,1joswmv,"The simple thinking techniques that would’ve saved us $500,000",,0,0.44,6,2025-04-01 11:07:08,https://www.blog4ems.com/p/the-simple-thinking-techniques,stmoreau
+programming,1joepbx,DIY automation using only Linux,,0,0.22,1,2025-03-31 21:28:13,https://medium.com/detee-network/automating-website-deployment-3ffe257e4c7e,North_Function_1740
+programming,1joa15h,[ Visual Basic 6 ] Tile-based game [ Inside Dagovar - Desert Vixens ] (2008),,0,0.17,0,2025-03-31 18:17:23,https://youtu.be/90IuYfEKxVY,Sakhalia_Net_Project
+programming,1jo3dvv,Anyone need an Amazon API cheat sheet?,Built this Amazon PAAPI cheat sheet after banging my head against the wall for weeks.,0,0.3,2,2025-03-31 13:37:56,https://github.com/cotrk/amazon-paapi-reference.git,Difficult_Nebula5729
+programming,1jngcl2,Mutation Testing in Rust,,0,0.39,3,2025-03-30 16:33:09,https://blog.frankel.ch/mutation-testing-rust/,nfrankel
+programming,1jjqfu5,Comprehensive Guide on Web Scraping with Python,,0,0.4,0,2025-03-25 18:27:48,https://www.scrapingdog.com/blog/web-scraping-with-python/,yakult2450
+programming,1jjkzk5,Game Development with Unity & Visual Studio 2022 (Getting Started),,0,0.36,0,2025-03-25 14:42:52,https://youtube.com/watch?v=ujNVTuCIvo8&si=-VzT5hOLC760WbYI,monsterboz
+programming,1k5m9jk,Tipos de Herencia en C++,,0,0.14,0,2025-04-23 00:39:24,https://emanuelpeg.blogspot.com/2025/04/tipos-de-herencia-en-c.html,emanuelpeg
+programming,1k59yvk,Day 19: Mastering Middleware in Node.js — Build Modular and Reusable Logic with Express,,0,0.13,1,2025-04-22 16:01:12,https://medium.com/stackademic/day-19-mastering-middleware-in-node-js-build-modular-and-reusable-logic-with-express-64f40e2a71c2,MysteriousEye8494
+programming,1k59svb,Web Scraping TikTok using Python,,0,0.13,0,2025-04-22 15:54:29,https://www.scrapingdog.com/blog/scrape-tiktok-using-python/,yakult2450
+programming,1k1ku3n,n-params vs single param,,0,0.29,6,2025-04-17 19:03:09,https://www.carlos-menezes.com/single-param-functions/,Carlos_Menezes
+programming,1k1hp4u,The Impact of MCP and LLMs on Software Development - A Practical Example,,0,0.14,0,2025-04-17 16:54:32,https://wundergraph.com/blog/mcp-impact-on-software-development,jns111
+programming,1k0898h,I decided to build my first library in Zig | Lots of information for beginners,,0,0.33,0,2025-04-16 01:07:57,https://www.youtube.com/watch?v=ORhyWVLWPTg,maysara-dev
+programming,1jyyx64,When AI?,,0,0.25,1,2025-04-14 13:30:31,https://mccue.dev/pages/4-14-25-when-ai,bowbahdoe
+programming,1jyxs22,SSH Keys Don’t Scale. SSH Certificates Do,,0,0.4,9,2025-04-14 12:36:22,https://infisical.com/blog/ssh-keys-dont-scale,dangtony98
+programming,1jyc4ic,How to prevent a robot uprising with types,,0,0.29,6,2025-04-13 16:50:59,https://typeconf.dev/blog/how-to-prevent-robots-uprising-with-types,heraldev
+programming,1jy6fg3,CQRS - One Architecture Pattern to Solve Your AWS Scaling Problems,,0,0.31,4,2025-04-13 12:23:21,https://javarevisited.substack.com/p/cqrs-one-architecture-pattern-to,javinpaul
+programming,1jwlygk,"🚨Descriptive Statistics for Data Science, AI & ML 📊 | Concepts + Python Code (Part 1)📈","\#DataScience, #Statistics, #DataAnalytics, #MachineLearning, #AI, #BigData, #DataVisualization, #Python, #PredictiveAnalytics, #TechTalk",0,0.22,0,2025-04-11 09:43:58,https://youtu.be/Wi0zK3jbATQ?si=ZiT2EghzS9uD9NQm,h_y_s_s
+programming,1jw7ji1,How to send email using mailgun from appwrite function,"How do I send an email with mailgun from an appwrite function. 
+
+    this is the mailgun instance 
+     {}
+    Native logs detected. Use context.log() or context.error() for better experience.
+    Error: Unauthorizedthis is the mailgun instance 
+     {}
+    Native logs detected. Use context.log() or context.error() for better experience.
+    Error: Unauthorized
+
+I've tried this code being called from my appwrite function but it gives me this output: 
+
+  
+Here is my code that I'm calling from the function 
+
+    async function sendSimpleMessage(email, log) {
+      log('this is the send email function');
+      log('this is the passed in email \n', email); How do I send an email with mailgun from an appwrite function. this is the mailgun instance 
+     {}
+    Native logs detected. Use context.log() or context.error() for better experience.
+    Error: Unauthorizedthis is the mailgun instance 
+     {}
+    Native logs detected. Use context.log() or context.error() for better experience.
+    Error: UnauthorizedI've tried this code being called from my appwrite function but it gives me this output: 
+    Here is my code that I'm calling from the function async function sendSimpleMessage(email, log) {
+      log('this is the send email function');
+      log('this is the passed in email \n', email); ",0,0.25,0,2025-04-10 20:12:51,https://appwrite.io/docs/products/messaging/mailgun,TheExorcisst
+programming,1jv9si6,"Reading diffs on GitHub sucks, so I built a tool that turns a pull request into a visual story on an infinite canvas.",,0,0.33,15,2025-04-09 16:18:48,https://haystackeditor.com/playground,DummyThiccSundae
+programming,1jtvj1w,Memory Safety for C++,"Single-header libraries and Clang compiler plugin for safe C++, which reduces errors for reference data types and safe memory management without breaking backward compatibility with old C++ code",0,0.29,3,2025-04-07 20:32:46,https://github.com/rsashka/memsafe,rsashka
+programming,1jton6f,"CEO of Shopify, Tobi Lutke: ""AI usage is now a baseline expectation""",,0,0.46,55,2025-04-07 15:54:18,https://x.com/tobi/status/1909251946235437514,dakkersmusic
+programming,1jsxetj,"""Corruption""",,0,0.35,9,2025-04-06 15:59:54,https://www.poxate.com/blog/corruption,Poxate
+programming,1jso52d,MIT4H (MIT license for humans),,0,0.33,1,2025-04-06 06:52:23,https://gist.github.com/lelanthran/558c321d060bdaadd91f4a7d562cdda5,lelanthran
+programming,1js1v5p,8 Use Cases of Redis Beyond Key Value Store,,0,0.29,0,2025-04-05 12:00:46,https://beyondthesyntax.substack.com/p/8-use-cases-of-redis-beyond-key-value,Sushant098123
+programming,1jr931k,Fine-tune LLaVA on Custom Datasets Using NVIDIA Brev,"A few months ago I discovered [NVIDIA Brev](https://developer.nvidia.com/brev), a super useful resource for those of us who train large AI models and need access to powerful GPUs. Brev allows you to connect to a variety of cloud GPUs from your own computer.
+
+They have some coding tutorials on what can be done by connecting to these GPUs, however, these tutorials are not regularly updated.
+
+I began working on their [LLaVA fine-tuning tutorial on YouTube](https://www.youtube.com/watch?v=XICHJx2_Rm8) and unfortunately ran into many problems and errors along the way because of dependency issues, GPU memory issues, and more.
+
+In this article I will show you how you can ***successfully*** fine-tune LLaVA on a custom dataset using Brev.",0,0.13,0,2025-04-04 10:57:38,https://medium.com/@tesswatt/fine-tune-llava-on-custom-dataset-using-nvidia-brev-c2b720b88802,Quiet-Tail-4213
+programming,1jr8q3t,Let's make a game! 248: Keywords,,0,0.14,1,2025-04-04 10:33:46,https://www.youtube.com/watch?v=ZR1yqsOGxhI,apeloverage
+programming,1jqcag2,Interesting read on AI changing the industry,"PS: Not sure if this was shared already, couldn't find a post on it",0,0.41,3,2025-04-03 07:36:46,https://annievella.com/posts/the-software-engineering-identity-crisis/,UltGamer07
+programming,1jq8ty7,JEP 456: Variables y Patrones Anónimos en Java,,0,0.33,4,2025-04-03 04:03:11,https://emanuelpeg.blogspot.com/2025/04/jep-456-variables-y-patrones-anonimos.html,emanuelpeg
+programming,1jpr7gf,Lesser-known Facts about Variables in Ruby,https://newsletter.rubycademy.com/p/rubycademy-lesser-known-facts-about-variables-in-ruby,0,0.22,9,2025-04-02 15:19:56,https://newsletter.rubycademy.com/p/rubycademy-lesser-known-facts-about-variables-in-ruby,mehdifarsi
+programming,1jou5al,Beyond Text-to-SQL: Why Feedback Loops and Memory Layers Are the Future of GenBI,,0,0.22,1,2025-04-01 12:17:39,https://getwren.ai/post/beyond-text-to-sql-why-feedback-loops-and-memory-layers-are-the-future-of-genbi?utm_campaign=10657462-Feedback%20loop&utm_content=329030452&utm_medium=social&utm_source=linkedin&hss_channel=lcp-89794921,expatinporto
+programming,1joouuj,An older techie here reflecting on how to thrive and survive with fast changes in IT. My reflections on mainframes & 25 years after Y2K,"Technology grounding in the basics and the basic principles are what you continue to build on as we grow and thrive
+
+* OLTP vs. Batch Processing
+   * Online Transaction Processing (OLTP): Managed real-time user interactions via screens, developed using CICS and IMS.
+   * Batch Processing: Handled bulk data operations, processing large files, datasets, and databases. Jobs were scheduled using JCL and managed by job schedulers.
+* Data Interchange - Initially relied on batch transfers, FTP, and EDIs for machine-to-machine communication.
+* Evolved into API gateways, XML messaging (XMS), and modern EDIs for faster, more dynamic data exchange.
+* Reporting & Analytics - Early systems ingested large datasets into reporting databases, which later evolved into data warehouses and data marts for structured analytics.
+* Security - Early mainframes used RACF (Resource Access Control Facility) for strong authentication and authorization .",0,0.22,0,2025-04-01 06:15:06,https://www.youtube.com/watch?v=I2EAw1y-kWA,Lifecoach_411
+programming,1joo40n,#1 open-source agent on SWE-Bench Verified by combining Claude 3.7 and O1,,0,0.25,0,2025-04-01 05:24:26,https://www.augmentcode.com/blog/1-open-source-agent-on-swe-bench-verified-by-combining-claude-3-7-and-o1,Drkpwn
+programming,1jo4eih,Speculatively calling tools to speed up our chatbot,,0,0.43,4,2025-03-31 14:23:57,https://incident.io/building-with-ai/speculative-tool-calling,Mysterious-Aspect574
+programming,1jo2hnn,Essential CLI/TUI tools for developers,,0,0.14,0,2025-03-31 12:54:14,https://www.youtube.com/watch?v=hsPzLalRnpc,der_gopher
+programming,1jo16p3,"goshs - simple, yet feature-rich",,0,0.31,3,2025-03-31 11:43:29,https://github.com/patrickhener/goshs,Numerous-Let6544
+programming,1jnop9o,"Polio, Bloatware, and Vibe Coding",,0,0.35,3,2025-03-30 22:40:01,https://bozhao.substack.com/p/polio-bloatware-and-vibe-coding,yubozhao
+programming,1jn4o54,Concurrency in Java: Virtual Threads vs Reactive Programming,,0,0.43,8,2025-03-30 04:23:18,https://medium.com/@integrationninjas/concurrency-in-java-virtual-threads-vs-reactive-programming-38b1aff805ca,integrationninjas
+programming,1jm6vgt,Could JavaScript have synchronous await?,,0,0.29,3,2025-03-28 22:00:01,https://2ality.com/2025/03/sync-await.html,KerrickLong
+programming,1jm4xe1,Remote vs On-site Mob Programming | Remobster,,0,0.22,1,2025-03-28 20:34:51,https://remobster.io/blog/posts/remote-vs-onsite-mob-programming.html,Dals
+programming,1jlxp2a,What every programmer should know about Stern Brocot Fractions,,0,0.33,4,2025-03-28 15:27:15,https://leetarxiv.substack.com/p/what-every-programmer-should-know,DataBaeBee
+programming,1jllzqh,Zero Config Dev Environment! FlyEnv Installs PHP/Python/Go/NodeJS/Java i...,,0,0.22,2,2025-03-28 03:31:51,https://youtube.com/watch?v=47I5nZK3rjo&si=_AuvaMaiBmy-YHjf,PhpWebStudy
+programming,1jl9rgw,"Llama's Paradox - Delving deep into Llama.cpp and exploiting Llama.cpp's Heap Maze, from Heap-Overflow to Remote-Code Execution.",,0,0.27,0,2025-03-27 17:40:27,https://retr0.blog/blog/llama-rpc-rce,KarlKani44
+programming,1jl3wgw,How to Write Blog Posts that Developers Read,,0,0.49,40,2025-03-27 13:27:45,https://refactoringenglish.com/chapters/write-blog-posts-developers-read/,mtlynch
+programming,1jl05kb,Parser on python,,0,0.3,0,2025-03-27 09:42:50,https://github.com/V0dkaDev/parser/blob/main/Code.py,supervod
+programming,1jkeyek,AI will change the world but not in the way you think - On the inevitable evolution of business speak and programming languages,,0,0.36,1,2025-03-26 15:48:56,https://thomashunter.name/posts/2025-03-19-ai-llms-will-change-the-world,CoffeeStax
+programming,1jjcq4m,It&#x27;s Time to Stop Building KV Databases • Buttondown,,0,0.31,0,2025-03-25 06:02:53,https://buttondown.com/jaffray/archive/its-time-to-stop-building-kv-databases/,lelanthran
+programming,1jjbtzk,GraphQL API in Node.js,,0,0.35,5,2025-03-25 05:01:34,https://ahmedrazadev.hashnode.dev/graphql-api-in-nodejs,bossar2000
+programming,1k53gtt,Lode coding,,0,0.13,0,2025-04-22 11:00:44,https://fjzeit.github.io/coding/lode-coding,jameswdunne
+programming,1k4ypcf,🚀 Understanding GraphQL Federation in Microservices Architecture,,0,0.18,1,2025-04-22 05:25:44,https://gauravbytes.hashnode.dev/understanding-graphql-federation-in-microservices-architecture,No_Athlete7350
+programming,1k43jpg,A browser-based text editor optimized for ease of reading (on Github),"Many years ago, when I had a between-jobs stint, I wrote a new kind of text editor as a desktop app (https://jm21.s3.amazonaws.com/spectral/spectral\_whitepaper.pdf), which I find very useful for dealing with legacy code. Recently, following another round of redundancy, and there being a gap till the next joining date, I have tried to port some of the features of Spectral desktop to a self-contained browser-based interface, mostly using ChatGPT. It is very simple to use and hopefully simple to extend. I am leaving the github link here, in case someone finds it useful. Here is a slightly dated demo (some more features have been added since this was recorded):  
+[https://www.youtube.com/watch?v=b4CBOInIUts](https://www.youtube.com/watch?v=b4CBOInIUts) ",0,0.31,3,2025-04-21 03:01:29,https://github.com/jaymaj21/spectral_on_browsers,Ok-Fan1508
+programming,1k3rygg,An arguably better file picker experience for VSCode/Codium/Cursor users,,0,0.36,3,2025-04-20 17:36:59,https://github.com/alexpasmantier/television-vscode,damien__f1
+programming,1k291lu,GraphRAG with MongoDB Atlas: Integrating Knowledge Graphs with LLMs | MongoDB Blog,,0,0.2,4,2025-04-18 16:25:27,https://www.mongodb.com/blog/post/graphrag-mongodb-atlas-integrating-knowledge-graphs-with-llms?utm_campaign=devrel&utm_source=third-party-forums&utm_medium=cta&utm_content=mongodb-reddit&utm_term=tony.kim,Majestic_Wallaby7374
+programming,1k1bnye,Functional JSX-Syntax for Webcomponents.,"I made something to try out for ""funtional webcomponents"" with vanillaJs. I'm working towards a UI framework for my personal projects. It's far from finished but i thought it might be an interesting concept to share.",0,0.11,4,2025-04-17 12:34:12,https://positive-intentions.com/blog/dim-functional-webcomponents,Accurate-Screen8774
+programming,1k17oob,"💥 Tech Talks Weekly #55: Java, Python, React, TS, Swift, k8s, DDD, CQRS, ML, RAG, Ruby, C#, Unison and many more!",,0,0.13,0,2025-04-17 08:17:52,https://www.techtalksweekly.io/p/tech-talks-weekly-55-java-python,TechTalksWeekly
+programming,1k0abmy,HTML.js DOM: A lightweight alternative to React,,0,0.29,12,2025-04-16 02:56:12,https://github.com/thyringer/htmljs-dom?tab=readme-ov-file,Harzer-Zwerg
+programming,1jzodo9,oop for total idiots / part 1 - what is oop?,,0,0.31,0,2025-04-15 10:23:08,https://youtu.be/vay_BOoRDi0?si=Do0N9vJT1o84WRTQ,Waste-Nobody8906
+programming,1jz35xi,Stop playing pong with your build server,,0,0.29,4,2025-04-14 16:29:05,https://omar.io/2025/04/14/stop-playing-pong-with-your-build-server.html,okhudeira
+programming,1jz1id7,We don’t need no virtualization,,0,0.33,15,2025-04-14 15:21:33,https://blog.snork.dev/posts/we-don-t-need-no-virtualization.html,JohnyTex
+programming,1jy4ohx,What’s all the fuss about Model Context Protocol?,,0,0.39,2,2025-04-13 10:30:00,https://amritpandey.medium.com/whats-all-the-fuss-about-model-context-protocol-75c2d5e508dd,hardasspunk
+programming,1jxz46h,Introduction to Software Architecture for Aspiring Software Engineers,,0,0.31,1,2025-04-13 03:59:26,https://open.substack.com/pub/alexcristea/p/introduction-to-software-architecture?r=17kzge&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false,alexcristea
