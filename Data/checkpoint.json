@@ -2,21 +2,11 @@
   "Technology": {
     "gadgets": true,
     "programming": true,
-    "technology": true
+    "technology": true,
+    "science": true,
+    "todayilearned": true
   },
   "News": {
-    "news": true,
-    "worldnews": true,
-    "VietNam": true
-  },
-  "Entertainment": {
-    "gaming": true,
-    "movies": true,
-    "music": true
-  },
-  "Lifestyle": {
-    "fitness": true,
-    "food": true,
-    "travel": true
+    "news": true
   }
 }

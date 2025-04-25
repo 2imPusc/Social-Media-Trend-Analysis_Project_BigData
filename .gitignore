@@ -1,6 +1,6 @@
 # Virtual Environment
-venv/
-*/venv/
+myenv/
+*/myvenv/
 
 # Python cache
 *.pyc
@@ -21,3 +21,4 @@ credentials.json
 # OS generated files
 .DS_Store
 Thumbs.db
+client_secrets.json

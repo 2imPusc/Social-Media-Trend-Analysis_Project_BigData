@@ -1,0 +1,675 @@
+﻿subreddit,post_id,title,content,score,upvote_ratio,num_comments,created_at,url,author
+programming,1jmpqv4,"The Apple Computing Stack - Discussing XNU, Mach-O, Rosetta, Cocoa, Swift and other Apple Technologies",,23,0.9,0,2025-03-29 16:13:00,https://shubham0204.github.io/blogpost/programming/apple-computing-stack,shubham0204_dev
+programming,1jkf480,JDK 24 is here! Game Changing features every Java Developer must know,,27,0.59,30,2025-03-26 15:55:41,https://amritpandey.medium.com/jdk-24-is-here-game-changing-features-every-java-developer-must-know-c34754286d02,hardasspunk
+programming,1jz0umd,Guy live codes music and editor in BASIC/Commodore64,,20,0.85,14,2025-04-14 14:54:42,https://www.youtube.com/watch?v=ly5BhGOt2vE&t=2063s,averroeis
+programming,1jki3vg,How to Write API Documentation That Developers Will Love,,23,0.8,4,2025-03-26 17:57:17,https://zuplo.com/blog/2025/03/21/how-to-write-api-documentation-developers-will-love,ZuploAdrian
+programming,1k534h4,How We Diagnosed and Fixed the 2023 Voyager 1 Anomaly from 15 Billion Miles Away,,28,0.9,2,2025-04-22 10:38:39,https://www.youtube.com/watch?v=YcUycQoz0zg,brokeCoder
+programming,1jw1n7k,The Y Combinator Explained in Python,,23,0.74,7,2025-04-10 16:08:53,https://lptk.github.io/programming/2019/10/15/simple-essence-y-combinator.html,ketralnis
+programming,1jozcbn,Automating API Documentation using Network Traffic,,23,0.82,8,2025-04-01 16:05:21,https://zuplo.com/blog/2025/03/29/automated-documentation-for-apis,ZuploAdrian
+programming,1jnp11w,Uncovering Tarot Biases with Simple NLP,,21,0.79,8,2025-03-30 22:55:54,https://aartaka.me/tarot-biases.html,aartaka
+programming,1k2b0rb,Zig and GPUs,,21,0.8,1,2025-04-18 17:48:03,https://alichraghi.github.io/blog/zig-gpu/,ketralnis
+programming,1k0owr6,Replacing CVE,,22,0.78,14,2025-04-16 16:38:51,https://gavinhoward.com/2025/04/replacing-cve/,gavinhoward
+programming,1k0oste,Is SpacetimeDB a Yak-Shaving Success Story?,,19,0.64,44,2025-04-16 16:34:15,https://blog.slamdunk.software/spacetimedb-a-yak-shaving-success-story/,whiirl
+programming,1jwibq5,Oracle: Preparing for Post Quantum Cryptography,,21,0.79,6,2025-04-11 05:18:01,https://blogs.oracle.com/security/post/post-quantum-cryptography,donutloop
+programming,1js6ipu,I'm starting a devlog for my rewrite of Bold (text editor),,17,0.68,7,2025-04-05 15:52:44,https://bold-edit.com/devlog/week-1.html,levodelellis
+programming,1jl4w0i,Building a fast website with the MASH stack in Rust,,16,0.66,3,2025-03-27 14:15:08,https://emschwartz.me/building-a-fast-website-with-the-mash-stack-in-rust/,emschwartz
+programming,1jkg7bl,The Best Programming Language for the End of the World,,23,0.63,25,2025-03-26 16:40:24,https://www.wired.com/story/forth-collapse-os-apocalypse-programming-language/,wiredmagazine
+programming,1k5bk2y,Detecting if an expression is constant in C,,32,0.88,3,2025-04-22 17:05:13,https://nrk.neocities.org/articles/c-constexpr-macro,ketralnis
+programming,1k1nmh4,Nanoseconds-overhead C++ tracer,"Hello everyone, 
+
+I did a project that is a instrumentation-based tracer/profiler that allows you to get a timeline of your system execution with really good time resolution. While there are many tools around that do similar things, this one I'm proud of because it allows you to achieve very low overhead, even like 8 nanoseconds per event gathered (as an example, function body call would need two such events, one to mark entry and second to mark exit). This work was initially done as part of my job, but my company made its version open source so finally I can redistribute my own, company-agnostic, version of it. 
+
+Why it's cool and how can it help you? If you have some multithreaded application that has very very tight work being done there (on few microseconds level) with various dependencies between those threads, analysing performance issues can be very hard because sampling profiler won't tell you everything due to averaging everything, and manual instrumentation based on standard functionality can be simply too slow to keep some phenomena happening during profiling, causing performance Heisenbugs, kinda.
+
+Additional thing that make this stand out - it's just 3 files you need to include in your project to start running. It's very lightweight and easy (well, if you're advanced) to understand. I guess it raises its educational value, because you can easily get a grasp of what is going on, and learn something neat about assembly code even if you don't want to actually use it. I created an article that is mentioned in the readme in which I tried to explain why some things are done that way and not the other.
+
+Of course it's not ideal, it is not portable (only supports modern x64 CPUs and modern Windows/Ubuntu OSes) and it is not written in very clean way as some of the stuff could really be cleaned up without breaking the performance, so while I believe it has tons of educational value, clean code is not part of this value :P You have been warned.
+
+One day I'm planning to also make another article, something like code walkthrough for less advanced readers, but I need to find some time to do it...
+
+I hope you like it, enjoy!",17,0.83,5,2025-04-17 21:01:25,https://github.com/k-badz/low-overhead-profiler,justmyrandomusername
+programming,1jv1z5c,How I use remind,,18,0.82,3,2025-04-09 09:53:17,https://blog.thechases.com/posts/remind/,mr-figs
+programming,1jlv3dr,Let's Take a Look at... JEP 483: Ahead-of-Time Class Loading & Linking!,,20,0.9,2,2025-03-28 13:29:19,https://www.morling.dev/blog/jep-483-aot-class-loading-linking/,gunnarmorling
+programming,1jip5ue,How to handle working software,,20,0.75,4,2025-03-24 12:12:09,https://badsoftwareadvice.substack.com/p/how-to-handle-working-software,mixteenth
+programming,1jv6aiu,The Invisible Difference,,20,0.7,1,2025-04-09 13:51:37,https://yusufaytas.com/the-invisible-difference/,yusufaytas
+programming,1k11l0o,An Intro to DeepSeek's Distributed File System,,16,0.81,3,2025-04-17 01:55:35,https://maknee.github.io/blog/2025/3FS-Performance-Journal-1/,self
+programming,1k057wv,"Designing a fast RNG for SIMD, GPUs, and shaders",,16,0.82,0,2025-04-15 22:39:45,https://vectrx.substack.com/p/lcg-xs-fast-gpu-rng,PsychoticDaydreams
+programming,1jy1udw,Cloudflare - Prepping for post-quantum: a beginner’s guide to lattice cryptography,,17,0.76,0,2025-04-13 07:02:20,https://blog.cloudflare.com/lattice-crypto-primer/,donutloop
+programming,1jxcyax,A Case for Lua Performance,,15,0.77,5,2025-04-12 08:50:51,https://mode13h.dev/a-case-for-lua-performance,_Sharp_
+programming,1jw9x06,Hacker News Hug of Deaf,,16,0.71,4,2025-04-10 21:54:31,https://susam.net/hn-bell.html,ChiliPepperHott
+programming,1jvx8wu,Quantum Physics & Computing for programming addicts,"I'm the developer of Quantum Odyssey and decided to go all out and make this series of quantum physics and computing videos that touch everything you need to know to start messing around with a quantum computer through the lens of my videogame.
+
+Give me your feedback! Is it a good practice to put these directly in the game?",17,0.8,4,2025-04-10 12:57:27,https://www.youtube.com/playlist?list=PLGIBPb-rQlJs_j6fplDsi16-JlE_q9UYw,QuantumOdysseyGame
+programming,1jvb0ja,The Best Programmers I Know,,16,0.7,3,2025-04-09 17:08:35,https://endler.dev/2025/best-programmers/,iamkeyur
+programming,1jual0g,Go Zero Values,,15,0.61,46,2025-04-08 10:47:45,https://yoric.github.io/post/go-nil-values/,simon_o
+programming,1joxjzw,jnv: Interactive JSON filter using jq [Released v0.6.0 🚀],"# Announcement of jnv v0.6.0 Release
+
+jnv v0.6.0 introduces some important features that enhance the user experience.
+
+## Configuration
+
+With this release, jnv now supports customization of various features using a TOML format configuration file. This feature allows users to adjust jnv's behavior and appearance according to their preferences.
+
+### Configuration File Location
+
+The configuration file is loaded in the following order of priority:
+
+1. Path specified on the command line (`-c` or `--config` option)
+2. Default configuration file path
+
+The default configuration file location for each platform is as follows:
+
+- **Linux**: `~/.config/jnv/config.toml`
+- **macOS**: `~/Library/Application Support/jnv/config.toml`
+- **Windows**: `C:\Users\{Username}\AppData\Roaming\jnv\config.toml`
+
+If the configuration file does not exist, it will be automatically created on first run.
+
+### Customizable Settings
+
+The configuration file allows you to customize items such as:
+
+- Toggle hint message display
+- UI reactivity (debounce times and animation speed)
+- Editor appearance and behavior
+- JSON viewer styling
+- Completion feature display and behavior
+- Keybinds
+
+For detailed configuration options, please refer to [default.toml](https://github.com/ynqa/jnv/blob/main/default.toml).
+
+## Default Filter (--default-filter)
+
+A new command-line option `--default-filter` has been added, allowing you to specify a default jq filter to apply to the input data. This filter is applied when the interface is first loaded.
+
+### Usage Examples
+
+```bash
+# Apply a specific filter to input data by default
+jnv data.json --default-filter '.items[0]'
+
+# Apply a filter to data from standard input
+cat data.json | jnv --default-filter '.users | map(.name)'
+```
+
+This feature improves productivity, especially when you have frequently used filter patterns or when you want to quickly access specific parts of large JSON data.
+
+## ARM Support
+
+jnv v0.6.0 now provides ARM architecture support with binaries available for Apple Silicon macOS, ARM64 Linux, and ARMv7 Linux platforms.",17,0.76,2,2025-04-01 14:53:29,https://github.com/ynqa/jnv,aqny
+programming,1k5ap88,Apache Airflow 3.0 released,,36,0.86,8,2025-04-22 16:30:36,https://airflow.apache.org/blog/airflow-three-point-oh-is-here/,xtreak
+programming,1k528l8,Coding as Craft: Going Back to the Old Gym,,21,0.88,5,2025-04-22 09:37:56,https://cekrem.github.io/posts/coding-as-craft-going-back-to-the-old-gym/,cekrem
+programming,1k2uxuf,Differentiable Programming from Scratch,,16,0.85,0,2025-04-19 12:16:58,https://thenumb.at/Autodiff/,namanyayg
+programming,1jwvzm0,Bilinear interpolation on a quadrilateral using Barycentric coordinates,,15,0.84,0,2025-04-11 17:49:04,https://gpuopen.com/learn/bilinear-interpolation-quadrilateral-barycentric-coordinates/,mariuz
+programming,1jubn3n,Bridging Worlds: How we Unified gRPC and REST APIs in Rust,,16,0.78,2,2025-04-08 11:51:31,https://github.com/juspay/hyperswitch/wiki/Bridging-Worlds:-How-we-Unified-gRPC-and-REST-APIs-in-Rust,c10n3x_
+programming,1jtg8qc,Elevate Your Engineering Culture: The Power of Documenting Architecture Decisions,,16,0.73,6,2025-04-07 08:17:36,https://newsletter.modern-engineering-leader.com/p/elevate-your-engineering-culture,Azdaroth
+programming,1jmcktr,Beyond the Basics: Designing for a Million Users,,15,0.71,10,2025-03-29 02:40:01,https://javarevisited.substack.com/p/beyond-the-basics-designing-for-a,javinpaul
+programming,1jit6i6,The design and impact of building a simple key-value database in my programming language,,16,0.77,1,2025-03-24 15:19:39,https://yorickpeterse.com/articles/the-design-and-impact-of-building-a-simple-key-value-database-in-inko/,yorickpeterse
+programming,1jx5xms,We should talk more about Architecture Congruency,,16,0.74,7,2025-04-12 01:23:57,https://chrisza.me/architechture-congruency-eng/,chrisza4
+programming,1jw1mi4,"Async from scratch 1: What's in a Future, anyway?",,15,0.81,0,2025-04-10 16:08:03,https://natkr.com/2025-04-10-async-from-scratch-1/,ketralnis
+programming,1jpgkhe,One-function Interfaces in GoLang,,14,0.66,16,2025-04-02 04:44:47,https://www.pixelstech.net/article/1742349357-one-function-interfaces-in-golang,stackoverflooooooow
+programming,1jnd4c8,Lehmer's Continued Fraction Factorization Algorithm,,15,0.71,4,2025-03-30 14:04:58,https://leetarxiv.substack.com/p/continued-fraction-factorize-factorization,DataBaeBee
+programming,1k0myss,Hacking the Postgres Statistics Tables for Faster Queries,,13,0.82,0,2025-04-16 15:17:54,https://www.crunchydata.com/blog/hacking-the-postgres-statistics-tables-for-faster-queries,craigkerstiens
+programming,1jwxz2d,Why I Program in Lisp,,13,0.62,35,2025-04-11 19:12:12,http://funcall.blogspot.com/2025/04/why-i-program-in-lisp.html,ketralnis
+programming,1jptjfe,Fast Compilation or Fast Execution: Just Have Both!,,13,0.71,1,2025-04-02 16:54:50,https://cedardb.com/blog/compilation/,avinassh
+programming,1jjrlgp,GitHub - casparwylie/cascii-core: A web-based ASCII and Unicode diagram builder written in vanilla Javascript,"3 months ago I wanted to draw an ASCII diagram to include in some documentation at work. I found the few tools online to be insufficient, and was suprised there wasn't a more complete tool to get the job done.
+
+Since, I've built Cascii from scratch in vanilla Javascript (I'm not an FE dev, it might be obvious...).
+
+I hope it works alright. Please check out the live version at [https://cascii.app](https://cascii.app/), report problems, make diagrams to improve your code's documentation. Hope you enjoy using it.",12,0.82,0,2025-03-25 19:14:42,https://github.com/casparwylie/cascii-core,Awkward-Speech-1977
+programming,1k5avir,Bloom Filters: A Memory-Saving Solution for Set Membership Checks,,12,0.73,0,2025-04-22 16:37:48,https://www.thecoder.cafe/p/bloom-filters,teivah
+programming,1k4sund,Cheating the Reaper in Go,,14,0.77,1,2025-04-22 00:12:01,https://mcyoung.xyz/2025/04/21/go-arenas/,ketralnis
+programming,1k3wymf,"Dart is not just for Flutter, it's time we start using it on the server. I built wailuku an open source web framework inspired by express.js to help those who want to transtition from js to dart.","why use dart on the server ? 
+
+  
+1- unified language for full stack as Flutter now supports almost all platforms + web   
+2- compiled language
+
+3- null safety and type safe
+
+4- a strong community with a variety of packages that server almost every scenario
+
+  
+I think it's time dart gets more recognition on the server, so I built wailuku, a lightweight backend framework that emulates express.js syntax. I'd be super helpful if I can get some feedback, suggestions and contributions. 
+
+thanks!",12,0.54,60,2025-04-20 21:26:23,https://github.com/aminedakhlii/wailuku,PaleContribution6199
+programming,1jz1wmo,A HTML-CSS-JS quine that syntax-highlights itself,,12,0.81,4,2025-04-14 15:37:54,https://codepen.io/finnhvman/full/GggKRPr,finnhvman
+programming,1jvv0cs,Elliptical Python Programming,,15,0.81,2,2025-04-10 10:53:29,https://susam.net/elliptical-python-programming.html,symbolicard
+programming,1jqx0n9,The Fifth Kind of Optimisation,,13,0.79,1,2025-04-03 23:02:08,https://tratt.net/laurie/blog/2025/the_fifth_kind_of_optimisation.html,ketralnis
+programming,1joch9z,How to Build a Graphical Sudoku Game in the Python Terminal.,,14,0.9,1,2025-03-31 19:57:10,https://medium.com/@kamyarmg/how-to-build-a-graphical-sudoku-game-in-the-python-terminal-9dba6b52a38d,Firm-Promotion5617
+programming,1jo3ugf,Giving up the dylib dream,,12,0.75,7,2025-03-31 13:59:29,https://octet-stream.net/b/scb/2025-03-31-giving-up-the-dylib-dream.html,simon_o
+programming,1jmiybd,"Check out Genuine Captcha – a lightweight, open-source CAPTCHA built for developers who care about privacy and zero tracking.",,12,0.61,10,2025-03-29 09:58:00,https://github.com/cryptNG/genuine-captcha,love2Bbreath3Dlife
+programming,1jm0eb0,Can jank beat Clojure's error reporting?,,13,0.75,3,2025-03-28 17:22:47,https://jank-lang.org/blog/2025-03-28-error-reporting/,Jeaye
+programming,1juynhq,"Solving a ""Layton Puzzle"" with Prolog • Buttondown",,10,0.82,0,2025-04-09 05:47:26,https://buttondown.com/hillelwayne/archive/a48fce5b-8a05-4302-b620-9b26f057f145/,FoxInTheRedBox
+programming,1jpwf50,Valkey - A new hash table,,12,0.81,3,2025-04-02 18:47:14,https://valkey.io/blog/new-hash-table/,avinassh
+programming,1jpelvf,Getting Started with MapLibre an Open-Source mapping guide,,12,0.7,0,2025-04-02 02:55:23,https://medium.com/@mubaraknative/getting-started-with-maplibre-on-android-435b6922a6f9,native-devs
+programming,1joc5dd,Stacked PRs: Code Changes as Narrative,,12,0.7,21,2025-03-31 19:43:50,https://www.aviator.co/blog/stacked-prs-code-changes-as-narrative/,aviator_co
+programming,1jobd7a,Data authorization,,14,0.81,0,2025-03-31 19:11:50,https://www.cerbos.dev/blog/what-is-data-authorization,West-Chard-1474
+programming,1jk5cie,"PaperWM: A Tiling Window Manager with Infinite Horizontal Space, including Mouse Control",,10,0.77,0,2025-03-26 06:21:20,https://github.com/paperwm/PaperWM,Alexander_Selkirk
+programming,1jixt1j,Ledger Implementation in PostgreSQL,,14,0.79,3,2025-03-24 18:23:39,https://pgrs.net/2025/03/24/pgledger-ledger-implementation-in-postgresql/,pgr0ss
+programming,1jitgfv,"Par language, a lot of new stuff! Type system, language reference, interaction combinator runtime","Hello, everyone!
+
+[Two months ago](https://www.reddit.com/r/programming/comments/1if9r5l/par_an_experimental_concurrent_language_with_an/), I posted here about a new programming language I was developing, called **Par**.
+
+**Check out the brand new README at:** https://github.com/faiface/par-lang
+
+**It's an _expressive, concurrent, and total\*_ language with linear types and duality.** It's an attempt to bring the expressive power of linear logic into practice.
+
+_Scroll below for more details on the language._
+
+**A lot has happened since!**
+
+I was fortunate to attract the attention of some highly talented and motivated contributors, who have helped me push this project further than I ever could've on my own.
+
+Here's some things that happened in the meanwhile:
+- **A type system,** fully isomorphic to linear logic (with fix-points), recursive and co-recursive types, universally and existentially quantified generics. This one is by me.
+- [**A comprehensive language reference,**](https://faiface.github.io/par-lang/introduction.html) put together by [@FauxKiwi](https://github.com/s15n), an excellent read into all of the current features of Par.
+- **An interaction combinator compiler and runtime,** by [@FranchuFranchu](https://github.com/FranchuFranchu) and [@Noam Y](https://github.com/NoamDev). It's a performant way of doing highly parallel, and distributed computation, that just happens to fit this language perfectly. It's also used by the famous [HVM](https://github.com/HigherOrderCO/HVM) and the [Bend](https://github.com/HigherOrderCO/Bend) programming language. We're very close to merging it.
+- **A new parser with good syntax error messages,** by [@Easyoakland](https://github.com/Easyoakland).
+
+**There's still a lot to be done!** Next time I'll be posting like this, I expect we'll also have:
+- Strings and numbers
+- Replicable types
+- Extensible Rust-controlled I/O
+
+**Join us on [Discord](https://discord.gg/8KsypefW99)!**
+
+_For those who are lazy to click on the GitHub link:_
+
+# ✨ Features
+
+## 🧩 Expressive
+
+**Duality** gives two sides to every concept, leading to rich composability. Whichever angle you take to
+tackle a problem, there will likely be ways to express it.
+**Par comes with these first-class, structural types:**
+
+_(Dual types are on the same line.)_
+
+- [**Pairs**](https://faiface.github.io/par-lang/types.html#pair-types) (easily extensible to tuples), and [**functions**](https://faiface.github.io/par-lang/types.html#function-types) (naturally curried).
+- [**Eithers**](https://faiface.github.io/par-lang/types.html#either-types) (sum types), and [**choices**](https://faiface.github.io/par-lang/types.html#choice-types) (unusual, but powerful dispatchers).
+- [**Recursive**](https://faiface.github.io/par-lang/types.html#recursive-types) (finite), and [**iterative**](https://faiface.github.io/par-lang/types.html#iterative-types) (co-recursive, potentially infinite) types, with totality checking.
+- [**Universally,**](https://faiface.github.io/par-lang/types.html#universal-types) and [**existentially**](https://faiface.github.io/par-lang/types.html#existential-types) quantified generic functions and values.
+- [**Unit,**](https://faiface.github.io/par-lang/types.html#the-unit-type) and [**continuation.**](https://faiface.github.io/par-lang/types.html#the-bottom-type)
+
+These **orthogonal concepts** combine to give rise to a rich world of types and semantics.
+
+Some features that require special syntax in other languages fall naturally out of the basic building
+blocks above. For example, constructing a list using the _generator syntax_, like `yield` in Python,
+is possible by operating on the _dual_ of a list:
+
+```
+dec reverse : [type T] [List<T>] List<T>
+
+// We construct the reversed list by destructing its dual: `chan List<T>`.
+def reverse = [type T] [list] chan yield {
+  let yield: chan List<T> = list begin {
+    .empty!       => yield,          // The list is empty, give back the generator handle.
+    .item(x) rest => do {            // The list starts with an item `x`.
+      let yield = rest loop          // Traverse into the rest of the list first.
+      yield.item(x)                  // After that, produce `x` on the reversed list.
+    } in yield                       // Finally, give back the generator handle.
+  }
+  yield.empty!                       // At the very end, signal the end of the list.
+}
+```
+
+## 🔗 Concurrent
+
+**Automatically parallel execution.** Everything that can run in parallel, runs in parallel. Thanks to its
+semantics based on linear logic, Par programs are easily executed in parallel. Sequential execution is only
+enforced by data dependencies.
+
+Par even compiles to [interaction combinators](https://core.ac.uk/download/pdf/81113716.pdf), which is the
+basis for the famous [HVM](https://github.com/HigherOrderCO/HVM), and the
+[Bend](https://github.com/HigherOrderCO/Bend) programming language.
+
+**Structured concurrency with session types.** Session types describe concurrent protocols, almost like
+finite-state machines, and make sure these are upheld in code. Par needs no special library for these.
+Linear types _are_ session types, at least in their full version, which embraces duality.
+
+This (session) type fully describes the behavior of a player of rock-paper-scissors:
+
+```
+type Player = iterative :game {
+  .stop => !                         // Games are over.
+  .play_round => iterative :round {  // Start a new round.
+    .stop_round => self :game,       // End current round prematurely.
+    .play_move => (Move) {           // Pick your next move.
+      .win  => self :game,           // You won! The round is over.
+      .lose => self :game,           // You lost! The round is over.
+      .draw => self :round,          // It's a draw. The round goes on.
+    }
+  }
+}
+```
+
+## 🛡️ Total*
+
+**No crashes.** Runtime exceptions are not supported, except for running out of memory.
+
+**No deadlocks.** Structured concurrency of Par makes deadlocks impossible.
+
+**(Almost) no infinite loops.\*** By default, recursion using `begin`/`loop` is checked for well-foundedness.
+
+**Iterative (corecursive) types** are distinguished from **recursive types**, and enable constructing
+potentially unbounded objects, such as infinite sequences, with no danger of infinite loops, or a need
+to opt-out of totality.
+
+```
+// An iterative type. Constructed by `begin`/`loop`, and destructed step-by-step.
+type Stream<T> = iterative {
+  close => !                         // Close this stream, and destroy its internal resources.
+  next => (T) self                   // Produce an item, then ask me what I want next.
+}
+
+// An infinite sequence of `.true!` values.
+def forever_true: Stream<either { .true!, .false! }> = begin {
+  close => !                         // No resources to destroy, we just end.
+  next => (.true!) loop              // We produce a `.true!`, and repeat the protocol.
+}
+```
+
+_\*There is an escape hatch. Some algorithms, especially divide-and-conquer, are difficult or impossible
+to implement using easy-to-check well-founded strategies. For those, `unfounded begin` turns this check
+off. Vast majority of code doesn't need to opt-out of totality checking, it naturaly fits its requirements.
+Those few parts that need to opt-out are clearly marked with `unfounded`. They are the only places
+that can potentially cause infinite loops._
+
+## 📚 Theoretical background
+
+Par is fully based on [linear logic](https://plato.stanford.edu/entries/logic-linear/). It's an attempt to
+bring its expressive power into practice, by interpreting linear logic as _session types_.
+
+In fact, the language itself is based on a little process language, called _CP_, from a paper called
+[_""Propositions as Sessions""_](https://www.pure.ed.ac.uk/ws/portalfiles/portal/18383989/Wadler_2012_Propositions_as_Sessions.pdf)
+by the famous Phil Wadler.
+
+While programming in Par feels just like a programming language, even if an unusual one, its programs
+still correspond one-to-one with linear logic proofs.
+
+## 📝 To Do
+
+**Par is a fresh project in early stages of development.** While the foundations, including some apparently
+advanced features, are designed and implemented, some basic features are still missing.
+
+**Basic missing features:**
+
+- Strings and numbers
+- Replicable data types (automatically copied and dropped)
+- External I/O implementation
+
+There are also some **advanced missing features:**
+
+- Non-determinism
+- Traits / type classes",10,0.79,0,2025-03-24 15:31:07,https://github.com/faiface/par-lang,faiface
+programming,1k2b0z2,The Size of Packets,,10,0.79,1,2025-04-18 17:48:18,https://www.potaroo.net/ispcol/2024-10/packet-sizes.html,ketralnis
+programming,1k1d1vl,Making Software: An illustrated reference manual for people who design and build software,,11,0.79,2,2025-04-17 13:40:21,https://www.makingsoftware.com/,ketralnis
+programming,1k0u6eb,Four Kinds of Optimisation,,12,0.81,1,2025-04-16 20:12:16,https://tratt.net/laurie/blog/2023/four_kinds_of_optimisation.html,ketralnis
+programming,1k0miag,An Introduction to Modern CMake,,11,0.87,2,2025-04-16 14:58:54,https://cliutils.gitlab.io/modern-cmake/README.html,ketralnis
+programming,1jz02cx,Zig's new LinkedList API (it's time to learn fieldParentPtr),,11,0.71,12,2025-04-14 14:21:40,https://www.openmymind.net/Zigs-New-LinkedList-API/,ketralnis
+programming,1jysggs,Monolith-First - are you sure?,,11,0.6,17,2025-04-14 06:41:10,https://www.architecture-weekly.com/p/monolith-first-are-you-sure,Adventurous-Salt8514
+programming,1jwq4rb,Building Transformers from Scratch ... in Python,"The transformer architecture revolutionized the field of natural language processing when introduced in the landmark 2017 paper [*Attention is All You Need*](https://arxiv.org/abs/1706.03762). Breaking away from traditional sequence models, transformers employ **self-attention** mechanisms (more on this later) as their core building block, enabling them to capture long-range dependencies in data with remarkable efficiency. In essence, the transformer can be viewed as a general-purpose computational substrate—a programmable logical tissue that reconfigures based on training data and can be stacked as layers build large models exhibiting fascinating emergent behaviors.
+
+",11,0.74,0,2025-04-11 13:40:02,https://vectorfold.studio/blog/transformers,dtseng123
+programming,1jw88zo,My Own Private Binary: An Idiosyncratic Introduction to Linux Kernel Modules,,13,0.93,0,2025-04-10 20:42:12,https://www.muppetlabs.com/~breadbox/txt/mopb.html,ketralnis
+programming,1jvb14n,Obituary for Cyc,,13,0.84,1,2025-04-09 17:09:18,https://yuxi-liu-wired.github.io/essays/posts/cyc/,iamkeyur
+programming,1jttsry,Apple’s Darwin OS and XNU Kernel Deep Dive,,11,0.87,0,2025-04-07 19:22:47,https://tansanrao.com/blog/2025/04/xnu-kernel-and-darwin-evolution-and-architecture/,ketralnis
+programming,1jrlxbi,Lessons learned from my first dive into WebAssembly,,10,0.82,0,2025-04-04 20:32:45,https://nullprogram.com/blog/2025/04/04/,ketralnis
+programming,1jkk6bj,Kaneo – An open source project management platform focused on simplicity,"Hey y'all. I'm Andrej - I've been working on an open source project these past months and I'd love to share with you and get your feedback.
+
+I tried building a project management tool which is very simple with beautiful UI (or at least I think so). It's still in the early stages however I'll constantly trying to evolve it but keep it simple. I'd love to hear your feedback.",10,0.74,1,2025-03-26 19:21:56,https://kaneo.app,dreamnyt
+programming,1k4iwx4,Haskelling My Python,,9,0.77,1,2025-04-21 17:16:51,https://unnamed.website/posts/haskelling-my-python/,ketralnis
+programming,1jz5omf,Learn how react works by building your own framework,,9,0.67,8,2025-04-14 18:11:34,https://awanish.me/learn-how-react-works-by-building-your-own-framework.html,Eastern_Selection_64
+programming,1jz03ir,Resurrecting Infocom's Unix Z-Machine with Cosmopolitan,,9,0.73,2,2025-04-14 14:23:12,https://christopherdrum.github.io/posts/2025/04/porting-infocom-with-cosmo,ketralnis
+programming,1jy791c,Whenever – typed and DST-safe datetimes for Python,,8,0.71,1,2025-04-13 13:08:32,https://github.com/ariebovenberg/whenever,namanyayg
+programming,1jw8g1n,".NET 10 Preview 3 — extension members, null-conditional assinment, and more",,9,0.74,16,2025-04-10 20:50:45,https://github.com/dotnet/core/discussions/9846,Atulin
+programming,1jw1j0l,Learning to Program with Haiku,,10,0.91,1,2025-04-10 16:03:53,https://www.haiku-os.org/development/learning_to_program_with_haiku,ketralnis
+programming,1jttu8g,Hiding elements that require JavaScript without JavaScript,,8,0.65,1,2025-04-07 19:24:26,https://0xda.de/blog/2025/04/hiding-elements-that-require-javascript-without-javascript/,ketralnis
+programming,1jrlvfm,Investigating MacPaint's Source Code,,9,0.85,0,2025-04-04 20:30:29,https://ztoz.blog/posts/macpaint-source-code/,ketralnis
+programming,1jrluex,Pitfalls of Safe Rust,,10,0.65,4,2025-04-04 20:29:15,https://corrode.dev/blog/pitfalls-of-safe-rust/,ketralnis
+programming,1jm79kv,Modern C,,10,0.67,1,2025-03-28 22:17:14,https://gustedt.gitlabpages.inria.fr/modern-c/,namanyayg
+programming,1jip6yo,An Illustrated Guide to CIDR,,10,0.82,2,2025-03-24 12:13:51,https://www.ducktyped.org/p/the-cidr-house-rules,egonSchiele
+programming,1k511df,Expose local dev server with SSH tunnel and Docker,"
+
+
+In development, we often need to share a preview of our current local project, whether to show progress, collaborate on debugging, or demo something for clients or in meetings. This is especially common in remote work settings.
+
+There are tools like ngrok and localtunnel, but the limitations of their free plans can be annoying in the long run. So, I created my own setup with an SSH tunnel running in a Docker container, and added Traefik for HTTPS to avoid asking non-technical clients to tweak browser settings to allow insecure HTTP requests.
+
+I documented the entire process in the form of a practical tutorial guide that explains the setup and configuration in detail. My Docker configuration is public and available for reuse, the containers can be started with just a few commands. You can find the links in the article.
+
+The link to the article:
+
+https://nemanjamitic.com/blog/2025-04-20-ssh-tunnel-docker
+
+I would love to hear your feedback, let me know what you think. Have you made something similar yourself, have you used a different tools and approaches?",9,0.74,6,2025-04-22 08:08:58,https://nemanjamitic.com/blog/2025-04-20-ssh-tunnel-docker,nemanja_codes
+programming,1k4mww3,"How to Use Gyroscope in Presentations, or Why Take a JoyCon to DPG2025 | Towards Data Science",,7,0.65,2,2025-04-21 19:54:51,https://towardsdatascience.com/how-to-use-gyroscope-in-presentations-or-why-take-a-joycon-to-dpg2025/,Inst2f
+programming,1k4j44o,How I use Kate Editor,,8,0.7,3,2025-04-21 17:24:51,https://akselmo.dev/posts/how-i-use-kate-editor/,ketralnis
+programming,1k3zmdw,Announcing Traeger: A portable Actor System for C++ and Python,"I have been working for several months on a personal project that I just published.
+
+It is an Actor System for C++ with bindings for Python, Go, and C.
+
+It is written in C++ 17 for portability, with minimal use of templates to facilitate interoperability with other languages.
+
+It is still in an early stage, but I think it provides the basics of the Actor Model:
+
+1. Value semantics based on Immer.
+2. Serialization (json, yaml, and messagepack).
+3. Scheduler, Threadpool, Promises, Actors with mailboxes and messages (sequential for writers, concurrent for readers).
+4. Network transparency based on ZMQ.
+
+It has been tested on Ubuntu >= 20.04, MacOS >= 15.3 (for both x86\_64 and arm64) and Windows 11.
+
+Please take a look, experiment, and if you like it or find it interesting, give it a star.
+
+Thank you in advance!",8,0.8,2,2025-04-20 23:35:34,https://github.com/tigrux/traeger,tigrux
+programming,1k2ijg3,Comptime Zig ORM,,8,0.79,0,2025-04-18 23:20:12,https://matklad.github.io/2025/03/19/comptime-zig-orm.html,alexeyr
+programming,1k2b32z,Microsecond transforms: Building a fast sandbox for user code,,7,0.69,0,2025-04-18 17:50:46,https://blog.sequinstream.com/microsecond-transforms-building-a-lightning-fast-sandbox-for-user-code/,ketralnis
+programming,1k0k6q2,GitHub - codr7/hacktical-c: A practical hacker's guide to the C programming language.,,10,0.81,1,2025-04-16 13:17:02,https://github.com/codr7/hacktical-c,ChiliPepperHott
+programming,1jwtrox,gRPC API Gateway: Bridging the Gap Between REST and gRPC,,9,0.85,0,2025-04-11 16:16:04,https://zuplo.com/blog/2025/04/09/grpc-api-gateway,ZuploAdrian
+programming,1jwpkgo,Programming in PostScript – Retro Coding Fun: Games on Your Printer,"I've been experimenting with PostScript programming over the past two years, creating several small games (Tic-Tac-Toe, Chess, Sokoban and Tetris) all running in Ghostscript or directly on printers.  
+  
+Here are my annotated slides about this quirky and fun journey, filled with insights, code snippets, and lessons learned.",8,0.91,1,2025-04-11 13:14:01,https://seriot.ch/projects/programming_in_postscript.html,Dull_Replacement8890
+programming,1jvi3si,Solving a “Layton Puzzle” with Prolog,,9,0.81,0,2025-04-09 22:02:35,https://buttondown.com/hillelwayne/archive/a48fce5b-8a05-4302-b620-9b26f057f145/,namanyayg
+programming,1jve7gj,Any program can be a GitHub Actions shell,,10,1.0,0,2025-04-09 19:17:16,https://yossarian.net/til/post/any-program-can-be-a-github-actions-shell/,namanyayg
+programming,1jrlwms,Making OCaml Safe for Performance Engineering,,11,0.76,0,2025-04-04 20:31:58,https://youtube.com/watch?v=g3qd4zpm1LA,ketralnis
+programming,1jmf3pe,The future of Scala: Pioneering features are now commonplace so what comes next? • DEVCLASS,,9,0.65,5,2025-03-29 05:09:36,https://devclass.com/2025/03/25/the-future-of-scala-pioneering-features-are-now-commonplace-so-what-comes-next/,Weekly-Ad7131
+programming,1jlu8rl,Hacker Laws: The Bitter Lesson,,9,0.7,11,2025-03-28 12:47:01,https://github.com/dwmkerr/hacker-laws?tab=readme-ov-file#the-bitter-lesson,dwmkerr
+programming,1jk4rzs,🔧 **Introducing CForge: A Modern C/C++ Build System!**,,10,0.66,8,2025-03-26 05:40:12,https://github.com/ChaseSunstrom/cforge,St1ckxy
+programming,1k34p0m,"I built a free practice REST API for students - with filtering, sorting, and Swagger docs!","Hey! I built a free API that I’m sharing with anyone who wants to learn or experiment with something real. It’s a collection of cocktail recipes and ingredients – 629 recipes and 491 ingredients to be exact.
+
+It comes with **full Swagger documentation**, so you can explore the endpoints easily. No signups, no hassle. Just grab the URL and start making requests. It supports features like pagination, filters, and autocomplete for a smooth experience.
+
+Perfect for students or anyone learning how to work with APIs.
+
+Hope it’s useful to some of you!",11,0.68,0,2025-04-19 19:49:28,https://boozeapi.com/api/docs/,spurkle
+programming,1k0mi9i,The Story Behind K2 Mode and How It Works,,9,0.85,0,2025-04-16 14:58:52,https://blog.jetbrains.com/idea/2025/04/the-story-behind-k2-mode-and-how-it-works/,ketralnis
+programming,1jzxylv,Scoped Values in Java 25,,7,0.69,2,2025-04-15 17:36:44,https://openjdk.org/jeps/506,henk53
+programming,1jzt6sr,A 2025 Survey of Rust GUI Libraries,,6,0.67,0,2025-04-15 14:24:56,https://www.boringcactus.com/2025/04/13/2025-survey-of-rust-gui-libraries.html,ketralnis
+programming,1jy4q1b,I wrote a program that can play Super Hexagon with Computer Vision,,9,0.69,5,2025-04-13 10:33:05,https://youtube.com/watch?v=nnmEXNx_j6M,Catz1010
+programming,1jwla31,Build Your Own Dynamic DNS with Cloudflare and Python in Minutes,"I needed a simple way to keep my Cloudflare DNS records up to date whenever my public IP address changes. So, I put together a lightweight Python script that does exactly that.
+
+Cloudflare’s API is well-documented and super easy to use, which made the process smooth. As for getting the current public IP, I found that OpenDNS has an `A` record query that conveniently returns your IP — perfect for this use case.
+
+The script is minimal, and I run it via a cronjob to automate everything.
+
+I’ve written a short Medium article with all the details (no paywall, of course!).  
+Hope it’s helpful to anyone facing a similar need!",7,0.66,3,2025-04-11 08:54:10,https://medium.com/@js_9757/build-your-own-dynamic-dns-with-cloudflare-and-python-in-minutes-40a786919657,docaicdev
+programming,1jw7qs1,6 usability improvements in GCC 15,,7,0.69,0,2025-04-10 20:21:05,https://developers.redhat.com/articles/2025/04/10/6-usability-improvements-gcc-15,JRepin
+programming,1juijcx,Parser Combinators Beat Regexes,,8,0.71,3,2025-04-08 16:58:55,https://entropicthoughts.com/parser-combinators-beat-regexes,ketralnis
+programming,1jucpqv,Happy FORTRAN DAY,"Happy FORTRAN DAY to those who celebrate
+
+May all your systems be sufficiently bug-free to distribute
+
+https://functional.cafe/@racketlang/114299405695003141",7,0.82,3,2025-04-08 12:47:32,https://functional.cafe/@racketlang/114299405695003141,sdegabrielle
+programming,1jr7jyo,Single-writer Database Architecture: How SQLite Shaped Bugsink's Transaction Model,,8,0.69,4,2025-04-04 09:10:35,https://www.bugsink.com/blog/database-transactions/,klaasvanschelven
+programming,1jr7eiu,Four years of running a SaaS in a competitive market,,7,0.69,1,2025-04-04 08:59:39,https://maxrozen.com/on-four-years-running-saas-competitive-market,rozenmd
+programming,1jqx0a6,How does async Rust work,,8,0.69,0,2025-04-03 23:01:45,https://bertptrs.nl/2023/04/27/how-does-async-rust-work.html,ketralnis
+programming,1jpx2b6,The Memory Safety Continuum,,9,1.0,3,2025-04-02 19:13:03,https://memorysafety.openssf.org/memory-safety-continuum/,steveklabnik1
+programming,1jo3ogy,Function Application Needs to Grow a Spine Already,,8,0.75,0,2025-03-31 13:51:43,https://thunderseethe.dev/posts/function-application-grow-a-spine/,thunderseethe
+programming,1jnt5s6,Fixing exception safety in our task_sequencer,,6,0.68,0,2025-03-31 02:32:06,https://devblogs.microsoft.com/oldnewthing/20250328-00/?p=111016,mooreds
+programming,1jmn28h,Reboot Friendly Projects - Building Systems That Let You Disappear (and Come Back),,10,0.92,0,2025-03-29 14:08:03,https://adventures.michaelfbryan.com/posts/reboot-friendly-projects/,Michael-F-Bryan
+programming,1k5okeu,Why TCP needs 3 handshakes,,128,0.76,64,2025-04-23 02:36:27,https://www.pixelstech.net/article/1727412048-why-tcp-needs-3-handshakes,stackoverflooooooow
+programming,1k5c1q5,WebAssembly: How to Allocate Your Allocator,,12,0.94,1,2025-04-22 17:24:42,https://nullprogram.com/blog/2025/04/19/,ketralnis
+programming,1k5bgjv,101 BASIC Computer Games,,14,0.84,0,2025-04-22 17:01:18,https://github.com/maurymarkowitz/101-BASIC-Computer-Games,ketralnis
+programming,1k1d2z3,Differentiable Programming from Scratch,,8,0.83,1,2025-04-17 13:41:41,https://thenumb.at/Autodiff/,ketralnis
+programming,1jzrcqz,Structured logging in .NET with NativeAOT,,6,0.81,1,2025-04-15 13:03:14,https://alexandrehtrb.github.io/posts/2025/04/structured-logging-in-dotnet-with-nativeaot/,macrohard_certified
+programming,1jz2jbq,protobuf-ts-types: zero-codegen TypeScript type inference from protobuf messages,,7,0.75,4,2025-04-14 16:03:27,https://github.com/nathanhleung/protobuf-ts-types,18nleung
+programming,1jz09sj,Fun with -fsanitize=undefined and Picolibc,,6,0.72,1,2025-04-14 14:30:27,https://keithp.com/blogs/sanitizer-fun/,ketralnis
+programming,1jwxxht,WebRTC for the Curious,,7,0.78,0,2025-04-11 19:10:15,https://webrtcforthecurious.com,ketralnis
+programming,1jwwgkk,"Knowledge graphs, part 1 | Gel Blog",,6,0.88,0,2025-04-11 18:08:45,https://www.geldata.com/blog/knowledge-graphs-part-1,1st1
+programming,1jvbser,"We built an Open MCP Client to chat with any MCP server, self hosted and open source!",,6,0.65,0,2025-04-09 17:40:00,https://github.com/CopilotKit/open-mcp-client,nate4t
+programming,1jugrip,Mercedes Bernard: Friendly Code Welcomes Everyone In,,6,0.66,1,2025-04-08 15:45:48,https://maintainable.fm/episodes/mercedes-bernard-friendly-code-welcomes-everyone-in,robbyrussell
+programming,1js1wg4,Greenmask - PostgreSQL database anonymization tool release v0.2.10,,6,0.8,0,2025-04-05 12:02:41,https://github.com/GreenmaskIO/greenmask/releases/tag/v0.2.10,anyweny
+programming,1jphw3e,React.memo Demystified: When It Helps and When It Hurts,,8,0.79,2,2025-04-02 06:12:54,https://cekrem.github.io/posts/react-memo-when-it-helps-when-it-hurts/,cekrem
+programming,1jllpme,Tracing the thoughts of a large language model,,8,0.6,12,2025-03-28 03:17:04,https://www.anthropic.com/research/tracing-thoughts-language-model,namanyayg
+programming,1jkdgeo,"What The Pokémon Company Learned From The Underground, Open-Source Pokémon Community",,8,0.67,3,2025-03-26 14:44:43,https://slamdunksoftware.substack.com/p/what-the-pokemon-company-learned?triedRedirect=true,whiirl
+programming,1jiq64d,Identity Tokens Explained: Best Practices for Better Access Control,,7,0.77,0,2025-03-24 13:04:46,https://www.permit.io/blog/identity-tokens-best-practices,Permit_io
+programming,1k55cld,"Do you write safety-critical software like automotive, aerospace, medical, or industrial? The Rust Foundation's Safety-Critical Consortium is conducting a survey on Rust and tooling used in SC software industries!",,5,0.73,0,2025-04-22 12:43:20,https://www.surveyhero.com/c/rustscadoption25,MerrimanIndustries
+programming,1k2ilmi,A Debugger is a REPL is a Debugger,,5,0.54,14,2025-04-18 23:23:08,https://matklad.github.io/2025/03/25/debugger-is-repl-is-debugger.html,alexeyr
+programming,1k2huc9,"GitHub - an-dr/microlog: A lightweight, customizable logging library in C. Just two files. Compatible with C++ and most major compilers.",,6,0.81,0,2025-04-18 22:46:16,https://github.com/an-dr/microlog,agramakov
+programming,1k1c4wq,CRC32 Demystified,,7,0.77,2,2025-04-17 12:57:43,https://github.com/Michaelangel007/crc32,notfancy
+programming,1k0nlz9,A plugin-based gateway that orchestrates other MCPs and allows developers to build upon it enterprise-grade agents.,,5,0.74,0,2025-04-16 15:45:00,https://github.com/lasso-security/mcp-gateway/,woltan_4
+programming,1k0j9jk,"Classic Logisim running in the Browser, powered by CheerpJ and WebAssembly",,5,0.86,1,2025-04-16 12:32:22,https://drs.software/blog/announcing-logisim/,RegularLayout
+programming,1jzw379,"How to be the best programmer, according to Daniel Terhorst-North",Great programmers are not born; they are made - says the author of the viral Twitter thread on the best programmer he knows.,2,0.51,25,2025-04-15 16:21:42,https://shiftmag.dev/the-best-programmer-daniel-terhorst-north-3526/,shift_devs
+programming,1jwoelx,A Guide to Bearer Tokens: JWT vs. Opaque Tokens,,5,0.7,0,2025-04-11 12:16:07,https://www.permit.io/blog/a-guide-to-bearer-tokens-jwt-vs-opaque-tokens,Permit_io
+programming,1jvaffi,CAP Theorem Explained : The Simplest Explanation!,"# Theorem that can make or break your system design interview!
+
+  
+Check out the article here : [https://scortier.substack.com/p/cap-theorem-explained](https://scortier.substack.com/p/cap-theorem-explained)",7,0.71,0,2025-04-09 16:44:49,https://scortier.substack.com/p/cap-theorem-explained,scortierHQ
+programming,1juzyvx,Mistakes and cool things to do with arena allocators,,5,0.74,0,2025-04-09 07:22:22,https://zylinski.se/posts/dynamic-arrays-and-arenas/,Xadartt
+programming,1jtpp9w,Decoding the 90s: Cryptography in Early Software Development,,6,0.8,0,2025-04-07 16:37:26,https://www.botanica.software/post/decoding-the-90s,ketralnis
+programming,1js1qik,Understanding Latency in Distributed Systems,,5,0.65,0,2025-04-05 11:52:57,https://newsletter.scalablethread.com/p/understanding-latency-in-distributed,scalablethread
+programming,1jnxz1w,Taming the UB monsters in C++,,6,0.6,3,2025-03-31 07:50:40,https://herbsutter.com/2025/03/30/crate-training-tiamat-un-calling-cthulhutaming-the-ub-monsters-in-c/,-Y0-
+programming,1jkdmh3,Getting Started with TDD: A Practical Guide to Beginning a Lasting Practice,,7,0.64,2,2025-03-26 14:52:03,https://8thlight.com/insights/getting-started-tdd-practical-guide,KerrickLong
+programming,1jkcfr1,The Jump to Hyperspace: Local-first Software • Brooklyn Zelenka,,6,0.8,1,2025-03-26 13:59:54,https://youtu.be/X6fPkRON3X8,goto-con
+programming,1jjho6r,Hann: A Fast Approximate Nearest Neighbor Search Library for Go,"Hi
+
+I created an approximate nearest neighbor (ANN) search library for Go named Hann. It lets you add fast in-memory similarity search capabilities to your Go applications using different indexing algorithms, including Hierarchical Navigable Small World (HNSW), Product Quantization Inverted File (PQIVF), and Random Projection Tree (RPT).
+
+Hann is still a work in progress. I'm sharing this announcement in case you're looking for a lightweight Go library to add similarity search features for high-dimensional data to your projects or if you just want to check it out.
+
+🔗 Project's GitHub repo: [github.com/habedi/hann](https://github.com/habedi/hann)",5,0.7,0,2025-03-25 12:00:47,https://github.com/habedi/hann,West-Bottle9609
+programming,1k5bdy9,ClickHouse gets lazier (and faster): Introducing lazy materialization,,5,0.74,0,2025-04-22 16:58:34,https://clickhouse.com/blog/clickhouse-gets-lazier-and-faster-introducing-lazy-materialization,ketralnis
+programming,1k53qm4,Unstructured Thoughts on the Problems of OSS/FOSS,,5,0.7,16,2025-04-22 11:16:46,https://www.gingerbill.org/article/2025/04/22/unstructured-thoughts-on-oss/,gingerbill
+programming,1k4j88i,"On Bloat [Rob Pike, slides]",,9,0.64,11,2025-04-21 17:29:22,https://docs.google.com/presentation/d/e/2PACX-1vSmIbSwh1_DXKEMU5YKgYpt5_b4yfOfpfEOKS5_cvtLdiHsX6zt-gNeisamRuCtDtCb2SbTafTI8V47/pub,ketralnis
+programming,1k2lyki,What is Key-Based vs Range-Based Partitioning in Databases?,,5,0.65,0,2025-04-19 02:21:05,https://newsletter.scalablethread.com/p/what-is-key-based-vs-range-based,scalablethread
+programming,1k1m4oc,Cross-Site Websocket Hijacking Exploitation in 2025,"Hey everyone, we published a new blog post today focusing on the current state of Cross-Site WebSocket Hijacking! Our latest blog post covers how modern browser security features do (or don't) protect users from this often-overlooked vulnerability class. We discuss Total Cookie Protection in Firefox, Private Network Access in Chrome, and review the SameSite attribute's role in CSWH attacks. The post includes a few brief case studies based on situations encountered during real world testing, in addition to a simple test site that can be hosted by readers to explore each of the vulnerability conditions.",6,0.81,1,2025-04-17 19:58:02,https://blog.includesecurity.com/2025/04/cross-site-websocket-hijacking-exploitation-in-2025/,IncludeSec
+programming,1k1k786,I built a full O(n) palindrome finder with Manacher’s Algorithm – here’s how it works!,"Hey everyone! I'm a 15-year-old programmer passionate about Al, full-stack development, and algorithms. I just uploaded a YouTube video where I explain Manacher's Algorithm, which finds the longest palindromic substring in linear time (On)).
+The video is beginner-friendly, and I also shared the fully commented Python code on GitHub with explanations.
+I'd love any feedback you have on the video or the way I explain things.
+Feel free to check out my GitHub - you'll find the code from this video there, plus a full-stack web app coming soon!
+
+GitHub: https://github.com/coderpeti",7,0.76,1,2025-04-17 18:36:23,https://youtu.be/F4JdoUfDKkc?si=ffReR5Uy4ziwWB9_,Ready_Put2582
+programming,1k1d1b8,Advanced Shell Scripting with Bash (2006) [pdf],,5,0.86,0,2025-04-17 13:39:41,http://uniforumchicago.org/slides/bash1.pdf,ketralnis
+programming,1jzt7l1,Algebraic Semantics for Machine Knitting,,4,0.83,0,2025-04-15 14:25:49,https://uwplse.org/2025/03/31/Algebraic-Knitting.html,ketralnis
+programming,1jzt5q8,ASCII Lookup Utility in Ada,,3,0.67,0,2025-04-15 14:23:41,https://coniferproductions.com/ada/ohyes/ascii-lookup-utility/,ketralnis
+programming,1jz0d2x,Performance Analysis and Tuning on Modern CPUs,,5,0.69,1,2025-04-14 14:34:17,https://github.com/dendibakh/perf-book,ketralnis
+programming,1jz0chg,Bootstrapping Understanding: An Introduction to Reverse Engineering,,5,0.73,0,2025-04-14 14:33:35,https://www.muppetlabs.com/~breadbox/txt/bure.html,ketralnis
+programming,1jz0c91,awe: A compiler for the Algol W programming language,,5,0.86,0,2025-04-14 14:33:18,https://github.com/glynawe/awe,ketralnis
+programming,1jz09lu,Emacs Lisp Elements,,6,0.87,0,2025-04-14 14:30:14,https://protesilaos.com/emacs/emacs-lisp-elements,ketralnis
+programming,1jwj6wf,Java 21 Coding Practice Example- Hospital Management System,,5,0.65,0,2025-04-11 06:17:45,https://javatechonline.com/java-21-coding-example-hospital-management/,erdsingh24
+programming,1jw1n3d,Purely Functional Sliding Window Aggregation Algorithm,,5,0.7,0,2025-04-10 16:08:46,https://byorgey.github.io/blog/posts/2024/11/27/stacks-queues.html,ketralnis
+programming,1jv82z2,Fifty Years of Open Source Software Supply Chain Security,,6,0.88,0,2025-04-09 15:08:30,https://queue.acm.org/detail.cfm?id=3722542,namanyayg
+programming,1juzs1j,PostgreSQL BM25 Full-Text Search: Speed Up Performance with These Tips,,6,0.8,1,2025-04-09 07:08:06,https://blog.vectorchord.ai/postgresql-full-text-search-fast-when-done-right-debunking-the-slow-myth,hallelujah-amen
+programming,1juijpk,"""Verified"" ""Compilation"" of ""Python"" with Knuckledragger, GCC, and Ghidra",,4,0.7,0,2025-04-08 16:59:20,https://www.philipzucker.com/knuckle_C_pcode/,ketralnis
+programming,1jtisnv,OAK - Open Agentic Knowledge,,7,0.63,0,2025-04-07 11:18:02,https://github.com/jentic/oak/blob/main/MANIFESTO.md,aspleenic
+programming,1jtg3hd,Super ppt: How to Code an Interactive Slide with Markdown and WL,,5,0.86,0,2025-04-07 08:06:08,https://wljs.io/blog/2025/03/02/ultimate-ppt,Inst2f
+programming,1jrh3w2,Rust Vision Survey 2025: Help us create a vision for Rust's future,,4,0.54,1,2025-04-04 17:09:53,https://blog.rust-lang.org/2025/04/04/vision-doc-survey.html,jackh726
+programming,1jqwxfi,"Gerrit, GitButler, and Jujutsu projects collaborating on change-id commit footer",,4,0.67,8,2025-04-03 22:58:26,https://lore.kernel.org/git/CAESOdVAspxUJKGAA58i0tvks4ZOfoGf1Aa5gPr0FXzdcywqUUw@mail.gmail.com/T/#u,ketralnis
+programming,1jqwv8q,MIT 6.5950 Secure Hardware Design – An open-source course on hardware attacks,,4,0.7,2,2025-04-03 22:55:40,https://shd.mit.edu/home/,ketralnis
+programming,1jq9qgh,"Rate Limiting : Concepts, Algorithms, and Real-World Use Cases",,4,0.7,0,2025-04-03 04:54:44,https://javarevisited.substack.com/p/rate-limiting-concepts-algorithms,javinpaul
+programming,1joc4rs,Emjay - implementing function calls in my JIT compiler,,5,1.0,0,2025-03-31 19:43:10,https://andreabergia.com/blog/2025/03/emjay-implementing-function-calls/,andreabergia
+programming,1jnx6uh,To run Llama 3.1-8B-instruct model on a local CPU with 4 GB ram without quantization. By Loading and Running a LLaMA Model on CPU with Disk-based Layer Loading.,"I am trying to run 3.1 8B llama instruct model [https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)  on a 4GB ram laptop. The idea I'm using is to load and run one layer at a time.  
+I have a class.  
+It initializes key components of the LLaMA architecture:  
+LlamaTokenEmbed: Handles token embeddings.  
+LlamaLayer: Represents a transformer block.  
+LlamaFinalLayerNorm: Normalizes the output before final predictions.  
+LlamaFinalLayerHead: Generates final token probabilities.
+
+Running Inference (run method)  
+It processes the tokens through the embedding layer.  
+Then, it iterates over 32 transformer layers (LlamaLayer) by Loading the corresponding layer weights from disk. Runs the layer on the input tensor x.  
+After all layers are processed, the final normalization and output head compute the final model output.  
+Here's the code
+
+        
+    class LlamaCpuDiskRun():
+        def __init__(self,config):
+            self.config = config
+            self.freqs_complex = precompute_theta_pos_frequencies(self.config.dim // self.config.n_heads, self.config.max_position_embeddings * 2, device = self.config.device)
+            self.llamatoken = LlamaTokenEmbed(self.config)
+            self.llamalayer = LlamaLayer(self.config,self.freqs_complex)
+            self.llamafinalnorm = LlamaFinalLayerNorm(self.config)
+            self.llamafinallmhead = LlamaFinalLayerHead(self.config)
+            prev_time = time.time()
+            self.llamatoken.load_state_dict(load_file(config.model_dir + ""/separated_weights/embed_tokens.safetensors""), strict=True)
+            print(time.time() - prev_time)
+            self.llamafinalnorm.load_state_dict(load_file(config.model_dir + ""/separated_weights/norm.safetensors""), strict=True)
+            self.llamafinallmhead.load_state_dict(load_file(config.model_dir + ""/separated_weights/lm_head.safetensors""), strict=True)
+    
+        def run(self,tokens : torch.Tensor, curr_pos: int):
+            total_time = time.time()
+            x = self.llamatoken(tokens)
+            layer_time_avg = 0
+            layer_load_t_avg = 0
+            for i in range(0,32):
+                print(f""layer{i}"")
+                prev_time = time.time()
+                self.llamalayer.load_state_dict(load_file(self.config.model_dir + f""/separated_weights/layers{i}.safetensors""), strict=True)
+                t = time.time() - prev_time
+                layer_load_t_avg += t
+                print(t)
+                prev_time = time.time()
+                x = self.llamalayer(x,curr_pos)
+                t = time.time() - prev_time
+                layer_time_avg += t
+                print(t)
+            print(""final layers"")
+            prev_time = time.time()
+            x = self.llamafinallmhead(self.llamafinalnorm(x))
+            print(time.time() - prev_time)
+            print(x.shape)
+            print(""total time"")
+            print(time.time() - total_time)
+            print(f""average layer compute and load time:{layer_time_avg/32},{layer_load_t_avg/32}"" )
+    
+        
+    class LlamaCpuDiskRun():
+        def __init__(self,config):
+            self.config = config
+            self.freqs_complex = precompute_theta_pos_frequencies(self.config.dim // self.config.n_heads, self.config.max_position_embeddings * 2, device = self.config.device)
+            self.llamatoken = LlamaTokenEmbed(self.config)
+            self.llamalayer = LlamaLayer(self.config,self.freqs_complex)
+            self.llamafinalnorm = LlamaFinalLayerNorm(self.config)
+            self.llamafinallmhead = LlamaFinalLayerHead(self.config)
+            prev_time = time.time()
+            self.llamatoken.load_state_dict(load_file(config.model_dir + ""/separated_weights/embed_tokens.safetensors""), strict=True)
+            print(time.time() - prev_time)
+            self.llamafinalnorm.load_state_dict(load_file(config.model_dir + ""/separated_weights/norm.safetensors""), strict=True)
+            self.llamafinallmhead.load_state_dict(load_file(config.model_dir + ""/separated_weights/lm_head.safetensors""), strict=True)
+    
+    
+        def run(self,tokens : torch.Tensor, curr_pos: int):
+            total_time = time.time()
+            x = self.llamatoken(tokens)
+            layer_time_avg = 0
+            layer_load_t_avg = 0
+            for i in range(0,32):
+                print(f""layer{i}"")
+                prev_time = time.time()
+                self.llamalayer.load_state_dict(load_file(self.config.model_dir + f""/separated_weights/layers{i}.safetensors""), strict=True)
+                t = time.time() - prev_time
+                layer_load_t_avg += t
+                print(t)
+                prev_time = time.time()
+                x = self.llamalayer(x,curr_pos)
+                t = time.time() - prev_time
+                layer_time_avg += t
+                print(t)
+            print(""final layers"")
+            prev_time = time.time()
+            x = self.llamafinallmhead(self.llamafinalnorm(x))
+            print(time.time() - prev_time)
+            print(x.shape)
+            print(""total time"")
+            print(time.time() - total_time)
+            print(f""average layer compute and load time:{layer_time_avg/32},{layer_load_t_avg/32}"" )
+    
+    Output:
+    total time
+    27.943154096603394
+    average layer compute and load time:0.03721388429403305,0.8325831741094589
+
+The weights loading part takes most of the time 0.832\*32 = 26.624 seconds, compute takes 0.037 \* 32 = 1.18 seconds.
+
+The compute is 22 times faster than loading the weights part.
+
+I am looking for ideas to minimize the weights loading time. Any idea on how I can improve this?",6,0.61,14,2025-03-31 06:49:48,https://github.com/yogheswaran-A/llama-local/tree/main,Lord_Momus
+programming,1jmz4o9,Engineering With Java: Digest #50,,4,0.63,0,2025-03-29 23:22:40,https://javabulletin.substack.com/p/engineering-with-java-digest-50,Educational-Ad2036
+programming,1jknsgh,Lesson 5: Programming the Shooter Game in Squeak/Smalltalk,,6,1.0,0,2025-03-26 21:52:02,https://news.squeak.org/2025/03/26/lesson-5-programming-the-shooter-game-in-squeak-smalltalk/,itsmeront
+programming,1k5it2y,TargetJS: A Novel JavaScript UI Framework for Simplified Development and Enhanced User Experience,"I have always been drawn to the JavaScript literal object. It is expressive, compact, and readable, if only there was a way to execute it. But JavaScript didn’t guarantee property order for a long time, until ES2015, which finally made the order predictable. It also introduced the shorter method syntax. This made the object literal more powerful and even more compact.
+
+This inspired the core idea behind TargetJS:
+
+* Provide an internal wrapper (called ""targets"") for both properties and methods of the literal object.
+* Execute the targets sequentially in the same order as the code is written, using the framework's execution cycle.
+* Enable a functional pipeline between adjacent targets.
+* Add lifecycles, looping, and timing to targets so they can execute or re-execute themselves when a condition or time is met. This also makes the functional pipeline even more powerful as we will see later.
+
+That's the basic idea.
+
+To make the framework suitable for front-end development, TargetJS allows CSS styles to be integrated into the same object as targets especially since CSS styles closely resemble JavaScript object literals. To enhance style property utility, we added value iteration, so we can animate styles easily.
+
+**What does TargetJS solve?**
+
+TargetJS addresses several common pain points in front-end development:
+
+1. Complexity of Asynchronous Operations: TargetJS addresses this by providing a structured, synchronous, and predictable execution flow, allowing developers to avoid asynchronous operations altogether.
+2. Scattered State Management: In TargetJS, state management is inherently handled through its core concept of Targets.
+3. Boilerplate and Verbosity: TargetJS code is compact and follows a predictable execution flow. Method calls are not allowed, and loops and conditional statements are rarely needed.
+4. Rigid Static Layer of HTML: TargetJS minimizes reliance on traditional HTML and CSS, allowing JavaScript to be the primary player, resulting in a better and more dynamic user experience.
+5. Disjointed Development Workflow: Developers often juggle multiple tools and concepts (UI libraries, animation libraries, state managers, event handlers). TargetJS provides a *unified* solution, simplifying the learning curve and development process.
+6. Difficult Animation Control: TargetJS makes animations first-class citizens.
+7. Performance Bottlenecks with Large Lists: TargetJS optimizes rendering for large lists by using a tree structure that renders only the visible branches.
+
+  
+I'd really like to hear your thoughts and discuss them. I'm also open to ideas for improvements or constructive criticism.",0,0.45,4,2025-04-22 21:58:03,https://github.com/livetrails/targetjs,Various-Beautiful417
+programming,1k5dj4g,I started a dev blog about working with SwiftUI and C++ to create a native Twitch application,,6,0.67,0,2025-04-22 18:23:40,https://www.kulve.org/blog/tech_stack,notarealoneatall
+programming,1k5bdoc,Abusing DuckDB-WASM by making SQL draw 3D graphics (Sort Of),,7,1.0,1,2025-04-22 16:58:15,https://www.hey.earth/posts/duckdb-doom,ketralnis
+programming,1k4jabg,"15,000 lines of verified cryptography now in Python",,4,0.83,1,2025-04-21 17:31:35,http://jonathan.protzenko.fr/2025/04/18/python.html,ketralnis
+programming,1k4iwjg,Tabular Programming: A New Paradigm for Expressive Computing,,4,0.65,3,2025-04-21 17:16:26,https://sam.elborai.me/articles/tabular-programming/,ketralnis
+programming,1k2t11l,PostgreSQL Superpowers in Practice,,6,0.75,2,2025-04-19 10:12:11,https://www.youtube.com/watch?v=2oUow8SWVaI,Adventurous-Salt8514
+programming,1k27y0s,Antithesis driven testing,,5,0.86,0,2025-04-18 15:39:21,https://sqlsync.dev/posts/antithesis-driven-testing/,avinassh
+programming,1k24tej,Building a Football Tracking System with YOLO and Python,,4,0.83,1,2025-04-18 13:22:34,https://ai.plainenglish.io/building-a-football-tracking-system-with-yolo-and-python-83953c522d0c,9millionrainydays_91
+programming,1k0mhsx,Cutting Down Rust Compile Times With One Thousand Crates,,4,0.67,0,2025-04-16 14:58:17,https://www.feldera.com/blog/cutting-down-rust-compile-times-from-30-to-2-minutes-with-one-thousand-crates,ketralnis
+programming,1jzyg9j,JSX over the Wire,,5,0.69,1,2025-04-15 17:56:28,https://overreacted.io/jsx-over-the-wire/,ketralnis
+programming,1jz8e2t,Showcasing my GitHub CLI extension: gh-unpushed – easily see your local commits that haven’t been pushed yet,"Hey all! I made a small GitHub CLI extension called [`gh-unpushed`](https://github.com/achoreim/gh-unpushed). It shows commits on your current branch that haven’t been pushed yet.
+
+I was tired of typing `git log origin/branch..HEAD` so this is just:
+
+    gh unpushed
+
+You can also set a default remote, check against `upstream`, etc. Just a small quality-of-life thing for GitHub CLI users.
+
+Would love any feedback, ideas, features, edge cases I haven’t thought of.
+
+Let me know what you think!
+
+[github.com/achoreim/gh-unpushed](https://github.com/achoreim/gh-unpushed)
+
+Thank you!",4,1.0,1,2025-04-14 19:59:17,https://github.com/achoreim/gh-unpushed,Willing-Award986
+programming,1jyz41g,An unofficial Electron wrapper of Crunchyroll for Linux,"I really wish Crunchyroll made an official app for Linux but alas there's none, so I made myself an Electron wrapper of the crunchyroll website to run natively on your linux system. 
+
+  
+NOTE : This is an unofficial application and is not associated with or endorsed by Crunchyroll, LLC. The app is an Electron wrapper created for personal use only. All content, trademarks, and logos are the property of their respective owners. Use of this app is for personal purposes only and not for commercial distribution.",6,0.54,23,2025-04-14 13:39:25,https://github.com/Hrishavvv/crunchyroll-unofficial,Mean_Option_7459
+programming,1jy2p1u,Finally Understand OSI &amp; TCP/IP: Network Layers Explained Simply,,4,0.61,1,2025-04-13 08:03:36,https://www.pixelstech.net/article/1744343358-finally-understand-osi-%26amp-tcp-ip%3a-network-layers-explained-simply,stackoverflooooooow
+programming,1jwxz3t,Clojure: Realtime collaborative web apps without ClojureScript,,4,0.65,0,2025-04-11 19:12:14,https://andersmurphy.com/2025/04/07/clojure-realtime-collaborative-web-apps-without-clojurescript.html,ketralnis
+programming,1jvi3ui,How Netflix Accurately Attributes eBPF Flow Logs,,4,0.67,0,2025-04-09 22:02:39,https://netflixtechblog.com/how-netflix-accurately-attributes-ebpf-flow-logs-afe6d644a3bc,namanyayg
+programming,1jv639a,Writing Better Shell Scripts with Lua,,4,0.63,5,2025-04-09 13:42:30,https://levelup.gitconnected.com/writing-better-shell-scripts-with-lua-6a3155256e5f?sk=19365d4ddf3cfd3c5ea3a0a94496c45c,delvin0
+programming,1juy0kr,Identity Tokens Explained: Best Practices for Better Access Control,,4,0.68,0,2025-04-09 05:05:14,https://www.permit.io/blog/identity-tokens-best-practices,Permit_io
+programming,1ju6zz5,Kafka and .NET: Practical Guide to Building Event-Driven Services,"Hi everyone!!  
+  
+I just published a blog post on integrating Apache Kafka with .NET to build event-driven services, and I’d love to share it with you.
+
+The post starts with a brief introduction to Kafka and its fundamentals, then moves on to a code-based example showing how to implement Kafka integration in .NET.
+
+Here’s what it covers:
+
+* Setting up Kafka with Docker
+* Producing events from [ASP.NET](http://ASP.NET) Core
+* Consuming events using background workers
+* Handling idempotency, offset commits, and Dead Letter Queues (DLQs)
+* Managing Kafka topics using the AdminClient
+
+If you're interested in event-driven architecture and building event-driven services, this blog post should help you get started.
+
+Read it here: [https://hamedsalameh.com/kafka-and-net-practical-guide-to-building-event-driven-services/](https://hamedsalameh.com/kafka-and-net-practical-guide-to-building-event-driven-services/)
+
+I’d really appreciate your thoughts and feedback!",4,0.83,2,2025-04-08 06:24:25,https://hamedsalameh.com/kafka-and-net-practical-guide-to-building-event-driven-services/,DotDeveloper
+programming,1jttus6,When should a compiler expand garbage collection barriers?,,6,0.75,0,2025-04-07 19:25:04,https://robcasloz.github.io/blog/2024/02/14/when-should-a-compiler-expand-garbage-collection-barriers.html,ketralnis
+programming,1jt3fdm,The GradBench Benchmark Suite for Automatic Differentiation,,4,1.0,0,2025-04-06 20:18:00,https://sigkill.dk/blog/2025-04-03-gradbench.html,Athas
+programming,1jszrp4,How to Write a Backend the Worst Way﹕ Creation of GoREST | by Mostafa Qanbaryan,,2,0.56,1,2025-04-06 17:41:19,https://mostafaqanbaryan.com/how-to-write-a-backend-the-worst-way-creation-of-go-rest/,Wick3dAce
+programming,1jrlsi2,Growing Buffers to Avoid Copying Data,,4,0.64,0,2025-04-04 20:26:56,https://johnnysswlab.com/growing-buffers-to-avoid-copying-data/,ketralnis

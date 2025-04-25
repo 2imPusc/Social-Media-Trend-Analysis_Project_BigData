@@ -1,0 +1,462 @@
+2025-04-24 01:39:34,866 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-04-24 01:39:34
+2025-04-24 01:39:34,866 - 
+--- LĨNH VỰC: Technology ---
+2025-04-24 01:39:34,866 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-04-24 01:39:34,867 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-04-24 01:39:34,868 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7238d4b8ebd0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:39:34,869 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7238ca39f810>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:39:35,396 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7238ca3b1450>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:39:36,370 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7238ca3b3010>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:39:39,251 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7238ca3bcc10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:39:39,251 - Thử lại sau 60s...
+2025-04-24 01:39:39,375 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7238ca3bec50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:39:39,376 - Thử lại sau 60s...
+2025-04-24 01:40:29,398 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-04-24 01:40:29
+2025-04-24 01:40:29,399 - 
+--- LĨNH VỰC: Technology ---
+2025-04-24 01:40:29,399 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-04-24 01:40:29,399 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-04-24 01:40:29,401 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b69cb010>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:40:29,401 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62b3f50>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:40:30,440 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62c1bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:40:31,044 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62c3790>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:40:33,423 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d1390>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:40:33,424 - Thử lại sau 60s...
+2025-04-24 01:40:33,872 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d3390>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:40:33,873 - Thử lại sau 60s...
+2025-04-24 01:41:33,424 - Đang thu thập từ r/gadgets... (Lần thử 2)
+2025-04-24 01:41:33,425 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d8e50>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:41:33,873 - Đang thu thập từ r/technology... (Lần thử 2)
+2025-04-24 01:41:33,874 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62da490>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:41:33,999 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62dbd10>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:41:35,614 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62dd5d0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:41:36,671 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d2a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:41:36,671 - Thử lại sau 120s...
+2025-04-24 01:41:38,785 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62df5d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:41:38,785 - Thử lại sau 120s...
+2025-04-24 01:43:36,671 - Đang thu thập từ r/gadgets... (Lần thử 3)
+2025-04-24 01:43:36,674 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62ed050>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:43:37,212 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62ee8d0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:43:38,786 - Đang thu thập từ r/technology... (Lần thử 3)
+2025-04-24 01:43:38,790 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62efe50>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:43:40,693 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f5710>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:43:40,943 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f6f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:43:40,943 - Đã thử 3 lần, bỏ qua r/gadgets
+2025-04-24 01:43:40,943 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-04-24 01:43:40,944 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d3710>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:43:41,537 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f7a10>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:43:44,262 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6305190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:43:44,262 - Đã thử 3 lần, bỏ qua r/technology
+2025-04-24 01:43:45,447 - Lỗi API khi thu thập r/programming: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b63065d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:43:45,447 - Thử lại sau 60s...
+2025-04-24 01:44:45,448 - Đang thu thập từ r/programming... (Lần thử 2)
+2025-04-24 01:44:45,449 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6307fd0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:44:46,071 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b63118d0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:44:48,696 - Lỗi API khi thu thập r/programming: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6305990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:44:48,696 - Thử lại sau 120s...
+2025-04-24 01:46:48,696 - Đang thu thập từ r/programming... (Lần thử 3)
+2025-04-24 01:46:48,698 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f7d50>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:46:50,544 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d2010>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:46:52,763 - Lỗi API khi thu thập r/programming: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62df450>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:46:52,763 - Đã thử 3 lần, bỏ qua r/programming
+2025-04-24 01:46:52,763 - 
+--- LĨNH VỰC: News ---
+2025-04-24 01:46:52,767 - Đang thu thập từ r/worldnews... (Lần thử 1)
+2025-04-24 01:46:52,769 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6313b50>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-04-24 01:46:52,770 - Đang thu thập từ r/news... (Lần thử 1)
+2025-04-24 01:46:52,772 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b631e210>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-04-24 01:46:53,851 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b63120d0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-04-24 01:46:54,505 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6311490>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-04-24 01:46:55,879 - Lỗi API khi thu thập r/news: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6304ed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:46:55,879 - Thử lại sau 60s...
+2025-04-24 01:46:58,063 - Lỗi API khi thu thập r/worldnews: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6306050>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:46:58,063 - Thử lại sau 60s...
+2025-04-24 01:47:55,879 - Đang thu thập từ r/news... (Lần thử 2)
+2025-04-24 01:47:55,881 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b63065d0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-04-24 01:47:57,387 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f7d90>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-04-24 01:47:58,063 - Đang thu thập từ r/worldnews... (Lần thử 2)
+2025-04-24 01:47:58,065 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f4a10>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-04-24 01:47:59,645 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62f5c10>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-04-24 01:48:01,138 - Lỗi API khi thu thập r/news: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62edcd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:48:01,138 - Thử lại sau 120s...
+2025-04-24 01:48:02,709 - Lỗi API khi thu thập r/worldnews: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6814f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:48:02,709 - Thử lại sau 120s...
+2025-04-24 01:50:01,138 - Đang thu thập từ r/news... (Lần thử 3)
+2025-04-24 01:50:01,139 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b6310050>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-04-24 01:50:01,648 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62eded0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/news/top
+2025-04-24 01:50:02,710 - Đang thu thập từ r/worldnews... (Lần thử 3)
+2025-04-24 01:50:02,713 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62ef0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-04-24 01:50:03,474 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62ed690>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/worldnews/top
+2025-04-24 01:50:04,933 - Lỗi API khi thu thập r/news: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62dfbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:50:04,933 - Đã thử 3 lần, bỏ qua r/news
+2025-04-24 01:50:04,933 - Đang thu thập từ r/VietNam... (Lần thử 1)
+2025-04-24 01:50:04,936 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62ddad0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-04-24 01:50:06,098 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b62d8190>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/VietNam/top
+2025-04-24 01:50:06,105 - Lỗi API khi thu thập r/worldnews: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d6b63123d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:50:06,105 - Đã thử 3 lần, bỏ qua r/worldnews
+2025-04-24 01:51:27,826 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-04-24 01:51:27
+2025-04-24 01:51:27,826 - 
+--- LĨNH VỰC: Technology ---
+2025-04-24 01:51:27,826 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-04-24 01:51:27,828 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-04-24 01:51:27,829 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d03d642910>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:51:27,829 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e24590>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:51:28,541 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e26190>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:51:29,753 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e27d50>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:51:31,703 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e31950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:51:31,703 - Thử lại sau 60s...
+2025-04-24 01:51:32,699 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e33990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:51:32,700 - Thử lại sau 60s...
+2025-04-24 01:52:31,703 - Đang thu thập từ r/gadgets... (Lần thử 2)
+2025-04-24 01:52:31,705 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e3d510>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:52:31,768 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e3ee10>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:52:32,700 - Đang thu thập từ r/technology... (Lần thử 2)
+2025-04-24 01:52:32,703 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e40410>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:52:32,907 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e41c90>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:52:34,134 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e336d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:52:34,134 - Thử lại sau 120s...
+2025-04-24 01:52:35,565 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e43c90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:52:35,565 - Thử lại sau 120s...
+2025-04-24 01:54:34,135 - Đang thu thập từ r/gadgets... (Lần thử 3)
+2025-04-24 01:54:34,137 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e51710>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:54:34,193 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e52f90>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 01:54:35,565 - Đang thu thập từ r/technology... (Lần thử 3)
+2025-04-24 01:54:35,566 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e54550>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:54:37,072 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e55dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 01:54:37,377 - Lỗi API khi thu thập r/gadgets: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e57650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:54:37,377 - Đã thử 3 lần, bỏ qua r/gadgets
+2025-04-24 01:54:37,377 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-04-24 01:54:37,379 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e33790>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:54:38,439 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e68090>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:54:39,940 - Lỗi API khi thu thập r/technology: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e69850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:54:39,940 - Đã thử 3 lần, bỏ qua r/technology
+2025-04-24 01:54:41,314 - Lỗi API khi thu thập r/programming: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e6ac90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:54:41,314 - Thử lại sau 60s...
+2025-04-24 01:55:41,315 - Đang thu thập từ r/programming... (Lần thử 2)
+2025-04-24 01:55:41,318 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e74710>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:55:43,052 - Retrying due to ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e75f90>: Failed to establish a new connection: [Errno 111] Connection refused'))")) status: GET https://oauth.reddit.com/r/programming/top
+2025-04-24 01:55:45,604 - Lỗi API khi thu thập r/programming: error with request HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /api/v1/access_token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75d033e6a990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-24 01:55:45,604 - Thử lại sau 120s...
+2025-04-24 02:13:42,793 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-04-24 02:13:42
+2025-04-24 02:13:42,794 - 
+--- LĨNH VỰC: Technology ---
+2025-04-24 02:13:42,794 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-04-24 02:13:42,797 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-04-24 02:13:42,914 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 02:13:42,918 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-24 02:13:44,296 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-24 02:13:45,378 - API còn lại: 999.0 yêu cầu, reset sau 6.25 phút
+2025-04-24 02:13:48,196 - API còn lại: 997.0 yêu cầu, reset sau 6.22 phút
+2025-04-24 02:15:39,054 - API còn lại: 923.0 yêu cầu, reset sau 4.35 phút
+2025-04-24 02:15:42,100 - Đã lưu 53 bài đăng và 504 bình luận từ r/gadgets
+2025-04-24 02:15:42,100 - Đã thu thập 53 bài đăng từ r/gadgets
+2025-04-24 02:15:42,101 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-04-24 02:15:43,473 - API còn lại: 919.0 yêu cầu, reset sau 4.28 phút
+2025-04-24 02:17:24,924 - API còn lại: 845.0 yêu cầu, reset sau 2.58 phút
+2025-04-24 02:17:28,737 - API còn lại: 843.0 yêu cầu, reset sau 2.55 phút
+2025-04-24 02:18:27,593 - API còn lại: 779.0 yêu cầu, reset sau 1.55 phút
+2025-04-24 02:19:24,313 - API còn lại: 713.0 yêu cầu, reset sau 0.58 phút
+2025-04-24 02:20:13,091 - Đã lưu 200 bài đăng và 1246 bình luận từ r/programming
+2025-04-24 02:20:13,091 - Đã thu thập 200 bài đăng từ r/programming
+2025-04-24 02:20:14,387 - API còn lại: 980.0 yêu cầu, reset sau 9.77 phút
+2025-04-24 02:20:28,536 - API còn lại: 962.0 yêu cầu, reset sau 9.53 phút
+2025-04-24 02:21:05,782 - API còn lại: 911.0 yêu cầu, reset sau 8.90 phút
+2025-04-24 02:21:56,277 - API còn lại: 843.0 yêu cầu, reset sau 8.07 phút
+2025-04-24 02:22:46,344 - API còn lại: 776.0 yêu cầu, reset sau 7.22 phút
+2025-04-24 02:22:53,227 - API còn lại: 769.0 yêu cầu, reset sau 7.13 phút
+2025-04-24 02:23:34,693 - Đã lưu 200 bài đăng và 310 bình luận từ r/programming
+2025-04-24 02:23:34,693 - Đã thu thập 200 bài đăng từ r/programming
+2025-04-24 02:23:36,026 - API còn lại: 707.0 yêu cầu, reset sau 6.42 phút
+2025-04-24 02:24:23,521 - API còn lại: 637.0 yêu cầu, reset sau 5.60 phút
+2025-04-24 02:25:06,030 - Đã lưu 200 bài đăng và 1994 bình luận từ r/technology
+2025-04-24 02:25:06,031 - Đã thu thập 200 bài đăng từ r/technology
+2025-04-24 02:25:08,195 - API còn lại: 578.0 yêu cầu, reset sau 4.88 phút
+2025-04-24 02:25:13,092 - API còn lại: 569.0 yêu cầu, reset sau 4.80 phút
+2025-04-24 02:26:00,905 - API còn lại: 503.0 yêu cầu, reset sau 3.98 phút
+2025-04-24 02:26:49,960 - Đã lưu 200 bài đăng và 88 bình luận từ r/programming
+2025-04-24 02:26:49,960 - Đã thu thập 200 bài đăng từ r/programming
+2025-04-24 02:26:51,208 - API còn lại: 431.0 yêu cầu, reset sau 3.15 phút
+2025-04-24 02:27:18,030 - API còn lại: 395.0 yêu cầu, reset sau 2.73 phút
+2025-04-24 02:27:39,417 - API còn lại: 363.0 yêu cầu, reset sau 2.33 phút
+2025-04-24 02:28:28,470 - API còn lại: 290.0 yêu cầu, reset sau 1.53 phút
+2025-04-24 02:29:17,211 - API còn lại: 221.0 yêu cầu, reset sau 0.72 phút
+2025-04-24 02:29:24,492 - API còn lại: 213.0 yêu cầu, reset sau 0.62 phút
+2025-04-24 02:30:07,910 - Đã lưu 200 bài đăng và 173 bình luận từ r/programming
+2025-04-24 02:30:07,911 - Đã thu thập 200 bài đăng từ r/programming
+2025-04-24 02:30:09,345 - API còn lại: 988.0 yêu cầu, reset sau 9.85 phút
+2025-04-24 02:30:58,437 - API còn lại: 914.0 yêu cầu, reset sau 9.02 phút
+2025-04-24 02:31:16,382 - API còn lại: 888.0 yêu cầu, reset sau 8.73 phút
+2025-04-24 02:31:48,574 - API còn lại: 840.0 yêu cầu, reset sau 8.20 phút
+2025-04-24 02:32:37,817 - API còn lại: 767.0 yêu cầu, reset sau 7.37 phút
+2025-04-24 02:33:02,726 - Đã lưu 200 bài đăng và 1984 bình luận từ r/technology
+2025-04-24 02:33:02,726 - Đã thu thập 200 bài đăng từ r/technology
+2025-04-24 02:33:04,457 - API còn lại: 726.0 yêu cầu, reset sau 6.92 phút
+2025-04-24 02:33:28,918 - Đã lưu 200 bài đăng và 433 bình luận từ r/programming
+2025-04-24 02:33:28,919 - Đã thu thập 200 bài đăng từ r/programming
+2025-04-24 02:34:32,195 - API còn lại: 652.0 yêu cầu, reset sau 5.47 phút
+2025-04-24 02:35:56,269 - API còn lại: 601.0 yêu cầu, reset sau 4.08 phút
+2025-04-24 02:37:12,003 - API còn lại: 551.0 yêu cầu, reset sau 2.80 phút
+2025-04-24 02:38:23,636 - Đã lưu 200 bài đăng và 1885 bình luận từ r/technology
+2025-04-24 02:38:23,636 - Đã thu thập 200 bài đăng từ r/technology
+2025-04-24 02:38:25,466 - API còn lại: 500.0 yêu cầu, reset sau 1.60 phút
+2025-04-24 02:39:29,569 - API còn lại: 450.0 yêu cầu, reset sau 0.52 phút
+2025-04-24 02:40:36,037 - API còn lại: 973.0 yêu cầu, reset sau 9.42 phút
+2025-04-24 02:41:40,747 - API còn lại: 923.0 yêu cầu, reset sau 8.33 phút
+2025-04-24 02:42:39,114 - Đã lưu 200 bài đăng và 1621 bình luận từ r/technology
+2025-04-24 02:42:39,115 - Đã thu thập 200 bài đăng từ r/technology
+2025-04-24 02:42:40,863 - API còn lại: 872.0 yêu cầu, reset sau 7.33 phút
+2025-04-24 02:43:40,137 - API còn lại: 822.0 yêu cầu, reset sau 6.33 phút
+2025-04-24 02:44:36,154 - API còn lại: 771.0 yêu cầu, reset sau 5.42 phút
+2025-04-24 02:45:31,750 - API còn lại: 721.0 yêu cầu, reset sau 4.47 phút
+2025-04-24 02:46:24,711 - Đã lưu 199 bài đăng và 1072 bình luận từ r/technology
+2025-04-24 02:46:24,712 - Đã thu thập 199 bài đăng từ r/technology
+2025-04-24 02:46:24,712 - 
+--- LĨNH VỰC: News ---
+2025-04-24 02:46:24,713 - Đang thu thập từ r/worldnews... (Lần thử 1)
+2025-04-24 02:46:24,713 - Đang thu thập từ r/news... (Lần thử 1)
+2025-04-24 02:46:26,350 - API còn lại: 670.0 yêu cầu, reset sau 3.57 phút
+2025-04-24 02:46:26,656 - API còn lại: 671.0 yêu cầu, reset sau 3.58 phút
+2025-04-24 02:50:12,680 - API còn lại: 995.0 yêu cầu, reset sau 9.83 phút
+2025-04-24 02:50:16,962 - API còn lại: 994.0 yêu cầu, reset sau 9.78 phút
+2025-04-24 02:53:35,186 - API còn lại: 895.0 yêu cầu, reset sau 6.42 phút
+2025-04-24 02:53:43,444 - API còn lại: 890.0 yêu cầu, reset sau 6.28 phút
+2025-04-24 02:56:35,336 - API còn lại: 793.0 yêu cầu, reset sau 3.47 phút
+2025-04-24 02:56:35,649 - API còn lại: 792.0 yêu cầu, reset sau 3.45 phút
+2025-04-24 02:59:03,312 - Đã lưu 200 bài đăng và 2000 bình luận từ r/news
+2025-04-24 02:59:03,313 - Đã thu thập 200 bài đăng từ r/news
+2025-04-24 02:59:05,039 - API còn lại: 694.0 yêu cầu, reset sau 0.93 phút
+2025-04-24 02:59:16,534 - Đã lưu 200 bài đăng và 2000 bình luận từ r/worldnews
+2025-04-24 02:59:16,535 - Đã thu thập 200 bài đăng từ r/worldnews
+2025-04-24 02:59:18,299 - API còn lại: 686.0 yêu cầu, reset sau 0.72 phút
+2025-04-24 03:01:14,799 - API còn lại: 947.0 yêu cầu, reset sau 8.80 phút
+2025-04-24 03:01:35,463 - API còn lại: 928.0 yêu cầu, reset sau 8.43 phút
+2025-04-24 03:03:17,451 - API còn lại: 847.0 yêu cầu, reset sau 6.72 phút
+2025-04-24 03:03:47,661 - API còn lại: 821.0 yêu cầu, reset sau 6.22 phút
+2025-04-24 03:04:57,499 - API còn lại: 755.0 yêu cầu, reset sau 5.05 phút
+2025-04-24 03:05:49,429 - API còn lại: 709.0 yêu cầu, reset sau 4.17 phút
+2025-04-24 03:06:34,291 - Đã lưu 200 bài đăng và 1966 bình luận từ r/news
+2025-04-24 03:06:34,292 - Đã thu thập 200 bài đăng từ r/news
+2025-04-24 03:06:35,497 - API còn lại: 665.0 yêu cầu, reset sau 3.42 phút
+2025-04-24 03:07:47,714 - Đã lưu 200 bài đăng và 1994 bình luận từ r/worldnews
+2025-04-24 03:07:47,715 - Đã thu thập 200 bài đăng từ r/worldnews
+2025-04-24 03:07:49,334 - API còn lại: 589.0 yêu cầu, reset sau 2.20 phút
+2025-04-24 03:07:56,905 - API còn lại: 580.0 yêu cầu, reset sau 2.07 phút
+2025-04-24 03:09:12,299 - API còn lại: 492.0 yêu cầu, reset sau 0.80 phút
+2025-04-24 03:09:29,471 - API còn lại: 470.0 yêu cầu, reset sau 0.52 phút
+2025-04-24 03:10:15,639 - API còn lại: 981.0 yêu cầu, reset sau 9.73 phút
+2025-04-24 03:10:54,979 - Đã lưu 185 bài đăng và 1510 bình luận từ r/news
+2025-04-24 03:10:54,980 - Đã thu thập 185 bài đăng từ r/news
+2025-04-24 03:10:54,980 - Đang thu thập từ r/VietNam... (Lần thử 1)
+2025-04-24 03:10:57,629 - API còn lại: 925.0 yêu cầu, reset sau 9.07 phút
+2025-04-24 03:11:18,417 - API còn lại: 904.0 yêu cầu, reset sau 8.72 phút
+2025-04-24 03:12:52,524 - API còn lại: 814.0 yêu cầu, reset sau 7.15 phút
+2025-04-24 03:12:52,611 - API còn lại: 813.0 yêu cầu, reset sau 7.13 phút
+2025-04-24 03:14:08,803 - API còn lại: 725.0 yêu cầu, reset sau 5.88 phút
+2025-04-24 03:14:26,730 - Đã lưu 200 bài đăng và 1938 bình luận từ r/worldnews
+2025-04-24 03:14:26,731 - Đã thu thập 200 bài đăng từ r/worldnews
+2025-04-24 03:14:28,315 - API còn lại: 697.0 yêu cầu, reset sau 5.55 phút
+2025-04-24 03:15:20,373 - API còn lại: 629.0 yêu cầu, reset sau 4.65 phút
+2025-04-24 03:15:47,407 - API còn lại: 590.0 yêu cầu, reset sau 4.22 phút
+2025-04-24 03:16:22,141 - Đã lưu 200 bài đăng và 1840 bình luận từ r/VietNam
+2025-04-24 03:16:22,142 - Đã thu thập 200 bài đăng từ r/VietNam
+2025-04-24 03:16:25,072 - API còn lại: 538.0 yêu cầu, reset sau 3.62 phút
+2025-04-24 03:17:08,922 - API còn lại: 474.0 yêu cầu, reset sau 2.87 phút
+2025-04-24 03:17:24,277 - API còn lại: 450.0 yêu cầu, reset sau 2.60 phút
+2025-04-24 03:18:23,704 - API còn lại: 360.0 yêu cầu, reset sau 1.63 phút
+2025-04-24 03:18:26,136 - API còn lại: 358.0 yêu cầu, reset sau 1.60 phút
+2025-04-24 03:19:20,815 - API còn lại: 282.0 yêu cầu, reset sau 0.65 phút
+2025-04-24 03:20:10,595 - Đã lưu 200 bài đăng và 1857 bình luận từ r/worldnews
+2025-04-24 03:20:10,596 - Đã thu thập 200 bài đăng từ r/worldnews
+2025-04-24 03:20:12,329 - API còn lại: 988.0 yêu cầu, reset sau 9.82 phút
+2025-04-24 03:20:18,277 - Đã lưu 200 bài đăng và 1358 bình luận từ r/VietNam
+2025-04-24 03:20:18,278 - Đã thu thập 200 bài đăng từ r/VietNam
+2025-04-24 03:20:20,316 - API còn lại: 974.0 yêu cầu, reset sau 9.68 phút
+2025-04-24 03:21:13,755 - API còn lại: 904.0 yêu cầu, reset sau 8.77 phút
+2025-04-24 03:22:07,721 - API còn lại: 835.0 yêu cầu, reset sau 7.90 phút
+2025-04-24 03:22:17,228 - API còn lại: 821.0 yêu cầu, reset sau 7.75 phút
+2025-04-24 03:22:58,094 - API còn lại: 750.0 yêu cầu, reset sau 7.03 phút
+2025-04-24 03:23:28,534 - API còn lại: 698.0 yêu cầu, reset sau 6.53 phút
+2025-04-24 03:23:48,074 - Đã lưu 200 bài đăng và 956 bình luận từ r/VietNam
+2025-04-24 03:23:48,075 - Đã thu thập 200 bài đăng từ r/VietNam
+2025-04-24 03:23:50,552 - API còn lại: 661.0 yêu cầu, reset sau 6.18 phút
+2025-04-24 03:24:32,953 - API còn lại: 583.0 yêu cầu, reset sau 5.45 phút
+2025-04-24 03:24:39,162 - API còn lại: 572.0 yêu cầu, reset sau 5.35 phút
+2025-04-24 03:25:29,561 - API còn lại: 483.0 yêu cầu, reset sau 4.52 phút
+2025-04-24 03:25:38,477 - Đã lưu 200 bài đăng và 1670 bình luận từ r/worldnews
+2025-04-24 03:25:38,478 - Đã thu thập 200 bài đăng từ r/worldnews
+2025-04-24 03:26:19,005 - API còn lại: 424.0 yêu cầu, reset sau 3.68 phút
+2025-04-24 03:27:08,064 - Đã lưu 200 bài đăng và 587 bình luận từ r/VietNam
+2025-04-24 03:27:08,066 - Đã thu thập 200 bài đăng từ r/VietNam
+2025-04-24 03:27:09,799 - API còn lại: 373.0 yêu cầu, reset sau 2.85 phút
+2025-04-24 03:27:57,101 - API còn lại: 323.0 yêu cầu, reset sau 2.05 phút
+2025-04-24 03:28:47,627 - API còn lại: 272.0 yêu cầu, reset sau 1.22 phút
+2025-04-24 03:29:35,407 - API còn lại: 222.0 yêu cầu, reset sau 0.40 phút
+2025-04-24 03:30:21,697 - Đã lưu 198 bài đăng và 455 bình luận từ r/VietNam
+2025-04-24 03:30:21,699 - Đã thu thập 198 bài đăng từ r/VietNam
+2025-04-24 03:30:21,701 - 
+--- LĨNH VỰC: Entertainment ---
+2025-04-24 03:30:21,702 - Đang thu thập từ r/movies... (Lần thử 1)
+2025-04-24 03:30:21,705 - Đang thu thập từ r/gaming... (Lần thử 1)
+2025-04-24 03:30:23,449 - API còn lại: 975.0 yêu cầu, reset sau 9.63 phút
+2025-04-24 03:30:23,525 - API còn lại: 976.0 yêu cầu, reset sau 9.63 phút
+2025-04-24 03:33:50,403 - API còn lại: 875.0 yêu cầu, reset sau 6.18 phút
+2025-04-24 03:33:50,456 - API còn lại: 876.0 yêu cầu, reset sau 6.20 phút
+2025-04-24 03:36:34,703 - API còn lại: 777.0 yêu cầu, reset sau 3.43 phút
+2025-04-24 03:36:44,397 - API còn lại: 770.0 yêu cầu, reset sau 3.27 phút
+2025-04-24 03:38:59,770 - API còn lại: 680.0 yêu cầu, reset sau 1.05 phút
+2025-04-24 03:39:14,177 - API còn lại: 667.0 yêu cầu, reset sau 0.77 phút
+2025-04-24 03:41:10,541 - Đã lưu 200 bài đăng và 1990 bình luận từ r/movies
+2025-04-24 03:41:10,543 - Đã thu thập 200 bài đăng từ r/movies
+2025-04-24 03:41:12,566 - API còn lại: 946.0 yêu cầu, reset sau 8.82 phút
+2025-04-24 03:41:18,221 - Đã lưu 200 bài đăng và 2000 bình luận từ r/gaming
+2025-04-24 03:41:18,223 - Đã thu thập 200 bài đăng từ r/gaming
+2025-04-24 03:41:20,145 - API còn lại: 940.0 yêu cầu, reset sau 8.68 phút
+2025-04-24 03:43:14,315 - API còn lại: 849.0 yêu cầu, reset sau 6.78 phút
+2025-04-24 03:43:26,415 - API còn lại: 836.0 yêu cầu, reset sau 6.60 phút
+2025-04-24 03:45:05,536 - API còn lại: 752.0 yêu cầu, reset sau 4.93 phút
+2025-04-24 03:45:27,878 - API còn lại: 733.0 yêu cầu, reset sau 4.55 phút
+2025-04-24 03:46:53,455 - API còn lại: 654.0 yêu cầu, reset sau 3.12 phút
+2025-04-24 03:47:24,074 - API còn lại: 625.0 yêu cầu, reset sau 2.62 phút
+2025-04-24 03:48:41,224 - Đã lưu 200 bài đăng và 1980 bình luận từ r/movies
+2025-04-24 03:48:41,226 - Đã thu thập 200 bài đăng từ r/movies
+2025-04-24 03:48:43,125 - API còn lại: 551.0 yêu cầu, reset sau 1.30 phút
+2025-04-24 03:48:59,924 - Đã lưu 200 bài đăng và 1996 bình luận từ r/gaming
+2025-04-24 03:48:59,925 - Đã thu thập 200 bài đăng từ r/gaming
+2025-04-24 03:49:01,670 - API còn lại: 528.0 yêu cầu, reset sau 0.98 phút
+2025-04-24 03:50:24,653 - API còn lại: 980.0 yêu cầu, reset sau 9.63 phút
+2025-04-24 03:50:34,667 - API còn lại: 969.0 yêu cầu, reset sau 9.47 phút
+2025-04-24 03:51:47,990 - API còn lại: 878.0 yêu cầu, reset sau 8.22 phút
+2025-04-24 03:51:55,141 - API còn lại: 867.0 yêu cầu, reset sau 8.10 phút
+2025-04-24 03:52:59,451 - API còn lại: 787.0 yêu cầu, reset sau 7.02 phút
+2025-04-24 03:53:24,227 - API còn lại: 755.0 yêu cầu, reset sau 6.63 phút
+2025-04-24 03:54:07,025 - Đã lưu 200 bài đăng và 1842 bình luận từ r/gaming
+2025-04-24 03:54:07,027 - Đã thu thập 200 bài đăng từ r/gaming
+2025-04-24 03:54:08,564 - API còn lại: 690.0 yêu cầu, reset sau 5.87 phút
+2025-04-24 03:54:32,948 - Đã lưu 200 bài đăng và 1810 bình luận từ r/movies
+2025-04-24 03:54:32,950 - Đã thu thập 200 bài đăng từ r/movies
+2025-04-24 03:54:34,805 - API còn lại: 649.0 yêu cầu, reset sau 5.43 phút
+2025-04-24 03:55:08,043 - API còn lại: 602.0 yêu cầu, reset sau 4.87 phút
+2025-04-24 03:55:53,952 - API còn lại: 529.0 yêu cầu, reset sau 4.10 phút
+2025-04-24 03:56:05,497 - API còn lại: 512.0 yêu cầu, reset sau 3.92 phút
+2025-04-24 03:57:01,615 - API còn lại: 428.0 yêu cầu, reset sau 2.97 phút
+2025-04-24 03:57:15,438 - API còn lại: 407.0 yêu cầu, reset sau 2.77 phút
+2025-04-24 03:57:56,298 - Đã lưu 200 bài đăng và 1528 bình luận từ r/gaming
+2025-04-24 03:57:56,300 - Đã thu thập 200 bài đăng từ r/gaming
+2025-04-24 03:57:58,118 - API còn lại: 335.0 yêu cầu, reset sau 2.05 phút
+2025-04-24 03:58:21,760 - API còn lại: 296.0 yêu cầu, reset sau 1.65 phút
+2025-04-24 03:58:55,276 - API còn lại: 240.0 yêu cầu, reset sau 1.08 phút
+2025-04-24 03:59:23,646 - Đã lưu 200 bài đăng và 1634 bình luận từ r/movies
+2025-04-24 03:59:23,648 - Đã thu thập 200 bài đăng từ r/movies
+2025-04-24 03:59:25,556 - API còn lại: 190.0 yêu cầu, reset sau 0.60 phút
+2025-04-24 03:59:55,490 - API còn lại: 140.0 yêu cầu, reset sau 0.08 phút
+2025-04-24 04:00:24,909 - API còn lại: 958.0 yêu cầu, reset sau 9.58 phút
+2025-04-24 04:00:56,720 - API còn lại: 907.0 yêu cầu, reset sau 9.05 phút
+2025-04-24 04:01:28,373 - API còn lại: 855.0 yêu cầu, reset sau 8.55 phút
+2025-04-24 04:01:54,412 - Đã lưu 200 bài đăng và 1651 bình luận từ r/gaming
+2025-04-24 04:01:54,414 - Đã thu thập 200 bài đăng từ r/gaming
+2025-04-24 04:01:54,881 - Đang thu thập từ r/music... (Lần thử 1)
+2025-04-24 04:01:56,635 - API còn lại: 807.0 yêu cầu, reset sau 8.07 phút
+2025-04-24 04:02:24,177 - API còn lại: 773.0 yêu cầu, reset sau 7.60 phút
+2025-04-24 04:03:12,474 - Đã lưu 196 bài đăng và 1180 bình luận từ r/movies
+2025-04-24 04:03:12,476 - Đã thu thập 196 bài đăng từ r/movies
+2025-04-24 04:04:56,341 - API còn lại: 683.0 yêu cầu, reset sau 5.07 phút
+2025-04-24 04:07:07,297 - API còn lại: 632.0 yêu cầu, reset sau 2.88 phút
+2025-04-24 04:08:52,480 - API còn lại: 582.0 yêu cầu, reset sau 1.13 phút
+2025-04-24 04:10:21,577 - Đã lưu 200 bài đăng và 1958 bình luận từ r/music
+2025-04-24 04:10:21,579 - Đã thu thập 200 bài đăng từ r/music
+2025-04-24 04:10:23,116 - API còn lại: 988.0 yêu cầu, reset sau 9.63 phút
+2025-04-24 04:11:48,606 - API còn lại: 938.0 yêu cầu, reset sau 8.18 phút
+2025-04-24 04:13:02,349 - API còn lại: 887.0 yêu cầu, reset sau 6.98 phút
+2025-04-24 04:14:16,059 - API còn lại: 837.0 yêu cầu, reset sau 5.73 phút
+2025-04-24 04:15:25,911 - Đã lưu 200 bài đăng và 1538 bình luận từ r/music
+2025-04-24 04:15:25,913 - Đã thu thập 200 bài đăng từ r/music
+2025-04-24 04:15:27,559 - API còn lại: 786.0 yêu cầu, reset sau 4.55 phút
+2025-04-24 04:16:27,877 - API còn lại: 736.0 yêu cầu, reset sau 3.55 phút
+2025-04-24 04:17:28,403 - API còn lại: 685.0 yêu cầu, reset sau 2.55 phút
+2025-04-24 04:18:27,470 - API còn lại: 635.0 yêu cầu, reset sau 1.53 phút
+2025-04-24 04:19:23,290 - Đã lưu 200 bài đăng và 845 bình luận từ r/music
+2025-04-24 04:19:23,292 - Đã thu thập 200 bài đăng từ r/music
+2025-04-24 04:19:24,830 - API còn lại: 584.0 yêu cầu, reset sau 0.60 phút
+2025-04-24 04:20:18,584 - API còn lại: 982.0 yêu cầu, reset sau 9.68 phút
+2025-04-24 04:21:12,879 - API còn lại: 931.0 yêu cầu, reset sau 8.80 phút
+2025-04-24 04:22:06,107 - API còn lại: 881.0 yêu cầu, reset sau 7.90 phút
+2025-04-24 04:22:59,986 - Đã lưu 200 bài đăng và 529 bình luận từ r/music
+2025-04-24 04:22:59,990 - Đã thu thập 200 bài đăng từ r/music
+2025-04-24 04:23:01,423 - API còn lại: 830.0 yêu cầu, reset sau 6.98 phút
+2025-04-24 04:23:54,146 - API còn lại: 780.0 yêu cầu, reset sau 6.10 phút
+2025-04-24 04:24:46,482 - API còn lại: 729.0 yêu cầu, reset sau 5.23 phút
+2025-04-24 04:25:38,187 - API còn lại: 679.0 yêu cầu, reset sau 4.37 phút
+2025-04-24 04:26:28,984 - Đã lưu 198 bài đăng và 342 bình luận từ r/music
+2025-04-24 04:26:28,989 - Đã thu thập 198 bài đăng từ r/music
+2025-04-24 04:26:28,990 - 
+--- LĨNH VỰC: Lifestyle ---
+2025-04-24 04:26:28,998 - Đang thu thập từ r/fitness... (Lần thử 1)
+2025-04-24 04:26:28,999 - Đang thu thập từ r/food... (Lần thử 1)
+2025-04-24 04:26:29,702 - API còn lại: 630.0 yêu cầu, reset sau 3.50 phút
+2025-04-24 04:26:32,368 - API còn lại: 629.0 yêu cầu, reset sau 3.50 phút
+2025-04-24 04:27:39,130 - API còn lại: 546.0 yêu cầu, reset sau 2.35 phút
+2025-04-24 04:28:09,881 - Đã lưu 48 bài đăng và 477 bình luận từ r/fitness
+2025-04-24 04:28:09,883 - Đã thu thập 48 bài đăng từ r/fitness
+2025-04-24 04:28:09,884 - Đang thu thập từ r/travel... (Lần thử 1)
+2025-04-24 04:28:14,221 - API còn lại: 506.0 yêu cầu, reset sau 1.82 phút
+2025-04-24 04:28:43,741 - API còn lại: 467.0 yêu cầu, reset sau 1.30 phút
+2025-04-24 04:29:35,562 - API còn lại: 398.0 yêu cầu, reset sau 0.40 phút
+2025-04-24 04:30:19,922 - API còn lại: 972.0 yêu cầu, reset sau 9.67 phút
+2025-04-24 04:30:27,089 - Đã lưu 200 bài đăng và 1773 bình luận từ r/food
+2025-04-24 04:30:27,091 - Đã thu thập 200 bài đăng từ r/food
+2025-04-24 04:30:30,457 - API còn lại: 957.0 yêu cầu, reset sau 9.53 phút
+2025-04-24 04:31:21,659 - API còn lại: 882.0 yêu cầu, reset sau 8.63 phút
+2025-04-24 04:32:01,906 - API còn lại: 826.0 yêu cầu, reset sau 8.00 phút
+2025-04-24 04:32:16,853 - API còn lại: 804.0 yêu cầu, reset sau 7.75 phút
+2025-04-24 04:33:09,442 - API còn lại: 718.0 yêu cầu, reset sau 6.85 phút
+2025-04-24 04:33:20,028 - API còn lại: 701.0 yêu cầu, reset sau 6.67 phút
+2025-04-24 04:33:59,969 - Đã lưu 200 bài đăng và 1223 bình luận từ r/food
+2025-04-24 04:33:59,971 - Đã thu thập 200 bài đăng từ r/food
+2025-04-24 04:34:02,842 - API còn lại: 630.0 yêu cầu, reset sau 5.98 phút
+2025-04-24 04:34:26,304 - Đã lưu 200 bài đăng và 1853 bình luận từ r/travel
+2025-04-24 04:34:26,307 - Đã thu thập 200 bài đăng từ r/travel
+2025-04-24 04:34:28,715 - API còn lại: 585.0 yêu cầu, reset sau 5.55 phút
+2025-04-24 04:34:51,884 - API còn lại: 539.0 yêu cầu, reset sau 5.13 phút
+2025-04-24 04:35:27,195 - API còn lại: 475.0 yêu cầu, reset sau 4.55 phút
+2025-04-24 04:35:48,112 - API còn lại: 441.0 yêu cầu, reset sau 4.25 phút
+2025-04-24 04:36:21,710 - API còn lại: 376.0 yêu cầu, reset sau 3.67 phút
+2025-04-24 04:36:38,180 - API còn lại: 341.0 yêu cầu, reset sau 3.37 phút
+2025-04-24 04:37:15,352 - API còn lại: 273.0 yêu cầu, reset sau 2.75 phút
+2025-04-24 04:37:34,828 - Đã lưu 200 bài đăng và 828 bình luận từ r/food
+2025-04-24 04:37:34,830 - Đã thu thập 200 bài đăng từ r/food
+2025-04-24 04:37:37,887 - API còn lại: 240.0 yêu cầu, reset sau 2.40 phút
+2025-04-24 04:38:14,042 - Đã lưu 200 bài đăng và 1416 bình luận từ r/travel
+2025-04-24 04:38:14,045 - Đã thu thập 200 bài đăng từ r/travel
+2025-04-24 04:38:17,209 - API còn lại: 174.0 yêu cầu, reset sau 1.75 phút
+2025-04-24 04:38:35,225 - API còn lại: 139.0 yêu cầu, reset sau 1.42 phút
+2025-04-24 04:39:16,803 - API còn lại: 70.0 yêu cầu, reset sau 0.72 phút
+2025-04-24 04:39:37,904 - API còn lại: 39.0 yêu cầu, reset sau 0.40 phút
+2025-04-24 04:39:37,904 - Đang chờ 33.99s do giới hạn API...
+2025-04-24 04:40:14,874 - API còn lại: 985.0 yêu cầu, reset sau 9.77 phút
+2025-04-24 04:41:05,550 - API còn lại: 890.0 yêu cầu, reset sau 8.90 phút
+2025-04-24 04:41:09,550 - API còn lại: 884.0 yêu cầu, reset sau 8.85 phút
+2025-04-24 04:42:05,333 - Đã lưu 200 bài đăng và 585 bình luận từ r/food
+2025-04-24 04:42:05,338 - Đã thu thập 200 bài đăng từ r/food
+2025-04-24 04:42:08,408 - API còn lại: 787.0 yêu cầu, reset sau 7.88 phút
+2025-04-24 04:42:08,857 - Đã lưu 200 bài đăng và 966 bình luận từ r/travel
+2025-04-24 04:42:08,859 - Đã thu thập 200 bài đăng từ r/travel
+2025-04-24 04:42:11,301 - API còn lại: 784.0 yêu cầu, reset sau 7.83 phút
+2025-04-24 04:43:05,466 - API còn lại: 690.0 yêu cầu, reset sau 6.90 phút
+2025-04-24 04:43:12,224 - API còn lại: 679.0 yêu cầu, reset sau 6.80 phút
+2025-04-24 04:44:07,324 - API còn lại: 589.0 yêu cầu, reset sau 5.90 phút
+2025-04-24 04:44:14,694 - API còn lại: 577.0 yêu cầu, reset sau 5.78 phút
+2025-04-24 04:45:05,585 - API còn lại: 489.0 yêu cầu, reset sau 4.90 phút
+2025-04-24 04:45:13,469 - API còn lại: 476.0 yêu cầu, reset sau 4.77 phút
+2025-04-24 04:46:05,600 - Đã lưu 199 bài đăng và 457 bình luận từ r/food
+2025-04-24 04:46:05,603 - Đã thu thập 199 bài đăng từ r/food
+2025-04-24 04:46:12,973 - Đã lưu 200 bài đăng và 794 bình luận từ r/travel
+2025-04-24 04:46:12,976 - Đã thu thập 200 bài đăng từ r/travel
+2025-04-24 04:46:14,654 - API còn lại: 382.0 yêu cầu, reset sau 3.77 phút
+2025-04-24 04:47:02,730 - API còn lại: 332.0 yêu cầu, reset sau 2.95 phút
+2025-04-24 04:47:51,891 - API còn lại: 281.0 yêu cầu, reset sau 2.15 phút
+2025-04-24 04:48:40,731 - API còn lại: 231.0 yêu cầu, reset sau 1.32 phút
+2025-04-24 04:49:21,390 - Đã lưu 192 bài đăng và 532 bình luận từ r/travel
+2025-04-24 04:49:21,392 - Đã thu thập 192 bài đăng từ r/travel
+2025-04-24 04:49:21,393 - 
+HOÀN TẤT THU THẬP DỮ LIỆU: 2025-04-24 04:49:21
+2025-04-24 04:49:21,393 - Tổng thời gian chạy: 2.59 giờ

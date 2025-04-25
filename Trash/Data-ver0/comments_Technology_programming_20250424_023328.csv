@@ -1,0 +1,1312 @@
+﻿subreddit,post_id,comment_id,comment_content,comment_score,comment_created_at,comment_author
+programming,1jwkx92,mmj9hcz,"This seems mostly Captain Obvious stuff to most developers, namely:
+
+1. Pick good defaults; know your audience.
+2. Make it easy for the user to know how to change them if and when needed.
+
+None of these goals are controversial; the controversy is in how to achieve them, such as what's good user interface design.",5,2025-04-11 09:23:07,Zardotab
+programming,1jw1okb,mmf8p2w,"Why not inline ASM it? This is really just a pedantic difference, and you can easily implement it in c++.",10,2025-04-10 17:35:50,Tm563_
+programming,1jw1okb,mmfulfk,theres really no reason at all for rust to exist,0,2025-04-10 19:22:42,nemesit
+programming,1jw0slg,mmfpf5s,"One thing I read once very roughly:
+
+For web browser... the webserver provides a list of urls (grouped by bandwidth required). The browser downloads the first and N subsequent ones and starts playing the first. At the end of the first it switches to the second, already downloaded, file. If the ""future"" downloads are going slow/stopped, the browser will start downloading the low bandwidth files and showing them.
+
+So all in all it's kind of a giant hack. Split the video into files, each 10 seconds long, and have the browser switch between them. Viola! Seamless playback and seamless switching to lower bandwidth when your connection sucks.",1,2025-04-10 18:56:45,rbobby
+programming,1juc1wo,mm0y85m,"Oversimplified. Sure, best practices are guidelines and not strict rules. Genious. /s
+However you will always have deadlines and it is the most damaging if you shit on design principles when starting a project. So yeah, find the balance, but don't follow this article",0,2025-04-08 12:50:00,Sedenic
+programming,1jtr3kp,mlwipxr,"> Their managers desperately try to redirect them to work that does make money, causing a long frustrating power struggle
+
+What kind of manager has so little control that their dev is just working on whatever they feel like, and attempting to tell the dev what to work on leads to a power struggle?",25,2025-04-07 18:17:50,dw444
+programming,1jtr3kp,mlwkjcy,"This article lost me at...
+
+>They throw themselves into various pieces of work that don’t make money (improving FCP performance, better screenreader support, refactoring)
+
+That's like saying, ""Sweeping the floor of your restaurant isn't profitable"", ""Washing dishes, isn't profitable""
+
+Granted a product doesn't need to be the top of every benchmark, but god forbid anyone show pride in their work.",30,2025-04-07 18:27:08,xitiomet
+programming,1jtr3kp,mlwhzhv,Capitalism good. Motivation bad.,3,2025-04-07 18:14:06,turbothy
+programming,1jtr3kp,mlweooi,"Water is wet and if tech debt was water, you're very wet.",5,2025-04-07 17:57:27,Pure-Huckleberry-484
+programming,1jtr3kp,mlwvjb8,"I agree with the takeaway for engineers, but I think this article is framing it wrong, sure engineers shouldn't just work on whatever they want and ignore their managers and business needs, but some of those things like cleaning up tech debt are crucial even at smaller companies for long term growth. I noticed the article also leaves out even more important but also low visibility tasks like bug fixes, security and privacy fixes, etc.
+
+So, I think the real problem is the visibility of our work. It has become a required skill as an engineer in order to survive to make ourselves more visible. But I haven't heard a convincing argument as to why this *should* be our responsibility other than the fact that short term and career driven thinking has taken over business culture in the past decades (probably thanks in part to MBAs and giving more power to shareholders to sue CEOs).",1,2025-04-07 19:23:46,keylimedragon
+programming,1jtirjg,mlukdxx,"""how to recover lost code/files"" is gonna be a gold mine in SEO",8,2025-04-07 11:50:10,freecodeio
+programming,1jtirjg,mm6k8ul,Isidor here - author of the blog post. If you have any feedback or questions let me know and I will be happy to answer. Thanks!,1,2025-04-09 09:06:11,isidor_n
+programming,1jtirjg,mluvzll,90s MS mode: C++ extention now disabled for VS Code forks,0,2025-04-07 13:10:40,Cube00
+programming,1jr8cuu,mlcp8sl,In Brazil engineering managers are mostly non software engineers who are good at socializing. They can't wait to increase their bonuses by replacing developers by AI,4,2025-04-04 10:39:52,Positive_Method3022
+programming,1jr8cuu,mlcrwr7,"article makes some wild assumptions, 
+
+you cant blindly trust ai code as LLMs by definition are non deterministic...",1,2025-04-04 11:02:57,aookami
+programming,1jr7n31,mle44ws,Great title OP 👏.,9,2025-04-04 15:47:15,dstutz
+programming,1jr7n31,mldtgw4,"When I installed the Arm 64 Deb on a Raspberry Pi 5 via Package Install it complained about a missing file. But when I tried running it, it seemed to work and I got the What’s New in March Tab.",1,2025-04-04 14:54:16,davidhbolton
+programming,1jq4grr,ml4feea,"The wrinkle with this is that, new gods don't come around all that often.  Or perhaps they do, I'm a heathen, what do I know.  With tech though, we have a nearly endless supply of hype.  I for one, am glad I didn't put too much into blockchain for instance.",28,2025-04-03 00:45:52,Cyclic404
+programming,1jq4grr,ml51aky,Man if you took like a couple hours at most with any moderately sized code based you would understand that llms are light years away of being able to operate on their own,11,2025-04-03 02:58:54,aookami
+programming,1jq4grr,ml4ntpi,"Am I seriously underestimating the skill needed to use AI, or is there really just not that much to learn?
+
+There are a few workflow things depending on Cursor or whatever you use, but the actual process doesn't have a lot of deep skill. It's just prompting, describing your code, and making it fit within whatever system Cursor uses.
+
+And even if there was skill at that, you'd have to relearn it every time a new Cursor-like comes out. It's not learning a whole new paradigm, it's just learning a new IDE.",10,2025-04-03 01:35:26,oadephon
+programming,1jq4grr,ml50df4,It's just called programming.,3,2025-04-03 02:52:45,blafunke
+programming,1jq4grr,ml4f3hu,[deleted],14,2025-04-03 00:44:05,N/A
+programming,1jq4grr,ml4xmug,"A few of the key problems with Pascal's Wager apply to Kerrick's Wager just the same:
+
+* Who says that the true god is one that sends you to heaven or hell based on the stipulations espoused by abramic religions? What if there is a god that sends you to heaven for enjoying life and to hell for following the abramic rules? Or said differently, what if the Hindus are right and you should follow _their_ tenets to enjoy a quality afterlife? The problem with Pascal's Wager is that there are many rulebooks about how to get a nice afterlife (one could say, in fact, an infinite amount, but at the very least there are multiple major religions) and these rulebooks clash. So which one do you follow? Pascal's Wager ends up trying to contrast a positive infinity (you go to heaven) against negative infinity (you go to hell because you followed one religion's rules at the cost of not following another's)?
+
+
+Pascal's Wager's key logical error is that it ignores the fact that many religions exist. And Kerrick's Wager is logically a nice-sounding pile of bad reasoning for the exact same analogous reason: It fails to acknowledge that more than one career exists.
+
+__The job of 'managing a fleet of AI coding agents' is very different from 'write code'. And it won't be the only job for humans that exists in a world where AI coding agents exist and are decent. Who says that the 'manage a fleet' job is what you are good at in this world? Why not another amongst thousands of other career options? What made 'manage fleets of AI' so special?__
+
+Why not learn to bake artisanal cakes? The logic that you use to 'make the positive EV bet' __also works here__. It's also a positive EV bet to learn how to bake artisanal cakes according to its logic.
+
+Sure, it's somewhat more likely that, given your background as a coder, you'd be faster at becoming a self-taught AI manager, and probably better at it too than an average human, vs the 'artisanal cake baker' career path. But then, if we must posit that AI based coding agents are good enough to significantly endanger your future career, I think it's rather weird to assume that the job of 'AI manager' is not significantly at risk of being taken over by AI. The increased odds you'd be a good AI manager are countered by the increased odds that job is irrelevant due to AI.
+
+I think if you're really worried about swiftly being relegated to the status of 'horse' in a world where cars exist, then you should think about which job is highly unlikely to be AI-ified, and start spending your limited time self-teaching that one.",2,2025-04-03 02:34:58,rzwitserloot
+programming,1jq4grr,ml51tdr,"So the blog post itself seems to have little content aside from being a proxy for Steve Yegge’s fantastic prediction that there will be a huge market for his company’s products in the future and everyone should buy, buy, buy. And I don’t want to create a new thread for Yegge’s post so I will just write my response here: whatever happened to the Mythical Man Month? 
+
+Why does Yegge apparently think that AI just makes it obsolete? In other words, even if a junior developer can actually manage 100 AI agents productively, who says that will help the company achieve its goals any more than suddenly hiring 100 new human developers would, putting cost aside? Your average company’s ability to improve its products is simply not bound by the amount of code it can write, in fact that’s such an absurd strawman that I have trouble believing Yegge himself believes it.
+
+It’s well known that (in, let’s say, the pre-AI days, if we grant the premise) a company of 5 could easily build an MVP product that would blow a legacy product with 100+ devs out of the water for some specific use case. The reason isn’t that they’re better devs, but that a legacy product has so many dependencies, chiefly on a business level, that the 100+ devs are basically sitting around doing nothing because every one-line code change has a massive potential set of repercussions.
+
+Now imagine each of those 100 devs has access to 100 AI agents round the clock. What changes? If anything the problem gets worse, because the dev now can’t even make a case for his own code. He effectively becomes like his scared manager who has no way to know if the smallest code change will cause a massive shitstorm, because he didn’t write it himself.",2,2025-04-03 03:02:27,huyvanbin
+programming,1jq4grr,ml5q4v4,Your comparison to pascal's wager is apt and a useful way of thinking about it.,1,2025-04-03 06:18:02,pobbly
+programming,1jq4grr,ml68iwy,"or you can learn to read the hype cycle and make better judgments in the future if something is worth exploring 
+
+a good place to start is Computer Chronicles - News show from the 80s, 90s and early 2000s
+
+  
+[https://www.youtube.com/@ComputerChroniclesYT/videos](https://www.youtube.com/@ComputerChroniclesYT/videos)
+
+Here I learn that the 80s were business application hype cycle - calendars, email clients, office suits etc  
+The hype was killed in 95 because Microsoft had Windows and Office
+
+or that Machine Learning in the 80s was called Machine Reasoning
+
+Learn to read the hype BS and you will have much easier time working with tech - no FOMO, no FUD",1,2025-04-03 09:32:05,gjosifov
+programming,1jowl8t,mkvsuji,"We need a new GUI-over-HTTPS standard. [DOM keeps failing us ](https://www.reddit.com/r/CRUDology/comments/10ze9hu/missing_or_defective_gui_idioms_in_htmldom/)and can't be fixed without breaking backward compatibly.
+
+The addiction to eye-candy and UI gimmicks & fads also needs a fix. Remind the customer that ""beauty has a price"". Rather that sticking every fancy pluggin into the stack, creating long-term maintenance headaches, the industry needs a Just-Say-No campaign. The chimp-like urge to judge books by covers is jacking up maintenance costs. 🐵
+
+(I'm focusing on ordinary business and administrative applications here, not say e-commerce where the store front has to be esthetic.)
+
+I've seen plenty of GUI apps from the 90's that do their job perfectly fine, despite ""looking old"". The only reason they get replaced is that existing staff doesn't know the tool(s) (or they were built by amateurs who didn't understand the value of maintenance, but that's not the fault of the tool, even though it often gets blamed.)
+
+**COBOL lives largely because eye-candy-addicts don't fuck with it**, keeping it predictable and stable.
+
+And YAGNI still matters. You likely don't need ""web scale"" if you just use the damned RDBMS right. Too many do ""resume oriented programming"", collecting buzzwords like Pokemon.
+
+P.S. Gittoff my lawn!",5,2025-04-01 16:58:32,Zardotab
+programming,1jowl8t,mkv6dwb,"Sadly, all software is a treadmill.  I'm not saying that to complain,  We knew that walking in.  It's the nature of corporate software -- new releases, new fixes, never enough time, don't worry about security, until it breaks, then fix is yesterday.
+
+We knew that.  And we're paid for athletes.  If you didn't, I'm so sorry because you were sold a bill of goods.",3,2025-04-01 15:02:44,Rich-Engineer2670
+programming,1jow09j,mkuuqix,"Great joke, stupid clickbait title.
+
+He set a school's printers to display the text ""insert 5 cents"" as a joke. It happened years ago. He didn't get fired.",23,2025-04-01 14:00:17,OkMemeTranslator
+programming,1jow09j,mkv33vf,"I pranked a colleague of mine back the day. I managed to put my own code on his computer while he went to the bathroom. 
+
+Had the computer open his CD—ROM tray and ask him to insert his coffee.",2,2025-04-01 14:45:44,razordreamz
+programming,1jow09j,mkuxsdl,good one.,1,2025-04-01 14:17:20,EnGammalTraktor
+programming,1jo2dxr,mkoipif,I don't understand why Bob Martin is taken seriously. This is like when Bill Nye debated a creationist.,76,2025-03-31 13:19:26,McHoff
+programming,1jo2dxr,mkpalsb,"Read John Ousterhout's book. Period.
+
+Robert Martin is good for beginners. But SOLID should never be taken as a revelation - as some people try to sell it.
+
+I must admit though that Uncle Bob's biggest achievement is the DIP (dependency inversion principle), because that's the ""rule"" that wasn't there before and yet it's a fundamental principle for Hex Architecture.",23,2025-03-31 15:46:49,steve-7890
+programming,1jo2dxr,mkqpk8b,Uncle Bob is the Deepak Chopra of  IT.,3,2025-03-31 19:59:37,florinp
+programming,1jo2dxr,mkp4oj0,John will most likely mop the floor with Bob,1,2025-03-31 15:16:57,imdibene
+programming,1jo2dxr,mkqwpsm,"I don't have a book but I have a blog. Does anyone want to roast my articles? Not the one about globals, I knew very few would enjoy that one https://codestyleandtaste.com/",-1,2025-03-31 20:34:56,levodelellis
+programming,1jo1uer,mkp9s2l,"# News Flash
+
+piping arbitrary code to `eval` enables running arbitrary code. Let's assign this a fucking CVE",3,2025-03-31 15:42:41,scratchisthebest
+programming,1jnxwjm,mkoiau5,"Surprised there is not complaint about going from an amazing programming language like C# to a shit one like JS.
+
+Having to write a monstrosity like:
+
+> interface DiffDialogProps {
+    diffFile: string | undefined;
+    onSetDiffFile: Dispatch<SetStateAction<string | undefined>>;
+}  
+export default function DiffDialog({ diffFile, onSetDiffFile }: DiffDialogProps)  {
+
+instead of something simple and clean like this:
+> public Component DiffDialog(string diffFile, Dispatch<SetStateAction<string>> onSetDiffFile){
+
+Is what frustrates me the most about learning React/TS/JS after being mostly a pure C# full stack dev.",1,2025-03-31 13:16:58,71651483153138ta
+programming,1jlstu5,mkqgm6d,Aspire needs to be more Enterprise-capable.,1,2025-03-31 19:15:12,Donphantastic
+programming,1jko7h9,mjwzh7k,"Damn, I half expected to appear on the leaderboard lmao",3,2025-03-26 22:36:37,Isogash
+programming,1jko7h9,mjxd9l6,Wait. This isn't r/programminghumor,1,2025-03-26 23:49:55,johnnybu
+programming,1jk84k0,mjta520,"Some issues:
+
+1. Don’t recommend setuptools to newbies: It’s slow, has decades of cruft in its docs, and creates a bunch of intermediary junk that needs to be cleaned up or .gitignored (while other build backends like `hatchling` don’t create any temp files in the project directory)
+2. The invocation in the end `python setup.py build` is both deprecated and in this case nonsense: No `setup.py` exists here and none should. Instead build using `python -m build`
+3. Don’t manually upload with twine, use [Trusted Publishing](https://docs.pypi.org/trusted-publishers/) it’s easier and less messy.",5,2025-03-26 10:59:31,flying-sheep
+programming,1jihn57,mjgkuf3,"It's actually a good video on the topic, which is pretty rare.
+
+I just wished it would:
+
+- spell out out `sys.path` and `PYHTONPATH` on the screen.
+- show you how to manipulate those.
+- emphasis more than the current directory is in this, and what ""current directory"" means.
+- explain the actual consequences of all those for practical purposes for dev. E.G: so if you want your code to be importable, it must be, but only needs to be, in sys.path. Which means...
+
+Because I know beginners have troubles with this.
+
+But it contains most informations you actually need to deal with import in 2 minutes, which is quite cool.
+
+Complementary article that goes well with this video: https://www.bitecode.dev/p/making-your-python-life-easier-by",1,2025-03-24 11:17:04,alicedu06
+programming,1k5m8pr,moj298g,Oh my God. Enough with the AI articles already. I swear you lot are so much worse than the blockchain people ever were.,12,2025-04-23 00:42:45,CanvasFanatic
+programming,1k5m8pr,moj935f,"This is the first time in a while where an article on r/programming  about AI wasn't generated by AI (poorly) and wasn't just a shitty attempt to pimp some AI startup through reverse psychology. So that's nice.
+
+The paper itself studies an interesting subject: ""What factors do software developers use when assessing trustworthiness."" But the conclusions are pretty weak: ""Developers like it when the AI's suggestion is correct and comprehensible."" I guess a paper like this can at least remove doubt that the obvious answer is accurate. Step 1: make the AI actually work right. Step 2: don't make the AI not actually work right.
+
+The other conclusion, that developers aren't very good at assessing the maintainability of code at first glance, is also pretty weak. ""Short term is easy. Long term is hard."" Yeah okay. Kind of felt like that one was pretty tautological.
+
+I was hoping to see, but didn't see, a comparison between the dynamics of trusting AI code vs the dynamics of trusting human code. Maybe it's not as relevant to the audience of this paper, but I wonder if this paper might not even necessarily have anything to do with AI. It's just about how humans assess code and happens to be made relevant because now there's a new business for selling code generation services.",2,2025-04-23 01:22:49,GregBahm
+programming,1k5m8pr,moje1mn,"Fuck that. I don't want the perception of shit. I want working code.
+
+Man, first fucking block chain then this. I can't wait for us to move on to the next dumb ass technology.",2,2025-04-23 01:52:05,a_printer_daemon
+programming,1k4piuh,mobt9wm,"Hey look another AI code assistant!  How novel, and just what the world needs.
+
+OP good job on building your app. Truly.  Just wish personally this sub had a no LLM related software spam rule.  However cool your code and app may be, this sub
+is spammed relentlessly with LLM related blogs, adverts,
+software all of which basically says and/or does similarly in terms of functionality.",5,2025-04-21 21:46:38,church-rosser
+programming,1k4e521,mo9kwtw,"I don't disagree in principle, but I would caution that this approach has the effect of *massively* complicating your application. The number of places where things can go wrong has exploded, along with potential costs.
+
+Take this approach when you need it, avoid it when you do not need it.",3,2025-04-21 14:55:09,gredr
+programming,1k4e521,mo9slw5,"If you need to rely on large CSV files, you have made architectural mistakes a long time ago.",2,2025-04-21 15:33:44,ZirePhiinix
+programming,1k3i9i6,mo2ejqn,Nice implementation! Can you give me some real world examples where this would be most useful?,-1,2025-04-20 09:36:10,wardrox
+programming,1k2zpp9,mo48ul6,Where are the videos before episode 162? Might actually look into it but wanted to start with the first video.,1,2025-04-20 17:04:15,extractedx
+programming,1k2r3ez,mnw9cg5,"There are a lot of various (and occasionally bizarre) topics covered in this post... but very little on what ""creative coding"" is actually supposed to be.",7,2025-04-19 08:07:07,pip25hu
+programming,1k24n5l,mnr6i8z,"Speaking as someone who has been around a while, what companies even have DBAs anymore?
+
+Most companies just YOLO their data out into a cloud database and press the ""more bigger"" button when it gets slow. But maybe I'm used to a much more agile kind of organization?",11,2025-04-18 13:20:20,roxm
+programming,1k24n5l,mns1pfk,"DBAs? Hard time? In our company DBAs are so few and far between that our team doesn’t even get one! They said, “take care of your DBs yourselves” so one of our devs who knows a lot about DBs is now reluctantly called our “DBA”. And no, he doesn’t give us any hard time.",4,2025-04-18 16:02:35,Linguistic-mystic
+programming,1k24n5l,mnr9ihw,Make the indexes I need and we can talk.,1,2025-04-18 13:37:43,dethswatch
+programming,1k24n5l,mnvem2b,you guys have dbas?,1,2025-04-19 03:27:36,No_Technician7058
+programming,1k14817,mnj6on3,"I guess the author has never heard of OLMo. Open source AI does exist, it’s just currently not as performant as more secretive closed weight and open weight models.
+
+https://en.wikipedia.org/wiki/Allen_Institute_for_AI",46,2025-04-17 04:27:45,sluuuurp
+programming,1k14817,mnjcoy0,"OP your article is flat out wrong lol. You seem to have focused on only the really popular, *heavily marketed* models and companies that even my grandma knows about. No, these labs obviously aren't going to open source their models. The money they spent on marketing didn't come out of thin air.
+
+In addition to AI2's OLMo, there's also HuggingFace's [SmolLM](https://huggingface.co/blog/smollm) which is fully open source.  This includes both the data pipeline and model design, and yes, it means you can train an equivalent model from scratch.",22,2025-04-17 05:17:46,NamerNotLiteral
+programming,1k14817,mnjbsks,"
+> What is openly available with DeepSeek’s R1 model is not the source code, nor the training runbooks, and not even the training data. No, just like so many of its predecessors (like Meta’s Llama models, the Mistral Mixtral models, and Microsoft’s Phi models), DeepSeek simply released the network weights for R1.
+
+I think the author missed the detailed research paper, multiple demonstrations with open data sets, and detailed instructions and documentation.",22,2025-04-17 05:09:56,omniuni
+programming,1k14817,mnj9xhk,There is no AI,16,2025-04-17 04:54:03,underwatr_cheestrain
+programming,1k14817,mnjli7d,This article is 90% nonsense. I weep for human journalism,6,2025-04-17 06:40:57,SmolLM
+programming,1k14817,mnjty2g,">So, in short, because it’s nearly impossible to understand how a “black-box” Large Language Model works by only looking at its weights, distributing the weights alone does not make it “open source”. Users do not have the freedom to study these systems, they do not have the freedom to change the way the models work, they do not have the freedom to fix bugs nor submit patches, and they do not have the freedom to truly control the software they use that integrates with LLMs.
+
+It's nearly impossible to do anyway even if you do have the code used to train. Explaining why an LLM reached a specific decision is an open problem being addressed by a niche field called explainable AI (XAI). There's also the massive economic cost of retraining the model to address architectural flaws that can make it impossible for even the developer to fix bugs, because they've already spent an absurd amount of money. 
+
+Even if you open source the code you'll still have those problems.",1,2025-04-17 08:07:42,plenihan
+programming,1k14817,mnkrbne,There is no open source encryption either because I don't have access the the private key from which you build your public key.,0,2025-04-17 12:48:36,somebodddy
+programming,1k14817,mnjb1m9,"This brings the question - is using books/OSS code/... to teach humans the same as training LLMs? If I learn some nice tricks from glibc code, and use that to create proprietary code - how is that different from using LLM to generate it? We probably really need to rethink the whole copyright paradigm (and consider, if it even makes sense anymore, as is)...",-7,2025-04-17 05:03:30,andree182
+programming,1jyyjcu,mn218gw,"Author here. I'd love to hear the community's practical experiences with this challenge. Some specific points I'm curious about:
+
+
+
+1. Traditional documentation often fails to capture the ""why"" behind architectural decisions - how are you handling this with AI tools in the mix?
+
+
+
+2. Have you found ways to document context that work well for both human developers and AI assistants?
+
+
+
+3. For teams using AI coding assistants regularly - what workflows have you developed to prevent knowledge loss?
+
+
+
+I'm particularly interested in hearing from teams that have found sustainable ways to integrate AI tools while preserving institutional knowledge. No promotion intended - genuinely looking to learn from others' experiences.",1,2025-04-14 13:12:56,traderprof
+programming,1jy4six,mmwia35,AI slop,2,2025-04-13 14:45:15,MechanicalHorse
+programming,1jy0cnb,mmut5pv,Don’t tell this guy about opaque pointers,3,2025-04-13 06:04:56,hellishcharm
+programming,1jy0cnb,mmuv3jw,"The POWER of OOP in 2025 is that OOP languages happened to be the first to do abstraction, polymorphism and modularization back when computers were the size of a car?",1,2025-04-13 06:23:49,asbjohe
+programming,1jy0cnb,mmuorwm,"Half my code is just lines of list comprehension and lambda functions, who says OOP is dead? Also, who gives a fuck?",1,2025-04-13 05:24:42,TheGayestGaymer
+programming,1jy0cnb,mmurd8p,Why not embrace both this tech segregation is killing me softly (awesome song) 🥲,1,2025-04-13 05:48:10,F0x_Gem-in-i
+programming,1jxhpil,mmqev9k,"""After experimenting with these techniques for several weeks, I eventually packaged them into a tool called Giga AI (It’s paid, because I need to eat). """,65,2025-04-12 13:56:23,BenchOk2878
+programming,1jxhpil,mmqejn5,"""understand"" is the operative word here. AI doesn't understand anything. It's a lot more than a mental model that's lacking in there.",55,2025-04-12 13:54:33,Synaps4
+programming,1jxhpil,mmqpygg,"Seems kind of a weird article. Some good points about AI not understanding code-bases. Then some shoe-horned attempt at trying to force it into understanding it, while still addressing the elephant in the room: LLMs cannot reason, and there is just a limit to how much we can force it into behaving as if it reasons about a codebase.
+
+When the context grows too large, it just fails. That is why you can define working sets in current copilot for example, to force it into a smaller context window. It works ""okayish"".
+
+Seems like kind of an ad for yet another underbaked LLM layer",7,2025-04-12 14:57:57,MaDpYrO
+programming,1jxhpil,mmqikao,Dunno that i can fault the AI for a problem that many humans have.,1,2025-04-12 14:17:09,dethb0y
+programming,1jxhpil,mmqrfcv,"Isn’t this a problem that is being solved by Cursor Rules, or Copilot Custom Instructions, etc? 
+
+It’s just adding system prompts with information about the application, implementation details, and architecture to every prompt.
+
+Not sure I agree about companies being incentivized not to solve this problem because they make money selling tokens. That’s always been a failing strategy. Solving problems for people is how you make money.",0,2025-04-12 15:05:53,andlewis
+programming,1jxhpil,mmqibff,"“Act as a principal architect who is an expert at communicating with LLMs. Summarize the attached codebase in a way that’s easy for an LLM to understand. Work out a way to organize the context in a way that is easy for an LLM to track as we make changes. We are going to update these contexts, where applicable, on each change using the roo cline. The purpose of this is to give the LLM the context necessary to better understand all of the context of my codebase”
+
+I would put in my custom instructions to roo cline with the names of my current context tracking files. I would ask the LLM to update those files, add additional files if necessary, and update my custom roo cline instructions. 
+
+Now my LLM has a super charged way to track the total context of my codebase as it goes. It’s customized to my codebase. It’s updated on every change. It doesn’t require you to pay for an additional tool. 
+
+Context is still tricky in vibe coding. The solution is the same as all other vibe coding issues, figure out how to get the LLM to solve its own problems.
+
+If I were doing this for real, I would type faster and leave all of my typos in. I find that the LLM works harder when it has sloppier input. It’s probably a function of the tokens being slightly different.",-14,2025-04-12 14:15:46,wtjones
+programming,1jx169n,mmmy0r6,I chuckled about the fact that Uncle Bob would include autobiographical stuff in a book about the giants of the trade.,2,2025-04-11 21:56:36,pylbh
+programming,1jw6472,mmfwife,Yuck a paywall.,3,2025-04-10 19:32:05,black_hat_cross
+programming,1jsonbq,mlpitur,This is an example of an IDE class hierarchy.  No programming happening here.,5,2025-04-06 15:02:55,church-rosser
+programming,1jsonbq,mlqdphz,"Oh, it's v 2",1,2025-04-06 17:48:45,KianAhmadi
+programming,1jsonbq,mlpxgso,garbage ad,1,2025-04-06 16:22:49,zzzthelastuser
+programming,1jrls3j,mlg4apw,"To save people time:
+-------------------
+Why do we need modules at all?
+
+
+This is a brain-dump-stream-of-consciousness-thing. I've been
+thinking about this for a while.
+
+
+I'm proposing a slightly different way of programming here
+The basic idea is
+
+
+    - do away with modules
+    - all functions have unique distinct names
+    - all functions have (lots of) meta data
+    - all functions go into a global (searchable) Key-value database
+    - we need letrec
+    - contribution to open source can be as simple as
+      contributing a single function
+    - there are no ""open source projects"" - only ""the open source
+      Key-Value database of all functions""
+    - Content is peer reviewed
+-----------------
+
+
+The answer for the separation of concerns is well documented, but here explanation:
+
+
+For any k > 2:
+
+
+k-clause-DNF is NP-complete
+k-term-DNF is NP-hard.
+
+
+If you can get your depenancies into a DAG, expressly in a horn clause, dependancy hell can be avoided.
+
+
+While anyone who has had experience with balls of mud codebases or even enterprise service busses knows the above, the reality is that separation of concerns is fundamental to writing maintainable code.
+
+
+The above musings would set any code in absolute stone, and requires all projects to be fully productized and externalized.
+
+
+There is a reason containers are popular, they are just namespaces, which are just modules.
+
+
+It removes the cost of coordinating changes in a global namespace with every single development group.
+
+
+I don't care what Suzy in accounting does with their foo() interface if I am in shipping().  And there is no value in exposing her implementation details either.
+
+
+Nor do I want my work blocked by her legacy needs when I need to adapt to customer visible needs 
+
+
+I get that decisions on how to modularizing components are challenging, and context dependant.
+
+
+But modules really are the least worst option.",2,2025-04-04 21:58:07,gdahlm
+programming,1jrls3j,mlg7z5a,Micro modules but worse.,1,2025-04-04 22:19:38,shizzy0
+programming,1jo3tll,mkoxzjj,"This is a horrific dystopian way to do software development. The reason why engineers do not share every single detail they work on is because stakeholders do not understand them. And when you start involving people with things they do not understand, bad things are going to happen. Successful organizations have to trust that their engineers do the right thing without status updates
+
+And then the audacity to ask ""Why do teams resist transparency?""",2,2025-03-31 14:43:05,Loves_Poetry
+programming,1jnv0ro,mknan3d,"Indeed. Building / organizing the frontier URL queue for crawling at scale is quite challenging. Also, a nice crawler will not flood a site with HTTP GETs in a short span of time -- at most a page every 10 seconds or so. So to scale, crawlers will often hit multiple (thousands of) sites concurrently (usually using non-blocking network i/o). I've heard Google only needed a handful of such crawlers.",3,2025-03-31 06:42:00,gnahraf
+programming,1jnv0ro,mkmyh9y,Scrapper is not the same as scraper.,2,2025-03-31 04:46:56,m9dhatter
+programming,1jnkfxt,mkkqjlu,"why don't i use ai for my ai, so i can ai while i ai? Let's build it, give me 50 million in startup money.",3,2025-03-30 20:25:12,todo_code
+programming,1jkhj52,mjvb5x8,[deleted],8,2025-03-26 17:44:18,N/A
+programming,1jims7t,mjgb93w,"“As of today (4th of January, 2019)”
+
+Saved you a read",8,2025-03-24 09:45:17,zebullon
+programming,1k5dyzg,mohbn6l,"For most people, the answer is “no”.
+
+For people in some specific contexts, the answer is also “no”.",14,2025-04-22 19:10:54,the_bighi
+programming,1k5dyzg,mohfkem,"Normally I would say this is not a good idea.
+
+Having worked on multiple legacy codebases now where multiple teams set out to rewrite everything in a new framework but stopped somewhere in the process and now the whole application is one repository that is three different Frameworks Held together by ducktape I am thinking like, yeah, for this it would have been a good idea.
+
+I would not give each microfrontend a separate backend though. No matter if the backend is micro services or monolith, it should be sliced based on business logic rather than on what pages exist on the UI.",2,2025-04-22 19:30:22,Rainbows4Blood
+programming,1k5dyzg,moh9t2o,No.,2,2025-04-22 19:01:42,NotTheBluesBrothers
+programming,1k5dyzg,mohauze,Absolutely not. NEXT!,2,2025-04-22 19:06:59,axiosjackson
+programming,1k5dyzg,moh9jba,Soon to find out...,1,2025-04-22 19:00:23,build-0752409548e6aa
+programming,1k5dyzg,mohab18,Great read. Thanks,1,2025-04-22 19:04:12,pag07
+programming,1k5dyzg,mohgizx,Did this article really suggest writing 3 separate services for front end in 3 different frameworks. With entirely different ways of doing things.,1,2025-04-22 19:35:12,Farados55
+programming,1k5dyzg,mohbyt2,I’ve been saying it for years; anyone still writing monolithic front ends is living in the 20th century.,-8,2025-04-22 19:12:29,Western_Bread6931
+programming,1k57cct,mog22t1,"Q: What are ORM's?
+
+A: Pain in the Asses. 
+
+Gotta be a better way.",4,2025-04-22 15:30:21,Zardotab
+programming,1k57cct,mog99gt,What are ORMs. It literally says what they are in the acronym that names them.  What else needs to be said?,1,2025-04-22 16:04:43,church-rosser
+programming,1k4c7g8,mo8zmaq,"Some serious timecube energy here. Maybe it just all went over my head, or maybe you're just having a hard time communicating clearly what's going on, but also maybe you've had a stroke.",3,2025-04-21 12:56:02,gredr
+programming,1k4c7g8,mo9oxsl,"You used a lot of words (possibly AI generated) to describe what the software structure is, but not what it does. And you didn’t provide a GitHub link so it’s not like we can ready the code to understand. 
+
+Sorry to say, but it’s not a very comprehensible article.",2,2025-04-21 15:15:27,Zambeezi
+programming,1k4c7g8,moa0mrt,Gibberish word salad.,1,2025-04-21 16:27:45,church-rosser
+programming,1k49nuc,mo8d0dh,"TLDR mock services. So not integration tests, only as good as the mocks, and prone to rotting.",25,2025-04-21 09:55:17,Rhoomba
+programming,1k49nuc,mo8dwm7,Wix might be one of the worst codebases to exist from how huge and clunky their websites are,11,2025-04-21 10:04:24,freecodeio
+programming,1k49nuc,mo8fecn,Sounds like you just created unit tests with mocked services. They don’t actually “integrate”,6,2025-04-21 10:19:06,New_York_Rhymes
+programming,1k49nuc,mo8e931,AI generated F1 car with tiny human wasn’t my bingo card.,1,2025-04-21 10:07:52,0xdef1
+programming,1k49nuc,mo8ifer,"How do you test nonsensical (syntactically or/and semantically) SQL generated by your app? Or how the latest DB migration affects the existing code? Or how application behaves after a huge refactor?
+
+Switch from integration -> unit seems to work only for managers, who does not develop code anymore and they prefer fast execution over correctness and confidence during development",1,2025-04-21 10:47:35,Revolutionary_Ad7262
+programming,1k49nuc,mo8ndxb,https://boycottwix.org/,0,2025-04-21 11:29:33,freefallfreddy
+programming,1jxzoji,mmuy19u,It's an ad. ,3,2025-04-13 06:53:04,Wonderful-Wind-5736
+programming,1jxzoji,mmum4w9,I understand nothing of German besides Un dosh heighch Eeeerika,1,2025-04-13 05:02:02,coyoteazul2
+programming,1jwvfsz,mmlj2yj,"Eh, I just dont agree. Just because you can't recall exact facts from something you read, doesn't mean it doesnt soak into your subconscious and help you solution or intuit in the future.
+
+The brain isnt just some fact recalling machine, it has many layers beyond our conscious experience. Why do you recall things hours later without trying? Because there are subconscious processes working in the background.",20,2025-04-11 17:34:23,rdubya
+programming,1jwvfsz,mmlnqoi,You aren’t a strong reader are you,3,2025-04-11 17:57:00,Used-Rip-2610
+programming,1jwvfsz,mmlmp3n,"The author of this article seems to be really bitter toward readers in general. I can’t tell if they’re mad at themselves for not finishing books or if they’re angry at a coworker with the nerve to read in their spare time. 
+
+I’m not a “gotta be productive all the time” kinda guy, though. I read tech books because I enjoy tech books. I enjoy hearing how others solved problems and I enjoy hearing about new concepts and ideas. I don’t feel like I have to be “making progress” when I read a book. 
+
+Reading alone won’t make you a competent software engineer but it’s odd to think it serves zero purpose. I’m often left just sitting and assimilating what I’ve read. Thinking through what was presented and basically just assimilating the concept of it. You can get years of hard-earned knowledge that took other people a lot of mistakes to learn in just a few minutes this way.",4,2025-04-11 17:51:55,Dismal_Boysenberry69
+programming,1jwvfsz,mmlp7km,"Right when I started my software development career (after 20+ years in the military), someone recommended reading “The Pragmatic Programmer.” I read that book cover to cover, yet it hardly had any directly actionable examples, just lots of pretty sound advice, from very granular to macro, career-making stuff. 
+
+I didn’t read it to come away having memorized all of its content. I read it to try to get a feel for the types of things, the kinds of insights, that might be valuable to me as I went about my journey. It was revelatory in many ways, and I have reread it, and the updated 20th anniversary edition, several times the last two decades. 
+
+You can, in fact, read a book like this as if it’s fiction, knowing full well it is definitely not, and be richly rewarded for assimilating new perspectives you can use for the rest of your life. In this example, I totally disagree with the author. Do what works for you and what brings enjoyment. Not everything has to be transactional. What a petty, myopic, joyless way to go through life, much less a career in software development.",2,2025-04-11 18:04:13,TestFlyJets
+programming,1jwvfsz,mmlpkxm,"> If you are not going to apply the knowledge right away, it is mostly useless.
+
+This is not true at all and has literally never been true. At least not for me. Everyone learns differently, but I can almost guarantee if you are only learning something new when you need to solve a specific problem, you're going to be missing *something*. And usually, you have no way to know what until you stumble across it.
+
+If you only ever learn in order to solve a current problem, you are not equipped to face new problems or innovate. Learning how to do a task is only one kind of learning, but you also need to learn how to approach problems, how to assess multiple options, how to come up with solutions on your own. Hell, just reading for the sake of it is still learning, because the very act of reading is a skill that can be improved. If you think you have no room to improve on your reading skills, you aren't reading enough.
+
+I would argue that if you are never learning just to learn, reading to read, thinking to think, you are the one trapped in an endless cycle of ""How do I do X?"" Look it up, do it, repeat. You will be faced with a situation where the concepts and solutions you find do not fit your specific problem, and if you aren't capable of pivoting and trying something else you are going to have a bad time. Any competent developer, software engineer, etc. will have this skill, I'm sure you do as well even if you dont realize it. It would be impossible to survive in tech without being able to adapt. And that ability? It comes from absorbing other information. Reading about some new tools, hearing about a problem someone else had, even just going about your life can give you insight into things you would think are completely unrelated.
+
+Even this post, you wrote this article to share an idea. For many people, the guilt and pressure of reading to learn, or even just reading nonfiction, may not be something they even realized was a problem, or maybe written it off. Perhaps reading this article would help people realize this is a problem, and they *can* do something about it. But the very same article discourages this exact type of reading and learning. There is certainly not anything in this article immediately useful or actionable to me, because this isn't a problem I face. But it has led me to think about something I probably wouldn't have otherwise, and that is useful in its own right, and why I would disagree with this premise.",2,2025-04-11 18:06:05,eldritchgarden
+programming,1jwegdm,mmifbff,Article is paywalled. 😞,10,2025-04-11 04:26:08,MPGaming9000
+programming,1jwegdm,mmigngp,"If you wrote this, know that the slab of AI garbage art at the head of the article makes me question your judgement as well as your taste. 
+
+You chose something that doesn’t represent the problem, or even spell it correctly, when you could have chosen a clear diagram that actually communicates. 
+
+I don’t trust you. This is unlikely to be the outcome you had hoped for.",25,2025-04-11 04:37:05,JaskoGomad
+programming,1ju9zit,mm0vzh5,"I hoped to get something there, but it was just that we used JSON and not using JSON is faster. Like I get it but it does not help when I am already using LLM as they were intended. This is not even scratching the surface on how you can optimise your LLM call.",1,2025-04-08 12:35:49,skuam
+programming,1ju9zit,mm0dsd1,"Author here!
+
+Expect loads of people are working with LLMs now and might be struggling with prompt latency.
+
+This is a write-up of the steps I took to optimise a prompt to be much faster (11s -> 2s) while leaving it mostly semantically unchanged.
+
+Hope it's useful!",1,2025-04-08 10:13:02,shared_ptr
+programming,1jr5iy3,mlc39lq,"    sealed interface Membership permits Gold, Platinum, None {}
+    
+    record Gold() implements Membership {}
+    record Platinum() implements Membership {}
+    record None() implements Membership {}
+
+In times before even Java 8, this would probably have been ""public enum Membership { GOLD, PLATINUM, NONE; }"". Some might argue it would still be. For some reason, the article considers the alternative to this to be a String type, which it would not be in reality. This entire article reads like AI slop to me. I don't think it reflects any actual practice of any living person.",14,2025-04-04 06:49:58,audioen
+programming,1jr5iy3,mlc8atd,"Hot take: using system.out.println() in “test code” leads to using system.out.println() in the production code. And having to go back and manage those or erase them.  
+
+Much better to always just start with stuff being printed out via a logging levels system. Even if that logging system is printing to the terminal and not to a file. Still beats the other way. One quick configuration and all printed output can be totally removed. Instead of: “let me search through my code base and find all the lines with the …” no.",2,2025-04-04 07:42:21,this_knee
+programming,1joyjx5,mkventz,"Article only talks about commercial tools.  Open source tools are conspicuously absent, despite being more likely to survive the next AI industry [bust cycle.](https://wikipedia.org/wiki/AI_winter)",3,2025-04-01 15:45:34,ttkciar
+programming,1joyjx5,ml4qm07,This breakdown was helpful,1,2025-04-03 01:51:44,getyourslopoffmyfeed
+programming,1jnimsr,mkklxlg,"This concept of Literate Development matches my own experience of problems fully automating development. I like the docs, then tests, then code approach and I can apply it on my own workflows.
+
+I have heard of iterating on the docs before and after this reaffirmation, I’ll set up my systems to iterate on feature definitions before picking one to run with. (Currently I just request a task description in a single prompt with some context but no iteration.)
+
+Thanks, great article.",1,2025-03-30 20:01:52,InformalOutcome4964
+programming,1jn74da,mkhismi,Didn't you post this already?,7,2025-03-30 07:44:43,Melodic_Duck1406
+programming,1jn74da,mkhoete,"
+ * Get to the point: Ensure the title and first three sentences clearly answer if the article is for the reader and what benefit they will gain. Use relevant topics and terminology.
+ * Think one degree bigger: Consider a broader audience for the topic to potentially increase reach with minor adjustments.
+ * Plan the route to your readers: Choose topics that readers are likely to find through Google search or other platforms. Consider relevant keywords.
+ * Show more pictures: Incorporate visuals like photos, screenshots, graphs, or diagrams to enhance engagement.
+ * Accommodate skimmers: Use headings and images that are interesting enough to capture the attention of readers who skim content. Avoid large blocks of text.",3,2025-03-30 08:47:23,flavius-as
+programming,1jmuclc,mkelsmn,"Usual reddit - instead of celebrating an achievement, they are putting you down.",-19,2025-03-29 19:47:45,avaneev
+programming,1jlygi7,mk7rrjg,https://github.com/thames-technology/monads,6,2025-03-28 17:12:44,kaancfidan
+programming,1jlygi7,mkbs7xh,"It never ceases to amaze me how little thought most language developers give to error handling. Makes me appreciate Java’s checked exceptions all the more. Rust is also decent with its question marks, but its `try` blocks are not stabilised yet and, yes, ideally the question marks should be omittable too. Other languages feel like a wasteland of bad error handling. When you have to manually expand
+
+    r = f(g(x));
+
+into
+
+    r0 = g(x);
+    if (r0.isErr()){…
+    }
+    r1 = f(r0.get());
+    if (r1.isErr()) {…
+    }
+    r = r1.get();
+
+that’s just weak language design.",2,2025-03-29 08:24:40,Linguistic-mystic
+programming,1jlygi7,mko1st9,"No matter how bad you think your language's error handling scheme is, it's not as nearly as bad as introducing another error handling scheme and arbitrarily have some functions use one while other functions use the other.",1,2025-03-31 11:21:59,somebodddy
+programming,1jlygi7,mkoay9y,"it is not a rust solution. It is a mathematical pattern named monad. It was developed for Haskell and added later to many languages.
+
+So maybe rustify is not a correct name.",1,2025-03-31 12:30:04,florinp
+programming,1jl20u5,mjzxh5q,"DX: Flutter
+
+Maintainability: Flutter
+
+Jobs: RN",2,2025-03-27 12:04:53,mpanase
+programming,1jkh97i,mjva715,"You can in fact Google Select, as you had proved to the person giving you terrible advice. 
+
+It is in fact not a sign of development ability to not have every method of every language and it's tooling memorized.",14,2025-03-26 17:39:47,tripledjr
+programming,1jkh97i,mjvck89,"This is really dumb. Nobody has the entirety of a language memorized, and needing to google something to remind yourself of the syntax is totally okay. I mean, wtf?",6,2025-03-26 17:50:47,adreamofhodor
+programming,1jkh97i,mjve8pp,"it comes and goes with use. I've probably forgotten more bash than most people know. If i haven't used it in a while, damn skippy im googling for basic syntax and shit because the only thing worse than getting it completely wrong, is getting in 95% right and wasting time figuring out what's wrong with that 5% because i was too proud to double check the docs for ""For""",4,2025-03-26 17:58:36,granadesnhorseshoes
+programming,1jkh97i,mjvar6i,"Hard disagree. I work in 3 different programming languages depending on the day, and I am sure as hell not memorizing the exact details of the standard libraries of all three.
+
+
+Brain space should be dedicated to important concepts and mental models, not to stupid minutiae that can be looked up in seconds or conjured by a LLM.",10,2025-03-26 17:42:24,zjm555
+programming,1jkh97i,mjyq936,"I feel like I've gotten different advice, more in the direction of ""you should know how to Google, but especially how to Google well"" - if it takes you 1 search and all of 2 minutes to find an answer, I don't think it's a problem. As everyone has been saying, memorizing every little bit of a language isn't super reasonable, what matters more is understanding the design and purpose - knowing what to build is the first step, then you can figure out how to build it",1,2025-03-27 05:04:57,Own_Variation2523
+programming,1jjzg8w,mjr9hma,Wait. Its not the Master Control Program from Tron?,30,2025-03-26 00:52:09,rich22201
+programming,1jjzg8w,mjrc84w,"It stands for 'Manual Crowd Pummeler' and it's a level ~30 mace that drops in gnomeragan. It's incredibly useful for feral druids because of its on use effect, which increases attack speed by 50% for 30 seconds, but can only be used 3 times. This makes it essentially a consumable for druids who want to tank or dps at a high level. A try hard druid might use 10 or so pummelers in a raid night and would have to spend hours in gnomeragan farming them as it's only a 1/3 drop chance off a boss. Luckily a druid can go in and kill the boss and reset the instance in less than 5 minutes.",11,2025-03-26 01:07:46,stimg
+programming,1jjzg8w,mjrb3rn,MCP is just Vibe Coding that uses an Agentic approach to Reactive deep research,9,2025-03-26 01:01:19,uniquesnowflake8
+programming,1jjzg8w,mjr9wr2,How is MCP different then tool calling with LLM’s today?,3,2025-03-26 00:54:32,VK47
+programming,1jjzg8w,mjrav74,"It's the distant cousin of SCP, and the containment hasn't been breached so far.",7,2025-03-26 00:59:58,revoconner
+programming,1jjzg8w,mjr9m4g,Make it stop... I'm still learning the ECS pattern!,4,2025-03-26 00:52:52,Dirty_South_Cracka
+programming,1jjzg8w,mjrdqm6,"""We do the copy pasting for you so the last vestige of your humanity can be snatched away and you can ascend into laziness Nirvana""",2,2025-03-26 01:16:27,jonsca
+programming,1jjzg8w,mjtcltm,"
+MCP is basically connecting your tools like figma, jira, linear, GitHub, slack to cursor. Then your composer in agent mode can automatically decide to use those tools to execute tasks for you.
+
+So to me it seems like instead of you coding the tools, third parties can do it for you and all you need to do is make it available for your LLM.
+
+
+If you want to try out mcp (model context protocol) with little to no setup:
+
+I built https://skeet.build/mcp where anyone can try out mcp for cursor and dev tools.
+
+We did this because of a painpoint I experienced as an engineer having to deal with crummy mcp setup, lack of support where we need it most like Jira and Linear - updating slack and all that friction that engineers hate doing.
+
+Mostly for workflows that I like:
+
+* start a PR with a summary of what I just did
+* slack or comment to linear/Jira with a summary of what I pushed
+* pull this issue from sentry and fix it
+* Find a bug a create a linear issue to fix it
+* ⁠pull this linear issue and do a first pass
+* pull in this Notion doc with a PRD then create an API reference for it based on this code
+* Postgres or MySQL schemas for rapid model development
+
+Everyone seems to go for the hype but ease of use, practical pragmatic developer workflows, and high quality polished mcp servers are what we’re focused on
+
+Lmk what you think!",1,2025-03-26 11:20:06,whathatabout
+programming,1k4hyxp,moa6bil,"Non-clickbait title would be, “is my AI-generated code ethical?” Sudoku doesn’t enter into it.",11,2025-04-21 16:55:53,pdxbuckets
+programming,1k4hyxp,moaazy3,"Claude's ToS say they assign the rights ""if any"" to you. ""If any"" is an important caveat though, as not all outputs may be copyrightable in the first place.
+
+[More detailed discussion here](https://terms.law/2024/08/24/who-owns-claudes-outputs-and-how-can-they-be-used/)",2,2025-04-21 17:18:21,marquoth_
+programming,1k4hyxp,moa5ije,[deleted],1,2025-04-21 16:51:58,N/A
+programming,1k36eno,mnzu2qc,"Why we don’t reinvent the wheel:
+
+No CSRF checks
+
+User name is an XSS hole, printed without escaping after login. Also other XSS holes throughout
+
+Email validation is ancient, just test send an email
+
+PHP sessions bad and stateful, don't scale
+
+I encourage readers to find more security holes because they’re there lol",5,2025-04-19 21:54:22,FourSquash
+programming,1k2z3fc,mny013k,"fuck langchain, seriously it's a dumpster fire.",5,2025-04-19 15:55:48,pydry
+programming,1jybm5s,mmxca7r,"tldr: he has the LLM generate summary documetation of components of his codebase in a structured way on different topics like ""dataflow"", ""security"" etc 
+
+
+It dramatically improves performance 
+
+
+
+Much like a human faced with a huge codebase the llm does much better once there's a bunch of summary documentation about the system it can keep in mind when working on specific parts ",10,2025-04-13 17:21:17,WTFwhatthehell
+programming,1jybm5s,mmxrfdd,And yet we have so many people out here arguing against documentation.,3,2025-04-13 18:39:22,pickledplumber
+programming,1jybm5s,mmxt8we,Tell me you don’t know how LLMS’s work without telling me you have no idea how LLM’s work,1,2025-04-13 18:48:59,okiemochidokie
+programming,1jy5vl5,mmxm9k7,If you're just going to use an AI voice and a slideshow why even use an Audio Visual medium to present?,0,2025-04-13 18:12:05,Biom4st3r
+programming,1jy165o,mmuvya5,"Terrible title all around. .
+
+
+By the way, yes, reliance on compilers leads to inefficient coding practices. Has nothing to do with being replaced. OSs do have overhead. Has nothing to do with being replaced. User friendly GUI absolutely does reduce programming skills (how many of us have a grandparent that can easily use a PC but wouldnt know the first thingabkut programming?). Nothing about being replaced. Offline/local software IS better than web. Nothing about being replaced. Frameworks and libraries 100% reduce knowledge and understanding of the core code.
+
+
+
+This whole article is just a weak attempt to justify generative AI and if I'm being honest it really feels like it is copy pasta from CrapGPT",74,2025-04-13 06:32:16,VegtableCulinaryTerm
+programming,1jy165o,mmv2ojo,"Every advance has made the industry larger and increased the demand for programmers. I would even say it has increased the demand for people with skills that are supposedly being replaced.
+
+There are more people working with machine code than there ever were before assembly code was invented. Because there is high demand for computer chips, and multiple companies working on chip design.
+
+There are more people working with assembly code than there ever were before the invention of compilers, because there are many programming languages and competing compilers/interpreters and advances in compilers and all of these things need programmers to work on them.
+
+As programs get more high-level there are more people working at the highest level, because it becomes useful in more and more fields, but there are also programmers and engineers working to convert from each level to the lower one, all the way down to the silicon and metal.
+
+With AI, there might be more non-programmers and low-skill programmers working on simple scripts to help them with their jobs, but there are lots of places we still need hard-core programmers. Plus all of these AI programming frameworks that are exploding, need someone to program them!
+
+We all know that AI writes shitty code right now, but even if it gets better, there will still be a demand for programmers at every level.",7,2025-04-13 07:40:20,allergic2Luxembourg
+programming,1jy165o,mmv476t,"""Many believed a desktop application working offline was better than depending on network connectivity to work""
+
+Yes. It still is. I'd call it a braindead take to think otherwise, but that's an insult to people who are actually braindead. Any app that depends on internet connectivity is inferior to an equivalent non-dependent app. Internet connectivity can *enhance* the latter, but straight up dependence is ""mixing bleach and ammonia"" levels of idiocy.",14,2025-04-13 07:56:01,Muhznit
+programming,1jy165o,mmv5mi0,Anyone worried about getting replaced by AI does not understand the value of an engineer. No amount of mystical technology can ever replace the need for people who can explore a problem and then describe its solution in such a way that even an idiot can do it.,5,2025-04-13 08:10:55,Sabotaber
+programming,1jy165o,mmv1vno,"Garbage article. 
+
+There are several attempts that could be listed, like cobol, uml and low code.",8,2025-04-13 07:31:56,geon
+programming,1jy165o,mmuvult,"As a teenager, the program generator ""The Last One""  described in Computer Weekly almost convinced me that becoming a programmer wasn't going to be a possibility for me.
+
+Add TLO and later 4GLs to the list.",4,2025-04-13 06:31:15,undyau
+programming,1jy165o,mmwf3e5,"Ignoring the title, they were all correct.",1,2025-04-13 14:27:56,Timbit42
+programming,1jy165o,mmzpd29,There are many veterans in my project who believe the cloud is very unsafe and we should not move to the cloud.,1,2025-04-14 01:22:15,Southern-Reveal5111
+programming,1jv833f,mm82wud,"Can't view the website, being told that rate limits have been hit.",5,2025-04-09 15:13:21,MrKWatkins
+programming,1jv833f,mm899ya,"Repost, [was posted here on monday](/r/programming/comments/1jtk7ky/the_best_programmers_i_know_matthias_endler/)",2,2025-04-09 15:44:48,syklemil
+programming,1jv833f,mm847d3,Is this some form of rickroll?? :)),1,2025-04-09 15:19:46,lcserny
+programming,1jv833f,mm8hal6,I'm now retired from computing and as a guy who generally finds these sorts of lists silly...  That's a pretty good list.,1,2025-04-09 16:24:19,haltline
+programming,1jv45i3,mm76z65,Reads like an AI wrote it. Or am I getting too suspicious?,7,2025-04-09 12:19:38,english_european
+programming,1jv45i3,mm80k5m,"The language used almost brought me a migraine. Zero substance, millions of fluffy words. 
+
+I hope the site had ads, I could not imagine why else that *stuff* (I cannot bring myself to call it an article) exists.",2,2025-04-09 15:01:38,AlexKazumi
+programming,1jtrrhs,mlwk2fc,"In that sense, a constructor in C++ also isn’t a constructor.",4,2025-04-07 18:24:45,ventus1b
+programming,1jtrrhs,mlwgwoj,Python is not primarily related to programming BUT,-12,2025-04-07 18:08:37,BlueGoliath
+programming,1jsw3pl,mlpl2hh,"AI this, AI that... Karma farmers gonna farm.",14,2025-04-06 15:15:09,church-rosser
+programming,1jqtlad,ml9k51u,"TLDR using synchronized is probably fine (ignoring virtual thread pinning in JDK21 which has been fixed now I think), but don't reimplement the standard library.",7,2025-04-03 20:47:42,nekokattt
+programming,1jqtlad,mla8618,"Atomic variables and atomic data structures only allows you to use some kind of predefined synchronized operations. It works pretty way for simple cases and often it is the best, but for more complicated one you need to use CAS loop and other atomic shenanigans, which is far more worse than the typical blocking concurrency 
+  
+I think it is just bad to flame one of a solution without any arguments from the other side. A good meritoric article should mention some arguments from `synchronised block lovers club` and try to meritoricaly justify it's nonsense.",1,2025-04-03 22:59:32,Slsyyy
+programming,1jlz4fv,mk7kchx,[deleted],2,2025-03-28 16:37:30,N/A
+programming,1jk7bze,mjtulgi,">Today, in most companies, our software teams are the bottlenecks!
+
+Id Software in early 90s delivered 28 games in 5 years and 7 or 8 months in their after 9-5 work   
+with 90s tech - not git, no agile etc with only 6 people  
+""The Early Days of id Software: Programming Principles"" by John Romero (Strange Loop 2022)  
+[https://www.youtube.com/watch?v=IzqdZAYcwfY](https://www.youtube.com/watch?v=IzqdZAYcwfY)
+
+the only they all have in common is - they were building games for at least 10 years and they knew how to build games, unlike most people in IT today that are making decisions  
+
+
+>Today, we're at the same crossroads with AI. Yes, AI-generated code mostly sucks right now. But, there will be a day soon when reviewing every line of code will be as outdated as checking compiled Assembly.  
+
+
+The thing about high level languages and assembly is they are deterministic, miss a semicolon and you will have compiler error  
+there isn't a compiler for the AI generated word soup and you can't build one, because AI generation it based on probability and statistics, not on predefined rules",9,2025-03-26 13:21:05,gjosifov
+programming,1jk7bze,mjt19ia,Vibe managing when?,8,2025-03-26 09:35:20,tu_tu_tu
+programming,1jk7bze,mjtbtpc,"Interesting to see the hallucinated world develop and articles about solving problems in that world which I liken to listening to Old Man's ramblings or reading Philip K. Dick's Valis.
+
+> That’s why engineers were always in demand, and our salaries kept rising. Companies needed innovation and new features - and the only way to do that was to hire more software engineers. 
+
+And anyone who studied CompSci knows about Universal Scalability Law and why that statement is completely wrong. I guess regular people can come to completely opposite conclusions the same way they did in WW2 thinking that improved helmets sending more soldiers to the infirmary was bad. This is why we study and learn the inner workings of our field to not be dumb.
+
+> What does it mean for Engineering Managers.
+You will become the gatekeeper
+
+For a long time the skill of saying no to stupid demands was shouldered by good senior engineers, but some companies don't reward that so that's why they burn out and have a novice yes-man take the place. ""Become the gatekeeper"", sir you are 10 years behind, we already are the gatekeepers to stupid shit.
+
+> But, there will be a day soon when reviewing every line of code will be as outdated as checking compiled Assembly.
+
+But we still do that and it's not outdated if you want the vibes to actually run anywhere with good performance and no crashes. I've had to check JIT assembly of some Java code to realize that a change killed auto-vectorization in a loop and caused a perf regression.
+
+> Thorough tests - integration tests matter more than ever.
+
+With most _vibe_ folks advocating for using fancy LLM's to write their tests, i can see how that goes. I already see many cases of ""All the tests are green and no errors in the log, so the user must be wrong, everything works fine"", fortunately these engineers aren't operating an RBMK or really aren't engineers, that term is quite parasitically thrown around in our field. Software development is more craftmanship than engineering, unless your work is writing the same CRUD app with slightly different calculations on user load, etc.
+
+---
+
+Fortunately real coders have nothing to worry about. I've had to pick up more ML as part of my work recently, but half the science articles I've had to read have been of piss poor quality so I have no worries of anything conceptual changing in my lifetime. There are always those who try to _vibe_ out of life, do what others are doing, experimenting thoughtlessly and then there are those who study the field, see the foundations are quite stable and relax while sleeping because Freddy Kruger won't have our beds eat us at night.",5,2025-03-26 11:13:43,DualWieldMage
+programming,1jx0gb9,mmn3w1a,"> Python is a fast-evolving language, especially in the age of AI.
+
+AI didn't cause any of these deprecations, I promise you. But I hope randomly mentioning it helped you with your SEO.",127,2025-04-11 22:30:34,Booty_Bumping
+programming,1jx0gb9,mmmozc6,"The random module is not outdated, it just shouldn’t be used for purposes where security matters. It is perfectly fine for things like games or simulations.",150,2025-04-11 21:06:48,slaymaker1907
+programming,1jx0gb9,mmn78yr,"This was posted here before but removed by mods
+
+
+https://www.reddit.com/r/programming/comments/1jwslqk/11_outdated_python_modules_that_you_should_never/",10,2025-04-11 22:50:44,__Blackrobe__
+programming,1jx0gb9,mmms6i4,">Since Python 3.9, we can directly write type hints for these data types without importing them from the typingmodule.
+
+No, this was not possible in Python 3.9, at least not when specifying the type parameters. It was introduced later, 3.10 I think. ",22,2025-04-11 21:24:14,Schmittfried
+programming,1jx0gb9,mmnxmkf,"f-strings are bad for loggers, so stating they're a ""complete replacement"" is a lie...
+
+
+```
+log.debug('obj: {}', obj_with_expensive__str__)
+log.debug(f'obj: {obj_with_expensive__str__}')
+```
+
+In the first line, the objects `__str__` method is not invoked when debug logging is off. On the second line, the string is always computed, even if there is no debug logging.
+
+Sure it's an edge case, but there it is....it could be applied to any lazily calculated string and is useful when that lazy invocation is conditional.
+
+You could also preface every log statement with a conditional to check if debugging is enabled, but who's got the time for that?",4,2025-04-12 01:34:13,TheCritFisher
+programming,1jx0gb9,mmo33ie,"Ah yes, the first rule of the internet - farm engagement by posting wrong information!",4,2025-04-12 02:09:30,n_lens
+programming,1jx0gb9,mmmx9qy,What’s the replacement for urllib.parse?  I agree for actual requests there are better choices but this one seems to just remain solved with urllib.,4,2025-04-11 21:52:24,tagd
+programming,1jx0gb9,mmnriya,You’ll take pickle from my cold dead hands!,4,2025-04-12 00:55:14,Paratwa
+programming,1jx0gb9,mmo1s73,I come from a dotnet world but I've been working in python for the past few weeks. I like the way it's easy to run but I feel very limited by the code navigation and debugging capabilities. I'm working in vs code. Are there better alternatives? Ideally with features similar to resharper,1,2025-04-12 02:00:59,TheBlueArsedFly
+programming,1jx0gb9,mmu779g,"it is now paywalled
+
+> Yang Zhou put this story behind our paywall, so it’s only available to read with a paid Medium membership, which comes with a host of benefits:
+
+Well does not matter anyways, people could judge the quality just by reading the comments in Reddit and in the article. They would miss nothing important.",1,2025-04-13 03:06:43,__Blackrobe__
+programming,1jw0vfb,mmeqy83,"Cursor devs knew they were violating the license and TOS but were ok with it as long as they were getting away with it.   Now that msft is calling them out on it they're finally acknowledging the issue and supposedly working on alternatives.  Cursor has a valuation in the billions, they aren't some tiny mom and pop underdog.",32,2025-04-10 16:09:28,CitationNeededBadly
+programming,1jw0vfb,mmeohxn,"I'd like to urge anyone to actually watch this video in its entirety - He is giving some very interesting history and context to this. If Theo keeps making content like this, that isn't just reading out loud a newspost and some tweets, I am re-subbing",15,2025-04-10 15:57:22,Sheepsaurus
+programming,1jw0vfb,mmesklb,honestly surprised they aren't more aggressive,3,2025-04-10 16:17:32,mungaihaha
+programming,1jw0vfb,mmeud23,"RIP Moustache
+
+Upd: ah, it's been a while, okay",3,2025-04-10 16:26:13,Strict-Criticism7677
+programming,1jw0vfb,mmewlpw,https://www.gnu.org/software/emacs/,-3,2025-04-10 16:37:16,moreVCAs
+programming,1jw0vfb,mmevbk6,Why’s he look so hot here?,-1,2025-04-10 16:30:54,derangedtranssexual
+programming,1jvi3vi,mmaguik,">The last five years have shown us that large language models, like ChatGPT, Claude, and DeepSeek, can write code in many domains, to huge excitement: many claim to be using these models to write entire web servers and apps from scratch. These tools have opened up programming to a whole new class of people who consider themselves non-technical.
+
+sure buddy",6,2025-04-09 22:16:10,moreVCAs
+programming,1jvi3vi,mmafwkp,"Breaking news, llms understand average knowledge like nullability.
+
+Almost as if they were trained on every public GitHub repo or something",6,2025-04-09 22:10:48,Lachee
+programming,1jv6iwm,mm7r6cj,Need to create something new that isn't already in the LLM,5,2025-04-09 14:15:00,AdministrativeHost15
+programming,1jswzj2,mlpr1o3,"""Heroism"" at work is just another name for management failure",12,2025-04-06 15:47:50,PainInTheRhine
+programming,1jswzj2,mlpwf6s,Same. I work with a Superman and they take all the work that would let the rest of us actually learn and get to their level of domain knowledge. It’s made me very bitter against people who view themselves as the teams hero.,3,2025-04-06 16:17:09,kbailles
+programming,1jqgqyy,ml6tlrb,"My concern here is that conversations were only 5 minutes long.
+
+In Turing's original papers, the interrogator would have time to dig in with follow-up questions of the kind ""why do you think the author used this word and not that, in this line if poetry"".
+
+In a 5 minute conversation with simulated typing delay, this kind of depth is simply not possible to reach.",6,2025-04-03 12:26:31,cazzipropri
+programming,1jqgqyy,ml8pzbt,"There are many ways a Large Language Model can pass the Turing Test.
+
+For example, both sides of the test might be Large Language Models. Then the Large Language Model would be unable to identify whether the Large Language Model is a human.
+
+Another way a Large Language Model could pass the Turing test is by saying nothing. The person on the other side of the test would not be able to tell whether or not the Large Language Model was human.
+
+A final way a Large Language Model could pass the Turing Test would be by providing output that would be indistinguishable from something a human might express. In that way, the Large Language Model could pass the Turing Test.
+
+I hope you have enjoyed reading about the ways a Large Language Model could pass the Turing Test. Feel free to ask me anything, any time.",-1,2025-04-03 18:18:56,IdealBlueMan
+programming,1jnstjx,mkmufyy,I think it's a bot.,3,2025-03-31 04:13:18,ntropia64
+programming,1jnstjx,mkmdsdl,"""Motorola moto g play 2024 Smartphone, Android 14 Operating System, Termux, And cryptsetup: Linux Unified Key Setup (LUKS) Encryption/Decryption And The ext4 Filesystem Without Using root Access, Without Using proot-distro, And Without Using QEMU"" -- ""cryptsetup reencrypt"": https://old.reddit.com/r/MotoG/comments/1jkl0f8/motorola_moto_g_play_2024_smartphone_android_14/",0,2025-03-31 02:13:51,throwaway16830261
+programming,1jn3aa6,mkpyjqx,"Gentlemen, when i heard about vibe coding you had my curiosity but now that i hear vibe containerization you have my attention.",1,2025-03-31 17:45:30,TachosParaOsFachos
+programming,1jmvb0c,mkeu25d,I hope the person who coined that term has the opportunity to try their face vibing with a wasp nest.,45,2025-03-29 20:32:30,omniuni
+programming,1jmvb0c,mkeyrzp,"Good common sense article. But can we all just agree that vibecoding is nothing more than a marketing buzzword. And stop talking about it?
+
+You cannot build something without paying attention to the ingredients. Programming will become easier, sure, but the idea of throwing caution to the wind makes me shudder",16,2025-03-29 20:58:16,professorhummingbird
+programming,1jmvb0c,mkggxhd,So basically you stole youtube-dl's source code and made a crappier YouTube downloader?,1,2025-03-30 02:19:06,BlueGoliath
+programming,1jmvb0c,mkf6vsm,"Coincidence or not, I did the exactly same experiment last week. I spent around 3-4hours trying to make a NextJs app that downloads a YouTube video. After 2 hours, I realized I wasn’t getting anywhere. Same errors as described in the video. The difference is that I didn’t tried the python approach and neither I built for myself. I just gave up after realizing my anxiety span grew for these 3-4 hours",1,2025-03-29 21:44:20,AdministrativeCode25
+programming,1jmr2eh,mkduab6,"I recommend posting this as a screenshot of the full-text post rather than a link, because people here won't engage with an X link post.",25,2025-03-29 17:19:34,atomic-orange
+programming,1jmr2eh,mkdxha8,"There are full stack products. They’re called Wix, WordPress, etc. But obviously many engineers will not think twice about that.",8,2025-03-29 17:36:10,kebabmybob
+programming,1jmr2eh,mkdyfwj,"IKEA furniture is the exact opposite of what he describes though, everything is included in the kit and it all fits together",7,2025-03-29 17:41:07,garloid64
+programming,1jmr2eh,mkdxwy3,This is the same AI startup founder who just recently cursed us all with the “vibe coding” meme.,12,2025-03-29 17:38:26,Main-Drag-4975
+programming,1jmr2eh,mke4qul,"Weird sentiment.
+First of all it is still possible to upload a static web site to S3 bucket, create a dns for it and call it a day. If the web site is more complex, requires database, payments, scaling, etc, then of course you have to learn about those things, but I don't understand why is it attributed to the current period of time. As if you didn't need to learn how to spin up database and run migration scripts 10 years ago.",3,2025-03-29 18:14:16,bailingboll
+programming,1jmr2eh,mkdzw6y,"Who is this person? Because with his talk of 'works out of the box' he misses a very very fundamental aspect treating software development like, well IKEA furniture. Developing software is not like building your sofa, it's like building a factory that will build sofas for other people. 
+
+Completely flabbergasted, this is a kinder version of the 'smelly nerds' comment on the Twitter algorithm github. Making demands to make something simple to stoop it down to his level while we actually benefit from the level of choice it offers.",4,2025-03-29 17:48:33,Tackgnol
+programming,1jmr2eh,mke1lr9,"I initially expected to read something about all the web devs now being redundant/replaced by AI, but instead found the post quite humble and inspiring. Indeed I think there is a lot of room for innovation to get your agent-powered IDE to talk to some service that generates all the infra he mentioned based on your code.",2,2025-03-29 17:57:27,Lopsided_Net_2534
+programming,1jmr2eh,mke02yj,"I had a similar musing the other day. My personal website back in the 90s was a bunch of static files, and I could use notepad and ftp to do everything I needed to manage it. ""Deploying to production"" was ""ftp put \*"". 
+
+My personal blog these days is a django + docker + supabase + sendgrid + aws + ... monstrosity because it has to be if you want to do a website. You can of course just use wordpress but that would feel like admitting defeat to me. I completely understand why most people would just spin up a WP blog but the fact that the DIY aspect is now the preserve of people with the time and skills to parse python error messages means something has been lost.",1,2025-03-29 17:49:32,Advanced-Essay6417
+programming,1jmr2eh,mkdygld,"I’m glad that I learned web development in the era where it was normal to rent cheap shared hosting, upload some html & css files, and your website worked.
+
+If your host supported PHP or Perl you could upload those files and they would also (hopefully) work.
+
+We’ve made great strides in web development and the things the author listed are helpful ways to solve a lot of problems that existed. But the actual principals of getting a site to render at their heart are still really simple: [just send the browser some valid HTML](https://motherfuckingwebsite.com/).
+
+I think it’s too bad that all of these extra layers feel like opaque barriers for new developers.",1,2025-03-29 17:41:13,MakesUsMighty
+programming,1jmmdxm,mkcr1v2,"This reads very much like an LLM generated article, sorry. ",18,2025-03-29 13:40:41,fiskfisk
+programming,1jmmdxm,mkkg8d6,The article does not say anything about how to solve cache validation issues. It is just a bunch of definitions (well written with examples though).,3,2025-03-30 19:32:17,Southern-Reveal5111
+programming,1jl1eld,mjzrlwu,"So now we've got people who don't even know enough to ask AI a question properly trying to develop shit? Jesus Christ.
+
+
+Software development has not hit its ""vibe coding"" (ugh) era. Dumbfucks have hit their ""fuck around, about to find out"" era. The absolute mess these idiots are about to make when all this shit falls apart hard...",12,2025-03-27 11:21:32,hinckley
+programming,1jl1eld,mk1qe0l,"""vibe coding"" is this generations offshoring.",1,2025-03-27 17:41:49,vips7L
+programming,1jl1eld,mk4kqlc,"Vibe coding works great for me in prototyping. As someone who has always worked in backend, I find it really hard to go through the entire frontend development cycle of design systems, designer and then having the requirements for frontend developers to start coding. For MVPs, I find it much easier to write a detailed prompt in a markdown file and have Cursor build the prototype with mock data. 
+
+I have manually curl'd my backend API to get JSON for mocks and have cursor build the necessary tables to do CRUD operations on them. Then instead of drag & drop, its like telling Cursor to make changes.
+
+Big fan of using AI for prototypes.",1,2025-03-28 03:23:48,N1ghtCod3r
+programming,1jl1eld,mjzq7i3,Author here! Wanted to seek some opinions on this as I can’t be the only one who’s tried to level up my prompt engineering process using Claude Code / Cursor agent. Curious to hear if anyone has found approaches which work well for them 🙏,-2,2025-03-27 11:10:18,mi1hous3
+programming,1jl1eld,mjzr36j,I have vibe coded a prompt. It is a particularly useful way to trim down several sentences into just what is needed. A cautionary note is that a model’s training set will cut off before the model is published so it won’t know much about its own capabilities. To resolve this you can add additional context to a prompt using the model’s own documentation.,-2,2025-03-27 11:17:25,InformalOutcome4964
+programming,1jjnb31,mjog4st,"But in the end, it'll all Crash and Burn.",14,2025-03-25 16:34:19,cleeder
+programming,1jjnb31,mjof6oc,"Incredibly, half the nerds at my computer club were also calling it.. RISC has been on the horizon for decades",22,2025-03-25 16:29:39,Klowner
+programming,1jjnb31,mjothwx,"As a wise man once said, everything's computer",8,2025-03-25 17:26:50,Skerdzius
+programming,1jjnb31,mjoukxj,All movies are weak on hacking - remember how we swooned when Trinity used nmap? But the scene in Hackers where they pull out the books and the prospect has to know their jargon names stands out. The books were relevant and the names correct.,6,2025-03-25 17:31:54,alangcarter
+programming,1jjnb31,mjogg2x,"Counterpoint: RISC didn’t change everything. Understand at the time Apple was using IBM RISC processors exclusively. The thought was, at the time, that hardware that had fewer actual instruction sets could accomplish more by doing things faster by leveraging a higher clock speed. 
+
+As we know from history, Apple went away from their PowerPC based architecture. It didn’t change anything, except for allowing _other_ form factors and PCI devices to spin at faster and more custom rates for the likes of matrix multiplication of float values that instead found different designations entirely.
+
+Of course, the limitation there is that the memory footprint needs to be accounted for in whatever form factor was doing fewer IOPs, faster. In these specific niche cases, the ability to offset memory load times to other devices either needs to grow in capacity, or remain fast enough to leverage unified memory. 
+
+But the fake pleather clad Jolie wasn’t talking about separate independent accelerators; she was talking about the main CPU.",24,2025-03-25 16:35:50,LucidOndine
+programming,1jjnb31,mjohgkf,"I remember a scene from one of the mission impossible movies about the same time where the hacker dude was all excited about getting some equipment with a RISC chip that he could keep after the job was done. I think people in Hollywood just thought it sounded cool (oooh … risk … sounds edgy!), without really knowing what it was.",6,2025-03-25 16:40:48,Confident-Cellist-25
+programming,1jjnb31,mjohdw3,Well this is quite a reach.,8,2025-03-25 16:40:26,nopeitstraced
+programming,1jjnb31,mjpf4ax,Interesting article if you can get past the gushing fanboy tone.,3,2025-03-25 19:11:36,gofl-zimbard-37
+programming,1jjnb31,mjofdox,The P6 wasn't RISC though,5,2025-03-25 16:30:36,whiskeytown79
+programming,1jjnb31,mjodfaf,"Incredibly, Angelina Jolie called it. The year was 1995. Picture Jolie, short of both hair and acting experience, as a teenage hacker in Hackers. Not a lot of people saw this movie. Even fewer appreciated its relevance. Hackers was “grating,” Entertainment Weekly huffed at the time, for the way it embraced “the computer-kid-as-elite-rebel mystique currently being peddled by magazines like WIRED.” Thirty years later, Entertainment Weekly no longer publishes a magazine, WIRED does, and Hackers ranks among the foundational documents of the digital age. The last time I saw the movie, it was being projected onto the wall of a cool-kids bar down the street from my house.
+
+But that’s not the incredible thing. The incredible thing, again, is that Jolie called it. It. The future. Midway through Hackers, she’s watching her crush (played by Jonny Lee Miller, whom she’d later marry in real life) type passionately on a next-gen laptop. “Has a killer refresh rate,” Miller says, breathing fast. Jolie replies: “P6 chip. Triple the speed of the Pentium.” Miller’s really worked up now. Then Jolie leans forward and, in that come-closer register soon to make her world-famous, says this: “RISC architecture is gonna change everything.”
+
+You have to believe me when I say, one more time, that this is incredible. And what’s incredible is not just that the filmmakers knew what RISC architecture was. Or that Jolie pronounced it correctly (“risk”). Or even that Jolie’s character was right. What’s incredible is that she’s still right—arguably even more right—today. Because RISC architecture is, somehow, changing everything again, here in the 21st century. Who makes what. Who controls the future. The very soul of technology. Everything.
+
+We spoke to the inventor of RISC architecture and other experts in the field about the simple but elegant language that underpins so much of modern computing. Read the full story: [https://www.wired.com/story/angelina-jolie-was-right-about-risc-architecture/](https://www.wired.com/story/angelina-jolie-was-right-about-risc-architecture/)",12,2025-03-25 16:20:57,wiredmagazine
+programming,1k40wwk,mo8eb71,"If you actually enjoy writing articles, move away from generic stuff that has been done a million times before and doesn't really add any value from anything else already out there towards sharing information that actually benefited you in a real life situation.
+
+""I had this problem, I took these steps and solved or mitigated the issue by doing X.""
+Ideally with references to sources that helped you out.",3,2025-04-21 10:08:27,fxfighter
+programming,1k40wwk,mo6mjkx,is this all ai generated?,3,2025-04-21 01:10:16,TheBlueArsedFly
+programming,1k40wwk,mo8m6tg,"> ## Problems in This Design
+>
+> 1. **MacBook cannot use a different keyboard or mouse** (e.g., Logitech).
+
+Apple would not see that as a problem.",1,2025-04-21 11:19:48,somebodddy
+programming,1k3e0ax,mo1kn5i,Very important programming content.,2,2025-04-20 04:36:44,BlueGoliath
+programming,1k3e0ax,mo1ndi0,"The readers should also know that the sample code in Github repo is ""Vibe-Coded"". The objective is to illustrate and not to build an enterprise class code. I hope the community is okay with the intent here.",-4,2025-04-20 05:00:14,shreesrinivasan
+programming,1k1gr2t,mnm4mlj,medium 🤮,12,2025-04-17 16:58:49,SlovenianTherapist
+programming,1k1gr2t,mnmfqpn,Medium 😅,2,2025-04-17 17:51:20,NorskJesus
+programming,1k1gr2t,mnmhujx,Just call it Pithon,2,2025-04-17 18:01:20,zoqfotpik
+programming,1k0i352,mne4aku,This was not a pleasant read.,6,2025-04-16 11:35:13,FroggyWinky
+programming,1k0i352,mne8llo,we don't give a f about figma anymore. Next they're gonna trademark words Scale and User,1,2025-04-16 12:05:48,CatolicQuotes
+programming,1k0i352,mnehe4t,OP posted a bloated advertisement masquerading as a blog article.,2,2025-04-16 13:00:04,church-rosser
+programming,1jv0qns,mm6j0ul,"AKA how to shoot self in foot before even starting.
+
+great job OP, you win the hourly prize for yet another useless LLM post largely unrelated to programming.
+
+At this point we can we safely assume that 9/10 an 'AI' related post to r/programming is likely SPAM and/or Karma Farming. Hopefully a mod bot comes along sooner rather than later to take out the trash.",3,2025-04-09 08:52:51,church-rosser
+programming,1jtfrzd,mlu0191,"An interesting take and as usual avoids declaring some of the key assumptions, imho, of all of these types of takes. 
+
+
+That your team is high quality engineers that don't require supervision and take deep technical responsibility across the entire development stack they might affect. 
+
+
+Oh also you've built a comprehensive CI/CD / automated testing system the developers use, extended where required and maintain.
+
+
+I roughly agree with the main conclusions but just don't find them to be realistically possible beyond a single app / team scale. I also think most people don't realize the range of quality you end up working let alone having junior engineers on a team who need mentorship or those mythical 10x people who like to do impromptu refactors over the weekend that add no value.
+
+
+Gates are important if you care about quality, stability and performance. Sometimes feature delivery is more important then all three but thats a debt trade off you should be aware when making.
+
+
+This article is the kind of advice you get from hack scrum / performance / productivity people your company hires to ""increase developer productivity"" and squeeze a few more widgets from your team.",9,2025-04-07 08:33:13,Dannyforsure
+programming,1jtfrzd,mluh2o0,"That's how you get 30 commits from an intern that only says ""fix"", and he accidentally used the shortcut of his IDE to auto-format the whole project around the tenth one, but his IDE has a custom formatting configuration that doesn't match the project intended formatting rules.",5,2025-04-07 11:23:50,Blue_Moon_Lake
+programming,1jtfrzd,mlu15pb,The pacing of this is way to slow. Your audience for an article like that does not need a long explanation what a typical git workflow is.,1,2025-04-07 08:46:11,Bananenkot
+programming,1jretb1,mlealt7,Not opening a link for something with such an over the top title,5,2025-04-04 16:19:44,238_m
+programming,1jretb1,mlfgutg,Is this a personal blog with ads. Wtf. How do I permanently block forever?,2,2025-04-04 19:53:44,JohnDavidJimmyMark
+programming,1jovve4,mkuvc6k,TL;DR: The author's never heard of technical debt,13,2025-04-01 14:03:44,chintakoro
+programming,1jonj2c,mktb8tp,"You forgot to hit the ""start"" button on your time machine.",2,2025-04-01 05:45:39,BlueGoliath
+programming,1jnzyt4,mknwikm,"Want read, no want watch",5,2025-03-31 10:35:56,onomatasophia
+programming,1k4znic,moe3rs1,"> Question: How to Retrieve a Value From an Async Function Within the Global Scope?
+
+Are....you serious? What is this AI crap",4,2025-04-22 06:44:37,sshwifty
+programming,1k4znic,moe5m6w,"lol they even use .at to access negative indices, which you could just use… instead of wrapping it in a proxy like a crazy person.
+
+This should be a joke, but it’s just trash",2,2025-04-22 07:03:30,pampuliopampam
+programming,1k08guk,mncdfqy,"Pretty much all their examples are vulnerable to simple injection attacks:
+
+    fetchUser(userId).then(user => {
+        container.innerHTML = `
+          <div class=""user-card"">
+            <h3>${user.name}</h3>
+            <p>${user.email}</p>
+          </div>
+        `;
+      });
+
+In React this would be equivalent to ""dangerouslySetInnerHTML"". Which as the name implies, is dangerous. By the time you get these code examples up to production standard, you'd have re-invented a front-end framework but worse. 
+
+Most of their other examples are non-sequiturs. Nothing about Vue or React stops you using JS modules for example.",3,2025-04-16 02:23:39,sylvanelite
+programming,1k08guk,mnc6po0,"The amount of maual input validation for JS is ridiculous if you actually care about undefined values. JS just too much work, use TS to check parameters for you.",9,2025-04-16 01:42:40,BoBoBearDev
+programming,1k08guk,mnc3j9t,"sure, we could all attempt to cross the ocean in a rowboat
+
+but why the hell would i want to? React, jsx, and ts are **hot fire** and i'm not convinced by your ""hidden costs"" arguments when the **actual costs** are so very visible in doing raw js and dom manipulation in 2025
+
+The 30 seconds it takes to create a new vite app, and have actions automatically deploy it and its storybook to gh-pages pays for itself within the first hour of hacking on a project",28,2025-04-16 01:23:34,pampuliopampam
+programming,1k08guk,mnc5c0a,Maybe he means you should know vanilla js before using frameworks…,1,2025-04-16 01:34:29,Skinner1968
+programming,1k08guk,mncaktd,">and why you might want to
+
+
+Imma stop you right there. I do not want to.",2,2025-04-16 02:06:02,MyDogIsDaBest
+programming,1k08guk,mnddms6,"In case the author of that medium article is reading this:
+
+*Your article is paywalled. I cannot see it without first creating an account on a third party site.*[1]
+
+For authors, their biggest problem is not ""people reading my blog post for free"", it's ""people not reading my blog post at all"".
+
+I *want* to read your thoughts on this. Luckily, there is no lack of quality writing on this topic, on the web.
+
+-------------------------------------------------------------------------
+[1] Whatever happened to [POSSE](https://indieweb.org/POSSE)?",2,2025-04-16 07:13:40,lelanthran
+programming,1k08guk,mnc52gn,a better post for r/frontend,-5,2025-04-16 01:32:54,jseego
+programming,1k08guk,mnc5cx6,Thanks for the high quality programming content.,-11,2025-04-16 01:34:38,BlueGoliath
+programming,1jyddbb,mmxjwtl,"Maybe if you have to enforce using the tool that supposedly makes work easier and makes people more productive, MAYYYYBE MAYYYYBE MAYBE it means that the tool is just shit?",8,2025-04-13 18:00:00,agares3
+programming,1jyddbb,mn0tg6m,Yeah nothing better when my manager who doesn't know shit about code tells me that I should use AI. 🤦,3,2025-04-14 06:39:27,Eastern_Interest_908
+programming,1jyddbb,mmxw22o,"I see it as sort of a repeating cycle of a Parable of Two Programmers and this is just the next iteration. If you use AI  to generate slop for 1000 story points / tickets it tends to be more rewarded than taking the time to fully understand the problem and solve it in the simplest way, especially if you're doing it in isolation.
+
+
+That being said, I do think AI is super useful (next iteration of google / stack overflow at a bare minimum) but it's also best when self directed. If you have to explicitly ask if people are using AI to judge them then it sounds like you don't really know what you want out of your programmers.
+
+
+I also think management should understand it's a two way street for AI and be careful what they wish for. There a lot of creative ways as programmers that we can use AI to solve non-coding problems too.
+
+
+- Do I really need to listen on zoom to the execs at a meeting when I can get it transcribed with whisper while doing something else?
+- Maybe I haven't had the confidence to ask for a raise but I'll let ChatGPT pump me up and help generate metrics plus a proposal for me.
+- Is management trying to add in nonsensical policies but it takes a lot of energy to argue with them? Maybe I'll generate a 100 page well sourced document to argue with them and spare myself the trouble.",1,2025-04-13 19:03:53,rdux4
+programming,1jwq29z,mmk8zm4,Why are you asking me to travel through time???,5,2025-04-11 13:46:27,AgoAndAnon
+programming,1jwq29z,mmkcxga,"The article makes a somewhat compelling argument that go is a better starting point that node/django, but it doesn't really address the comparison to other statically typed backend languages.
+
+
+Still a decent argument, but it would apply to a whole class of backend frameworks (compiled, gced languages) rather than go only
+
+
+> Go (or Golang, same thing)
+
+
+Oof, them's fighting words",3,2025-04-11 14:06:41,desmaraisp
+programming,1jwq29z,mmosq72,"Less magic is good for learning.
+
+Less magic is good when you're workmates love building layers and layers of abstractions.
+
+Node, python, ruby and friends are still faster to develop on, because of the abstractions.",2,2025-04-12 05:22:15,sM92Bpb
+programming,1jw1scu,mmexx0x,"Clickbait gonna clickbait. But no, chatbots do not understand our world. Hell they barely understand their own, their context is laughably small and they lack all of the fundamental things needed for comprehension at a human scale. 
+
+Essentially, they are just really good mimicry devices and even then I would accept the debate on “really good”.",8,2025-04-10 16:43:43,charrold303
+programming,1jw1scu,mmfix60,"It's not a much more interesting question than if a tape recorder listens to music or if a submarine swims but if you do want to say they understand it seems to me that you're committing yourself to a functional theory of mind where (roughly) replicating the brain's output is enough for some kind of consciousness, because it's a certain fact that they don't understand through the same mechanism brains do and arguably to some kind of Berkeleyan idealism where the knowledge you have doesn't have to connect with an empirical world which embodied brains do but not LLMs.",6,2025-04-10 18:24:55,sisyphus
+programming,1jw1scu,mmeuyjj,"Is there even a debate?
+
+You'd have to define ""understanding"" very very loosely to claim Chatbots understand anything, and then I'd argue that definition almost certainly would also apply to Google search.",7,2025-04-10 16:29:08,EliSka93
+programming,1jw1scu,mmexfau,Do we?,0,2025-04-10 16:41:19,YoungestDonkey
+programming,1jw1scu,mmes3yt,Who do you think won the debate?,-4,2025-04-10 16:15:15,IEEESpectrum
+programming,1jrb8tg,mld9t2c,What did you find confusing about it?,6,2025-04-04 13:08:04,cokeplusmentos
+programming,1jrb8tg,mldd76v,"Are you familiar with MDN?  They already have an article for this (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) as well as just about anything else you could ask for. 
+
+I applaud your instinct to share information with all of us, but MDN is the de facto documentation for vanilla web technology and is—no offense intended—a better explanation than your Medium article.",3,2025-04-04 13:28:08,GrandOpener
+programming,1jrb8tg,mld8vd8,"Promise.all specifically? A whole article for that?
+Crazy.",5,2025-04-04 13:02:20,N0Religi0n
+programming,1jrb8tg,mld9nzp,"Sometimes promises can be confusing when you first start. This is a good, brief, explanation of how promise.all work.",1,2025-04-04 13:07:12,couchjitsu
+programming,1jrb8tg,mldbri6,"`Promise.allSettled()` is the winner, albeit with a slightly clunky API.",1,2025-04-04 13:19:47,axonxorz
+programming,1jppdtf,ml0yzmv,AI slop imagery always begs the question: Is the content also AI slop?,12,2025-04-02 14:17:31,Xiol
+programming,1jppdtf,ml0yy37,"""tutorials will hobble your learning"" says the guy whose blog looks to be mostly AI-generated",14,2025-04-02 14:17:18,vomitHatSteve
+programming,1jppdtf,ml0zq7s,"The really sad fact is that people can imposter their way into jobs and keep them much more effective using ChatGPT and the likes.
+
+I was pretty stunned when I was pair programming with a (junior) colleague, who initially showed potential as a dev, but now seemed to be unable to code without some form of hints or auto complete. He is using AI tools all.the.time and his regression is showing. 
+
+So, if you want to hone your craft, besides closing those tutorial tabs, close your chatgpt session.",4,2025-04-02 14:21:19,mohragk
+programming,1jppdtf,ml0xj3x,">You’ll hate it. You’ll want to quit. And somewhere in that struggle, you’ll discover what real coding feels like
+
+
+Spot on",3,2025-04-02 14:09:56,WalterPecky
+programming,1jpgoly,mkz7s00,"CORS is not a security feature. The same-origin policy is the security feature:
+
+
+https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy 
+
+
+CORS is a method to relax the SOP by letting the server tell the client ""it's ok for you to let the user read the response to this action"". ",11,2025-04-02 05:01:16,fiskfisk
+programming,1jpgoly,mkz7kb4,Annoying bc I’m dumb,6,2025-04-02 04:59:21,masterchief0587
+programming,1jpgoly,mkz99jw,CORS is just a way to piss me off.,3,2025-04-02 05:14:18,AM_Dog_IRL
+programming,1jpgoly,mkzcye5,"CORS does not apply for ""simple"" POST requests. I.e. it has nothing to do with CSRF there.",1,2025-04-02 05:48:22,tonydocent
+programming,1jpgoly,mkzay6i,"You sweet summer child.  I welcome you to web programming.  Welcome to your nightmare anytime you try to use a javascript service from a server hosted on a different domain.
+
+Hackers ruined that for us and now we need special rules and shit in .htaccess files and nginx configurations to allow ourselves to use the APIs we've written for ourselves.
+
+It's twisted, but it's our reality.  We can't have nuthin nice.
+
+If you have a specific issue/error in your javascript console, ask us.  We can prob help.  You probably need to add some exceptions or rules to your web server to allow CORS from very specific IPs.",1,2025-04-02 05:29:13,stay_fr0sty
+programming,1jowwd9,mkv36bk,"This whole ""vibe coding"" stuff smells a lot like the ""visual programming"" crazes of the 1980s and 1990s, and the ""human-language-like programming languages"" idea that pops up every other decade or so (and has given us cherished pearls of programming history such as COBOL, SQL, and BASIC).
+
+These all followed the same pattern:
+
+- Coding is hard.
+- If we could come up with a programming environment where people can just write what they want, in some intuitive, user-friendly way, they could build software without needing to learn programming!
+- So we make such an environment. It looks great - instead of writing unreadable garbage such as `int main(int argc, char **argv) { printf(""%s\n"", (argc >= 1) ? argv[0] : ""-- no arguments given --""); }`, we can write something like `PRINT ARGUMENT 1 IF EXISTS ELSE PRINT ""-- no arguments given --""`. Awesome.
+- We roll out the environment, with selling points such as ""with this thing, you can make software without learning to code"".
+- People start using it. At first, it's only used for simple tasks, but over time, the problems it is applied to become more and more complex.
+- The non-programmer people using the ""user friendly"" platform realize, sooner or later, that they are in over their heads, that despite the intuitive interface, solving problems with it in a way that actually works reliably is still incredibly hard.
+- Experts get called in, people who specialize in building stuff that actually works reliably on the platform in question.
+- It turns out that those experts are effectively programmers - they take fuzzy requirements as expressed by non-technical humans, and translate them into something that will make a computer do what the non-technical humans want.
+
+In the best case scenarios (e.g., SQL), the ""user friendly"" interface is actually a good enough abstraction to pull its weight and make programmers more productive (but they're still fundamentally doing the same thing, just at a higher abstraction level); in less great scenarios (e.g., Excel), the ""user friendly"" interface quickly turns into a burden that creates more problems than it solves.
+
+And that's where I see this whole ""vibe coding"" thing going.
+
+A nontechnical person can produce a simple Excel sheet, and it will work - e.g., something like a simple double-entry accounting sheet; the same person can prompt an LLM to produce something like a ""TO DO list"" app that actually works. But as the complexity grows, that Excel sheet, or the prompts going into the LLM, experience a complexity explosion, and sooner or later, the Excel sheet and the prompt grow as complicated as just writing the code in the first place would have been - if not worse. What use is ""vibe coding"" when you spend more time explaining to the LLM what you want as it would have taken to just write the thing yourself, and then ending up with something you don't even understand?",6,2025-04-01 14:46:05,tdammers
+programming,1jnegmy,mkj6b8f,"My takeaway from the article: instead of refactoring call sites after changing a function's signature, we should write migrations that automatically migrate the old function to the new function. So something like '(a: int) -> void' when changed to '(a: optional<int>) -> void' should insert an unwrap within the function automatically
+
+My take: this isn't really something a compiler should concern itself with. The job of a compiler is to translate your code (as is) to machine code. This may make sense for a language server but even then, the benefit isn't worth the cost of learning how to do it in the IDE",11,2025-03-30 15:37:46,mungaihaha
+programming,1jnegmy,mkj7f79,Seems like the author has heard of migrations but has never actually had to use them before.,3,2025-03-30 15:43:30,Cryowatt
+programming,1jnegmy,mkp7qxh,"The author used Haskell which does have pretty heavy type inference but usually you annotate as well as it is mostly nominal.
+
+OCaml this done less often as well it is has more structural typing. Furthermore OCaml has functors and first class modules.
+
+In a structural typed language (which SQL mostly is) particularly with type inference you can change the types all you want so long as they respect what you do with them. e.g. sort of like duck typing and or what Golang does.
+
+I'm not saying it is as equivalent what the author is proposing but the macro like recommendation I think can be done to some extent with OCamls module system.",2,2025-03-31 15:32:19,agentoutlier
+programming,1jnegmy,mkj6o7b,Isn't this solved by the magic of recompilation?,2,2025-03-30 15:39:38,zhivago
+programming,1jnegmy,mkmh0e6,"This sounds like a recipe for ""spooky action at a distance"".  When you're reading old code, you won't know if that's the code that's _actually_ running, or if it's actually running some migrated version of it instead.",1,2025-03-31 02:35:01,falconfetus8
+programming,1k20xf6,mnqeion,"It's not ""here"", it's still in alpha, then will come the beta, then the release candidates, and finally it will be released in September, like all Python releases since it's now planned on a yearly schedule. 
+
+There are always PEP to tell you when a Python version will come out: [https://peps.python.org/pep-0745/](https://peps.python.org/pep-0745/)
+
+All the changes can be altered until the RC.",34,2025-04-18 09:45:26,alicedu06
+programming,1k20xf6,mnqeca2,[deleted],13,2025-04-18 09:43:40,N/A
+programming,1k20xf6,mnqgdgm,Last autumn I read that the GIL will be disabled by default in Python 3.14. Is that still the case? Or was I misinformed?,2,2025-04-18 10:04:00,andrerav
+programming,1jztadg,mn8n64c,Thanks chatgpt. You got it in one.,6,2025-04-15 14:35:05,s-mores
+programming,1jztadg,mn8s6lb,"Ok, nice to know",2,2025-04-15 15:00:13,JebusdeMazaret
+programming,1jztadg,mn8nraz,"""interpreted language"" is just gibberish, which I guess is the real point of the article.
+
+Interpretation and compilation are just implementation strategies.",1,2025-04-15 14:38:02,zhivago
+programming,1jub24x,mm0mabb,"The main thing is the ability to choose tasks. If you can afford to choose tasks that take little time but give a big profit, you are a 10x engineer. The rest will be ordinary compared to you.",2,2025-04-08 11:27:02,YahenP
+programming,1jub24x,mm0lulz,"You forgot:
+
+- born in a upper mid level class family
+- studied top college in the usa
+
+It is not a game of how much you produce but how much you sell yourself and your power of influencing others to work for you.
+
+Life is a lottery that depends on how lucky you were to be born from good parents. The better your parents understanding of the world the easier it is for you to become successful.",5,2025-04-08 11:23:36,Positive_Method3022
+programming,1jub24x,mm0mm9a,"One of the biggest things I ever did to a more senior engineer was to infiltrate his baby project to fix a bug much smaller than the one he was busy on, but important to my team, figure it out, fix it and then finally, force code reviews on the repo.
+
+No more magic fixes with no accountancy or explaining it before it is fixed.",1,2025-04-08 11:29:37,StevenXSG
+programming,1jtucwh,mlx5s6s,What makes a tech stack honest? Have other stacks been lying?,6,2025-04-07 20:16:52,dcabines
+programming,1jtucwh,mlx9gyh,Are you asking if people have heard of Linux or MacOS? Is this a joke?,2,2025-04-07 20:35:40,Adventurous-Rent-674
+programming,1jn7txy,mki2pan,"Imagine if a Junior Software Engineer came into a company, wrote a bunch of shit, repetitive, unmaintainable, non-DRY, buggy, spaghetti-code, which would break the prod server if deployed unchanged, and has a high chance of having glaring security issues that could bankrupt the company.
+
+And then, when called out for it, that Junior tries to excuse his fucking up with *""Well, your documentation is not good enough for me to do a good job, so its really your fault my work is so bad, and you should change how you work to make my life easier.""*
+
+How well would you say would that excuse be received?",9,2025-03-30 11:17:34,Big_Combination9890
+programming,1jn7txy,mkjyadt,"This article is rubbish and a thinly veiled ad for OP's AI-oriented documentation system. It's literally just ""Do *good* things, and *don't* do *bad* things 🤗"" with a focus on documentation. The only things it actually *says* about documentation are shallow and obvious --
+
+* Key information should not be buried in issue comments.
+* Documentation should be precise.
+* Everything should be kept up to date.
+* Everything should be easy to find.
+
+-- and the only things it even says about AI-focused documentation is that it should additionally be in a structured format. Otherwise, it's just 80% fluff -- no substance; just padding for word count in a bad attempt at making it less obvious that the article only exists to link to OP's AI service.",5,2025-03-30 18:00:48,DavidJCobb
+programming,1jn7txy,mkk1yz0,"While I understand your frustration with articles that seem overly simplistic, I believe there are important nuances in AI documentation that go beyond general principles.
+
+Traditional documentation is optimized for human readers who can infer context, while documentation for AI systems requires a fundamentally different approach. It's not just about structure, but about contextual completeness.
+
+For example, adequate documentation for humans might omit details about standard industry patterns, assuming prior knowledge. With AI, those omissions result in generic implementations that ignore the subtleties of your codebase.
+
+I've been working on AI projects for years, and the difference between ""obvious"" documentation and effective AI documentation isn't in the principles (which certainly sound obvious), but in the meticulous execution that recognizes how AIs interpret and utilize that context.
+
+The criticism of the article's format is valid - many development contents have become predictable formulas with little technical depth. But I don't think we should dismiss the entire subject because of it, especially when we're just beginning to develop good practices in this area.",1,2025-03-30 18:19:27,traderprof
+programming,1jn7txy,mkiwfn7,"Thanks for the comments! Let me address both perspectives:
+
+@Big_Combination9890 - That's a fair analogy, but I think it misses a key distinction. We don't expect junior engineers to work without proper documentation and context, which is why we have onboarding, code reviews, and mentorship. The issue isn't about making excuses for poor output, but rather acknowledging that *any* intelligence (human or artificial) needs proper context to produce quality work.
+
+In my 15+ years building digital products, I've observed that the most successful teams invest heavily in knowledge management and contextual documentation. This isn't about lowering standards - it's about providing the right environment for success. Even senior engineers struggle when they lack proper context about system architecture, business requirements, and existing patterns.
+
+@aJenDuh - Great question! The system is specifically designed for real-world, messy dependencies. We've tested it across multiple production codebases with complex dependency graphs, legacy code sections, and multi-repository architectures.
+
+The key difference from toy examples is how we handle contextual relationships between components. Instead of just passing file contents, the system builds a contextual map of how different components relate to each other - similar to how an experienced developer builds a mental model of a system while working on it.
+
+We've found particularly good results when dealing with challenges like:
+- Cross-service dependencies in microservice architectures
+- Framework-specific patterns that aren't explicitly documented
+- Integration with third-party APIs and libraries
+
+Happy to share more specific examples if you're interested!",0,2025-03-30 14:44:42,traderprof
+programming,1k4em69,mo9hnsx,"This post reads like two strawmen made love, had a baby, and that baby became a poster child.",5,2025-04-21 14:38:40,redactedbits
+programming,1jyn3rj,mmzqyse,"‘Terminals are scary.’
+
+First point. If you can’t deal with the basics of the command line you made a poor career choice.",15,2025-04-14 01:32:48,ZogemWho
+programming,1jyn3rj,mmzqy5q,"Soooo...  I should use Emacs as my terminal emulator?
+
+If I am using processes that think they are talking to a terminal, and I am using software that takes the output from those processes and handles displaying it in a way that emulates the behavior of a terminal...  I think you are just talking about a very idiosyncratic terminal emulator.",4,2025-04-14 01:32:41,wrosecrans
+programming,1jyn3rj,mmzq7n8,Doesn't emacs itself run in the terminal?,4,2025-04-14 01:27:50,Steampunkery
+programming,1jyn3rj,mmzrhps,Yes I do.,2,2025-04-14 01:36:14,sludgeriffs
+programming,1jyn3rj,mmztj2g,"Counterpoint: I don't need Emacs. Seems like one of those things that you're either all-in on, or it's not worth the time...and I've bounced off Emacs a handful of times.
+
+I've had some coworkers who were wizards with it, though. Although, that was like 10-15 years ago.",1,2025-04-14 01:49:31,khedoros
+programming,1jyn3rj,mmzx9sl,"I’ve never met one person that got familiar with vim and then learned emacs or vice/versa.
+
+Edit: this is anecdotal exaggeration. I realize people do this, but the article implies it’s a common path to go from vim to emacs and that’s just not true.",1,2025-04-14 02:14:15,Person-12321
+programming,1jyn3rj,mn0ooha,"I need 10, actually, and that's what my .screenrc helps me spin up every fresh session. What I don't need is Emacs.",1,2025-04-14 05:52:15,spotter
+programming,1jyn3rj,mn0shwc,"What Andrey is saying makes a lot of sense to me. For a long time, I've been using emacs in one window and a bunch terminals in tabs in a second window. But then I started using `async-shell-command` and I like it better for most things. It runs a command in another emacs window and then I can easily search and navigate around and save since it's just a normal buffer. I only use a terminal now for the random command that requires a terminal emulator.",1,2025-04-14 06:29:50,adamard
+programming,1jmhzzd,mkda6mz,"if ai founder is so good, why not use it to find a more valuable idea than an LLM wrapper to develop and launch?",1,2025-03-29 15:30:56,No_Technician7058
+programming,1jlt4s2,mk64d37,What’s the point of having AI write longer articles for you and then someone else having AI summarize the article so they don’t have to read the whole thing?,6,2025-03-28 11:56:17,N/A
+programming,1jlt4s2,mk6fdyi,"I've used the free versions of ChatGPT, Gemini, Claude, and Copilot (which is just ChatGPT I guess?) and even among the free versions Claude is definitely much better at interpreting my requests and giving me what I want and need. And it's also better at responding to general questions; much more conversational instead of transactional.",1,2025-03-28 13:07:39,TheMurmuring
+programming,1jlt4s2,mk66udl,Nobody wants to read your AI garbage.,1,2025-03-28 12:13:40,Kanegou
+programming,1k3jmk4,mo2kr74,ok,8,2025-04-20 10:42:03,zzzthelastuser
+programming,1k3jmk4,mo2lpio,Literally no one cares brother. Build the actual product and sell.,-4,2025-04-20 10:51:17,SadCoder24
+programming,1juerjb,mm1gyeg,"If it’s not worth putting in the effort to put it in a library, it’s probably not worth reusing. Just my 2 cents.",12,2025-04-08 14:35:13,abraxasnl
+programming,1juerjb,mm1mfqx,I guess the libraries we all use don't exist,16,2025-04-08 15:02:34,lepapulematoleguau
+programming,1juerjb,mm1p9uy,dumb headline,7,2025-04-08 15:16:38,Few_Bags69420
+programming,1juerjb,mm1hso1,I don't write readable and well-structured codes because of ideological beliefs.  I do it because it will be less painful for the future me (and my teammates) when I have to come back to it later.,10,2025-04-08 14:39:31,StupidPencil
+programming,1juerjb,mm1mqle,"I fundamentally disagree.  You never know how long a system is going to stick around or how much time you’ll have to fix it later .  Sure you think your quick fix throwaway code is just going to get deleted the next time there’s a major refactor or you’ll have time after the next project.  Then you wake up 5 years later and now that garbage piece of code is still there except it’s used by your whole team, and it’s a bunch of libraries now won’t work without it.  
+
+You don’t have to make some masterpiece. There’s a balance. But write code you want to work with later or at least attempt to do so.  Be kind to future you in case x bit of shit code sticks around for a decade",6,2025-04-08 15:04:03,AncientFudge1984
+programming,1juerjb,mm434nj,God forbid we use a header file...,2,2025-04-08 22:17:33,church-rosser
+programming,1juerjb,mmohgst,"It's a fucking shame what passes as an ""article"" these days.",2,2025-04-12 03:48:54,BaronOfTheVoid
+programming,1juerjb,mm1if19,"Upvote because I believe it’s true, but I also believe that people who don’t find this immediately obvious won’t be convinced by an internet article.",5,2025-04-08 14:42:39,gurebu
+programming,1jqik2l,ml7bxvd,"Writing click bait titles is a skill you have, it will cost you down votes.",13,2025-04-03 14:13:27,Accomplished-Moose50
+programming,1jqik2l,ml7d3wr,">My junior developer had written the code, but *I* was the one drowning in cryptic stack traces.
+
+tell me you’re a nightmare to work with without telling me you’re a nightmare to work with.",7,2025-04-03 14:19:21,moreVCAs
+programming,1jprlcb,ml1hcdn,Become a tech social influencer who pushes every new grift in order to make yourself look good for the few people willing to hire. Then you'll get your dream job.,5,2025-04-02 15:49:53,BlueGoliath
+programming,1jprlcb,ml1pzjf,"lol no
+
+i get depressed just thinking about using AI tools",5,2025-04-02 16:33:08,LBPPlayer7
+programming,1jprlcb,ml1gtkt,What’s not be happy about?  We get to use the tools that will eventually make us obsolete and unemployed!,5,2025-04-02 15:47:19,kerabatsos
+programming,1jprlcb,ml1flk7,Yes,-2,2025-04-02 15:41:18,apache_spork
+programming,1jnd7pa,mkitukw,"TLDW (though it’s actually worth watching - it’s a great list):
+1. Sense of ownership and responsibility.
+2. Drive and motivation to improve.
+3. Being a team player & making others around them better.",2,2025-03-30 14:30:09,colemaker360
+programming,1k4c3bf,mo8w7ii,"The example given in the article isn't idempotent. So you use redis to store the 'idempotent key', what happens when the user makes two concurrent requests and both requests check the cache, don't find the key, and think they are the first one? 
+
+What happens when the cache is flushed for some reason or another and a user makes a request with the same idempotency key?
+
+If you're gonna write an article about a concept that everyone must know about, then write about it and do it justice.",127,2025-04-21 12:33:41,snurfer
+programming,1k4c3bf,mo8ubou,Probably not every software developer,18,2025-04-21 12:20:53,writing_code
+programming,1k4c3bf,mo8xa28,"Still reeling about when I had to explain this to my ""know-it-all been coding since I was 6"" boss.",6,2025-04-21 12:40:50,question_existence
+programming,1k4c3bf,mo8x3wc,Tell this to toastab that ordered my food twice last week,5,2025-04-21 12:39:41,s0ulbrother
+programming,1k4c3bf,mo8zg8x,Indempotent or 2 generals?,3,2025-04-21 12:54:58,Pieterbr
+programming,1k4c3bf,mo8zzgl,"In the real world what this looks like is just generating ids client-side and using that for your database keys with unique constraints
+
+And generating the key absolutely as early as possible. 
+
+Like if you have a bank app that sends a money transfer, generate the ID for that transfer in the app when you load the transfer page. Not when you click the send button",2,2025-04-21 12:58:22,Cruuncher
+programming,1k4c3bf,mo8wptg,"That it's often not a physical issue, but caused by some underlying form of stress or anxiety.",5,2025-04-21 12:37:06,Full-Spectral
+programming,1k4c3bf,mo8zyni,[deleted],-1,2025-04-21 12:58:14,N/A
+programming,1k4c3bf,mo8yuxo,"> In tech speak, an idempotent operation means: ‘I can do this once or five times, and the outcome stays the same.
+
+This just feels like the definition of ""deterministic""
+
+This article seems to talk about caching API request results - but doesn't adress the downsides of this. I actually ran into a problem with this caching a few days ago, where I have a locally-hosted LLM server that implements this request caching, and changing the loaded model (so changing server state) did not affect the idempotent key, thus meaning sending the same API request (although the server's state is different) just used a cached result. This was horrible behavior for my use-case and forced me to use a different tool.",-7,2025-04-21 12:51:10,HotDogDelusions
+programming,1k1bqhb,mnkr287,"> This isn’t about elitism.
+
+Suuuure. It's one of the most elitist articles I've ever read.
+
+> froze when I asked them to explain how the browser renders their CSS.
+
+Maybe that's because it's a totally ambiguous question. If you mean for them to explain the rules the browser guarantees about how CSS is applied, maybe that's fine, but if you asked me this question I would think you were asking me about internal implementation details of the browser, which is completely irrelevant knowledge unless you are looking for someone to develop a web browser engine.
+
+> Browser DevTools mastery counts as “debugging skills”
+
+Browser DevTools mastery absolutely counts as debugging skills. What do you think debugging skills are if not proficiency with the best debugging and profiling tools available??
+
+Lest you think I'm just some salty front-end developer, I'm not. I've written C++ professionally for many years, and I'm very confident in saying that web development is in no way ""inferior"" as a skillset to any other type of programming knowledge.",29,2025-04-17 12:47:00,zjm555
+programming,1k1bqhb,mnksfgi,"Impressive to be unable to spell out even that one lie, that one big myth, that one thing holding everyone back. Too bad it makes up all of the intro and title, first implying it might be ""HTML is not programming"" is the myth - which would at least be interesting as that is the default sentiment I see everywhere. Then arguing it really is not is just stupid. Everyone already believes that.
+
+But pointing out ""x > 5"" and "".classname:hover"" being a difference in ""state driven not logic driven"" is hilarious because that sentence doesn't make any sense. It is logic based on state on both cases. Would the author get a heart attack if they saw declarative programming?
+
+Lastly, using Turing completeness as a criteria and then mentioning that it could be done with a hack... Maybe just accept Turing completeness is a garbage criteria to decide if something is a programming language? Some languages are intentionally designed to not be Turing complete and are programming languages. Some things are Turing complete but would be terrible programming languages, because those are mostly about ergonomics.
+
+Overall hilarious and useless take. Just like my comment.",11,2025-04-17 12:55:10,bladub
+programming,1k1bqhb,mnkxcjx,"Everything OP posts is AI slop and clickbait, and frankly they should just be straight-up banned for it, but this article is especially bad.
+
+There are a lot of problems with frontend culture -- cargo culting, gurus, a failure to understand the technical principles underpinning its core technologies, thinking that mastery of pointless complexity is mastery of ""real programming,"" and more. Frontend languages require craftsmanship, and it feels like craftsmanship on the web is lacking these days; that's no doubt why OP chose this topic to feed to an LLM. Blaming all the issues on distinguishing between markup languages and programming languages, however, is ridiculous and shallow -- and this article oscillates between deciding that the problem is the distinction versus the *lack* of the distinction.
+
+> The first time I corrected a junior developer for calling HTML a “programming language,” I felt like a fraud. There I was — a programmer with 25 years of experience — still clinging to a lie I’d helped perpetuate for decades.
+> 
+> [Problems include] Front-end specialists avoid learning algorithms because “I just style things” [and] Teams building inaccessible, fragile UIs by treating HTML as “dumb markup”
+
+So the problem here is being unwilling to call HTML and CSS ""programming languages; OP is ""clinging to a lie"" for drawing that line, and other people who draw that line underestimate the craftsmanship they require.
+
+> Myth: “If we call it programming, people will take it seriously.”
+> 
+> When we blur these lines, we build weaker foundations.
+> 
+> The web’s greatest strength — its openness — has become its weakness. By pretending HTML/CSS are programming languages, we’ve:
+
+...until the problem is being *willing* to call them ""programming languages,"" because they require different skills that people are -- for this reason alone -- failing to learn. You can't even properly puppeteer your AI into pumping out this worthless garbage for you, OP. What value do you add to anything by publishing this dross? What do *you* even get out of it?",6,2025-04-17 13:23:43,DavidJCobb
+programming,1k1bqhb,mnkw5yt,as soon as I saw the AI cover image I knew what kind of stuff I was going to read,3,2025-04-17 13:17:03,cokeplusmentos
+programming,1jzmopr,mn7dzam,very interesting take. Love the voice/microphone analogy,2,2025-04-15 09:12:20,fazzah
+programming,1jzmopr,mn7iohc,"Really enjoyed this breakdown — especially the “microphone” analogy. AI isn’t replacing thinking it, it’s just turning up the volume on who’s doing it well (and exposing who isn’t).
+
+Nowadays, many devs may feel uneasy because they got used to their routine zone and now the software engineering landscape is shifting. The idea of focusing on vitality — asking better questions and thinking bigger — feels like the right direction of staying relevant and being able to grow with these new tools.
+
+What do you think about how junior engineers could start building their “vital” mindset? It’s really hard to get that kind of thinking from the start of their career.",0,2025-04-15 10:02:13,nexo-v1
+programming,1jy3q39,mmvdiwj,"It might as well be a cli. 
+
+Or why not just make a physical opaque box that if you ever try to open it up to look at the code it will bite your hand off.
+
+Also brave to assume that the people that take vibe coding seriously know how to double click Terminal",7,2025-04-13 09:37:12,onomatasophia
+programming,1jy3q39,mn0pzk6,i feel like these binaries will search my pc for crypto private keys,3,2025-04-14 06:04:51,No_Technician7058
+programming,1jy3q39,mmvlybj,What are all these 'att's in the commit history?,2,2025-04-13 11:04:34,valium123
+programming,1jy3q39,mmw0gut,"I actually did it for real. I built an Android app called **Bulifier AI** that lets you *Vibe Code* games — and then publish them to the **Vibe Store**, hosted on [bulifier.com](https://bulifier.com).
+
+The level of security and complexity I put into it is kind of wild. On the Android side, with just one button, the AI generates your entire game listing and kicks off the release pipeline.
+
+I’m using **Firebase Realtime DB** for backend communication — no REST API. Why? Because it’s stateful and gives me rock-solid offline support, which is super important on Android devices.
+
+My Firebase Function runners listen for deploy requests from the client. First, they push the game to the game server — verifying the content and deploying it via the **Firebase Hosting REST API**. That way, I only deploy the changed part of the website instead of the whole thing.
+
+Next comes the listing function. It updates the game listings and generates the game pages with full SEO optimization.
+
+On top of that, I use a **reverse proxy** to map `example.com/[game]` to `[game].bulifier.com`, giving each game its own domain. That means games can’t access cookies from other games — nice and secure.
+
+There’s a lot more going on under the hood. But the goal is simple: you click a button, and the system takes care of the rest.",0,2025-04-13 13:00:11,gazman_dev
+programming,1jw6c5c,mmfw4ea,"I heard it was free, too.",4,2025-04-10 19:30:09,Inoffensive_Account
+programming,1jw6c5c,mmg0keg,Here we again,4,2025-04-10 19:52:23,YasserPunch
+programming,1jw6c5c,mmg7kz8,"> Specifically:
+> 1. An LLM converts the plain English question into a database query
+> 2. We execute the query against the database
+> 3. **Another LLM “grades” the output** and makes sure the results make sense
+> 4. The query is regenerated until it is accurate
+
+Wat",3,2025-04-10 20:25:37,rlbond86
+programming,1jw6c5c,mmg8nid,"Fuzzy thinking in, fuzzy answers out.",3,2025-04-10 20:30:48,ttkciar
+programming,1jw6c5c,mmfv9lx,Didn't you write this [same article](https://medium.com/@austin-starks/there-are-new-stealth-large-language-models-coming-out-thats-better-than-anything-i-ve-ever-seen-19396ccb18b5) a few days ago?,1,2025-04-10 19:26:02,ketralnis
+programming,1jt0svx,mlqto6t,Was this AI generated?,27,2025-04-06 19:13:27,case-o-nuts
+programming,1jt0svx,mlr11kg,"My sibling in monotheism - language models are statistical, probabilistic machines: no single instance of any model can be compared as anything but one single data point. In fact, even the answers you get from a single instance of a given model can drastically vary in quality. You can, in the same second, get a brilliant answer whilst I get a dogshit one from the exact same model.
+
+Asking 1 model 40 questions is not NEARLY enough data - you would have been better off asking different instances of the same model 1 question 40 times instead, and that would probably still not be enough. And you should have to do it over a certain time period to get an average assessment, because it's actually not very interesting to do this calculation on just a single version of a model given the amount of randomness involved.
+
+Edit: because of all of the above reasons, these calculations can absolutely NOT be made quickly, no matter what that tool says. Real statistical analysis requires work and time, this tool can basically only measure your luck in any given moment.",11,2025-04-06 19:53:34,AnArchoz
+programming,1jt0svx,mlqqilh,"SQL isn't complicated to learn. It's literally a means to tell a database what you want to retrieve. Why in the hell are you using LLMs for this task? If you don't know what you want, don't bother querying.",12,2025-04-06 18:56:23,Chorus23
+programming,1jt0svx,mltp4qx,And I thought ORMs were a bad idea...,2,2025-04-07 06:39:31,DLCSpider
+programming,1jt0svx,mlqrt40,"Gemini 2.0 is ok for those simple queries, but it's useless in optimizing sql queries and performance. 2.5 is better but Claude 3.7 is miles ahead.",1,2025-04-06 19:03:22,coolcosmos
+programming,1jt0svx,mlqo1zr,"Lately have been using Grok and didn't disappoint me yet! Sad to not see it on this list.  
+  
+Edit: downvoting doesn't make grok not exist. It doesn't make it better or worse. Why not include it in the list and see what the better alternative is? If llama scores better for example, I will be happy to try it, but this way I don't have a comparison.",-18,2025-04-06 18:43:12,Tjessx
+programming,1jnt8kl,mkmhys0,Why didn’t post this in r/learnpython ?,10,2025-03-31 02:41:26,this_knee
+programming,1jnt8kl,mkmj7u8,Always include it just to be safe.,1,2025-03-31 02:49:57,__Blackrobe__
+programming,1jnt8kl,mkml4db,This problem is easily solved by not using python.,-6,2025-03-31 03:03:07,TrumpIsAFascistFuck
+programming,1jkdgwk,mjui82b,I don’t think you’re going to get a lot of love posting vibe coding projects around here…,6,2025-03-26 15:24:58,avenp
+programming,1jkdgwk,mjxblmc,Please let vibe coding die a quick death,2,2025-03-26 23:40:49,bring_back_the_v10s
+programming,1jir3ez,mjh9iil,"And now for the vibe bros standard response: your prompts are the problem and if they're not, models are getting better everyday.",10,2025-03-24 14:02:01,Cube00
+programming,1jir3ez,mjhvwfk,Laude ode sounds cool,2,2025-03-24 15:57:05,Shogobg
+programming,1jir3ez,mjhaf3o,"all tools ive tried had these issues. the way around that find you must. 
+in general you wanted too much too early, it works better if you make incremental changes and build with libraries.",0,2025-03-24 14:06:59,tek2222
+programming,1jijmel,mjfoxgq,Genuine question. What's the point? I thought some of these tools were fairly well battle-tested at this point. Stuff like diff and xargs. Is it mostly just to start making ground towards Rust on Linux?,15,2025-03-24 05:39:42,jaan_soulier
+programming,1jijmel,mjfx9o4,"Make your own distro with all the Rust shit you want and prove that it actually works as a complete distro.
+
+This ""Rust method"" of just whining that everyone should change to accommodate you wears thin real quick.",9,2025-03-24 07:07:21,fubes2000
+programming,1jijmel,mjgr77j,"I am not sure how I feel about it.
+
+I think Rust adds diversity (you end up having more options and software to choose from, right?), but it also becomes a new dependency. I had to already install various Rust-things like:
+
+https://www.linuxfromscratch.org/blfs/view/git/general/cbindgen.html
+
+And I can't say I am a huge fan of how cargo works. For some reason cargo feels super-different to e. g. ruby gems or python pip.
+
+Also, half of the time by the ""rewrite in Rust"" movement, it seems to be done NOT because of an intrinsic necessity, but the lead dev wants to improve his or her (but usually his) Rust skills. I am also not sure coreutils etc.. need to be rewritten.
+
+The actually biggest complaint I have, though, can also be seen with the title itself - ""Ubuntu should become more modern"", aka insinuating that Rust makes Ubuntu ""more modern"" and C is now old outdated legacy. Well ...
+
+I think other things hold back Linux. Rust isn't the thing that holds back Linux.",2,2025-03-24 12:07:18,shevy-java
+programming,1jjjah9,mjng52e,still waiting to be replaced by end of 2024,21,2025-03-25 13:30:18,freecodeio
+programming,1jjjah9,mjnhcsm,"""AI man with huge financial incentive continues to hype up AI"" and in other news water is wet.
+
+We're nowhere close to developers being replaced, so fucking cut it out already.",20,2025-03-25 13:37:28,SV-97
+programming,1jjjah9,mjnhqd9,Guy whose job it is to hype company hypes company,10,2025-03-25 13:39:36,mykeof
+programming,1jjjah9,mjnipvj,"""With this statement, he somewhat seals the future of programmers specializing in languages ​​like Python, C, or JavaScript.""
+
+Something being somewhat sealed is more useless than not being sealed at all.",5,2025-03-25 13:45:07,pavilionaire2022
+programming,1jjjah9,mjnjhuj,"""Please use and master and become dependent on my tools! Please!!!""",2,2025-03-25 13:49:24,derekkraan
+programming,1jjjah9,mjnh6qg,Don’t worry the government will wait till the next dust bowl and then be like “how did this happen”,2,2025-03-25 13:36:29,BayouBait
+programming,1jjjah9,mjnx51l,I can believe it for JS and Python to some extent.Most SaaS and stuff like ETL take a large part of what many devs do and is quite commoditized anyway. C and systems programming…I am less confident.,1,2025-03-25 15:00:25,SalientSalmorejo
+programming,1jjjah9,mml6x63,"Honestamente sueño con el dia en que esto pase, soy dev pero hay dias en donde si me gustaria que llegara mi reemplazo y olvidarme de todo. de bugs, de zoom, de requerimientos mal escritos, de coordinar backend con front-end, de entender lo que quiere producto diseño y el usuario... Yo sinceramente aun veo lejos el ""reemplazo"". Para mi las IAs lo que si mataron fue a los buscadores. Y rompieron la educacion tradicional... Me atreveria a decir que muy pocos estudiantes hacen tareas hoy en dia.",1,2025-04-11 16:35:07,L4z3rH4wk
+programming,1jjikq4,mjnbnu6,"I am soooo tired of seeing ""vibe coding"" everywhere...",22,2025-03-25 13:03:31,Kafka_pubsub
+programming,1jjikq4,mjny0jz,"It works really well for greenfield, smaller projects, especially stuff like SaaS etc.  Context window, and token cost is imo a significant barrier right now.",0,2025-03-25 15:04:50,SalientSalmorejo
+programming,1jjikq4,mjnbtj4,"Great write-up! My experience was similar to yours. I could never get the original ""vibe-coding""(\*) to work out so, I took the spirit of the idea and backed it off to AI doing 99% of the work instead of 100%.
+
+I think in the future, I will try to have more than one ""coding"" AI and let them build/document their AIs for each other.  I use Aider so its easy to have multiple instances operating on different branches with read-only access to shared typings/docs. When I let one AI run do all the coding, I've found that abstractions ""bleed"" over time and I have to spend my effort maintaining fences.
+
+Regarding your tool improvement:
+
+>Claude Code often “greps” the source code when it needs to find usages of a specific symbol. It seems that integration with LSP or similar tools could significantly improve the quality of the result — this is something that immediately stands out.
+
+Aider has a different approach to this problem that seems to perform better in many circumstances: [https://aider.chat/docs/repomap.html](https://aider.chat/docs/repomap.html)
+
+\[Edit: Forgot to add the original vibe-coding link\]  
+(\*): Original vibe-coding is a complete surrender to the AI... its certainly a vibe: [https://x.com/karpathy/status/1886192184808149383](https://x.com/karpathy/status/1886192184808149383)",-5,2025-03-25 13:04:28,wanderingbort
+programming,1jojv0l,mksdvqk,"My new rule for browsing r/programming: I automatically downvote every post with ""vibe"" in the title that I come across.",11,2025-04-01 01:38:05,Big_Combination9890
+programming,1jlx00l,mk776hw,"> because you’re not debugging std::bad_alloc at 2 AM.
+
+Are you telling me that a program in Rust will never fail to allocate memory? Does this mean that I can allocate infinite memory without an issue?
+
+P.s. In my 20 years of programming in C or C++, I have never had an allocation failure. Not sure what are you doing to get one.",12,2025-03-28 15:33:13,atariPunk
+programming,1jlx00l,mk75q1v,"Only fools see programming skills as simple knowing language syntax.  
+Person with strong background will write better Rust code than zumer who bough PC yesterday on mom's money and proudly put on Rust t-shit.",10,2025-03-28 15:26:09,Mundane-Apricot6981
+programming,1jlx00l,mk736x9,"I mainly write C++20 code in my day job. Most of the ""drawbacks"" cited about C++ are things I never actually experience. Anyways, my expertise is not to write C++ code, my expertise is to write low-level, very efficient algorithms running on mobile phones. C++ is the tool I use, but I could use any other tools to do the same job.
+
+I have colleagues that *rave* about how Rust is super safe AND efficient at the same time. Yet, they write code in O(n\^2) that could be rewritten in O(log n) easily if they knew what they were doing. So, yeah...",14,2025-03-28 15:13:36,jonatansan
+programming,1jlx00l,mk73484,Rubish artical.,8,2025-03-28 15:13:14,epasveer
+programming,1jlx00l,mk7h5a3,"I have been coding C and C++ for 20 years. I have never lost even a single byte. Btw, have you ever coded linked-lists or binary trees in Rust?",6,2025-03-28 16:21:46,ptkrisada
+programming,1jlx00l,mk71615,Is Cobol knowledge obsolete?,13,2025-03-28 15:03:37,BlackSuitHardHand
+programming,1jlx00l,mk8z08v,"> “Senior Architects” who’ve made careers from other people’s malloc() mistakes
+
+I wanna see this. Truly I do.
+
+I want to make oodles of boodle from fixing other people's memory issues; I want to get tons of money thrown at me just to run UBsan+friends and valgrind.
+
+Too bad no one wants to pay to fix memory issues in their codebase.",3,2025-03-28 20:45:13,lelanthran
+programming,1jlx00l,mk9t3d2,"Lol, not a chance.",3,2025-03-28 23:27:18,fungussa
+programming,1jjk5oj,mjnpkzb,"> Why do you need 127,000 employees to run what Linus Torvalds maintains with 4 people?
+
+That's such an absurdly unfair comparison that I don't know how to take the rest of the article seriously.",279,2025-03-25 14:21:36,dccorona
+programming,1jjk5oj,mjnn4ik,Pyramid scheme has no specific meaning anymore.,175,2025-03-25 14:08:44,taelor
+programming,1jjk5oj,mjnphwq,"TL;DR Cloud services are expensive if you don't know what you are doing.  This is why you cant just replace people with ""AI"".",84,2025-03-25 14:21:09,engineered_academic
+programming,1jjk5oj,mjnrj0m,This article is written by a moron,58,2025-03-25 14:31:46,mega-man-0
+programming,1jjk5oj,mjnvqbu,"> Why do you need 127,000 employees to run what Linus Torvalds maintains with 4 people?
+
+This person has zero clue what they're talking about.
+
+All joking (including the author's) aside, they definitely haven't thought about the technical, logistical, and long-term strategic tradeoffs of on prem vs cloud.
+
+Here's the thing about operating on-prem and why everyone who wasn't FAANG got out of it. Building out a single data center is a monumental undertaking in and of itself. You're purchasing a massive building, negotiating with internet carriers, energy and utilities, laying fiber optic cables, physical security, janitorial staff, IT and network engineers, forecasting demand 6 months to 1 year out so you can put in your order for more servers that will be fulfilled in 12 months (at much higher than bulk-rates major providers like AWS get) which you'll need to install. You need forklifts, HVAC, suppression as well as water leak detection, backup generators, etc. You need 24/7 operational staff to inspect and replace servers as they fail.
+
+And then repeat this 2-3x for each availability zone / geographic region in which you want to build out your data centers so you can maintain high availability and meet regulatory requirements like data sovereignty requirements each country you have users in. Good luck achieving even three nines of availability of anything you build on top of this bespoke system.
+
+It's not just about initial cost, but the long-term strategic risks, getting bogged down in maintaining and supporting a bespoke system that sucks money as a cost center, yet isn't good at what it does.
+
+You need to turn bare metal into a useable compute platform with a usable devx for your developers. You'll have a whole organizational unit dedicated to software engineers and SREs to design and maintain and be oncall to support your own bespoke infra platform with worse security, worse performance, worse devx, worse availability and worse SLOs than AWS or GCP. It won't work with Terraform or CloudFormation, it won't have a good IAM model like AWS or GCP, it won't have managed offerings for all your non-compute or higher level needs like AWS' S3 or DynamoDB or RDS or EKS.
+
+But at least you'll have rolled your own datacenters and have paid more for less when all is said and done. And in 5 years when the costs and operational burden and devx is too poor is too much you'll do a huge on-prem to cloud migration. This is why businesses get off on-prem. Everything involved in running a datacenter and building and maintaining a highly available infra platform like AWS is not most business' core competencies, where their competitive advantage is. They know what they're doing when they leave the email and productivity software to Google Workspace or Microsoft 365, leave the video conferencing software to Zoom, because that's not their core competencies. They don't want to get into building their own version of Gmail and Calendar and Google Docs—they'll just buy that from Google and focus on what their core business competency is, focus on actual business logic. Same with foundational infrastructure.",18,2025-03-25 14:53:21,eloquent_beaver
+programming,1jjk5oj,mjno7vd,"> At first, costs seemed reasonable. But within months, their bill had skyrocketed, growing by several multiples. By the end of the year, they were paying several times more than what they had spent annually on their old on-prem setup — without any increase in workload.
+When challenged, their GCP rep offered the standard defense: “You’re not using our managed services optimally.” Translation: “You didn’t hire our $500/hour consultants to fix the mess we helped create.”
+
+So, basically a long winded way of admitting this is a skill issue.",68,2025-03-25 14:14:29,btdeviant
+programming,1jjk5oj,mjo2ae9,"This is a 100% trash article that might as well just have the author’s Hetzner invite code attached at the bottom. 
+
+That line at the bottom about Linus is the sort of mindless statement that reinforces just how badly thought out the whole article is.",8,2025-03-25 15:26:14,fbi-intern-18
+programming,1jjk5oj,mjnqq6h,"Cloud compute typically isn't too bad but cloud data storage costs can be utterly insane.
+
+Recently I needed to compare quotes for a server to sit in a rack in the building vs renting cloud compute and storage, the comparison for compute wasn't too bad but storage prices were insane per TB.
+
+We could buy a fairly beefy server with about 500TB of storage roughly every 2 years for the price of renting a 500TB block of storage space. The practical lifetime of such servers with occasional hard drive replacements is easily 8+ years. 
+
+Sure you don't have to worry about power and rack space but cloud also comes with the risk of getting UniSuper'd",6,2025-03-25 14:27:34,WTFwhatthehell
+programming,1jjk5oj,mjnvz5u,"It is a natural conclusion of the business cycle that cloud services will eventually be very expensive for companies who are using them successfully. 
+
+Those companies will pass those increased costs onto their customers, but eventually the vast majority of SaaS companies will fail and be squeezed out of existence by the cloud provider. The business people signing up for those services today for short-term cost savings often in the form of cutting expertise in areas like reliability/operations are well aware of this cycle. They are taught it in school. It's a future-SaaS-Company-X problem for real increases to executive compensation now, so a foregone conclusion for a sharp business person looking to increase their compensation.",5,2025-03-25 14:54:35,TheESportsGuy
+programming,1jjk5oj,mjny3l7,"If you need cloud infrastructure with quick access to everyone around the world via fast global datacenters, get ready to pay for it. This article is kinda weird.",2,2025-03-25 15:05:17,ISpewVitriol
+programming,1jr6de1,mlc9xho,[deleted],-8,2025-04-04 07:59:51,N/A
+programming,1jmnjzm,mkd13y9,"Yeah, no, this was dealt with a couple of days ago. The *compiler* is getting faster, not the resulting transpiled JavaScript.",19,2025-03-29 14:40:38,diMario
+programming,1jmnjzm,mkd1m8x,"No to the title, yes to the post body 😁
+
+`tsc` will get faster, and lest you have monorepos of 100+ packages, you won't even notice. 
+
+Some of us will 🥲 Looking forward to not waiting for V8 to start and eval/jit tsc for the hundredth project. 
+
+And, if you really suffer today with your monorepo, build/watch it as a project, as it's extremely fast today (the node overhead is gone).",3,2025-03-29 14:43:31,Ill_Bill6122
+programming,1jirqdi,mjhfcxd,Another piece that definitively states devs must adapt to AI while failing to provide any evidence that’s actually the case…,9,2025-03-24 14:33:28,DirectInvestigator66
+programming,1k0rmt5,mngdblx,"You want to use... AI... To check *facts*?
+
+The ""confident liar"" software?",5,2025-04-16 18:41:51,EliSka93
+programming,1k3sqj0,mo4swk8,"I seriously don't get how AI bullshit is not forbidden here.
+
+Yes, I get that it will still be posted here, but at least it would be obvious for the posters (if they could read) and it would be a case to report these.",3,2025-04-20 18:49:16,veryusedrname
+programming,1k3sqj0,mo547hj,This is an Ad,3,2025-04-20 19:51:58,PennyFromMyAnus
+programming,1jlwck8,mk722cq,"I fucking hate people in this industry trying to push debatable advice as some principle such as this one.
+
+edit: opinionated and dogmatic is a good way to put it like another commenter did.",9,2025-03-28 15:08:03,These-Maintenance250
+programming,1jlwck8,mk6vpeb,"I can't read the article as it's blocked in my workplace. 
+
+Private functions need to be tested if they are complex.",21,2025-03-28 14:36:27,Head-Criticism-7401
+programming,1jlwck8,mk6vlby,Don't fully agree. There are times where you want to test a function to make sure it works yet don't want that function to be exposed upstream.,28,2025-03-28 14:35:53,vegetablestew
+programming,1jlwck8,mk6xw4g,"Whenever I see an opinionated, dogmatic rule, I ignore it.
+
+Everything is a case by case basis, if you care about your source code",20,2025-03-28 14:47:30,wolfpack_charlie
+programming,1jlwck8,mk6xyd0,"Nah. A function's visibility has nothing to do with whether it needs tests, complexity does. If it's complicated and needs to not break, test it directly.
+
+This wouldn't be a debate if we could write tests for private functions without making them public.",24,2025-03-28 14:47:49,patient-palanquin
+programming,1jlwck8,mk6zymf,"You definitely need to sometimes, that private function might be resulting side effects that the pure contract wouldn't expose",5,2025-03-28 14:57:41,ThordBellower
+programming,1jlwck8,mkdy2ev,"If it's private and it needs testing, it's a sign that it needs to be promoted to it's own thing and that it should be ""public"", albeit elsewhere.
+
+It's almost always the case IMO that if something is important enough to warrant testing, then it's important enough to be its own entity.
+
+e.g. if you have a Car object, which has a private ""calculate fuel"" method... if you need to test it, then that calculate fuel method probably needs to come out of the Car object and into a dedicated ""Fuel Calculator"" module/object and the Car should get a fuel calculator... which you can make private if you wish.",3,2025-03-29 17:39:12,sgoody
+programming,1jlwck8,mkdfd2v,"Testing a private function will break unit test when you change the implemention of a public API.
+
+The general rule of testing public API and not private implementation is sound.",2,2025-03-29 15:59:20,Brilliant-Sky2969
+programming,1jlwck8,mk6y28e,?,2,2025-03-28 14:48:21,MadafakkaJones
+programming,1jlwck8,mk74a4g,Its always webdev people coming up with these stupid rules.,2,2025-03-28 15:19:01,Vulsere
+programming,1k3sqbh,mo4m0dg,"Be as simple as possible, but not simpler: be as complex as necessary.
+
+Some problems are complex. E.g. Unicode is pretty much as simple as it can be.",7,2025-04-20 18:12:30,flying-sheep
+programming,1k3sqbh,mo4rn0g,"""Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."" - Brian Kernighan",7,2025-04-20 18:42:32,MyOthrUsrnmIsABook
+programming,1k3sqbh,mo6at4q,"One of the ways in which programming is a bit of an art is being able to take something that’s complicated and abstracting it down enough so that the solution is very simple and straightforward, while not hiding enough so that maintaining it isn’t a nightmare. The goal should always be simplicity, modularity and ease of maintenance.",2,2025-04-21 00:01:13,definitely_not_DARPA
+programming,1k3sqbh,mo4ug4k,"The real question is to pick between ease and simplicity.
+
+Simplicity is better than Complexity, that's simple question. But what would pick: simple but hard or easy but complex?",1,2025-04-20 18:57:36,stasmarkin
+programming,1k3sqbh,mo5i58q,What is simplicity and complexity?,1,2025-04-20 21:09:40,BlueGoliath
+programming,1k3sqbh,mo4tjou,"Why choose get both?
+
+Also, [Worse is Better](https://dreamsongs.com/WorseIsBetter.html), but [Is Worse Really Better?](http://dreamsongs.com/Files/IsWorseReallyBetter.pdf) Turns out, [Worse Is Better Is Worse](http://dreamsongs.com/Files/worse-is-worse.pdf).
+
+IOW, this topic was already beating a dead horse in the late 1980s/early 1990s, and still is today.",0,2025-04-20 18:52:45,church-rosser

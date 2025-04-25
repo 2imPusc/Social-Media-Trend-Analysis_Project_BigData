@@ -1,0 +1,159 @@
+2025-04-26 00:57:44,554 - BẮT ĐẦU THU THẬP DỮ LIỆU: 2025-04-26 00:57:44
+2025-04-26 00:57:44,554 - 
+--- LĨNH VỰC: Technology ---
+2025-04-26 00:57:44,555 - Đang thu thập từ r/technology... (Lần thử 1)
+2025-04-26 00:57:44,558 - Đang thu thập từ r/gadgets... (Lần thử 1)
+2025-04-26 00:57:44,655 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-26 00:57:44,655 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-26 00:57:45,047 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/gadgets/top
+2025-04-26 00:57:45,910 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-26 00:57:48,552 - Lỗi API khi thu thập r/gadgets: error with request ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-04-26 00:57:48,552 - Thử lại sau 60s...
+2025-04-26 00:57:48,683 - Lỗi API khi thu thập r/technology: error with request ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-04-26 00:57:48,684 - Thử lại sau 60s...
+2025-04-26 00:58:48,593 - Đang thu thập từ r/gadgets... (Lần thử 2)
+2025-04-26 00:58:48,702 - Đang thu thập từ r/technology... (Lần thử 2)
+2025-04-26 00:58:48,782 - Retrying due to ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) status: GET https://oauth.reddit.com/r/technology/top
+2025-04-26 00:58:50,402 - API còn lại: 999.0 yêu cầu, reset sau 1.17 phút
+2025-04-26 00:58:51,483 - API còn lại: 998.0 yêu cầu, reset sau 1.17 phút
+2025-04-26 01:00:44,469 - API còn lại: 966.0 yêu cầu, reset sau 9.25 phút
+2025-04-26 01:00:50,107 - Đã lưu 55 bản ghi vào Data/contents_20250426_010050.csv
+2025-04-26 01:00:50,129 - Đã lưu 2462 bản ghi vào Data/comments_20250426_010050.csv
+2025-04-26 01:00:50,129 - Đã thu thập 55 bài đăng từ r/gadgets
+2025-04-26 01:00:50,129 - Đang thu thập từ r/programming... (Lần thử 1)
+2025-04-26 01:00:51,550 - API còn lại: 958.0 yêu cầu, reset sau 9.15 phút
+2025-04-26 01:02:24,137 - API còn lại: 893.0 yêu cầu, reset sau 7.63 phút
+2025-04-26 01:02:32,506 - API còn lại: 884.0 yêu cầu, reset sau 7.47 phút
+2025-04-26 01:03:38,454 - API còn lại: 817.0 yêu cầu, reset sau 6.38 phút
+2025-04-26 01:04:35,748 - API còn lại: 751.0 yêu cầu, reset sau 5.40 phút
+2025-04-26 01:05:28,059 - API còn lại: 686.0 yêu cầu, reset sau 4.55 phút
+2025-04-26 01:05:30,184 - API còn lại: 682.0 yêu cầu, reset sau 4.52 phút
+2025-04-26 01:06:20,238 - API còn lại: 614.0 yêu cầu, reset sau 3.67 phút
+2025-04-26 01:07:12,575 - API còn lại: 546.0 yêu cầu, reset sau 2.80 phút
+2025-04-26 01:07:53,754 - API còn lại: 492.0 yêu cầu, reset sau 2.12 phút
+2025-04-26 01:08:01,923 - API còn lại: 479.0 yêu cầu, reset sau 1.97 phút
+2025-04-26 01:08:52,210 - API còn lại: 410.0 yêu cầu, reset sau 1.13 phút
+2025-04-26 01:09:41,044 - API còn lại: 339.0 yêu cầu, reset sau 0.32 phút
+2025-04-26 01:10:10,981 - API còn lại: 986.0 yêu cầu, reset sau 9.82 phút
+2025-04-26 01:10:30,510 - Đã lưu 500 bản ghi vào Data/contents_20250426_011030.csv
+2025-04-26 01:10:30,533 - Đã lưu 2689 bản ghi vào Data/comments_20250426_011030.csv
+2025-04-26 01:10:30,534 - Đã thu thập 500 bài đăng từ r/programming
+2025-04-26 01:10:31,744 - API còn lại: 959.0 yêu cầu, reset sau 9.48 phút
+2025-04-26 01:11:21,085 - API còn lại: 891.0 yêu cầu, reset sau 8.65 phút
+2025-04-26 01:12:08,935 - API còn lại: 821.0 yêu cầu, reset sau 7.87 phút
+2025-04-26 01:12:27,505 - API còn lại: 798.0 yêu cầu, reset sau 7.57 phút
+2025-04-26 01:12:55,323 - API còn lại: 752.0 yêu cầu, reset sau 7.07 phút
+2025-04-26 01:13:45,501 - API còn lại: 682.0 yêu cầu, reset sau 6.25 phút
+2025-04-26 01:14:28,702 - API còn lại: 619.0 yêu cầu, reset sau 5.53 phút
+2025-04-26 01:14:32,680 - API còn lại: 611.0 yêu cầu, reset sau 5.45 phút
+2025-04-26 01:15:21,112 - API còn lại: 538.0 yêu cầu, reset sau 4.67 phút
+2025-04-26 01:16:09,023 - API còn lại: 463.0 yêu cầu, reset sau 3.85 phút
+2025-04-26 01:16:11,619 - API còn lại: 461.0 yêu cầu, reset sau 3.82 phút
+2025-04-26 01:16:58,213 - API còn lại: 388.0 yêu cầu, reset sau 3.03 phút
+2025-04-26 01:17:44,027 - API còn lại: 313.0 yêu cầu, reset sau 2.28 phút
+2025-04-26 01:17:45,501 - API còn lại: 309.0 yêu cầu, reset sau 2.23 phút
+2025-04-26 01:18:31,901 - Đã lưu 498 bản ghi vào Data/contents_20250426_011831.csv
+2025-04-26 01:18:31,907 - Đã lưu 544 bản ghi vào Data/comments_20250426_011831.csv
+2025-04-26 01:18:31,907 - Đã thu thập 498 bài đăng từ r/programming
+2025-04-26 01:18:31,907 - Đang thu thập từ r/science... (Lần thử 1)
+2025-04-26 01:18:33,543 - API còn lại: 233.0 yêu cầu, reset sau 1.45 phút
+2025-04-26 01:19:10,407 - API còn lại: 201.0 yêu cầu, reset sau 0.85 phút
+2025-04-26 01:20:28,688 - Đã lưu 500 bản ghi vào Data/contents_20250426_012028.csv
+2025-04-26 01:20:28,852 - Đã lưu 29292 bản ghi vào Data/comments_20250426_012028.csv
+2025-04-26 01:20:28,853 - Đã thu thập 500 bài đăng từ r/technology
+2025-04-26 01:20:30,637 - API còn lại: 971.0 yêu cầu, reset sau 9.50 phút
+2025-04-26 01:21:16,206 - API còn lại: 926.0 yêu cầu, reset sau 8.75 phút
+2025-04-26 01:21:44,474 - API còn lại: 893.0 yêu cầu, reset sau 8.27 phút
+2025-04-26 01:22:59,296 - API còn lại: 809.0 yêu cầu, reset sau 7.03 phút
+2025-04-26 01:23:14,177 - API còn lại: 794.0 yêu cầu, reset sau 6.78 phút
+2025-04-26 01:24:03,636 - API còn lại: 727.0 yêu cầu, reset sau 5.95 phút
+2025-04-26 01:24:46,985 - API còn lại: 667.0 yêu cầu, reset sau 5.22 phút
+2025-04-26 01:25:08,999 - API còn lại: 640.0 yêu cầu, reset sau 4.87 phút
+2025-04-26 01:26:05,860 - API còn lại: 557.0 yêu cầu, reset sau 3.92 phút
+2025-04-26 01:26:12,995 - API còn lại: 545.0 yêu cầu, reset sau 3.78 phút
+2025-04-26 01:27:09,599 - API còn lại: 457.0 yêu cầu, reset sau 2.87 phút
+2025-04-26 01:27:18,165 - API còn lại: 442.0 yêu cầu, reset sau 2.70 phút
+2025-04-26 01:28:06,360 - API còn lại: 361.0 yêu cầu, reset sau 1.88 phút
+2025-04-26 01:28:21,422 - API còn lại: 334.0 yêu cầu, reset sau 1.65 phút
+2025-04-26 01:29:00,762 - API còn lại: 261.0 yêu cầu, reset sau 1.00 phút
+2025-04-26 01:29:12,721 - API còn lại: 237.0 yêu cầu, reset sau 0.78 phút
+2025-04-26 01:29:53,341 - API còn lại: 158.0 yêu cầu, reset sau 0.10 phút
+2025-04-26 01:30:05,477 - API còn lại: 992.0 yêu cầu, reset sau 9.92 phút
+2025-04-26 01:30:52,628 - Đã lưu 500 bản ghi vào Data/contents_20250426_013052.csv
+2025-04-26 01:30:52,687 - Đã lưu 6340 bản ghi vào Data/comments_20250426_013052.csv
+2025-04-26 01:30:52,690 - Đã thu thập 500 bài đăng từ r/technology
+2025-04-26 01:30:52,694 - Đang thu thập từ r/todayilearned... (Lần thử 1)
+2025-04-26 01:30:55,146 - API còn lại: 908.0 yêu cầu, reset sau 9.10 phút
+2025-04-26 01:31:03,121 - API còn lại: 898.0 yêu cầu, reset sau 8.95 phút
+2025-04-26 01:31:51,902 - Đã lưu 500 bản ghi vào Data/contents_20250426_013151.csv
+2025-04-26 01:31:51,971 - Đã lưu 9618 bản ghi vào Data/comments_20250426_013151.csv
+2025-04-26 01:31:51,973 - Đã thu thập 500 bài đăng từ r/science
+2025-04-26 01:31:53,513 - API còn lại: 836.0 yêu cầu, reset sau 8.12 phút
+2025-04-26 01:32:42,324 - API còn lại: 776.0 yêu cầu, reset sau 7.28 phút
+2025-04-26 01:33:32,028 - API còn lại: 713.0 yêu cầu, reset sau 6.48 phút
+2025-04-26 01:34:20,702 - API còn lại: 652.0 yêu cầu, reset sau 5.65 phút
+2025-04-26 01:34:35,202 - Đã lưu 165 bản ghi vào Data/contents_20250426_013435.csv
+2025-04-26 01:34:35,208 - Đã lưu 359 bản ghi vào Data/comments_20250426_013435.csv
+2025-04-26 01:34:35,209 - Đã thu thập 165 bài đăng từ r/science
+2025-04-26 01:34:36,380 - API còn lại: 636.0 yêu cầu, reset sau 5.45 phút
+2025-04-26 01:37:39,955 - API còn lại: 582.0 yêu cầu, reset sau 2.35 phút
+2025-04-26 01:40:07,533 - API còn lại: 998.0 yêu cầu, reset sau 9.90 phút
+2025-04-26 01:42:00,706 - API còn lại: 947.0 yêu cầu, reset sau 8.00 phút
+2025-04-26 01:43:44,518 - API còn lại: 897.0 yêu cầu, reset sau 6.28 phút
+2025-04-26 01:45:14,730 - API còn lại: 846.0 yêu cầu, reset sau 4.77 phút
+2025-04-26 01:46:33,062 - API còn lại: 796.0 yêu cầu, reset sau 3.45 phút
+2025-04-26 01:47:44,831 - API còn lại: 745.0 yêu cầu, reset sau 2.28 phút
+2025-04-26 01:48:58,893 - API còn lại: 695.0 yêu cầu, reset sau 1.01 phút
+2025-04-26 01:50:08,016 - Đã lưu 500 bản ghi vào Data/contents_20250426_015008.csv
+2025-04-26 01:50:08,123 - Đã lưu 20670 bản ghi vào Data/comments_20250426_015008.csv
+2025-04-26 01:50:08,124 - Đã thu thập 500 bài đăng từ r/todayilearned
+2025-04-26 01:50:09,751 - API còn lại: 993.0 yêu cầu, reset sau 9.85 phút
+2025-04-26 01:51:11,593 - API còn lại: 943.0 yêu cầu, reset sau 8.80 phút
+2025-04-26 01:52:11,320 - API còn lại: 892.0 yêu cầu, reset sau 7.83 phút
+2025-04-26 01:53:11,485 - API còn lại: 842.0 yêu cầu, reset sau 6.80 phút
+2025-04-26 01:54:08,069 - API còn lại: 791.0 yêu cầu, reset sau 5.88 phút
+2025-04-26 01:55:01,079 - API còn lại: 741.0 yêu cầu, reset sau 4.98 phút
+2025-04-26 01:55:55,060 - API còn lại: 690.0 yêu cầu, reset sau 4.10 phút
+2025-04-26 01:56:45,539 - API còn lại: 640.0 yêu cầu, reset sau 3.23 phút
+2025-04-26 01:56:57,300 - Đã lưu 361 bản ghi vào Data/contents_20250426_015657.csv
+2025-04-26 01:56:57,321 - Đã lưu 3398 bản ghi vào Data/comments_20250426_015657.csv
+2025-04-26 01:56:57,324 - Đã thu thập 361 bài đăng từ r/todayilearned
+2025-04-26 01:56:57,325 - 
+--- LĨNH VỰC: News ---
+2025-04-26 01:56:57,325 - Đang thu thập từ r/worldnews... (Lần thử 1)
+2025-04-26 01:56:57,325 - Đang thu thập từ r/news... (Lần thử 1)
+2025-04-26 01:56:58,752 - API còn lại: 627.0 yêu cầu, reset sau 3.03 phút
+2025-04-26 01:56:59,271 - API còn lại: 628.0 yêu cầu, reset sau 3.03 phút
+2025-04-26 02:00:31,287 - API còn lại: 988.0 yêu cầu, reset sau 9.53 phút
+2025-04-26 02:00:31,382 - API còn lại: 987.0 yêu cầu, reset sau 9.53 phút
+2025-04-26 02:03:44,580 - API còn lại: 887.0 yêu cầu, reset sau 6.27 phút
+2025-04-26 02:03:50,783 - API còn lại: 883.0 yêu cầu, reset sau 6.17 phút
+2025-04-26 02:06:23,099 - API còn lại: 791.0 yêu cầu, reset sau 3.63 phút
+2025-04-26 02:06:45,426 - API còn lại: 778.0 yêu cầu, reset sau 3.30 phút
+2025-04-26 02:08:42,773 - API còn lại: 694.0 yêu cầu, reset sau 1.30 phút
+2025-04-26 02:09:14,417 - API còn lại: 671.0 yêu cầu, reset sau 0.77 phút
+2025-04-26 02:10:49,967 - API còn lại: 963.0 yêu cầu, reset sau 9.22 phút
+2025-04-26 02:11:25,618 - API còn lại: 931.0 yêu cầu, reset sau 8.58 phút
+2025-04-26 02:12:43,425 - API còn lại: 868.0 yêu cầu, reset sau 7.28 phút
+2025-04-26 02:13:40,459 - API còn lại: 815.0 yêu cầu, reset sau 6.35 phút
+2025-04-26 02:14:21,863 - API còn lại: 778.0 yêu cầu, reset sau 5.65 phút
+2025-04-26 02:15:40,910 - API còn lại: 701.0 yêu cầu, reset sau 4.35 phút
+2025-04-26 02:15:50,143 - API còn lại: 691.0 yêu cầu, reset sau 4.17 phút
+2025-04-26 02:17:10,571 - API còn lại: 609.0 yêu cầu, reset sau 2.82 phút
+2025-04-26 02:17:46,008 - API còn lại: 570.0 yêu cầu, reset sau 2.25 phút
+2025-04-26 02:18:20,118 - Đã lưu 500 bản ghi vào Data/contents_20250426_021820.csv
+2025-04-26 02:18:20,261 - Đã lưu 25937 bản ghi vào Data/comments_20250426_021820.csv
+2025-04-26 02:18:20,263 - Đã thu thập 500 bài đăng từ r/news
+2025-04-26 02:18:21,234 - API còn lại: 527.0 yêu cầu, reset sau 1.65 phút
+2025-04-26 02:19:21,246 - API còn lại: 448.0 yêu cầu, reset sau 0.65 phút
+2025-04-26 02:19:29,025 - API còn lại: 436.0 yêu cầu, reset sau 0.53 phút
+2025-04-26 02:19:36,816 - Đã lưu 64 bản ghi vào Data/contents_20250426_021936.csv
+2025-04-26 02:19:36,820 - Đã lưu 544 bản ghi vào Data/comments_20250426_021936.csv
+2025-04-26 02:19:36,822 - Đã thu thập 64 bài đăng từ r/news
+2025-04-26 02:19:36,822 - Đang thu thập từ r/VietNam... (Lần thử 1)
+2025-04-26 02:19:39,625 - API còn lại: 423.0 yêu cầu, reset sau 0.38 phút
+2025-04-26 02:21:13,012 - Đã lưu 500 bản ghi vào Data/contents_20250426_022113.csv
+2025-04-26 02:21:13,168 - Đã lưu 30279 bản ghi vào Data/comments_20250426_022113.csv
+2025-04-26 02:21:13,170 - Đã thu thập 500 bài đăng từ r/worldnews
+2025-04-26 02:21:14,911 - API còn lại: 931.0 yêu cầu, reset sau 8.77 phút
+2025-04-26 02:21:30,708 - API còn lại: 915.0 yêu cầu, reset sau 8.53 phút
