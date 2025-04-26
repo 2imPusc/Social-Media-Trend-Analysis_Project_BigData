@@ -6,12 +6,10 @@ import pandas as pd
 import json
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from googleapiclient.http import MediaIoBaseDownload
-import io
-from dotenv import load_dotenv
-from concurrent.futures import ThreadPoolExecutor
 import argparse
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
+from dotenv import load_dotenv
 
 # Thiết lập logging
 logging.basicConfig(
@@ -50,7 +48,7 @@ YOUTUBE_API_VERSION = "v3"
 youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=API_KEY)
 
 # Quota tối đa mỗi ngày (YouTube API v3: 10,000 đơn vị)
-MAX_QUOTA = 10000
+MAX_QUOTA = 9500  # Giữ 500 đơn vị dự phòng
 # Quota đã sử dụng
 quota_used = 0
 
@@ -81,8 +79,10 @@ def get_trending_videos(region_code="US", max_videos=50, category_cache=None):
     global quota_used
     videos = []
     next_page_token = None
+    duplicates = 0
+    max_attempts = 5  # Giới hạn số lần thử nếu toàn bộ batch trùng lặp
 
-    while len(videos) < max_videos:
+    while len(videos) < max_videos and max_attempts > 0:
         if quota_used >= MAX_QUOTA:
             logging.warning("Đã đạt giới hạn quota API.")
             print("Đã đạt giới hạn quota API.")
@@ -99,11 +99,14 @@ def get_trending_videos(region_code="US", max_videos=50, category_cache=None):
             quota_used += 1
             logging.info(f"Quota used: 1 (videos.list, page {next_page_token or 'first'})")
 
+            new_videos = 0
             for item in response["items"]:
                 video_id = item["id"]
                 if video_id in crawled_video_ids:
                     logging.info(f"Bỏ qua video trùng lặp: {video_id}")
+                    duplicates += 1
                     continue
+                new_videos += 1
                 videos.append({
                     "content_id": video_id,
                     "platform": "youtube",
@@ -123,6 +126,17 @@ def get_trending_videos(region_code="US", max_videos=50, category_cache=None):
                     "url": f"https://youtube.com/watch?v={video_id}",
                     "author": item["snippet"].get("channelTitle", "N/A")
                 })
+
+            logging.info(f"Batch: {new_videos} video mới, {duplicates} video trùng lặp")
+            print(f"Batch: {new_videos} video mới, {duplicates} video trùng lặp")
+
+            # Nếu không có video mới, giảm số lần thử
+            if new_videos == 0:
+                max_attempts -= 1
+                logging.warning(f"Không tìm thấy video mới. Còn {max_attempts} lần thử.")
+                time.sleep(5)  # Đợi trước khi thử lại
+            else:
+                max_attempts = 5  # Reset số lần thử nếu tìm thấy video mới
 
             next_page_token = response.get("nextPageToken")
             if not next_page_token or len(videos) >= max_videos:
@@ -164,67 +178,6 @@ def get_category_name(category_id, cache=None):
     except HttpError as e:
         logging.error(f"Lỗi khi lấy danh mục video {category_id}: {e}")
         return "Unknown"
-
-# Hàm lấy phụ đề (chỉ tiếng Anh hoặc tiếng Việt)
-def get_video_captions(video_id, languages=None):
-    global quota_used
-    if languages is None:
-        languages = ["en"]
-    captions_data = []
-    if quota_used >= MAX_QUOTA:
-        logging.warning("Đã đạt giới hạn quota API.")
-        return captions_data
-    try:
-        request = youtube.captions().list(
-            part="snippet",
-            videoId=video_id
-        )
-        response = request.execute()
-        quota_used += 1
-        logging.info(f"Quota used: 1 (captions.list for {video_id})")
-
-        for item in response["items"]:
-            language = item["snippet"]["language"]
-            if not any(language.startswith(lang) for lang in languages):
-                logging.info(f"Bỏ qua phụ đề {item['id']} cho video {video_id}: Ngôn ngữ {language} không được yêu cầu")
-                continue
-            
-            caption_id = item["id"]
-            name = item["snippet"].get("name", "")
-            is_auto = item["snippet"].get("trackKind", "") == "ASR"
-
-            if quota_used + 50 > MAX_QUOTA:
-                logging.warning("Không đủ quota để tải phụ đề.")
-                break
-            try:
-                request = youtube.captions().download(
-                    id=caption_id,
-                    tfmt="srt"
-                )
-                fh = io.StringIO()
-                downloader = MediaIoBaseDownload(fh, request)
-                done = False
-                while not done:
-                    status, done = downloader.next_chunk()
-                caption_text = fh.getvalue()
-                fh.close()
-                quota_used += 50
-                logging.info(f"Quota used: 50 (captions.download for {caption_id})")
-
-                captions_data.append({
-                    "content_id": video_id,
-                    "platform": "youtube",
-                    "language": language,
-                    "name": name,
-                    "is_auto": is_auto,
-                    "content": caption_text
-                })
-            except HttpError as e:
-                logging.error(f"Lỗi khi tải phụ đề {caption_id} cho video {video_id}: {e}")
-        return captions_data
-    except HttpError as e:
-        logging.error(f"Lỗi khi lấy danh sách phụ đề cho video {video_id}: {e}")
-        return []
 
 # Hàm lấy bình luận
 def get_video_comments(video_id, max_comments=100):
@@ -274,31 +227,37 @@ def get_video_comments(video_id, max_comments=100):
     return comments
 
 # Hàm xử lý video đơn lẻ
-def process_video(video, category_cache, max_comments_per_video, languages):
+def process_video(video, category_cache, max_comments_per_video):
     video_id = video["content_id"]
     logging.info(f"Đang xử lý video {video_id}: {video['title']}")
     
     # Lấy bình luận
     comments = get_video_comments(video_id, max_comments_per_video) if max_comments_per_video > 0 else []
     
-    # Lấy phụ đề
-    captions = get_video_captions(video_id, languages)
-    
-    return video, comments, captions
+    return video, comments
 
 # Hàm chính để crawl dữ liệu
-def crawl_youtube_trending(region_code="US", max_videos=1000, max_comments_per_video=100, max_workers=3, caption_languages="en"):
+def crawl_youtube_trending(region_code="US", max_videos=1000, max_comments_per_video=100, max_workers=3):
     global crawled_video_ids, quota_used
     retries = 3
     content_data = []
     comment_data = []
-    caption_data = []
     category_cache = {}
     batch_size = 100  # Lưu mỗi 100 video
     videos_processed = 0
 
-    # Chuyển đổi caption_languages thành danh sách
-    languages = caption_languages.split(",") if caption_languages else ["en"]
+    # Tải category_cache từ file (nếu có)
+    CATEGORY_CACHE_FILE = os.path.join(DATA_DIR, "category_cache.json")
+    if os.path.exists(CATEGORY_CACHE_FILE):
+        with open(CATEGORY_CACHE_FILE, "r") as f:
+            category_cache = json.load(f)
+
+    # Làm mới crawled_video_ids nếu cần
+    if len(crawled_video_ids) > 10000:  # Giới hạn để tránh file quá lớn
+        logging.info("Danh sách video đã thu thập quá lớn. Làm mới...")
+        crawled_video_ids.clear()
+        with open(CRAWLED_VIDEO_IDS_FILE, "w") as f:
+            json.dump(list(crawled_video_ids), f)
 
     while quota_used < MAX_QUOTA:
         for attempt in range(retries):
@@ -325,14 +284,13 @@ def crawl_youtube_trending(region_code="US", max_videos=1000, max_comments_per_v
                 # Song song hóa xử lý video
                 with ThreadPoolExecutor(max_workers=max_workers) as executor:
                     results = list(executor.map(
-                        lambda video: process_video(video, category_cache, max_comments_per_video, languages),
+                        lambda video: process_video(video, category_cache, max_comments_per_video),
                         videos
                     ))
 
-                for video, comments, captions in results:
+                for video, comments in results:
                     content_data.append(video)
                     comment_data.extend(comments)
-                    caption_data.extend(captions)
                     crawled_video_ids.add(video["content_id"])
                     videos_processed += 1
 
@@ -340,14 +298,16 @@ def crawl_youtube_trending(region_code="US", max_videos=1000, max_comments_per_v
                 if len(content_data) >= batch_size or videos_processed >= max_videos or quota_used >= MAX_QUOTA:
                     save_to_csv(content_data, "contents")
                     save_to_csv(comment_data, "comments")
-                    save_to_csv(caption_data, "captions")
                     content_data = []
                     comment_data = []
-                    caption_data = []
 
                 # Cập nhật danh sách video đã thu thập
                 with open(CRAWLED_VIDEO_IDS_FILE, "w") as f:
                     json.dump(list(crawled_video_ids), f)
+
+                # Lưu category_cache
+                with open(CATEGORY_CACHE_FILE, "w") as f:
+                    json.dump(category_cache, f)
 
                 logging.info(f"Tổng quota sử dụng ước tính: {quota_used}")
                 print(f"Tổng quota sử dụng ước tính: {quota_used}")
@@ -374,10 +334,13 @@ def crawl_youtube_trending(region_code="US", max_videos=1000, max_comments_per_v
             break
 
     # Lưu bất kỳ dữ liệu còn lại
-    if content_data or comment_data or caption_data:
+    if content_data or comment_data:
         save_to_csv(content_data, "contents")
         save_to_csv(comment_data, "comments")
-        save_to_csv(caption_data, "captions")
+
+    # Lưu category_cache cuối cùng
+    with open(CATEGORY_CACHE_FILE, "w") as f:
+        json.dump(category_cache, f)
 
     logging.info(f"Hoàn tất thu thập. Tổng video: {videos_processed}. Quota sử dụng: {quota_used}")
     print(f"Hoàn tất thu thập. Tổng video: {videos_processed}. Quota sử dụng: {quota_used}")
@@ -388,14 +351,12 @@ if __name__ == "__main__":
     parser.add_argument("--region", default="US", help="Mã vùng (VD: VN, US, JP)")
     parser.add_argument("--max-videos", type=int, default=1000, help="Số lượng video tối đa")
     parser.add_argument("--max-comments", type=int, default=100, help="Số lượng bình luận tối đa mỗi video")
-    parser.add_argument("--max-workers", type=int, default=3, help="Số luồng tối đa cho song song hóa")
-    parser.add_argument("--caption-languages", default="en", help="Ngôn ngữ phụ đề (VD: en,vi hoặc en,vi)")
+    parser.add_argument("--max-workers", type=int, default=1, help="Số luồng tối đa cho song song hóa")
     args = parser.parse_args()
 
     crawl_youtube_trending(
         region_code=args.region,
         max_videos=args.max_videos,
         max_comments_per_video=args.max_comments,
-        max_workers=args.max_workers,
-        caption_languages=args.caption_languages
+        max_workers=args.max_workers
     )
