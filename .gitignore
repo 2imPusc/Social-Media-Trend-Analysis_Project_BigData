@@ -22,3 +22,6 @@ credentials.json
 .DS_Store
 Thumbs.db
 client_secrets.json
+
+# trash
+trash/

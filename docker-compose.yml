@@ -1,0 +1,147 @@
+networks:
+  lambda-net:
+    driver: bridge
+    name: lambda-net
+
+volumes:
+  zookeeper-data:
+  zookeeper-log:
+  kafka-data:
+  elasticsearch-data:
+
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.9.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    networks:
+      - lambda-net
+
+  kafka:
+    image: confluentinc/cp-kafka:7.9.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,PLAINTEXT_HOST://0.0.0.0:29092
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+    networks:
+      - lambda-net
+
+  spark-master:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    image: custom-spark:es
+    container_name: spark-master
+    hostname: spark-master
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - JAVA_HOME=/opt/bitnami/java
+      - HADOOP_CONF_DIR=/opt/bitnami/spark/hadoop-conf
+      - HADOOP_USER_NAME=phuc
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
+    volumes:
+      - ./spark-apps:/opt/bitnami/spark/apps
+      - ./data:/opt/bitnami/spark/data
+      - ./requirements.txt:/opt/bitnami/spark/requirements.txt
+      - /home/phuc/hadoop/etc/hadoop:/opt/bitnami/spark/hadoop-conf:ro
+    networks:
+      - lambda-net
+
+  spark-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    image: custom-spark:es 
+    container_name: spark-worker
+    hostname: spark-worker
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=6G
+      - SPARK_WORKER_CORES=4
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - JAVA_HOME=/opt/bitnami/java
+      - HADOOP_CONF_DIR=/opt/bitnami/spark/hadoop-conf
+      - HADOOP_USER_NAME=phuc
+    volumes:
+      - ./spark-apps:/opt/bitnami/spark/apps
+      - ./data:/opt/bitnami/spark/data
+      - ./requirements.txt:/opt/bitnami/spark/requirements.txt
+      - /home/phuc/hadoop/etc/hadoop:/opt/bitnami/spark/hadoop-conf:ro
+    ports:
+      - "8081:8081"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - lambda-net
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.1
+    container_name: elasticsearch
+    hostname: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms750m -Xmx750m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    networks:
+      - lambda-net
+    healthcheck:
+      test: curl -s http://localhost:9200 >/dev/null || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.14.1
+    container_name: kibana
+    hostname: kibana
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
+    networks:
+      - lambda-net
+    healthcheck:
+      test: curl -s http://localhost:5601/api/status | grep -q '"level":"available"' || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s

@@ -103,7 +103,7 @@ Contains comments on trending YouTube videos.
 | `comment`        | Text content of the comment                      | Comment text as seen below the video      |
 | `published_at`   | Date and time the comment was posted             | Timestamp of the comment                   |
 | `like_count`     | Number of likes on the comment                   | Likes shown on the comment                |
-
+<!-- 
 #### 3. `captions_*.csv`
 Contains captions (subtitles) for trending YouTube videos.
 
@@ -111,7 +111,7 @@ Contains captions (subtitles) for trending YouTube videos.
 |------------------|--------------------------------------------------|-------------------------------------------|
 | `video_id`       | ID of the video the caption belongs to           | Links caption to its parent video         |
 | `language`       | Language code of the caption (e.g., "en")         | Language of the subtitle track            |
-| `caption`        | Text content of the caption                      | Subtitle text displayed during playback   |
+| `caption`        | Text content of the caption                      | Subtitle text displayed during playback   | -->
 
 ### Reddit Data Fields
 

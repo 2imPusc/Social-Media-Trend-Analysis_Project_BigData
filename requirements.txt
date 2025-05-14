@@ -14,3 +14,10 @@ websocket-client==1.8.0
 google-api-python-client
 pandas
 kafka-python
+requests
+matplotlib
+seaborn
+pyspark==3.5.3
+kafka-python==2.0.2
+pandas==2.0.3
+numpy==1.24.3

@@ -1,0 +1,66 @@
+FROM bitnami/spark:3.5.3
+
+# # Copy các JAR cần thiết
+# COPY jars/spark-sql-kafka-0-10_2.12-3.5.3.jar /opt/bitnami/spark/jars/
+# COPY jars/kafka-clients-3.5.1.jar /opt/bitnami/spark/jars/
+# COPY jars/elasticsearch-spark-30_2.12-8.14.1.jar /opt/bitnami/spark/jars/
+
+# Copy requirements.txt
+COPY requirements.txt /tmp/requirements.txt
+
+# Chuyển sang root để cài đặt
+USER root
+
+# Cài các gói phụ thuộc
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        curl \
+        iputils-ping \
+        netcat-openbsd \
+        build-essential \
+        zlib1g-dev \
+        libncurses5-dev \
+        libgdbm-dev \
+        libnss3-dev \
+        libssl-dev \
+        libreadline-dev \
+        libffi-dev \
+        libbz2-dev \
+        libsqlite3-dev \
+        liblzma-dev \
+        wget && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Tải và cài Python 3.10.13 từ nguồn
+RUN wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tar.xz && \
+    tar -xf Python-3.10.13.tar.xz && \
+    cd Python-3.10.13 && \
+    ./configure --enable-optimizations --with-ensurepip=install && \
+    make -j$(nproc) && \
+    make altinstall && \
+    cd .. && \
+    rm -rf Python-3.10.13 Python-3.10.13.tar.xz
+
+# Kiểm tra và set Python 3.10
+RUN /usr/local/bin/python3.10 --version && \
+    # Xóa Python mặc định của Bitnami
+    rm -f /opt/bitnami/python/bin/python /opt/bitnami/python/bin/python3 && \
+    # Xóa symlink cũ
+    rm -f /usr/bin/python /usr/bin/python3 && \
+    # Set symlink mới
+    ln -sf /usr/local/bin/python3.10 /usr/bin/python3 && \
+    ln -sf /usr/local/bin/python3.10 /usr/bin/python && \
+    ln -sf /usr/local/bin/pip3.10 /usr/bin/pip3 && \
+    # Cài lại pip và requirements
+    curl -sS https://bootstrap.pypa.io/get-pip.py | /usr/local/bin/python3.10 && \
+    /usr/bin/pip3 install --no-cache-dir -r /tmp/requirements.txt
+
+# Tạo thư mục và set quyền
+RUN mkdir -p /opt/bitnami/spark/apps /opt/bitnami/spark/data /opt/bitnami/spark/hadoop-conf /opt/bitnami/spark/tmp && \
+    chmod -R 777 /opt/bitnami/spark/apps /opt/bitnami/spark/data /opt/bitnami/spark/hadoop-conf /opt/bitnami/spark/tmp && \
+    rm -f /tmp/requirements.txt
+
+# Set Spark dùng Python 3.10
+ENV PYSPARK_PYTHON=/usr/bin/python3
+ENV PYSPARK_DRIVER_PYTHON=/usr/bin/python3
